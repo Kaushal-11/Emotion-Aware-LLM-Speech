@@ -1,0 +1,145 @@
+{
+  "config": {
+    "steering_size": 1000,
+    "test_size": 300,
+    "min_duration_sec": 1.0,
+    "max_duration_sec": 20.0,
+    "max_silence_ratio": 0.3,
+    "min_snr_db": 10.0,
+    "seed": 42,
+    "require_transcription": true
+  },
+  "filtering_stats": {
+    "total": 38442,
+    "too_short": 647,
+    "too_long": 23,
+    "too_silent": 6874,
+    "low_snr": 5038,
+    "load_error": 0,
+    "passed": 25860,
+    "total_duration": 81291.91706250141
+  },
+  "emotion_filtering_stats": {
+    "anger": {
+      "total": 8086,
+      "too_short": 136,
+      "too_long": 3,
+      "too_silent": 2009,
+      "low_snr": 694,
+      "passed": 5244,
+      "total_duration": 16850.521624999994
+    },
+    "happiness": {
+      "total": 9294,
+      "too_short": 220,
+      "too_long": 8,
+      "too_silent": 1271,
+      "low_snr": 1061,
+      "passed": 6734,
+      "total_duration": 21782.457250000047
+    },
+    "sadness": {
+      "total": 7497,
+      "too_short": 57,
+      "too_long": 10,
+      "too_silent": 1024,
+      "low_snr": 1564,
+      "passed": 4842,
+      "total_duration": 17216.578937499966
+    },
+    "disgust": {
+      "total": 2285,
+      "too_short": 12,
+      "too_long": 2,
+      "too_silent": 259,
+      "low_snr": 667,
+      "passed": 1345,
+      "total_duration": 3918.8390000000027
+    },
+    "fear": {
+      "total": 2320,
+      "too_short": 28,
+      "too_long": 0,
+      "too_silent": 379,
+      "low_snr": 575,
+      "passed": 1338,
+      "total_duration": 3363.0206249999933
+    },
+    "surprise": {
+      "total": 5460,
+      "too_short": 194,
+      "too_long": 0,
+      "too_silent": 1131,
+      "low_snr": 477,
+      "passed": 3658,
+      "total_duration": 10793.317249999965
+    },
+    "neutral": {
+      "total": 3500,
+      "too_short": 0,
+      "too_long": 0,
+      "too_silent": 801,
+      "low_snr": 0,
+      "passed": 2699,
+      "total_duration": 7367.182375000014
+    }
+  },
+  "transcription_stats": {
+    "total_after_quality": 25860,
+    "with_transcription": 25605,
+    "without_transcription": 255
+  },
+  "split_stats": {
+    "happiness": {
+      "total": 6683,
+      "steering": 1000,
+      "test": 300,
+      "unused": 5383
+    },
+    "sadness": {
+      "total": 4818,
+      "steering": 1000,
+      "test": 300,
+      "unused": 3518
+    },
+    "disgust": {
+      "total": 1316,
+      "steering": 1000,
+      "test": 300,
+      "unused": 16
+    },
+    "fear": {
+      "total": 1289,
+      "steering": 1000,
+      "test": 289,
+      "unused": 0
+    },
+    "anger": {
+      "total": 5195,
+      "steering": 1000,
+      "test": 300,
+      "unused": 3895
+    },
+    "surprise": {
+      "total": 3605,
+      "steering": 1000,
+      "test": 300,
+      "unused": 2305
+    },
+    "neutral": {
+      "total": 2699,
+      "steering": 1000,
+      "test": 300,
+      "unused": 1399
+    }
+  },
+  "corpus_raw_counts": {
+    "ravdess": 1152,
+    "iemocap": 3972,
+    "esd": 17500,
+    "cremad": 6355,
+    "tess": 2000,
+    "savee": 360,
+    "meld": 7103
+  }
+}

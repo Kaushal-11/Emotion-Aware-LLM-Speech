@@ -1,0 +1,21 @@
+======================================================================
+WAVLM-LARGE TEST SUMMARY
+======================================================================
+
+Model:       /workspace/audio-em/finetune-results/wavlm-large/lora/20260513_225501
+Strategy:    lora
+Samples:     2,360
+
+Accuracy:    0.4415
+Weighted F1: 0.4329
+
+Per-class F1:
+  happiness   : 0.3036
+  anger       : 0.5286
+  sadness     : 0.4453
+  disgust     : 0.5224
+  fear        : 0.4899
+  surprise    : 0.2796
+
+Output: /workspace/audio-em/finetune-results/wavlm-large/lora/20260513_225501/test_results
+======================================================================

@@ -1,0 +1,30 @@
+{
+  "model_name": "facebook/hubert-large-ls960-ft",
+  "strategy": "lora",
+  "timestamp": "20260508_153317",
+  "run_id": "hubert-large_lora_20260508_153317",
+  "output_dir": "/workspace/audio-em/finetune-results/hubert-large/lora/20260508_153317",
+  "hyperparameters": {
+    "batch_size": 2,
+    "grad_accum_steps": 8,
+    "effective_batch": 32,
+    "max_epochs": 30,
+    "patience": 7,
+    "learning_rate": 3e-05,
+    "weight_decay": 0.0001,
+    "focal_gamma": 2.0,
+    "label_smoothing": 0.1,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "grad_ckpt": true,
+    "num_workers": 2
+  },
+  "emotions": [
+    "happiness",
+    "anger",
+    "sadness",
+    "disgust",
+    "fear",
+    "surprise"
+  ]
+}

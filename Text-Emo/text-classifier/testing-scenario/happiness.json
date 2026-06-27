@@ -1,0 +1,126 @@
+{
+  "emotion": "Happiness",
+  "context": "User is having an unexpectedly great day — a promotion, good news from a friend, personal achievement, and positive life events. AI is directly responsible for some of the joy.",
+  "turns": [
+    {
+      "turn": 1,
+      "user_sentence": "You found the perfect restaurant for my anniversary. Thank you so much!",
+      "target": "You",
+      "expected_emotion": "mirror + gratitude",
+      "vector": "mirror happiness",
+      "intensity_range": "mirror_weight × ai_intensity"
+    },
+    {
+      "turn": 2,
+      "user_sentence": "My best friend just got engaged. I'm so incredibly happy for them!",
+      "target": "Other",
+      "expected_emotion": "celebrate with them",
+      "vector": "mirror happiness",
+      "intensity_range": "0.85-0.95"
+    },
+    {
+      "turn": 3,
+      "user_sentence": "I finally finished my novel after three years. I can't believe it!",
+      "target": "Self",
+      "expected_emotion": "celebrate + praise",
+      "vector": "mirror happiness",
+      "intensity_range": "0.90-1.00"
+    },
+    {
+      "turn": 4,
+      "user_sentence": "The sun came out during our picnic. Everything went perfectly today.",
+      "target": "Situation",
+      "expected_emotion": "mirror joy",
+      "vector": "mirror happiness",
+      "intensity_range": "0.85-0.95"
+    },
+    {
+      "turn": 5,
+      "user_sentence": "You planned my whole trip perfectly. This is the best vacation ever!",
+      "target": "You",
+      "expected_emotion": "mirror + gratitude",
+      "vector": "mirror happiness",
+      "intensity_range": "mirror_weight × ai_intensity"
+    },
+    {
+      "turn": 6,
+      "user_sentence": "My sister got into her dream medical school. Our whole family is crying!",
+      "target": "Other",
+      "expected_emotion": "celebrate with them",
+      "vector": "mirror happiness",
+      "intensity_range": "0.85-0.95"
+    },
+    {
+      "turn": 7,
+      "user_sentence": "I ran my first 5k today without stopping. I'm so proud of myself!",
+      "target": "Self",
+      "expected_emotion": "celebrate + praise",
+      "vector": "mirror happiness",
+      "intensity_range": "0.90-1.00"
+    },
+    {
+      "turn": 8,
+      "user_sentence": "The concert was amazing and we got front row seats unexpectedly!",
+      "target": "Situation",
+      "expected_emotion": "mirror joy",
+      "vector": "mirror happiness",
+      "intensity_range": "0.85-0.95"
+    },
+    {
+      "turn": 9,
+      "user_sentence": "You recommended that movie. It was exactly what I needed tonight.",
+      "target": "You",
+      "expected_emotion": "mirror + gratitude",
+      "vector": "mirror happiness",
+      "intensity_range": "mirror_weight × ai_intensity"
+    },
+    {
+      "turn": 10,
+      "user_sentence": "My dad finally retired. He's been waiting for this for twenty years!",
+      "target": "Other",
+      "expected_emotion": "celebrate with them",
+      "vector": "mirror happiness",
+      "intensity_range": "0.85-0.95"
+    },
+    {
+      "turn": 11,
+      "user_sentence": "I got the scholarship. I'll be the first in my family to go to college.",
+      "target": "Self",
+      "expected_emotion": "celebrate + praise",
+      "vector": "mirror happiness",
+      "intensity_range": "0.90-1.00"
+    },
+    {
+      "turn": 12,
+      "user_sentence": "The surprise party worked perfectly. They had no idea we planned it.",
+      "target": "Situation",
+      "expected_emotion": "mirror joy",
+      "vector": "mirror happiness",
+      "intensity_range": "0.85-0.95"
+    },
+    {
+      "turn": 13,
+      "user_sentence": "You helped me write that speech. Everyone loved it. Thank you so much!",
+      "target": "You",
+      "expected_emotion": "mirror + gratitude",
+      "vector": "mirror happiness",
+      "intensity_range": "mirror_weight × ai_intensity"
+    },
+    {
+      "turn": 14,
+      "user_sentence": "My team won the championship. We've been working for this for years!",
+      "target": "Other",
+      "expected_emotion": "celebrate with them",
+      "vector": "mirror happiness",
+      "intensity_range": "0.85-0.95"
+    },
+    {
+      "turn": 15,
+      "user_sentence": "I finally feel happy again. Today was exactly what I needed to heal.",
+      "target": "Self",
+      "expected_emotion": "celebrate + praise",
+      "vector": "mirror happiness",
+      "intensity_range": "0.90-1.00"
+    }
+  ]
+}

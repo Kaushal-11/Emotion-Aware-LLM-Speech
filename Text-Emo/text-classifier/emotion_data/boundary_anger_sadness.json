@@ -1,0 +1,3602 @@
+[
+  {
+    "text": "I guess my opinion just doesn't matter to you at all.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.65,
+    "boundary_note": "Passive-aggressive phrasing masks anger at being disregarded, not sadness from loneliness.",
+    "is_boundary": true,
+    "id": 1
+  },
+  {
+    "text": "They gave the promotion to the new guy after all my overtime. Just like that.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.82,
+    "boundary_note": "Focus is on the blatant injustice and lack of recognition, not personal inadequacy.",
+    "is_boundary": true,
+    "id": 2
+  },
+  {
+    "text": "Why do I even bother trying so hard? It never changes anything.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.58,
+    "boundary_note": "Rhetorical question expresses exasperated fury at futility, not depressive resignation.",
+    "is_boundary": true,
+    "id": 3
+  },
+  {
+    "text": "Of course the one file I needed is corrupted. Just my luck.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.45,
+    "boundary_note": "Sarcasm ('just my luck') indicates anger at the universe, not despair over loss.",
+    "is_boundary": true,
+    "id": 4
+  },
+  {
+    "text": "So all those promises were just words to get you what you wanted.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.85,
+    "boundary_note": "The tone is accusatory and focused on betrayal, not mournful over lost trust.",
+    "is_boundary": true,
+    "id": 5
+  },
+  {
+    "text": "He saw my message and just ignored it. I feel completely invisible.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.68,
+    "boundary_note": "Feeling 'invisible' here stems from anger at being disrespected, not sadness from neglect.",
+    "is_boundary": true,
+    "id": 6
+  },
+  {
+    "text": "I can't believe I let myself get my hopes up again for this.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.51,
+    "boundary_note": "Self-criticism is rooted in frustration with a repeated mistake, not true sorrow.",
+    "is_boundary": true,
+    "id": 7
+  },
+  {
+    "text": "They changed the rules halfway through the competition. How is that fair?",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.77,
+    "boundary_note": "This is a direct challenge to injustice, expressing outrage, not sadness.",
+    "is_boundary": true,
+    "id": 8
+  },
+  {
+    "text": "It’s fine. I'm used to being the one who has to cancel my plans.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.62,
+    "boundary_note": "The phrase 'It's fine' is dripping with sarcasm, a classic sign of suppressed rage.",
+    "is_boundary": true,
+    "id": 9
+  },
+  {
+    "text": "After everything I did for them, they just cut me out completely.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.79,
+    "boundary_note": "The emotional core is betrayal and the unfairness of the outcome, not grief.",
+    "is_boundary": true,
+    "id": 10
+  },
+  {
+    "text": "I really thought I deserved better than this. What a joke.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.73,
+    "boundary_note": "Calling the situation a 'joke' is a cynical expression of anger, not disappointment.",
+    "is_boundary": true,
+    "id": 11
+  },
+  {
+    "text": "My flight was canceled after I waited at the airport for five hours.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.55,
+    "boundary_note": "The focus is on wasted time and frustration, not the loss of a trip.",
+    "is_boundary": true,
+    "id": 12
+  },
+  {
+    "text": "You just stood there and let them say that about me without a word.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.84,
+    "boundary_note": "This is an accusation of disloyalty and cowardice, fueling anger, not hurt feelings.",
+    "is_boundary": true,
+    "id": 13
+  },
+  {
+    "text": "She took credit for my idea in the meeting. I feel so small.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.71,
+    "boundary_note": "Feeling 'small' is a reaction to the injustice and powerlessness, sparking rage.",
+    "is_boundary": true,
+    "id": 14
+  },
+  {
+    "text": "I poured my soul into that project and it gets completely ignored.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.66,
+    "boundary_note": "The energy is furious indignation over wasted effort, not sadness over failure.",
+    "is_boundary": true,
+    "id": 15
+  },
+  {
+    "text": "The website crashed during checkout and I lost my spot in the queue.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.38,
+    "boundary_note": "This is pure situational frustration and rage at inefficiency, not sorrow.",
+    "is_boundary": true,
+    "id": 16
+  },
+  {
+    "text": "Wow, so I'm just supposed to be okay with this decision you made?",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.76,
+    "boundary_note": "'Wow' and the rhetorical question signal incredulous anger at being railroaded.",
+    "is_boundary": true,
+    "id": 17
+  },
+  {
+    "text": "They all went out and 'forgot' to invite me. Again.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.63,
+    "boundary_note": "The repetition 'Again' highlights a pattern of disrespect, which causes anger, not sadness.",
+    "is_boundary": true,
+    "id": 18
+  },
+  {
+    "text": "I should have known better than to expect basic consideration.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.7,
+    "boundary_note": "This is cynical anger directed inward, a defense against the pain of disrespect.",
+    "is_boundary": true,
+    "id": 19
+  },
+  {
+    "text": "This whole system feels designed to make you want to give up.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.6,
+    "boundary_note": "The statement critiques a hostile system, expressing fury at intentional obstruction.",
+    "is_boundary": true,
+    "id": 20
+  },
+  {
+    "text": "I rearrange my whole day for you, and you cancel last minute.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.59,
+    "boundary_note": "The speaker is angry about their wasted effort and the lack of respect shown.",
+    "is_boundary": true,
+    "id": 21
+  },
+  {
+    "text": "My own family didn't even bother to defend me. I feel so alone.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.81,
+    "boundary_note": "Feeling 'alone' is a symptom of the rage caused by deep family betrayal.",
+    "is_boundary": true,
+    "id": 22
+  },
+  {
+    "text": "I bent over backwards for nothing. Absolutely nothing.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.78,
+    "boundary_note": "The repetition of 'nothing' emphasizes the fury over unreciprocated effort.",
+    "is_boundary": true,
+    "id": 23
+  },
+  {
+    "text": "The one thing I asked for, and it was too much. Unbelievable.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.53,
+    "boundary_note": "'Unbelievable' here conveys outraged disbelief, not sorrowful disappointment.",
+    "is_boundary": true,
+    "id": 24
+  },
+  {
+    "text": "Don't tell me to calm down. You have no idea what this feels like.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.8,
+    "boundary_note": "A direct command born of anger at being invalidated, not a plea for sympathy.",
+    "is_boundary": true,
+    "id": 25
+  },
+  {
+    "text": "He just threw away years of my work without a second thought.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.83,
+    "boundary_note": "The core emotion is outrage at the violation and disrespect for their labor.",
+    "is_boundary": true,
+    "id": 26
+  },
+  {
+    "text": "I followed all the instructions perfectly and it still broke. What a waste.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.42,
+    "boundary_note": "The focus is on the unfairness of the outcome and anger at the wasted effort.",
+    "is_boundary": true,
+    "id": 27
+  },
+  {
+    "text": "The warranty expired yesterday. Of course it did.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.48,
+    "boundary_note": "Sarcasm points to anger at a perceived cosmic injustice, not sadness over money.",
+    "is_boundary": true,
+    "id": 28
+  },
+  {
+    "text": "I guess I was just convenient for you until something better came along.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.74,
+    "boundary_note": "This is a bitter accusation of being used, sparking anger and resentment.",
+    "is_boundary": true,
+    "id": 29
+  },
+  {
+    "text": "She spread that rumor knowing it wasn't true. I feel so betrayed.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.85,
+    "boundary_note": "The feeling of betrayal is the direct cause of the speaker's intense fury.",
+    "is_boundary": true,
+    "id": 30
+  },
+  {
+    "text": "I'm always the one who apologizes first. I'm just so tired.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.56,
+    "boundary_note": "Tiredness here is burnout from anger over a perceived injustice in a relationship.",
+    "is_boundary": true,
+    "id": 31
+  },
+  {
+    "text": "I paid for premium service and this is the treatment I get?",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.64,
+    "boundary_note": "This rhetorical question expresses indignation at a violation of a transactional agreement.",
+    "is_boundary": true,
+    "id": 32
+  },
+  {
+    "text": "All that talk about loyalty, and this is what it amounts to.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.72,
+    "boundary_note": "A cynical and bitter observation fueled by anger from a deep betrayal.",
+    "is_boundary": true,
+    "id": 33
+  },
+  {
+    "text": "They acted like my emergency was just an inconvenience for them.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.69,
+    "boundary_note": "The speaker is enraged by the lack of empathy and blatant selfishness.",
+    "is_boundary": true,
+    "id": 34
+  },
+  {
+    "text": "Why do I let people treat me this way? It's my own fault.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.61,
+    "boundary_note": "Self-blame is a manifestation of anger and frustration at one's own passivity.",
+    "is_boundary": true,
+    "id": 35
+  },
+  {
+    "text": "The bus drove right past me even though I was waving. I feel invisible.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.35,
+    "boundary_note": "Feeling 'invisible' is a reaction to being ignored, causing anger at the disrespect.",
+    "is_boundary": true,
+    "id": 36
+  },
+  {
+    "text": "You knew how much this meant to me and you didn't even show up.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.75,
+    "boundary_note": "The statement focuses on the other person's failure, an accusation born of anger.",
+    "is_boundary": true,
+    "id": 37
+  },
+  {
+    "text": "He just assumes I'll clean up his mess. I'm not his mother.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.5,
+    "boundary_note": "This is anger at being taken for granted and put into an unfair role.",
+    "is_boundary": true,
+    "id": 38
+  },
+  {
+    "text": "I studied the wrong material because the syllabus was outdated. My grade is ruined.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.67,
+    "boundary_note": "The speaker is furious at the unfair consequences of someone else's mistake.",
+    "is_boundary": true,
+    "id": 39
+  },
+  {
+    "text": "Another meeting that could have been an email. My whole morning is gone.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.32,
+    "boundary_note": "The emotion is anger directed at inefficiency and disrespect for one's time.",
+    "is_boundary": true,
+    "id": 40
+  },
+  {
+    "text": "So after all that, you just decided my opinion didn't matter in the end.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.78,
+    "boundary_note": "Anger at being dismissed and invalidated, not sadness about the outcome.",
+    "is_boundary": true,
+    "id": 41
+  },
+  {
+    "text": "They gave the promotion to him, after everything I did for this team. Unbelievable.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.85,
+    "boundary_note": "A sense of injustice and betrayal, not disappointment or personal failure.",
+    "is_boundary": true,
+    "id": 42
+  },
+  {
+    "text": "I can't believe I fell for the same excuses again. I am so stupid.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.71,
+    "boundary_note": "Self-directed anger and frustration at one's own judgment, not self-pity.",
+    "is_boundary": true,
+    "id": 43
+  },
+  {
+    "text": "Of course the one file I need is the only one that's corrupted. Just perfect.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.44,
+    "boundary_note": "Fury at the unfairness and terrible timing of the situation, not despair.",
+    "is_boundary": true,
+    "id": 44
+  },
+  {
+    "text": "I guess all those promises you made meant absolutely nothing to you, then.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.82,
+    "boundary_note": "Rage over broken trust and perceived deception, not grief over a loss.",
+    "is_boundary": true,
+    "id": 45
+  },
+  {
+    "text": "He didn't even look at me when he said it. Just completely dismissed me.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.68,
+    "boundary_note": "Anger at being treated as insignificant, not hurt feelings from being ignored.",
+    "is_boundary": true,
+    "id": 46
+  },
+  {
+    "text": "Why do I even bother trying when I just end up looking like an idiot?",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.62,
+    "boundary_note": "Frustration with oneself for repeated failure, not sadness about the failure itself.",
+    "is_boundary": true,
+    "id": 47
+  },
+  {
+    "text": "My flight gets cancelled after I've already waited at the airport for six hours.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.55,
+    "boundary_note": "Exasperation and anger at the massive, unfair inconvenience, not simple dejection.",
+    "is_boundary": true,
+    "id": 48
+  },
+  {
+    "text": "You couldn't even give me the courtesy of a simple phone call? Wow.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.75,
+    "boundary_note": "Fury at the disrespectful and cowardly action, not sadness from being left.",
+    "is_boundary": true,
+    "id": 49
+  },
+  {
+    "text": "So they all went out together and conveniently forgot to invite me. That's cool.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.58,
+    "boundary_note": "Sarcastic anger at being intentionally excluded, not loneliness or sadness.",
+    "is_boundary": true,
+    "id": 50
+  },
+  {
+    "text": "I should have known better than to trust anything they said to me.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.65,
+    "boundary_note": "Anger at personal gullibility, not sorrow over being deceived by others.",
+    "is_boundary": true,
+    "id": 51
+  },
+  {
+    "text": "This whole system is a joke. I followed all the rules and still got penalized.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.73,
+    "boundary_note": "Rage at an unjust system, not despair over the personal negative consequence.",
+    "is_boundary": true,
+    "id": 52
+  },
+  {
+    "text": "I waited all night for you and you didn't even bother to send a text.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.8,
+    "boundary_note": "Anger at the blatant disrespect for the speaker's time and feelings.",
+    "is_boundary": true,
+    "id": 53
+  },
+  {
+    "text": "Five years of loyalty and they let me go in a five-minute email.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.84,
+    "boundary_note": "Fury over the impersonal and insulting dismissal, not sadness over losing a job.",
+    "is_boundary": true,
+    "id": 54
+  },
+  {
+    "text": "Another promise I've broken to myself. I'm just pathetic at this point.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.76,
+    "boundary_note": "Intense self-loathing and anger at a lack of discipline, not depressive sadness.",
+    "is_boundary": true,
+    "id": 55
+  },
+  {
+    "text": "The deadline is tomorrow and my computer just died. This cannot be happening.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.69,
+    "boundary_note": "Panicked anger at the absolute injustice of the timing, not helplessness.",
+    "is_boundary": true,
+    "id": 56
+  },
+  {
+    "text": "So you're just throwing all of this away like it meant nothing?",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.81,
+    "boundary_note": "Incredulous rage that shared history is being devalued, not just sorrow.",
+    "is_boundary": true,
+    "id": 57
+  },
+  {
+    "text": "She just laughed it off when I told her how much it hurt me.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.79,
+    "boundary_note": "Anger at the invalidation and cruelty of the reaction, not the original hurt.",
+    "is_boundary": true,
+    "id": 58
+  },
+  {
+    "text": "I let my guard down for one second, and this is what happens.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.53,
+    "boundary_note": "Frustration at one's own vulnerability being exploited, not regret for trusting.",
+    "is_boundary": true,
+    "id": 59
+  },
+  {
+    "text": "Great, the power goes out right in the middle of the championship game.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.33,
+    "boundary_note": "Low-level anger at a frustrating interruption, not sadness about missing the game.",
+    "is_boundary": true,
+    "id": 60
+  },
+  {
+    "text": "You took credit for my work. I have nothing else to say to you.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.83,
+    "boundary_note": "Cold fury over a deep personal and professional betrayal, not disappointment.",
+    "is_boundary": true,
+    "id": 61
+  },
+  {
+    "text": "They left their mess for me to clean up again, as if I'm invisible.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.49,
+    "boundary_note": "Resentment at being taken for granted, not sadness about the extra work.",
+    "is_boundary": true,
+    "id": 62
+  },
+  {
+    "text": "How could I have been so blind? All the signs were right there.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.77,
+    "boundary_note": "Rage at one's own lack of perception, not sadness about the truth.",
+    "is_boundary": true,
+    "id": 63
+  },
+  {
+    "text": "I lost my keys again, on the one day I absolutely could not be late.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.51,
+    "boundary_note": "Frustration at fate and bad luck, not self-pity about being forgetful.",
+    "is_boundary": true,
+    "id": 64
+  },
+  {
+    "text": "I'm not hurt, I'm just stunned you could be so thoughtless about this.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.67,
+    "boundary_note": "Disgusted anger at a lack of consideration, explicitly reframing away from sadness.",
+    "is_boundary": true,
+    "id": 65
+  },
+  {
+    "text": "He knew how important today was, and he just decided not to show up.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.8,
+    "boundary_note": "Anger at a profound, deliberate act of disrespect and betrayal.",
+    "is_boundary": true,
+    "id": 66
+  },
+  {
+    "text": "Wow, I am just the person everyone can walk all over, I guess.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.56,
+    "boundary_note": "Bitter, sarcastic anger at being perceived as a pushover, not resignation.",
+    "is_boundary": true,
+    "id": 67
+  },
+  {
+    "text": "The policy changed without warning, making my entire project completely invalid now.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.74,
+    "boundary_note": "Rage at the unfairness of arbitrary rule changes, not sadness over wasted work.",
+    "is_boundary": true,
+    "id": 68
+  },
+  {
+    "text": "All I asked for was a little honesty, and you couldn't even manage that.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.72,
+    "boundary_note": "Anger at the insulting dishonesty, not sadness from the lack of connection.",
+    "is_boundary": true,
+    "id": 69
+  },
+  {
+    "text": "Apparently 'we'll call you' just means they threw my application in the trash.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.45,
+    "boundary_note": "Cynical anger at dishonest professional practices, not rejection sadness.",
+    "is_boundary": true,
+    "id": 70
+  },
+  {
+    "text": "I hate that I let things get this far without saying anything about it.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.66,
+    "boundary_note": "Anger at one's own passivity, not regret over the current state of affairs.",
+    "is_boundary": true,
+    "id": 71
+  },
+  {
+    "text": "This traffic is unbelievable. My appointment was twenty minutes ago. Just my luck.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.42,
+    "boundary_note": "Anger at external forces ruining a plan, not stress or sadness.",
+    "is_boundary": true,
+    "id": 72
+  },
+  {
+    "text": "I told you that in confidence. I can't believe you'd just go and repeat it.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.79,
+    "boundary_note": "Fury over a significant betrayal of trust, not hurt feelings.",
+    "is_boundary": true,
+    "id": 73
+  },
+  {
+    "text": "He borrowed the money months ago and now he's pretending he doesn't remember.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.7,
+    "boundary_note": "Indignation at the blatant disrespect and dishonesty, not sadness over lost money.",
+    "is_boundary": true,
+    "id": 74
+  },
+  {
+    "text": "I gave them every single chance to be honest, and I still got played.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.75,
+    "boundary_note": "Anger at oneself for being too patient or naive, not just betrayal.",
+    "is_boundary": true,
+    "id": 75
+  },
+  {
+    "text": "So the package was 'out for delivery' and now it's back at the warehouse.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.36,
+    "boundary_note": "Frustration with an illogical and failing system, not disappointment about the delay.",
+    "is_boundary": true,
+    "id": 76
+  },
+  {
+    "text": "Don't tell me to 'calm down' when you're the one who broke your word.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.78,
+    "boundary_note": "Anger at being gaslit on top of the original offense.",
+    "is_boundary": true,
+    "id": 77
+  },
+  {
+    "text": "She promised she would cover for me, and then just left me to handle it.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.81,
+    "boundary_note": "A feeling of being deliberately abandoned and betrayed, not just let down.",
+    "is_boundary": true,
+    "id": 78
+  },
+  {
+    "text": "I spent weeks on that paper just for the professor to not even read it.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.6,
+    "boundary_note": "Rage that one's hard work was completely invalidated and disrespected.",
+    "is_boundary": true,
+    "id": 79
+  },
+  {
+    "text": "I really thought I had finally figured it out. What a complete joke.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.59,
+    "boundary_note": "Self-directed anger at a perceived personal failure, not hopelessness.",
+    "is_boundary": true,
+    "id": 80
+  },
+  {
+    "text": "After all this time, I guess my opinion just doesn't count for anything.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.65,
+    "boundary_note": "Anger at being invalidated and dismissed, not sadness from being left out.",
+    "is_boundary": true,
+    "id": 81
+  },
+  {
+    "text": "You really just went ahead without me? Wow, okay. I see how it is.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.72,
+    "boundary_note": "Fury over betrayal and being deliberately excluded, not hurt feelings.",
+    "is_boundary": true,
+    "id": 82
+  },
+  {
+    "text": "I can't believe I wasted so much energy on something that just fell apart.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.58,
+    "boundary_note": "Self-directed rage at a perceived personal failure, not grief over the loss.",
+    "is_boundary": true,
+    "id": 83
+  },
+  {
+    "text": "So this is just how it ends? No explanation, no closure, nothing.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.81,
+    "boundary_note": "Outrage at the injustice and abruptness, not sorrow over the ending itself.",
+    "is_boundary": true,
+    "id": 84
+  },
+  {
+    "text": "They promised they would be there. I guess some promises don't mean much.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.78,
+    "boundary_note": "White-hot anger at a broken promise and profound disrespect.",
+    "is_boundary": true,
+    "id": 85
+  },
+  {
+    "text": "I suppose it was silly of me to expect you to remember what I said.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.45,
+    "boundary_note": "Passive-aggressive anger at being ignored, not sadness about being forgotten.",
+    "is_boundary": true,
+    "id": 86
+  },
+  {
+    "text": "Why do I even bother trying when this is always the result?",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.68,
+    "boundary_note": "Frustrated anger at one's own repeated, failed efforts, not despair.",
+    "is_boundary": true,
+    "id": 87
+  },
+  {
+    "text": "Another rejection. I'm just so tired of being told I'm not good enough.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.62,
+    "boundary_note": "Building rage against an unfair system, not sadness from personal inadequacy.",
+    "is_boundary": true,
+    "id": 88
+  },
+  {
+    "text": "He didn't even have the decency to tell me himself. I had to hear it from someone else.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.85,
+    "boundary_note": "Incensed by the cowardly and disrespectful method of communication.",
+    "is_boundary": true,
+    "id": 89
+  },
+  {
+    "text": "Fine. Do whatever you want. It's clear you were going to anyway.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.55,
+    "boundary_note": "Resentful anger disguised as resignation; a challenge, not a surrender.",
+    "is_boundary": true,
+    "id": 90
+  },
+  {
+    "text": "I poured my heart into that project and now I'm just... replaced.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.76,
+    "boundary_note": "Furious indignation at being devalued and discarded, not sorrow over the job loss.",
+    "is_boundary": true,
+    "id": 91
+  },
+  {
+    "text": "Of course the one day I'm running late, this happens. Just perfect.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.35,
+    "boundary_note": "Hot frustration and anger at cosmic inconvenience, not sad resignation.",
+    "is_boundary": true,
+    "id": 92
+  },
+  {
+    "text": "So that's it? You're just giving up on us after one argument?",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.83,
+    "boundary_note": "Anger at perceived cowardice and lack of commitment, not sadness over the fight.",
+    "is_boundary": true,
+    "id": 93
+  },
+  {
+    "text": "They all stood by and watched it happen. Not one of them said a thing.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.79,
+    "boundary_note": "Rage at the complicity and inaction of bystanders, not loneliness.",
+    "is_boundary": true,
+    "id": 94
+  },
+  {
+    "text": "I really thought I had it this time. I feel so stupid.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.51,
+    "boundary_note": "Anger directed at oneself for failing or being naive, not dejection.",
+    "is_boundary": true,
+    "id": 95
+  },
+  {
+    "text": "The system is just broken. There's nothing left to do, I guess.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.7,
+    "boundary_note": "Seething rage at systemic failure, masked as hopeless resignation.",
+    "is_boundary": true,
+    "id": 96
+  },
+  {
+    "text": "Apparently, my years of loyalty to this company meant absolutely nothing.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.82,
+    "boundary_note": "Betrayed fury at being treated as disposable, not sadness about leaving.",
+    "is_boundary": true,
+    "id": 97
+  },
+  {
+    "text": "Oh, so now you decide to show up? A little late for that, don't you think?",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.67,
+    "boundary_note": "Bitter, sarcastic anger at someone's delayed and useless action.",
+    "is_boundary": true,
+    "id": 98
+  },
+  {
+    "text": "I defended them, and this is the thanks I get. I'm such an idiot.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.73,
+    "boundary_note": "Furious at one's own misjudgment and misplaced loyalty.",
+    "is_boundary": true,
+    "id": 99
+  },
+  {
+    "text": "I followed all the rules, did everything right, and still lost.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.77,
+    "boundary_note": "Outrage at an unjust outcome despite following the process perfectly.",
+    "is_boundary": true,
+    "id": 100
+  },
+  {
+    "text": "I guess I just don't matter enough for a simple text back.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.53,
+    "boundary_note": "Anger at being blatantly ignored and disrespected, not loneliness.",
+    "is_boundary": true,
+    "id": 101
+  },
+  {
+    "text": "Don't worry about me. I'll just figure it out on my own, like always.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.6,
+    "boundary_note": "Martyr-like anger, highlighting perceived neglect and forced self-reliance.",
+    "is_boundary": true,
+    "id": 102
+  },
+  {
+    "text": "I should have known better than to get my hopes up again.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.48,
+    "boundary_note": "Anger at personal gullibility, not sadness about the disappointment.",
+    "is_boundary": true,
+    "id": 103
+  },
+  {
+    "text": "Another fee for something that should have been included. I'm just so done.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.42,
+    "boundary_note": "Anger at being exploited by an unfair system, not weary sadness.",
+    "is_boundary": true,
+    "id": 104
+  },
+  {
+    "text": "They all just laughed. I felt so small, standing there alone.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.66,
+    "boundary_note": "Humiliated rage at being mocked, not sorrow from isolation.",
+    "is_boundary": true,
+    "id": 105
+  },
+  {
+    "text": "Was I not clear enough? I feel like I'm talking to a wall.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.5,
+    "boundary_note": "Intense frustration and anger at not being heard or understood.",
+    "is_boundary": true,
+    "id": 106
+  },
+  {
+    "text": "It's my own fault for thinking things might actually change this time.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.59,
+    "boundary_note": "Self-directed anger for being foolishly optimistic, not despair.",
+    "is_boundary": true,
+    "id": 107
+  },
+  {
+    "text": "The deadline was moved without any warning. Now everything is ruined.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.71,
+    "boundary_note": "Rage at the carelessness and chaos caused by an arbitrary decision.",
+    "is_boundary": true,
+    "id": 108
+  },
+  {
+    "text": "He gave my idea to someone else. Just like that, it's not mine anymore.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.8,
+    "boundary_note": "Fury over intellectual theft and betrayal, not sadness over the loss.",
+    "is_boundary": true,
+    "id": 109
+  },
+  {
+    "text": "I'm sorry my feelings are such an inconvenience for you.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.63,
+    "boundary_note": "Sarcastic anger aimed at someone being dismissive and invalidating.",
+    "is_boundary": true,
+    "id": 110
+  },
+  {
+    "text": "I can't believe I let it get this bad. What was I thinking?",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.69,
+    "boundary_note": "Anger and frustration at one's own inaction or poor choices.",
+    "is_boundary": true,
+    "id": 111
+  },
+  {
+    "text": "This whole process has been a complete waste of my time and energy.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.56,
+    "boundary_note": "Anger at bureaucratic incompetence and inefficiency, not just fatigue.",
+    "is_boundary": true,
+    "id": 112
+  },
+  {
+    "text": "She really said that in front of everyone? I'm just... speechless.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.74,
+    "boundary_note": "Stunned rage and indignation at a public betrayal or insult.",
+    "is_boundary": true,
+    "id": 113
+  },
+  {
+    "text": "I guess I just expected you to have my back. My mistake.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.75,
+    "boundary_note": "Bitter anger over a perceived betrayal of loyalty, not just hurt feelings.",
+    "is_boundary": true,
+    "id": 114
+  },
+  {
+    "text": "Of course I'm the last one to find out. Why am I not surprised?",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.54,
+    "boundary_note": "Angry resignation at being consistently excluded, aimed inward and outward.",
+    "is_boundary": true,
+    "id": 115
+  },
+  {
+    "text": "My flight is cancelled. After all that planning, I'm just stuck here.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.61,
+    "boundary_note": "Rage at the logistical failure and derailment of plans.",
+    "is_boundary": true,
+    "id": 116
+  },
+  {
+    "text": "They took my word and twisted it into something ugly. I feel sick.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.84,
+    "boundary_note": "Violated anger at malicious misrepresentation, not sadness over misunderstanding.",
+    "is_boundary": true,
+    "id": 117
+  },
+  {
+    "text": "Sure, blame me. It's always my fault anyway, isn't it?",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.52,
+    "boundary_note": "Angry defiance against being made a scapegoat, not sad acceptance.",
+    "is_boundary": true,
+    "id": 118
+  },
+  {
+    "text": "I just keep making the same mistakes over and over. I'm so tired.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.4,
+    "boundary_note": "Deep frustration and anger with oneself for a lack of progress.",
+    "is_boundary": true,
+    "id": 119
+  },
+  {
+    "text": "So that's the final decision? It just doesn't make any sense at all.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.47,
+    "boundary_note": "Anger at an illogical and unjust ruling or outcome.",
+    "is_boundary": true,
+    "id": 120
+  },
+  {
+    "text": "I can't believe they just left without saying a single word to me.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.82,
+    "boundary_note": "Focus is on the betrayal and disrespect, not the loneliness or loss.",
+    "is_boundary": true,
+    "id": 121
+  },
+  {
+    "text": "Five years and they couldn't even bother to reply to my message.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.78,
+    "boundary_note": "Simmering anger at being dismissed, not dejection from being ignored.",
+    "is_boundary": true,
+    "id": 122
+  },
+  {
+    "text": "Wow, so I just don't matter to anyone here, I guess.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.65,
+    "boundary_note": "Passive-aggressive accusation of neglect, masking fury at being made to feel invisible.",
+    "is_boundary": true,
+    "id": 123
+  },
+  {
+    "text": "It's fine. I'll just handle everything myself, like I always do.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.71,
+    "boundary_note": "Resentment at being unsupported, not sadness about having a heavy burden.",
+    "is_boundary": true,
+    "id": 124
+  },
+  {
+    "text": "So all that work was for nothing. That's just great.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.85,
+    "boundary_note": "Bitter sarcasm and fury over wasted effort, not disappointment in the outcome.",
+    "is_boundary": true,
+    "id": 125
+  },
+  {
+    "text": "I really thought I could count on you for once.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.68,
+    "boundary_note": "Anger over a broken pattern of trust, not simple hurt feelings.",
+    "is_boundary": true,
+    "id": 126
+  },
+  {
+    "text": "Why do I even try? It never makes a difference anyway.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.55,
+    "boundary_note": "Frustration and self-directed anger at repeated failure, not hopeless sadness.",
+    "is_boundary": true,
+    "id": 127
+  },
+  {
+    "text": "He promised he'd be there. I guess I'm not that important.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.79,
+    "boundary_note": "Fury at a broken promise and perceived slight, not sadness over absence.",
+    "is_boundary": true,
+    "id": 128
+  },
+  {
+    "text": "Of course this would happen to me, right before the deadline.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.52,
+    "boundary_note": "Anger at the universe's unfair timing, not sad resignation to fate.",
+    "is_boundary": true,
+    "id": 129
+  },
+  {
+    "text": "I'm just so tired of being the only one who cares.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.8,
+    "boundary_note": "Exasperated anger at unequal emotional labor, not lonely sadness.",
+    "is_boundary": true,
+    "id": 130
+  },
+  {
+    "text": "I guess my opinion doesn't have any value in this house.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.74,
+    "boundary_note": "Passive aggression fueled by anger at being invalidated and dismissed.",
+    "is_boundary": true,
+    "id": 131
+  },
+  {
+    "text": "They gave the promotion to him? After everything I did?",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.83,
+    "boundary_note": "Outrage at profound workplace injustice, not just personal disappointment.",
+    "is_boundary": true,
+    "id": 132
+  },
+  {
+    "text": "I can't believe I fell for the same excuses again.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.62,
+    "boundary_note": "Self-directed fury for being naive, not sad regret for a mistake.",
+    "is_boundary": true,
+    "id": 133
+  },
+  {
+    "text": "And the check bounced. I'm not even surprised at this point.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.48,
+    "boundary_note": "Cynical anger born of repeated frustration, not weary sadness.",
+    "is_boundary": true,
+    "id": 134
+  },
+  {
+    "text": "You knew this was important to me, but you did it anyway.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.81,
+    "boundary_note": "Anger stemming from intentional disregard and disrespect, not simple hurt.",
+    "is_boundary": true,
+    "id": 135
+  },
+  {
+    "text": "Another rejection letter. I guess my best just isn't good enough.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.45,
+    "boundary_note": "Frustration and anger at perceived inadequacy, not just dejection.",
+    "is_boundary": true,
+    "id": 136
+  },
+  {
+    "text": "He just threw it away like it meant nothing to him.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.77,
+    "boundary_note": "Rage at the casual destruction of something meaningful, not grief over its loss.",
+    "is_boundary": true,
+    "id": 137
+  },
+  {
+    "text": "Don't worry about me, I'll figure it out on my own.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.6,
+    "boundary_note": "Angry, resentful assertion of independence, not a sad acceptance of being alone.",
+    "is_boundary": true,
+    "id": 138
+  },
+  {
+    "text": "The one day I don't bring an umbrella, it decides to pour.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.35,
+    "boundary_note": "Low-level anger at cosmic inconvenience, not sadness about being wet.",
+    "is_boundary": true,
+    "id": 139
+  },
+  {
+    "text": "I feel so stupid for thinking things would be different this time.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.58,
+    "boundary_note": "Anger at one's own misplaced hope, not sadness that it failed.",
+    "is_boundary": true,
+    "id": 140
+  },
+  {
+    "text": "She didn't even have the decency to tell me to my face.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.84,
+    "boundary_note": "Fury over the cowardly method of betrayal, not the loss itself.",
+    "is_boundary": true,
+    "id": 141
+  },
+  {
+    "text": "So that's it? You're just walking away after everything we built?",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.76,
+    "boundary_note": "Incredulous rage at abandonment and wasted shared history, not grief.",
+    "is_boundary": true,
+    "id": 142
+  },
+  {
+    "text": "My own family just stood there and let them say that.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.79,
+    "boundary_note": "Rage at the betrayal of inaction, not sadness from lack of support.",
+    "is_boundary": true,
+    "id": 143
+  },
+  {
+    "text": "All that studying, and the test covered none of it.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.63,
+    "boundary_note": "Anger at the unfairness and futility of the situation.",
+    "is_boundary": true,
+    "id": 144
+  },
+  {
+    "text": "I guess I just have to accept being treated this way.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.69,
+    "boundary_note": "Bitter, angry resignation to an unjust situation, not passive sadness.",
+    "is_boundary": true,
+    "id": 145
+  },
+  {
+    "text": "I'm always the one reaching out. I'm just done trying.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.72,
+    "boundary_note": "Anger at unreciprocated effort, not loneliness.",
+    "is_boundary": true,
+    "id": 146
+  },
+  {
+    "text": "I pour my heart out and all you say is 'okay'?",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.7,
+    "boundary_note": "Fury at being emotionally dismissed and invalidated.",
+    "is_boundary": true,
+    "id": 147
+  },
+  {
+    "text": "The computer crashed and I lost hours of work. Of course.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.66,
+    "boundary_note": "Rage at the frustrating injustice of technology failing.",
+    "is_boundary": true,
+    "id": 148
+  },
+  {
+    "text": "Apparently, my loyalty to this company means absolutely nothing.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.81,
+    "boundary_note": "Furious sense of betrayal from an institution, not sadness over a job.",
+    "is_boundary": true,
+    "id": 149
+  },
+  {
+    "text": "I should have known better than to trust a word he said.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.64,
+    "boundary_note": "Self-directed anger for ignoring red flags, not sad disappointment.",
+    "is_boundary": true,
+    "id": 150
+  },
+  {
+    "text": "No one ever told me the rules were different for me.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.73,
+    "boundary_note": "Anger at discovering an unfair, unwritten social contract.",
+    "is_boundary": true,
+    "id": 151
+  },
+  {
+    "text": "You watched me struggle and didn't lift a finger to help.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.85,
+    "boundary_note": "White-hot rage at intentional, malicious inaction and indifference.",
+    "is_boundary": true,
+    "id": 152
+  },
+  {
+    "text": "I'm just a convenience for you, aren't I?",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.75,
+    "boundary_note": "An angry accusation of being used, not a sad realization of it.",
+    "is_boundary": true,
+    "id": 153
+  },
+  {
+    "text": "I keep giving pieces of myself away for nothing in return.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.5,
+    "boundary_note": "Anger at one's own pattern of self-sacrifice, not sadness about being empty.",
+    "is_boundary": true,
+    "id": 154
+  },
+  {
+    "text": "This whole system is rigged. Why did I even bother playing?",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.77,
+    "boundary_note": "Furious indictment of a corrupt system, not personal defeat.",
+    "is_boundary": true,
+    "id": 155
+  },
+  {
+    "text": "They got away with it. There's just no justice in the world.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.8,
+    "boundary_note": "Rage at a moral failure and injustice, not despair.",
+    "is_boundary": true,
+    "id": 156
+  },
+  {
+    "text": "I guess I just have 'victim' written on my forehead.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.4,
+    "boundary_note": "Angry, bitter self-deprecation about being repeatedly taken advantage of.",
+    "is_boundary": true,
+    "id": 157
+  },
+  {
+    "text": "My train is delayed again. I feel like I live at this station.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.42,
+    "boundary_note": "Exasperated anger at chronic inconvenience, not sadness about wasting time.",
+    "is_boundary": true,
+    "id": 158
+  },
+  {
+    "text": "So you just told everyone my secret? Thanks, that's really helpful.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.83,
+    "boundary_note": "Sarcastic fury over a deep betrayal of confidence, not embarrassment.",
+    "is_boundary": true,
+    "id": 159
+  },
+  {
+    "text": "I am so done being the bigger person all the time.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.67,
+    "boundary_note": "Anger at the unfair burden of emotional maturity, not simple fatigue.",
+    "is_boundary": true,
+    "id": 160
+  },
+  {
+    "text": "I guess after all my hard work, my contribution just doesn't mean anything to you.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.75,
+    "boundary_note": "Anger at being unappreciated, not sadness from failure.",
+    "is_boundary": true,
+    "id": 161
+  },
+  {
+    "text": "He just took the credit for my entire project. I feel completely erased.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.82,
+    "boundary_note": "Fury over injustice and theft, not grief over loss of work.",
+    "is_boundary": true,
+    "id": 162
+  },
+  {
+    "text": "Why did I ever think I could trust them? I feel so incredibly stupid right now.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.68,
+    "boundary_note": "Self-directed anger at poor judgment, not just disappointment.",
+    "is_boundary": true,
+    "id": 163
+  },
+  {
+    "text": "Of course the computer crashed right before I saved. All that work, just gone.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.55,
+    "boundary_note": "Frustration and rage at technology failing, not sorrow.",
+    "is_boundary": true,
+    "id": 164
+  },
+  {
+    "text": "You promised you'd be there for me. It's just so disappointing to be left alone again.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.65,
+    "boundary_note": "Anger and resentment at a broken promise, not loneliness.",
+    "is_boundary": true,
+    "id": 165
+  },
+  {
+    "text": "They all went out and 'forgot' to invite me. I suppose I get the message.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.71,
+    "boundary_note": "Rage at being deliberately excluded, not sadness from being left out.",
+    "is_boundary": true,
+    "id": 166
+  },
+  {
+    "text": "I can't believe I missed the deadline. I had so much time and I just blew it.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.8,
+    "boundary_note": "Anger at personal failure and procrastination, not regret.",
+    "is_boundary": true,
+    "id": 167
+  },
+  {
+    "text": "After a six-hour delay, they cancelled the flight. My whole trip is just ruined.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.78,
+    "boundary_note": "Anger at a frustrating, uncontrollable event, not sadness over a missed trip.",
+    "is_boundary": true,
+    "id": 168
+  },
+  {
+    "text": "It's fine, I'll just do it myself. It seems like I always have to anyway.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.62,
+    "boundary_note": "Passive-aggressive anger at being taken for granted.",
+    "is_boundary": true,
+    "id": 169
+  },
+  {
+    "text": "She didn't do any work but got the same grade. This whole system feels like a joke.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.85,
+    "boundary_note": "Outrage at systemic unfairness, not disappointment in the outcome.",
+    "is_boundary": true,
+    "id": 170
+  },
+  {
+    "text": "I shouldn't have said that. Now everyone thinks I'm a complete idiot.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.58,
+    "boundary_note": "Frustration and anger at a personal social mistake.",
+    "is_boundary": true,
+    "id": 171
+  },
+  {
+    "text": "I've been on hold for an hour. It feels like this company wants you to give up.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.45,
+    "boundary_note": "Rage at bureaucratic incompetence, not just boredom.",
+    "is_boundary": true,
+    "id": 172
+  },
+  {
+    "text": "Wow, so you just make plans without even telling me? I feel so unimportant.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.73,
+    "boundary_note": "Anger at being disrespected and excluded, not just hurt feelings.",
+    "is_boundary": true,
+    "id": 173
+  },
+  {
+    "text": "I lent him my favorite jacket and he returned it completely destroyed. No apology.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.69,
+    "boundary_note": "Anger at blatant carelessness and disrespect for property.",
+    "is_boundary": true,
+    "id": 174
+  },
+  {
+    "text": "I knew this was a bad investment. Why do I never listen to my own gut feelings?",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.76,
+    "boundary_note": "Anger at one's own poor judgment leading to loss.",
+    "is_boundary": true,
+    "id": 175
+  },
+  {
+    "text": "The one day I have a major interview, there's a huge accident. Of course.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.64,
+    "boundary_note": "Anger at cosmic injustice and terrible luck.",
+    "is_boundary": true,
+    "id": 176
+  },
+  {
+    "text": "I poured my heart into this and you barely even glanced at it. It's... disheartening.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.79,
+    "boundary_note": "Rage at unreciprocated effort and being ignored.",
+    "is_boundary": true,
+    "id": 177
+  },
+  {
+    "text": "They promised the promotion to me, then gave it to the manager's nephew. Unbelievable.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.83,
+    "boundary_note": "Fury over nepotism and blatant unfairness.",
+    "is_boundary": true,
+    "id": 178
+  },
+  {
+    "text": "I can't believe I forgot their anniversary. I feel like such a terrible person.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.52,
+    "boundary_note": "Anger at one's own carelessness and failure.",
+    "is_boundary": true,
+    "id": 179
+  },
+  {
+    "text": "The landlord raised the rent again. I work so hard and still can't get ahead.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.72,
+    "boundary_note": "Anger at systemic economic pressure, not personal despair.",
+    "is_boundary": true,
+    "id": 180
+  },
+  {
+    "text": "Never mind, it's pretty clear you're not listening. I'll just stop talking.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.5,
+    "boundary_note": "Frustrated anger at being completely ignored.",
+    "is_boundary": true,
+    "id": 181
+  },
+  {
+    "text": "That driver just cut across three lanes. It's like my safety means absolutely nothing.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.48,
+    "boundary_note": "Anger at another person's dangerous disregard for others.",
+    "is_boundary": true,
+    "id": 182
+  },
+  {
+    "text": "I pushed away the one person who cared. It's all my fault and now I'm alone.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.81,
+    "boundary_note": "Anger at self-sabotaging behavior, not sadness over loneliness.",
+    "is_boundary": true,
+    "id": 183
+  },
+  {
+    "text": "My luggage is gone. The airline just says 'sorry for the inconvenience'. That's it.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.77,
+    "boundary_note": "Rage at corporate indifference and incompetence.",
+    "is_boundary": true,
+    "id": 184
+  },
+  {
+    "text": "You said you'd pay me back. I guess I was just foolish to believe you.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.66,
+    "boundary_note": "Anger at being lied to and taken advantage of.",
+    "is_boundary": true,
+    "id": 185
+  },
+  {
+    "text": "I just found out what they were saying behind my back. It's just so cruel.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.74,
+    "boundary_note": "Anger and betrayal over malicious gossip, not just hurt feelings.",
+    "is_boundary": true,
+    "id": 186
+  },
+  {
+    "text": "The opportunity was right there and I froze. I'm just so pathetic and cowardly.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.63,
+    "boundary_note": "Self-directed anger at one's own perceived weakness.",
+    "is_boundary": true,
+    "id": 187
+  },
+  {
+    "text": "Another rejection letter. I followed all the rules and it still wasn't good enough.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.53,
+    "boundary_note": "Anger at a seemingly arbitrary and unfair system.",
+    "is_boundary": true,
+    "id": 188
+  },
+  {
+    "text": "Don't worry about helping me. I shouldn't have asked in the first place.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.59,
+    "boundary_note": "Passive-aggressive anger, implying the other person is useless.",
+    "is_boundary": true,
+    "id": 189
+  },
+  {
+    "text": "The waiter has walked past our table ten times. I guess our money isn't good here.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.42,
+    "boundary_note": "Anger at being deliberately ignored and disrespected.",
+    "is_boundary": true,
+    "id": 190
+  },
+  {
+    "text": "I really let the team down with that presentation. I just can't forgive myself.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.7,
+    "boundary_note": "Rage at personal performance failure, not just sadness.",
+    "is_boundary": true,
+    "id": 191
+  },
+  {
+    "text": "The leak ruined all my old photos. Decades of memories, just gone like that.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.67,
+    "boundary_note": "Anger at the destructive unfairness of an event.",
+    "is_boundary": true,
+    "id": 192
+  },
+  {
+    "text": "A simple 'sorry' doesn't fix this. You knew this would hurt me and you did it anyway.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.84,
+    "boundary_note": "Anger at intentional harm, not sadness over the hurt itself.",
+    "is_boundary": true,
+    "id": 193
+  },
+  {
+    "text": "My sister promised she'd help with Mom, but just disappeared. It's all on me now.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.61,
+    "boundary_note": "Resentment and anger at familial irresponsibility.",
+    "is_boundary": true,
+    "id": 194
+  },
+  {
+    "text": "I should have gone to the doctor sooner. This pain is my own stupid fault.",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.56,
+    "boundary_note": "Anger at self-neglect leading to negative consequences.",
+    "is_boundary": true,
+    "id": 195
+  },
+  {
+    "text": "The package was stolen right off my porch. I just feel so violated and helpless.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.6,
+    "boundary_note": "Anger at the injustice and violation of personal space.",
+    "is_boundary": true,
+    "id": 196
+  },
+  {
+    "text": "I really thought you were different. I guess I was wrong about you all along.",
+    "emotion": "anger",
+    "target": "you",
+    "intensity": 0.78,
+    "boundary_note": "Deep anger and resentment stemming from betrayal.",
+    "is_boundary": true,
+    "id": 197
+  },
+  {
+    "text": "They just canceled the show we had tickets for. All that planning for nothing.",
+    "emotion": "anger",
+    "target": "other",
+    "intensity": 0.4,
+    "boundary_note": "Anger at the inconvenience and disregard for fans' effort.",
+    "is_boundary": true,
+    "id": 198
+  },
+  {
+    "text": "I can't believe I fell for that scam. How could I have been so naive?",
+    "emotion": "anger",
+    "target": "self",
+    "intensity": 0.85,
+    "boundary_note": "Intense anger at personal gullibility and foolishness.",
+    "is_boundary": true,
+    "id": 199
+  },
+  {
+    "text": "After all this physical therapy, the doctor says there's no improvement. What a waste.",
+    "emotion": "anger",
+    "target": "situation",
+    "intensity": 0.79,
+    "boundary_note": "Rage at a body/situation that won't respond to effort.",
+    "is_boundary": true,
+    "id": 200
+  },
+  {
+    "text": "Why do I even bother trying anymore? The result is always the same failure.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.78,
+    "boundary_note": "Rhetorical question expresses deep hopelessness and self-defeat, not just frustration.",
+    "is_boundary": true,
+    "id": 201
+  },
+  {
+    "text": "Fine, just go. It’s what everyone does eventually, why would you be different?",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.82,
+    "boundary_note": "The dismissive tone masks a deep-seated feeling of abandonment and heartbreak.",
+    "is_boundary": true,
+    "id": 202
+  },
+  {
+    "text": "What was the point of all that effort? It all just fell apart anyway.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.75,
+    "boundary_note": "Sounds like anger at failure, but is really despair over the futility of effort.",
+    "is_boundary": true,
+    "id": 203
+  },
+  {
+    "text": "They all act like it's fine. Am I the only one who's completely broken by this?",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.65,
+    "boundary_note": "Accusatory language stems from a feeling of isolation and being misunderstood in grief.",
+    "is_boundary": true,
+    "id": 204
+  },
+  {
+    "text": "I should have known better than to get my hopes up. Of course it ended this way.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.68,
+    "boundary_note": "Self-blame is a symptom of resignation and deep disappointment, not anger.",
+    "is_boundary": true,
+    "id": 205
+  },
+  {
+    "text": "You promised it would be different this time. Why did I ever believe you?",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.85,
+    "boundary_note": "The accusation is rooted in the pain of betrayal, not pure rage.",
+    "is_boundary": true,
+    "id": 206
+  },
+  {
+    "text": "This whole system is rigged. You can't win no matter how hard you fight.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.72,
+    "boundary_note": "Expresses a sense of utter powerlessness and systemic defeat, not just anger.",
+    "is_boundary": true,
+    "id": 207
+  },
+  {
+    "text": "It's hilarious how easily they all moved on. Guess I was the only one who cared.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.58,
+    "boundary_note": "The sarcasm is a coping mechanism for feeling left behind and insignificant.",
+    "is_boundary": true,
+    "id": 208
+  },
+  {
+    "text": "Another brilliant mistake by me. I am just incapable of getting anything right.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.62,
+    "boundary_note": "The self-directed frustration comes from a place of learned helplessness and despair.",
+    "is_boundary": true,
+    "id": 209
+  },
+  {
+    "text": "Don't bother with excuses. Your actions made it perfectly clear how you feel.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.79,
+    "boundary_note": "The curt dismissal is a defense against further hurt, driven by sadness.",
+    "is_boundary": true,
+    "id": 210
+  },
+  {
+    "text": "Another rejection. I don't know why I expected anything different this time around.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.55,
+    "boundary_note": "Apparent bitterness is actually resignation and a crushed sense of hope.",
+    "is_boundary": true,
+    "id": 211
+  },
+  {
+    "text": "Nobody ever actually listens. I might as well be talking to a brick wall.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.48,
+    "boundary_note": "Frustrated words that actually convey deep loneliness and feeling invisible to others.",
+    "is_boundary": true,
+    "id": 212
+  },
+  {
+    "text": "I've ruined it all again. There's just something fundamentally wrong with me.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.81,
+    "boundary_note": "This is not anger at a mistake, but despair about a perceived character flaw.",
+    "is_boundary": true,
+    "id": 213
+  },
+  {
+    "text": "Was I just a complete fool for trusting you with everything?",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.76,
+    "boundary_note": "The accusatory question is a reflection of heartbreak and shattered trust.",
+    "is_boundary": true,
+    "id": 214
+  },
+  {
+    "text": "Great, the one thing I was looking forward to is cancelled. Of course it is.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.45,
+    "boundary_note": "Sarcasm here indicates a pattern of disappointment and a lack of hope.",
+    "is_boundary": true,
+    "id": 215
+  },
+  {
+    "text": "They have no idea what it's like. It's so easy for them to judge from the outside.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.53,
+    "boundary_note": "The resentment comes from a place of isolation in one's own suffering.",
+    "is_boundary": true,
+    "id": 216
+  },
+  {
+    "text": "I am so tired of making the same mistakes over and over. I'll never learn.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.69,
+    "boundary_note": "Exhaustion and hopelessness, not anger, are the core emotions behind this self-criticism.",
+    "is_boundary": true,
+    "id": 217
+  },
+  {
+    "text": "I gave you everything I had, and you just threw it away like it was nothing.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.84,
+    "boundary_note": "The accusation highlights the speaker's feeling of being devalued and heartbroken.",
+    "is_boundary": true,
+    "id": 218
+  },
+  {
+    "text": "This is hopeless. Every door I try to open gets slammed in my face.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.71,
+    "boundary_note": "The frustration is a symptom of complete and utter despair about one's prospects.",
+    "is_boundary": true,
+    "id": 219
+  },
+  {
+    "text": "They all have their perfect lives. Why can't I just have a moment of that?",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.6,
+    "boundary_note": "This is not jealousy-anger, but a sad longing for a different, happier life.",
+    "is_boundary": true,
+    "id": 220
+  },
+  {
+    "text": "Why do I even try to connect with people? I always just end up getting hurt.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.73,
+    "boundary_note": "The frustrated question expresses a painful pattern of rejection and withdrawal.",
+    "is_boundary": true,
+    "id": 221
+  },
+  {
+    "text": "So that's it then? After everything, it just ends like this? Unbelievable.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.8,
+    "boundary_note": "The disbelief and frustration mask a deep sense of loss and grief.",
+    "is_boundary": true,
+    "id": 222
+  },
+  {
+    "text": "Go on, tell me again how this is my fault. I'm used to hearing it.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.64,
+    "boundary_note": "The challenging tone is a sign of resignation and weariness from repeated blame.",
+    "is_boundary": true,
+    "id": 223
+  },
+  {
+    "text": "I'm always the one left behind. No one ever stays for me.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.77,
+    "boundary_note": "This is a statement of painful, recurring abandonment, not an angry accusation.",
+    "is_boundary": true,
+    "id": 224
+  },
+  {
+    "text": "I'm so stupid for thinking things could actually get better for once.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.59,
+    "boundary_note": "The self-insult is about the pain of disappointed hope, not anger at a mistake.",
+    "is_boundary": true,
+    "id": 225
+  },
+  {
+    "text": "This is just my luck, isn't it? Nothing can ever just go right for me.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.5,
+    "boundary_note": "The cynical, bitter tone reflects a deep-seated belief that they are fated to fail.",
+    "is_boundary": true,
+    "id": 226
+  },
+  {
+    "text": "You never even asked my side of it. You just decided I was the bad guy.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.66,
+    "boundary_note": "The accusation is about the sadness of being fundamentally misunderstood and unheard.",
+    "is_boundary": true,
+    "id": 227
+  },
+  {
+    "text": "They'll forget this in a week. For me, it's my entire world crumbling down.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.7,
+    "boundary_note": "Seems like resentment but is really about the intense loneliness of one's own grief.",
+    "is_boundary": true,
+    "id": 228
+  },
+  {
+    "text": "I try so hard to be enough, but it's never enough. I always fall short.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.74,
+    "boundary_note": "This isn't frustration with a task, but despair about one's inherent worth.",
+    "is_boundary": true,
+    "id": 229
+  },
+  {
+    "text": "I'm just so tired of fighting this battle every single day. It never gets easier.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.83,
+    "boundary_note": "The statement is one of profound weariness and hopelessness, not combative anger.",
+    "is_boundary": true,
+    "id": 230
+  },
+  {
+    "text": "Just leave me alone. I'm sure you have better things to do anyway.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.54,
+    "boundary_note": "The push-away is driven by a sad belief of being a burden.",
+    "is_boundary": true,
+    "id": 231
+  },
+  {
+    "text": "Of course they picked him. People like me are just meant to be background characters.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.51,
+    "boundary_note": "The bitter comparison reveals feelings of invisibility and low self-worth, not anger.",
+    "is_boundary": true,
+    "id": 232
+  },
+  {
+    "text": "There's no point in explaining. No one ever understands what I mean anyway.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.42,
+    "boundary_note": "This statement of futility comes from a history of being misunderstood, causing sadness.",
+    "is_boundary": true,
+    "id": 233
+  },
+  {
+    "text": "I knew this would happen. I always manage to drive everyone away in the end.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.63,
+    "boundary_note": "This is not self-anger, but a sad, self-fulfilling prophecy of loneliness.",
+    "is_boundary": true,
+    "id": 234
+  },
+  {
+    "text": "I can't even look at you right now. It hurts too much to see you.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.61,
+    "boundary_note": "This sounds like angry avoidance, but the reason given is deep emotional pain.",
+    "is_boundary": true,
+    "id": 235
+  },
+  {
+    "text": "They all seem so happy and normal. What is so wrong with my life?",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.4,
+    "boundary_note": "A bitter-sounding comparison that reveals a deep, sad sense of personal alienation.",
+    "is_boundary": true,
+    "id": 236
+  },
+  {
+    "text": "I'm done. I can't keep pouring my heart into things that just break apart.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.67,
+    "boundary_note": "The declaration of 'being done' comes from emotional exhaustion and defeat.",
+    "is_boundary": true,
+    "id": 237
+  },
+  {
+    "text": "Why do I let myself care so much? It's my own fault for being this way.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.56,
+    "boundary_note": "Blaming a personality trait is a sad expression of wanting to stop feeling hurt.",
+    "is_boundary": true,
+    "id": 238
+  },
+  {
+    "text": "They moved on so fast. It's like the time we spent together meant nothing at all.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.78,
+    "boundary_note": "The core emotion is the sadness of feeling that shared memories were meaningless.",
+    "is_boundary": true,
+    "id": 239
+  },
+  {
+    "text": "You talk about the future, but I don't see how I fit in it anymore.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.52,
+    "boundary_note": "A seemingly confrontational statement that is actually expressing a sad sense of exclusion.",
+    "is_boundary": true,
+    "id": 240
+  },
+  {
+    "text": "I worked so hard for nothing. What's the point in even trying anymore?",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.78,
+    "boundary_note": "This is resignation and hopelessness, not anger at the lack of results.",
+    "is_boundary": true,
+    "id": 241
+  },
+  {
+    "text": "You promised it would be different. I can't believe I was stupid enough to listen.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.82,
+    "boundary_note": "The focus is on personal heartbreak and feeling foolish, not rage.",
+    "is_boundary": true,
+    "id": 242
+  },
+  {
+    "text": "Great, another thing I've completely ruined. Why am I even surprised at this point?",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.65,
+    "boundary_note": "This is self-directed despair and a feeling of worthlessness, not frustration.",
+    "is_boundary": true,
+    "id": 243
+  },
+  {
+    "text": "They all moved on so fast. I guess I never really mattered to them anyway.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.75,
+    "boundary_note": "Expresses a deep sense of loneliness and being forgotten, not bitterness.",
+    "is_boundary": true,
+    "id": 244
+  },
+  {
+    "text": "Of course it didn't work out. Nothing ever does for me, it's just my luck.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.55,
+    "boundary_note": "This shows fatalism and defeat, not anger at the specific circumstance.",
+    "is_boundary": true,
+    "id": 245
+  },
+  {
+    "text": "I'm so sick of my own weakness. I just manage to sabotage everything good.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.8,
+    "boundary_note": "This is profound self-loathing and grief over personal flaws, not simple frustration.",
+    "is_boundary": true,
+    "id": 246
+  },
+  {
+    "text": "Why do you bother with fake apologies? We both know you don't mean it.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.71,
+    "boundary_note": "The tone is weary and defeated, not accusatory or vengeful.",
+    "is_boundary": true,
+    "id": 247
+  },
+  {
+    "text": "Everyone else gets it right so easily. What's so fundamentally broken about me?",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.85,
+    "boundary_note": "The comparison leads to despair and a feeling of inadequacy, not jealousy or anger.",
+    "is_boundary": true,
+    "id": 248
+  },
+  {
+    "text": "I really thought this time would be the one. What a complete and utter fool.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.68,
+    "boundary_note": "The core emotion is deep disappointment in oneself and shattered hope.",
+    "is_boundary": true,
+    "id": 249
+  },
+  {
+    "text": "It doesn't matter what I do, the outcome is always the same. I'm just done.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.79,
+    "boundary_note": "This is the language of burnout and total surrender, not a fight.",
+    "is_boundary": true,
+    "id": 250
+  },
+  {
+    "text": "I gave you all of me. And you threw it away like it was nothing.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.83,
+    "boundary_note": "The accusation stems from deep hurt and a sense of loss, not fury.",
+    "is_boundary": true,
+    "id": 251
+  },
+  {
+    "text": "They don't even notice I'm gone. It's like I was never really there.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.72,
+    "boundary_note": "A painful realization of invisibility and loneliness, not anger at being ignored.",
+    "is_boundary": true,
+    "id": 252
+  },
+  {
+    "text": "Another rejection. I should just accept I'm never going to be good enough.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.66,
+    "boundary_note": "This is a statement of accepted defeat, not anger about being rejected.",
+    "is_boundary": true,
+    "id": 253
+  },
+  {
+    "text": "I'm just a burden to everyone around me. Why do I even try to connect?",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.81,
+    "boundary_note": "The root is a painful sense of worthlessness and isolation.",
+    "is_boundary": true,
+    "id": 254
+  },
+  {
+    "text": "Don't say you understand. You have no idea what it's like to feel this broken.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.76,
+    "boundary_note": "This is a plea born from deep loneliness and a feeling of being misunderstood.",
+    "is_boundary": true,
+    "id": 255
+  },
+  {
+    "text": "It's fine, I'm used to being forgotten. Everyone leaves in the end, don't they?",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.69,
+    "boundary_note": "The cynical tone masks a deep-seated sadness about abandonment.",
+    "is_boundary": true,
+    "id": 256
+  },
+  {
+    "text": "This whole thing was a colossal waste of my time. It all meant nothing.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.62,
+    "boundary_note": "The statement mourns the loss of effort and hope, not rage at the failure.",
+    "is_boundary": true,
+    "id": 257
+  },
+  {
+    "text": "I try so hard to be better, but I always end up back here. Helpless.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.73,
+    "boundary_note": "This is about the despair of a repeating cycle of personal failure.",
+    "is_boundary": true,
+    "id": 258
+  },
+  {
+    "text": "Was it all just a lie? Was any of it real to you at all?",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.84,
+    "boundary_note": "These questions come from a place of profound heartbreak and confusion, not accusation.",
+    "is_boundary": true,
+    "id": 259
+  },
+  {
+    "text": "They're probably all laughing at me behind my back. I wouldn't blame them.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.6,
+    "boundary_note": "The paranoia is rooted in social anxiety and low self-worth, not anger.",
+    "is_boundary": true,
+    "id": 260
+  },
+  {
+    "text": "I can't believe I let myself hope again. It just makes the fall hurt more.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.7,
+    "boundary_note": "This is grief over lost hope and self-reproach for being vulnerable.",
+    "is_boundary": true,
+    "id": 261
+  },
+  {
+    "text": "Another bill I can't pay. What's the point of this endless, losing struggle?",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.77,
+    "boundary_note": "Expresses overwhelming despair and the feeling of being trapped, not financial frustration.",
+    "is_boundary": true,
+    "id": 262
+  },
+  {
+    "text": "You look right through me. Do you even remember I exist when I'm not here?",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.74,
+    "boundary_note": "The accusation is a cry of pain from feeling invisible and unimportant.",
+    "is_boundary": true,
+    "id": 263
+  },
+  {
+    "text": "Of course they gave the promotion to him. I'm just part of the furniture here.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.58,
+    "boundary_note": "A statement of resignation and feeling unseen, not anger at the colleague.",
+    "is_boundary": true,
+    "id": 264
+  },
+  {
+    "text": "Why do I even open my mouth? I just end up sounding like an idiot.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.52,
+    "boundary_note": "This is self-criticism born from social anxiety and regret, not momentary frustration.",
+    "is_boundary": true,
+    "id": 265
+  },
+  {
+    "text": "Just my luck. The one day I felt okay, this has to happen. Unbelievable.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.45,
+    "boundary_note": "The disbelief is tinged with weary defeat, not energetic anger at fate.",
+    "is_boundary": true,
+    "id": 266
+  },
+  {
+    "text": "Go have fun. Don't worry about me, I'm used to being left behind.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.63,
+    "boundary_note": "This passive-aggressive statement masks a deep sadness of being excluded.",
+    "is_boundary": true,
+    "id": 267
+  },
+  {
+    "text": "They won't miss me. Nobody ever does. It's better this way for them.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.85,
+    "boundary_note": "This is a conclusion of utter worthlessness and self-isolation, a sign of depression.",
+    "is_boundary": true,
+    "id": 268
+  },
+  {
+    "text": "I'm so tired of fighting this battle in my head every single day. I'm losing.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.79,
+    "boundary_note": "This speaks to profound mental exhaustion and a sense of impending defeat.",
+    "is_boundary": true,
+    "id": 269
+  },
+  {
+    "text": "The test results are in. Figures. Some things are just broken beyond repair.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.81,
+    "boundary_note": "The tone is one of finality and the grief of accepting a terrible outcome.",
+    "is_boundary": true,
+    "id": 270
+  },
+  {
+    "text": "You say that now, but your actions show what you really think. It's fine.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.56,
+    "boundary_note": "The 'it's fine' signals resignation and the pain of broken trust, not anger.",
+    "is_boundary": true,
+    "id": 271
+  },
+  {
+    "text": "Why does everyone else get a happy ending? What did I do to deserve this?",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.78,
+    "boundary_note": "This is a mournful, philosophical question about fairness, not a jealous complaint.",
+    "is_boundary": true,
+    "id": 272
+  },
+  {
+    "text": "It's my own fault for getting attached. I always make the same stupid mistakes.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.67,
+    "boundary_note": "The speaker is grieving their own perceived flaws and repeated patterns of pain.",
+    "is_boundary": true,
+    "id": 273
+  },
+  {
+    "text": "I did everything right. I followed all the rules. And for what? This mockery.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.73,
+    "boundary_note": "The bitterness comes from a place of deep disappointment and shattered belief.",
+    "is_boundary": true,
+    "id": 274
+  },
+  {
+    "text": "Just tell me the truth. Was I ever more than a convenience for you?",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.8,
+    "boundary_note": "This question seeks to confirm a painful suspicion, bracing for more hurt.",
+    "is_boundary": true,
+    "id": 275
+  },
+  {
+    "text": "They look so happy. They have no idea what it feels like to be this empty.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.64,
+    "boundary_note": "A statement of profound isolation and alienation, not envy or bitterness.",
+    "is_boundary": true,
+    "id": 276
+  },
+  {
+    "text": "I'm the problem, aren't I? I'm the reason everything falls apart eventually.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.76,
+    "boundary_note": "A rhetorical question that expresses deep-seated guilt and self-blame.",
+    "is_boundary": true,
+    "id": 277
+  },
+  {
+    "text": "What a joke. All that effort, all that hope, all for this predictable ending.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.61,
+    "boundary_note": "The cynicism is a defense mechanism against overwhelming disappointment.",
+    "is_boundary": true,
+    "id": 278
+  },
+  {
+    "text": "Is this what you wanted? To see me completely and utterly broken? Congratulations.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.79,
+    "boundary_note": "The sarcasm masks a profound sense of betrayal and personal devastation.",
+    "is_boundary": true,
+    "id": 279
+  },
+  {
+    "text": "No one checked in. I could disappear and they wouldn't even notice for weeks.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.82,
+    "boundary_note": "A statement of fact colored by extreme loneliness and a feeling of invisibility.",
+    "is_boundary": true,
+    "id": 280
+  },
+  {
+    "text": "Why do I even bother trying? I just break everything I'm given.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.78,
+    "boundary_note": "This is a statement of resignation and hopelessness, not self-directed anger.",
+    "is_boundary": true,
+    "id": 281
+  },
+  {
+    "text": "Another failure. I'm just not built for this world, and I never will be.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.82,
+    "boundary_note": "The tone is one of profound despair and giving up, not frustration.",
+    "is_boundary": true,
+    "id": 282
+  },
+  {
+    "text": "I should've known better. I ruin every good thing, it's just what I do.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.65,
+    "boundary_note": "The bitterness masks a deep-seated belief in one's own inadequacy and sorrow.",
+    "is_boundary": true,
+    "id": 283
+  },
+  {
+    "text": "Fine, I'll handle it myself. It's clear I'm not worth anyone's time anyway.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.55,
+    "boundary_note": "This isn't an angry declaration of independence; it's a statement of perceived worthlessness.",
+    "is_boundary": true,
+    "id": 284
+  },
+  {
+    "text": "I hate what I've become. All that work for absolutely nothing to show for it.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.71,
+    "boundary_note": "The 'hate' is directed at the failure and loss, stemming from grief, not rage.",
+    "is_boundary": true,
+    "id": 285
+  },
+  {
+    "text": "I can't believe I said that. Now everyone will see how pathetic I really am.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.48,
+    "boundary_note": "Focuses on shame and the fear of being seen as inadequate, not anger.",
+    "is_boundary": true,
+    "id": 286
+  },
+  {
+    "text": "I'm my own worst enemy. There's no point in expecting anything good anymore.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.85,
+    "boundary_note": "This is an expression of complete fatalism and defeat, not a desire to change.",
+    "is_boundary": true,
+    "id": 287
+  },
+  {
+    "text": "I had one simple task, and I completely blew it. Of course, I did.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.51,
+    "boundary_note": "The sarcasm is a cover for deep disappointment and reinforces a negative self-view.",
+    "is_boundary": true,
+    "id": 288
+  },
+  {
+    "text": "This is all my fault. I'm the reason everything fell apart for us.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.79,
+    "boundary_note": "This is an expression of crushing guilt and sorrow, not self-flagellation from anger.",
+    "is_boundary": true,
+    "id": 289
+  },
+  {
+    "text": "What is wrong with me? I push away anyone who ever tries to get close.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.68,
+    "boundary_note": "The question is a cry of despair over a painful pattern, not angry self-interrogation.",
+    "is_boundary": true,
+    "id": 290
+  },
+  {
+    "text": "You promised you would be here. I can't believe I was stupid enough to trust you.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.81,
+    "boundary_note": "The accusation stems from the deep hurt of betrayal, not a desire to attack.",
+    "is_boundary": true,
+    "id": 291
+  },
+  {
+    "text": "Was I just a complete joke to you this entire time? Just tell me.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.77,
+    "boundary_note": "The question comes from a place of shattered self-worth and pain, not aggression.",
+    "is_boundary": true,
+    "id": 292
+  },
+  {
+    "text": "Don't you dare say you understand. You have no idea what your actions cost me.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.72,
+    "boundary_note": "This is pushing someone away out of profound hurt, not attacking them in anger.",
+    "is_boundary": true,
+    "id": 293
+  },
+  {
+    "text": "After everything I did for us, you just walk away without a single word.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.84,
+    "boundary_note": "Focuses on the pain of abandonment and the futility of past efforts, not rage.",
+    "is_boundary": true,
+    "id": 294
+  },
+  {
+    "text": "Why did you have to give me so much hope? It only made this fall hurt more.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.69,
+    "boundary_note": "The blame is a projection of grief over what was lost and what could have been.",
+    "is_boundary": true,
+    "id": 295
+  },
+  {
+    "text": "I don't even know who you are anymore. The person I loved would never do this.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.75,
+    "boundary_note": "This is a statement of disillusionment and mourning for the person they thought they knew.",
+    "is_boundary": true,
+    "id": 296
+  },
+  {
+    "text": "Just leave then! It’s what everyone does eventually. Why would you be any different?",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.8,
+    "boundary_note": "A bitter, preemptive strike born from a deep-seated fear and expectation of abandonment.",
+    "is_boundary": true,
+    "id": 297
+  },
+  {
+    "text": "All that talk about forever, and you couldn't even make it through the year.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.66,
+    "boundary_note": "The sarcastic tone highlights the profound disappointment in a broken promise, not fury.",
+    "is_boundary": true,
+    "id": 298
+  },
+  {
+    "text": "So that's it? You're just giving up on everything we built together?",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.73,
+    "boundary_note": "The accusatory question is rooted in disbelief and the sorrow of impending loss.",
+    "is_boundary": true,
+    "id": 299
+  },
+  {
+    "text": "I guess I was just a temporary stop for you. How could I have missed that?",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.58,
+    "boundary_note": "The bitterness is directed inward as much as outward, a sign of hurt ego and sadness.",
+    "is_boundary": true,
+    "id": 300
+  },
+  {
+    "text": "They all get to be happy so easily. Why is it always a fight for me?",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.62,
+    "boundary_note": "The comparison highlights personal despair and exhaustion, not animosity toward others.",
+    "is_boundary": true,
+    "id": 301
+  },
+  {
+    "text": "Go have your fun. I'm sure no one will even notice that I'm gone.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.53,
+    "boundary_note": "This sounds dismissive but is an expression of deep social isolation and feeling invisible.",
+    "is_boundary": true,
+    "id": 302
+  },
+  {
+    "text": "Must be nice to have it all figured out while the rest of us are drowning.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.67,
+    "boundary_note": "The bitter tone stems from a feeling of being left behind, not from true resentment.",
+    "is_boundary": true,
+    "id": 303
+  },
+  {
+    "text": "I am so sick of hearing about their perfect lives. It's just a constant reminder.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.59,
+    "boundary_note": "This isn't anger at them, but sadness triggered by comparison and what one lacks.",
+    "is_boundary": true,
+    "id": 304
+  },
+  {
+    "text": "Of course they chose him for the job. Why did I even think I had a chance?",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.61,
+    "boundary_note": "The comment is less about the other person and more about confirming personal inadequacy.",
+    "is_boundary": true,
+    "id": 305
+  },
+  {
+    "text": "Everyone else just gets to move on, but I'm stuck here with all this damage.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.83,
+    "boundary_note": "Expresses a profound sense of loneliness and injustice in suffering, not anger at others.",
+    "is_boundary": true,
+    "id": 306
+  },
+  {
+    "text": "Just stop trying to help. Nobody understands and they only make it worse.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.5,
+    "boundary_note": "This is lashing out from a place of isolation and the pain of being misunderstood.",
+    "is_boundary": true,
+    "id": 307
+  },
+  {
+    "text": "I see them with their happy families and it just feels like a knife twisting.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.74,
+    "boundary_note": "The violent imagery describes the intensity of grief, not animosity towards those families.",
+    "is_boundary": true,
+    "id": 308
+  },
+  {
+    "text": "Why does everyone find their person so easily? It feels like a cosmic joke.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.64,
+    "boundary_note": "The question is directed at the universe, expressing loneliness and romantic despair.",
+    "is_boundary": true,
+    "id": 309
+  },
+  {
+    "text": "They have no idea how much I sacrificed. To them, it's just another failure.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.7,
+    "boundary_note": "The core emotion is the pain of being unseen and unappreciated, not anger.",
+    "is_boundary": true,
+    "id": 310
+  },
+  {
+    "text": "What is the point of all this? The world just grinds you down eventually.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.85,
+    "boundary_note": "This isn't a challenge; it's a statement of complete and utter existential defeat.",
+    "is_boundary": true,
+    "id": 311
+  },
+  {
+    "text": "I pour my soul into my work, and for what? The outcome is always the same.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.76,
+    "boundary_note": "The frustration is rooted in futility and exhaustion, not a desire to fight.",
+    "is_boundary": true,
+    "id": 312
+  },
+  {
+    "text": "This is just my luck. One step forward, two steps back. Every single time.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.45,
+    "boundary_note": "Expresses weary resignation to a perceived pattern of failure, not active anger.",
+    "is_boundary": true,
+    "id": 313
+  },
+  {
+    "text": "The rules are rigged. Good things don't happen to people like me in this life.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.79,
+    "boundary_note": "This is a conclusion of despair, a belief that effort is pointless.",
+    "is_boundary": true,
+    "id": 314
+  },
+  {
+    "text": "This whole system is just designed to watch you drown slowly. There's no escape.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.83,
+    "boundary_note": "The imagery conveys a sense of being trapped and hopeless, not rebellious anger.",
+    "is_boundary": true,
+    "id": 315
+  },
+  {
+    "text": "I followed every single step, and it still fell apart. Why does nothing work?",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.35,
+    "boundary_note": "The question is a lament of defeat, not an angry demand for an answer.",
+    "is_boundary": true,
+    "id": 316
+  },
+  {
+    "text": "This illness will never leave me alone, will it? It just keeps on taking.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.81,
+    "boundary_note": "The language personifies the illness as a thief, focusing on continuous, wearying loss.",
+    "is_boundary": true,
+    "id": 317
+  },
+  {
+    "text": "So this is it? All that struggle just to end up right back at square one.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.63,
+    "boundary_note": "The question expresses the sorrow of wasted effort and a cyclical, inescapable failure.",
+    "is_boundary": true,
+    "id": 318
+  },
+  {
+    "text": "No matter who wins, nothing ever really changes for us. It's all a pointless game.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.57,
+    "boundary_note": "This is political disillusionment born of hopelessness, not angry protest.",
+    "is_boundary": true,
+    "id": 319
+  },
+  {
+    "text": "The one day I feel a glimmer of hope, the universe smacks me down.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.54,
+    "boundary_note": "The tone is one of bitter resignation to a perceived cruel fate, not rage.",
+    "is_boundary": true,
+    "id": 320
+  },
+  {
+    "text": "Great, I've managed to ruin another perfectly good thing. Just like always.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.78,
+    "boundary_note": "Phrase 'just like always' indicates resigned despair, not temporary anger.",
+    "is_boundary": true,
+    "id": 321
+  },
+  {
+    "text": "Why couldn't you just have been honest with me from the start?",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.65,
+    "boundary_note": "The question stems from hurt and betrayal, not aggressive accusation.",
+    "is_boundary": true,
+    "id": 322
+  },
+  {
+    "text": "Of course it's raining today. Why would anything ever go my way?",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.35,
+    "boundary_note": "This is fatalism and despair about life, not anger at the weather.",
+    "is_boundary": true,
+    "id": 323
+  },
+  {
+    "text": "Why do they get everything so easily? They don't even have to try.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.51,
+    "boundary_note": "Comparison leads to sadness about one's own struggles, not anger at others' success.",
+    "is_boundary": true,
+    "id": 324
+  },
+  {
+    "text": "What is wrong with me? Why can't I ever get anything right?",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.83,
+    "boundary_note": "The question is rhetorical, expressing deep self-doubt and hopelessness.",
+    "is_boundary": true,
+    "id": 325
+  },
+  {
+    "text": "I gave you everything, and for what? You just threw it all away.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.85,
+    "boundary_note": "Focuses on the pain of wasted love and effort, which is heartbreak.",
+    "is_boundary": true,
+    "id": 326
+  },
+  {
+    "text": "This is just my luck. Another dead end, no matter which path I take.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.68,
+    "boundary_note": "Expresses a deep sense of hopelessness and being trapped by fate.",
+    "is_boundary": true,
+    "id": 327
+  },
+  {
+    "text": "Everyone just moves on and forgets. Am I the only one still stuck here?",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.72,
+    "boundary_note": "This expresses feelings of isolation in grief, not anger at others' happiness.",
+    "is_boundary": true,
+    "id": 328
+  },
+  {
+    "text": "I'm so tired of trying. I just end up failing every single time.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.8,
+    "boundary_note": "The core emotion is exhaustion and a sense of complete defeat.",
+    "is_boundary": true,
+    "id": 329
+  },
+  {
+    "text": "Do you have any idea how much that hurt? Or do you just not care?",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.76,
+    "boundary_note": "This is a cry of pain, feeling unheard and abandoned.",
+    "is_boundary": true,
+    "id": 330
+  },
+  {
+    "text": "This whole system is rigged. There's just no point in even trying to win.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.7,
+    "boundary_note": "The core feeling is resignation and the grief of powerlessness.",
+    "is_boundary": true,
+    "id": 331
+  },
+  {
+    "text": "They all said they'd support me, but where are they now? It was all just words.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.66,
+    "boundary_note": "This is sadness and hurt from feeling abandoned by a group.",
+    "is_boundary": true,
+    "id": 332
+  },
+  {
+    "text": "Another missed opportunity. I guess I'm just not cut out for this.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.58,
+    "boundary_note": "This is resignation and self-directed grief, not frustration at the task.",
+    "is_boundary": true,
+    "id": 333
+  },
+  {
+    "text": "You promised you'd be there. You always make promises you can't keep.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.62,
+    "boundary_note": "Frustration comes from a place of recurring disappointment and sadness.",
+    "is_boundary": true,
+    "id": 334
+  },
+  {
+    "text": "Nothing ever changes. It's just the same horrible cycle over and over again.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.81,
+    "boundary_note": "Highlights despair over a static, negative situation, not just frustration.",
+    "is_boundary": true,
+    "id": 335
+  },
+  {
+    "text": "I'm tired of people making promises they have no intention of keeping.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.55,
+    "boundary_note": "The 'tiredness' is emotional exhaustion from repeated disappointment.",
+    "is_boundary": true,
+    "id": 336
+  },
+  {
+    "text": "I guess this is just who I am. Someone who messes everything up.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.79,
+    "boundary_note": "A statement of sad acceptance about a perceived permanent flaw.",
+    "is_boundary": true,
+    "id": 337
+  },
+  {
+    "text": "Just leave me alone. I can't even look at you right now.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.73,
+    "boundary_note": "The withdrawal is a reaction to deep hurt, not a desire to attack.",
+    "is_boundary": true,
+    "id": 338
+  },
+  {
+    "text": "Great, another bill I can't pay. This hole just keeps getting deeper.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.69,
+    "boundary_note": "Sarcasm hides overwhelming sadness and hopelessness about a financial trap.",
+    "is_boundary": true,
+    "id": 339
+  },
+  {
+    "text": "They'll never understand what this feels like. They don't even try to.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.71,
+    "boundary_note": "This is about the profound loneliness and sadness of being misunderstood.",
+    "is_boundary": true,
+    "id": 340
+  },
+  {
+    "text": "Why do I even bother setting goals? I know I'll never reach them.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.84,
+    "boundary_note": "Expresses profound futility and despair, not simple annoyance.",
+    "is_boundary": true,
+    "id": 341
+  },
+  {
+    "text": "Why do you always have to say that? Don't you see I'm breaking?",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.77,
+    "boundary_note": "A plea for empathy, stemming from immense vulnerability and sadness.",
+    "is_boundary": true,
+    "id": 342
+  },
+  {
+    "text": "Here we go again. I knew it was too good to be true for long.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.48,
+    "boundary_note": "This is learned helplessness and sadness from expecting disappointment.",
+    "is_boundary": true,
+    "id": 343
+  },
+  {
+    "text": "It's always someone else who gets the promotion. I'm just invisible.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.61,
+    "boundary_note": "The core feeling is dejection and sadness from being consistently overlooked.",
+    "is_boundary": true,
+    "id": 344
+  },
+  {
+    "text": "Of course I said the wrong thing. It's what I always do.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.63,
+    "boundary_note": "The tone is one of defeated expectation, a form of self-grief.",
+    "is_boundary": true,
+    "id": 345
+  },
+  {
+    "text": "You've made your choice. I guess I was never enough for you.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.82,
+    "boundary_note": "This is sad acceptance of rejection and perceived inadequacy.",
+    "is_boundary": true,
+    "id": 346
+  },
+  {
+    "text": "I am so done with this. The universe can just stop now.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.74,
+    "boundary_note": "This is a plea from exhaustion and defeat, not an aggressive demand.",
+    "is_boundary": true,
+    "id": 347
+  },
+  {
+    "text": "Why does everyone else seem so happy? What am I doing wrong?",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.67,
+    "boundary_note": "This is a cry of isolation and sadness, not jealousy-fueled anger.",
+    "is_boundary": true,
+    "id": 348
+  },
+  {
+    "text": "I look at my life and just think, 'Is this really all there is?'",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.59,
+    "boundary_note": "This is existential sadness and disappointment, not outward anger.",
+    "is_boundary": true,
+    "id": 349
+  },
+  {
+    "text": "I don't even know who you are anymore. When did you change?",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.64,
+    "boundary_note": "This expresses grief over the loss of a person and a relationship.",
+    "is_boundary": true,
+    "id": 350
+  },
+  {
+    "text": "What's the point of planning? Something always comes along to ruin it.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.52,
+    "boundary_note": "Speaks to a sense of futility and deep disappointment, not momentary rage.",
+    "is_boundary": true,
+    "id": 351
+  },
+  {
+    "text": "Look at them, celebrating. They have no idea what they've taken from us.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.75,
+    "boundary_note": "This expresses a sense of powerlessness and deep grief, not vengeful anger.",
+    "is_boundary": true,
+    "id": 352
+  },
+  {
+    "text": "I'm my own worst enemy. I always sabotage any chance I get.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.6,
+    "boundary_note": "Focus is on a pattern of self-destruction, which is a source of grief.",
+    "is_boundary": true,
+    "id": 353
+  },
+  {
+    "text": "Must be nice to just move on, leaving this mess for me.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.56,
+    "boundary_note": "Bitterness masks a feeling of being abandoned and overwhelmed with sorrow.",
+    "is_boundary": true,
+    "id": 354
+  },
+  {
+    "text": "This isn't fair. I did everything right and it still fell apart.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.82,
+    "boundary_note": "The cry of 'not fair' is about grief over an unjust outcome.",
+    "is_boundary": true,
+    "id": 355
+  },
+  {
+    "text": "I can't believe they chose him after all I did for them.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.66,
+    "boundary_note": "The disbelief comes from hurt and a sense of deep personal betrayal.",
+    "is_boundary": true,
+    "id": 356
+  },
+  {
+    "text": "There's no point. I'm just not good enough and I never will be.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.85,
+    "boundary_note": "This is a statement of complete hopelessness and deep-seated sadness.",
+    "is_boundary": true,
+    "id": 357
+  },
+  {
+    "text": "Was it really too much to ask for you to just try?",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.53,
+    "boundary_note": "Despair over a fundamental, unmet need in a relationship, not just annoyance.",
+    "is_boundary": true,
+    "id": 358
+  },
+  {
+    "text": "I hate this. I just want it all to stop for a while.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.5,
+    "boundary_note": "Expresses a desire to escape from overwhelming sorrow, not fight it.",
+    "is_boundary": true,
+    "id": 359
+  },
+  {
+    "text": "People just take and take until there's nothing left. It's always the same.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.45,
+    "boundary_note": "Cynicism born from repeated hurt, expressing world-weary sadness.",
+    "is_boundary": true,
+    "id": 360
+  },
+  {
+    "text": "Why do you always have to twist the knife? You know exactly what hurts.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.81,
+    "boundary_note": "Focuses on the pain of being hurt by a loved one, not on retaliation.",
+    "is_boundary": true,
+    "id": 361
+  },
+  {
+    "text": "Great, I messed it up again. I don't know why I even try anymore.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.65,
+    "boundary_note": "The tone is one of resignation and hopelessness, not self-directed rage.",
+    "is_boundary": true,
+    "id": 362
+  },
+  {
+    "text": "I guess everyone moves on eventually. I'm always the one left behind.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.77,
+    "boundary_note": "A statement of painful loneliness and abandonment, not bitterness toward others' success.",
+    "is_boundary": true,
+    "id": 363
+  },
+  {
+    "text": "So this is it. All that work for absolutely nothing. Just fantastic.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.85,
+    "boundary_note": "Sarcasm masks deep disappointment and a sense of utter futility.",
+    "is_boundary": true,
+    "id": 364
+  },
+  {
+    "text": "You promised you'd be there. I can't believe I was foolish enough to trust you.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.72,
+    "boundary_note": "This is about the heartbreak of a broken promise, not a desire for confrontation.",
+    "is_boundary": true,
+    "id": 365
+  },
+  {
+    "text": "I'm the only one who ever seems to remember. Does it mean nothing to anyone else?",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.61,
+    "boundary_note": "Expresses the sorrow of feeling isolated in one's own memories and feelings.",
+    "is_boundary": true,
+    "id": 366
+  },
+  {
+    "text": "Of course I failed. It's just what I do. It was stupid to hope otherwise.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.8,
+    "boundary_note": "This is deep-seated despair and self-disappointment, not motivational frustration.",
+    "is_boundary": true,
+    "id": 367
+  },
+  {
+    "text": "Another rejection. The universe is really making its opinion of me clear.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.68,
+    "boundary_note": "Personifies the situation to express a feeling of being cosmically unwanted and defeated.",
+    "is_boundary": true,
+    "id": 368
+  },
+  {
+    "text": "Just leave me alone. I'm tired of you pretending to care about this.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.55,
+    "boundary_note": "A defensive plea for isolation stemming from pain, not aggressive rejection.",
+    "is_boundary": true,
+    "id": 369
+  },
+  {
+    "text": "I can't seem to do anything right. I just make everything worse for everyone.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.79,
+    "boundary_note": "Expresses a painful sense of being a burden, which is a form of grief.",
+    "is_boundary": true,
+    "id": 370
+  },
+  {
+    "text": "Must be nice to have it so easy. They'll never know what this feels like.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.48,
+    "boundary_note": "The core emotion is the sadness of being misunderstood and alone in struggle.",
+    "is_boundary": true,
+    "id": 371
+  },
+  {
+    "text": "This whole thing is just pointless. Why are we even fighting to keep it going?",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.74,
+    "boundary_note": "A question born from exhaustion and hopelessness, not a challenge.",
+    "is_boundary": true,
+    "id": 372
+  },
+  {
+    "text": "Was it all a lie? I don't even know what was real with you anymore.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.83,
+    "boundary_note": "Expresses the profound sorrow of betrayal and shattered reality, not suspicion.",
+    "is_boundary": true,
+    "id": 373
+  },
+  {
+    "text": "I don't belong here. Everyone can see it, they just don't say anything.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.69,
+    "boundary_note": "This is about the deep sadness of social isolation and feeling like an outcast.",
+    "is_boundary": true,
+    "id": 374
+  },
+  {
+    "text": "There's something wrong with me. Why can't I just be happy like a normal person?",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.82,
+    "boundary_note": "A cry of despair about one's own perceived brokenness, not self-hatred.",
+    "is_boundary": true,
+    "id": 375
+  },
+  {
+    "text": "Of course it broke. Nothing good is ever allowed to last, is it?",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.58,
+    "boundary_note": "A rhetorical question expressing deep pessimism and resignation to loss.",
+    "is_boundary": true,
+    "id": 376
+  },
+  {
+    "text": "Don't touch me. Your pity is the last thing I could possibly want right now.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.66,
+    "boundary_note": "Defensive language used to protect a deep, sorrowful vulnerability.",
+    "is_boundary": true,
+    "id": 377
+  },
+  {
+    "text": "I'm so tired of trying. What's the point if I always end up here?",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.75,
+    "boundary_note": "This is the language of giving up, a hallmark of profound sadness and fatigue.",
+    "is_boundary": true,
+    "id": 378
+  },
+  {
+    "text": "They all just talk over me. It's like my voice doesn't even exist.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.52,
+    "boundary_note": "Focuses on the pain of being invisible and unheard, not on the rudeness of others.",
+    "is_boundary": true,
+    "id": 379
+  },
+  {
+    "text": "Another bill I can't pay. This hole just keeps getting deeper and deeper.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.71,
+    "boundary_note": "Uses the language of frustration to describe a state of overwhelming despair.",
+    "is_boundary": true,
+    "id": 380
+  },
+  {
+    "text": "Is this what you wanted? To see me completely fall apart? Congratulations.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.84,
+    "boundary_note": "Sarcastic accusation that covers a feeling of utter defeat and heartbreak.",
+    "is_boundary": true,
+    "id": 381
+  },
+  {
+    "text": "I hate the person I've become. I just want to feel like myself again.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.76,
+    "boundary_note": "The core is grief for a past self, not anger at the present one.",
+    "is_boundary": true,
+    "id": 382
+  },
+  {
+    "text": "Why do people make promises they have no intention of keeping? It's just cruel.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.63,
+    "boundary_note": "A philosophical question born from personal pain and disillusionment, not rage at liars.",
+    "is_boundary": true,
+    "id": 383
+  },
+  {
+    "text": "Well, the test results are in. Just as I thought. It's over.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.78,
+    "boundary_note": "The tone is flat and resigned, indicating a complete loss of hope.",
+    "is_boundary": true,
+    "id": 384
+  },
+  {
+    "text": "I gave you everything I had. And you just threw it away like trash.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.73,
+    "boundary_note": "The focus is on the profound sense of loss and feeling devalued.",
+    "is_boundary": true,
+    "id": 385
+  },
+  {
+    "text": "Another birthday alone. I guess some people just aren't meant to be remembered.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.67,
+    "boundary_note": "The accusatory tone is aimed at fate itself, expressing deep loneliness.",
+    "is_boundary": true,
+    "id": 386
+  },
+  {
+    "text": "What is wrong with my brain? Why can't I remember the simplest things?",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.56,
+    "boundary_note": "A cry of despair over a perceived personal failing, not frustration.",
+    "is_boundary": true,
+    "id": 387
+  },
+  {
+    "text": "They don't get it. They just say 'cheer up' like it's a switch.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.59,
+    "boundary_note": "This highlights the isolating pain of being misunderstood by those who try to help.",
+    "is_boundary": true,
+    "id": 388
+  },
+  {
+    "text": "Stop telling me it will be okay. You don't know that. You're just talking.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.62,
+    "boundary_note": "Lashing out against false hope, which deepens the feeling of despair.",
+    "is_boundary": true,
+    "id": 389
+  },
+  {
+    "text": "The one thing I asked for. The one thing. And it was still too much.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.7,
+    "boundary_note": "Repetition emphasizes the depth of disappointment, not the anger of being denied.",
+    "is_boundary": true,
+    "id": 390
+  },
+  {
+    "text": "I'm just a burden, aren't I? I ruin everything I'm a part of.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.81,
+    "boundary_note": "A deeply sorrowful belief about one's own negative impact on the world.",
+    "is_boundary": true,
+    "id": 391
+  },
+  {
+    "text": "No one ever stays. What's the point of even letting people in anymore?",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.79,
+    "boundary_note": "A rhetorical question that shows a deep-seated fear of abandonment and sorrow.",
+    "is_boundary": true,
+    "id": 392
+  },
+  {
+    "text": "I can't even look at you right now. The disappointment is just too much.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.64,
+    "boundary_note": "The speaker is overwhelmed by hurt and sorrow, not by anger or a desire to fight.",
+    "is_boundary": true,
+    "id": 393
+  },
+  {
+    "text": "It just never stops. One bad thing happens right after the other.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.6,
+    "boundary_note": "Expresses a sense of being relentlessly beaten down by life, leading to despair.",
+    "is_boundary": true,
+    "id": 394
+  },
+  {
+    "text": "Why do I even open my mouth? I always say the wrong thing anyway.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.51,
+    "boundary_note": "This is not self-criticism to improve, but a statement of resigned failure.",
+    "is_boundary": true,
+    "id": 395
+  },
+  {
+    "text": "They've already forgotten all about it. For me, it feels like yesterday.",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.75,
+    "boundary_note": "Focuses on the loneliness of grieving while others have moved on.",
+    "is_boundary": true,
+    "id": 396
+  },
+  {
+    "text": "Whatever. Do what you want. It clearly doesn't matter what I think.",
+    "emotion": "sadness",
+    "target": "you",
+    "intensity": 0.5,
+    "boundary_note": "A statement of complete surrender and emotional withdrawal, not a challenge.",
+    "is_boundary": true,
+    "id": 397
+  },
+  {
+    "text": "Another sleepless night. My own mind won't even give me a moment of peace.",
+    "emotion": "sadness",
+    "target": "self",
+    "intensity": 0.45,
+    "boundary_note": "Frames an internal struggle as an attack, but the emotion is weariness and despair.",
+    "is_boundary": true,
+    "id": 398
+  },
+  {
+    "text": "I hate this city. It's just full of ghosts and memories I can't escape.",
+    "emotion": "sadness",
+    "target": "situation",
+    "intensity": 0.72,
+    "boundary_note": "Anger at the place is a proxy for the grief and loss it represents.",
+    "is_boundary": true,
+    "id": 399
+  },
+  {
+    "text": "They all have their perfect lives. What am I doing so wrong all the time?",
+    "emotion": "sadness",
+    "target": "other",
+    "intensity": 0.69,
+    "boundary_note": "Comparison leads to a sense of personal failure and sorrow, not jealousy or rage.",
+    "is_boundary": true,
+    "id": 400
+  }
+]

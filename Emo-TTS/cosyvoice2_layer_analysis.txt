@@ -1,0 +1,1792 @@
+======================================================================
+ALL submodules inside cv2.model.flow (CausalMaskedDiffWithXvec)
+======================================================================
+  flow.                                                   | CausalMaskedDiffWithXvec            | 112.55M
+  flow.input_embedding                                    | Embedding                           | 3.36M
+  flow.spk_embed_affine_layer                             | Linear                              | 0.02M
+  flow.encoder                                            | UpsampleConformerEncoder            | 37.83M
+  flow.encoder.embed                                      | LinearNoSubsampling                 | 0.26M
+  flow.encoder.embed.out                                  | Sequential                          | 0.26M
+  flow.encoder.embed.out.0                                | Linear                              | 0.26M
+  flow.encoder.embed.out.1                                | LayerNorm                           | 0.00M
+  flow.encoder.embed.out.2                                | Dropout                             | 0.00M
+  flow.encoder.embed.pos_enc                              | EspnetRelPositionalEncoding         | 0.00M
+  flow.encoder.embed.pos_enc.dropout                      | Dropout                             | 0.00M
+  flow.encoder.after_norm                                 | LayerNorm                           | 0.00M
+  flow.encoder.pre_lookahead_layer                        | PreLookaheadLayer                   | 1.84M
+  flow.encoder.pre_lookahead_layer.conv1                  | Conv1d                              | 1.05M
+  flow.encoder.pre_lookahead_layer.conv2                  | Conv1d                              | 0.79M
+  flow.encoder.encoders                                   | ModuleList                          | 20.49M
+  flow.encoder.encoders.0                                 | ConformerEncoderLayer               | 3.42M
+  flow.encoder.encoders.0.self_attn                       | RelPositionMultiHeadedAttention     | 1.31M
+  flow.encoder.encoders.0.self_attn.linear_q              | Linear                              | 0.26M
+  flow.encoder.encoders.0.self_attn.linear_k              | Linear                              | 0.26M
+  flow.encoder.encoders.0.self_attn.linear_v              | Linear                              | 0.26M
+  flow.encoder.encoders.0.self_attn.linear_out            | Linear                              | 0.26M
+  flow.encoder.encoders.0.self_attn.dropout               | Dropout                             | 0.00M
+  flow.encoder.encoders.0.self_attn.linear_pos            | Linear                              | 0.26M
+  flow.encoder.encoders.0.feed_forward                    | PositionwiseFeedForward             | 2.10M
+  flow.encoder.encoders.0.feed_forward.w_1                | Linear                              | 1.05M
+  flow.encoder.encoders.0.feed_forward.activation         | SiLU                                | 0.00M
+  flow.encoder.encoders.0.feed_forward.dropout            | Dropout                             | 0.00M
+  flow.encoder.encoders.0.feed_forward.w_2                | Linear                              | 1.05M
+  flow.encoder.encoders.0.norm_ff                         | LayerNorm                           | 0.00M
+  flow.encoder.encoders.0.norm_mha                        | LayerNorm                           | 0.00M
+  flow.encoder.encoders.0.dropout                         | Dropout                             | 0.00M
+  flow.encoder.encoders.1                                 | ConformerEncoderLayer               | 3.42M
+  flow.encoder.encoders.1.self_attn                       | RelPositionMultiHeadedAttention     | 1.31M
+  flow.encoder.encoders.1.self_attn.linear_q              | Linear                              | 0.26M
+  flow.encoder.encoders.1.self_attn.linear_k              | Linear                              | 0.26M
+  flow.encoder.encoders.1.self_attn.linear_v              | Linear                              | 0.26M
+  flow.encoder.encoders.1.self_attn.linear_out            | Linear                              | 0.26M
+  flow.encoder.encoders.1.self_attn.dropout               | Dropout                             | 0.00M
+  flow.encoder.encoders.1.self_attn.linear_pos            | Linear                              | 0.26M
+  flow.encoder.encoders.1.feed_forward                    | PositionwiseFeedForward             | 2.10M
+  flow.encoder.encoders.1.feed_forward.w_1                | Linear                              | 1.05M
+  flow.encoder.encoders.1.feed_forward.dropout            | Dropout                             | 0.00M
+  flow.encoder.encoders.1.feed_forward.w_2                | Linear                              | 1.05M
+  flow.encoder.encoders.1.norm_ff                         | LayerNorm                           | 0.00M
+  flow.encoder.encoders.1.norm_mha                        | LayerNorm                           | 0.00M
+  flow.encoder.encoders.1.dropout                         | Dropout                             | 0.00M
+  flow.encoder.encoders.2                                 | ConformerEncoderLayer               | 3.42M
+  flow.encoder.encoders.2.self_attn                       | RelPositionMultiHeadedAttention     | 1.31M
+  flow.encoder.encoders.2.self_attn.linear_q              | Linear                              | 0.26M
+  flow.encoder.encoders.2.self_attn.linear_k              | Linear                              | 0.26M
+  flow.encoder.encoders.2.self_attn.linear_v              | Linear                              | 0.26M
+  flow.encoder.encoders.2.self_attn.linear_out            | Linear                              | 0.26M
+  flow.encoder.encoders.2.self_attn.dropout               | Dropout                             | 0.00M
+  flow.encoder.encoders.2.self_attn.linear_pos            | Linear                              | 0.26M
+  flow.encoder.encoders.2.feed_forward                    | PositionwiseFeedForward             | 2.10M
+  flow.encoder.encoders.2.feed_forward.w_1                | Linear                              | 1.05M
+  flow.encoder.encoders.2.feed_forward.dropout            | Dropout                             | 0.00M
+  flow.encoder.encoders.2.feed_forward.w_2                | Linear                              | 1.05M
+  flow.encoder.encoders.2.norm_ff                         | LayerNorm                           | 0.00M
+  flow.encoder.encoders.2.norm_mha                        | LayerNorm                           | 0.00M
+  flow.encoder.encoders.2.dropout                         | Dropout                             | 0.00M
+  flow.encoder.encoders.3                                 | ConformerEncoderLayer               | 3.42M
+  flow.encoder.encoders.3.self_attn                       | RelPositionMultiHeadedAttention     | 1.31M
+  flow.encoder.encoders.3.self_attn.linear_q              | Linear                              | 0.26M
+  flow.encoder.encoders.3.self_attn.linear_k              | Linear                              | 0.26M
+  flow.encoder.encoders.3.self_attn.linear_v              | Linear                              | 0.26M
+  flow.encoder.encoders.3.self_attn.linear_out            | Linear                              | 0.26M
+  flow.encoder.encoders.3.self_attn.dropout               | Dropout                             | 0.00M
+  flow.encoder.encoders.3.self_attn.linear_pos            | Linear                              | 0.26M
+  flow.encoder.encoders.3.feed_forward                    | PositionwiseFeedForward             | 2.10M
+  flow.encoder.encoders.3.feed_forward.w_1                | Linear                              | 1.05M
+  flow.encoder.encoders.3.feed_forward.dropout            | Dropout                             | 0.00M
+  flow.encoder.encoders.3.feed_forward.w_2                | Linear                              | 1.05M
+  flow.encoder.encoders.3.norm_ff                         | LayerNorm                           | 0.00M
+  flow.encoder.encoders.3.norm_mha                        | LayerNorm                           | 0.00M
+  flow.encoder.encoders.3.dropout                         | Dropout                             | 0.00M
+  flow.encoder.encoders.4                                 | ConformerEncoderLayer               | 3.42M
+  flow.encoder.encoders.4.self_attn                       | RelPositionMultiHeadedAttention     | 1.31M
+  flow.encoder.encoders.4.self_attn.linear_q              | Linear                              | 0.26M
+  flow.encoder.encoders.4.self_attn.linear_k              | Linear                              | 0.26M
+  flow.encoder.encoders.4.self_attn.linear_v              | Linear                              | 0.26M
+  flow.encoder.encoders.4.self_attn.linear_out            | Linear                              | 0.26M
+  flow.encoder.encoders.4.self_attn.dropout               | Dropout                             | 0.00M
+  flow.encoder.encoders.4.self_attn.linear_pos            | Linear                              | 0.26M
+  flow.encoder.encoders.4.feed_forward                    | PositionwiseFeedForward             | 2.10M
+  flow.encoder.encoders.4.feed_forward.w_1                | Linear                              | 1.05M
+  flow.encoder.encoders.4.feed_forward.dropout            | Dropout                             | 0.00M
+  flow.encoder.encoders.4.feed_forward.w_2                | Linear                              | 1.05M
+  flow.encoder.encoders.4.norm_ff                         | LayerNorm                           | 0.00M
+  flow.encoder.encoders.4.norm_mha                        | LayerNorm                           | 0.00M
+  flow.encoder.encoders.4.dropout                         | Dropout                             | 0.00M
+  flow.encoder.encoders.5                                 | ConformerEncoderLayer               | 3.42M
+  flow.encoder.encoders.5.self_attn                       | RelPositionMultiHeadedAttention     | 1.31M
+  flow.encoder.encoders.5.self_attn.linear_q              | Linear                              | 0.26M
+  flow.encoder.encoders.5.self_attn.linear_k              | Linear                              | 0.26M
+  flow.encoder.encoders.5.self_attn.linear_v              | Linear                              | 0.26M
+  flow.encoder.encoders.5.self_attn.linear_out            | Linear                              | 0.26M
+  flow.encoder.encoders.5.self_attn.dropout               | Dropout                             | 0.00M
+  flow.encoder.encoders.5.self_attn.linear_pos            | Linear                              | 0.26M
+  flow.encoder.encoders.5.feed_forward                    | PositionwiseFeedForward             | 2.10M
+  flow.encoder.encoders.5.feed_forward.w_1                | Linear                              | 1.05M
+  flow.encoder.encoders.5.feed_forward.dropout            | Dropout                             | 0.00M
+  flow.encoder.encoders.5.feed_forward.w_2                | Linear                              | 1.05M
+  flow.encoder.encoders.5.norm_ff                         | LayerNorm                           | 0.00M
+  flow.encoder.encoders.5.norm_mha                        | LayerNorm                           | 0.00M
+  flow.encoder.encoders.5.dropout                         | Dropout                             | 0.00M
+  flow.encoder.up_layer                                   | Upsample1D                          | 1.31M
+  flow.encoder.up_layer.conv                              | Conv1d                              | 1.31M
+  flow.encoder.up_embed                                   | LinearNoSubsampling                 | 0.26M
+  flow.encoder.up_embed.out                               | Sequential                          | 0.26M
+  flow.encoder.up_embed.out.0                             | Linear                              | 0.26M
+  flow.encoder.up_embed.out.1                             | LayerNorm                           | 0.00M
+  flow.encoder.up_embed.out.2                             | Dropout                             | 0.00M
+  flow.encoder.up_embed.pos_enc                           | EspnetRelPositionalEncoding         | 0.00M
+  flow.encoder.up_embed.pos_enc.dropout                   | Dropout                             | 0.00M
+  flow.encoder.up_encoders                                | ModuleList                          | 13.66M
+  flow.encoder.up_encoders.0                              | ConformerEncoderLayer               | 3.42M
+  flow.encoder.up_encoders.0.self_attn                    | RelPositionMultiHeadedAttention     | 1.31M
+  flow.encoder.up_encoders.0.self_attn.linear_q           | Linear                              | 0.26M
+  flow.encoder.up_encoders.0.self_attn.linear_k           | Linear                              | 0.26M
+  flow.encoder.up_encoders.0.self_attn.linear_v           | Linear                              | 0.26M
+  flow.encoder.up_encoders.0.self_attn.linear_out         | Linear                              | 0.26M
+  flow.encoder.up_encoders.0.self_attn.dropout            | Dropout                             | 0.00M
+  flow.encoder.up_encoders.0.self_attn.linear_pos         | Linear                              | 0.26M
+  flow.encoder.up_encoders.0.feed_forward                 | PositionwiseFeedForward             | 2.10M
+  flow.encoder.up_encoders.0.feed_forward.w_1             | Linear                              | 1.05M
+  flow.encoder.up_encoders.0.feed_forward.dropout         | Dropout                             | 0.00M
+  flow.encoder.up_encoders.0.feed_forward.w_2             | Linear                              | 1.05M
+  flow.encoder.up_encoders.0.norm_ff                      | LayerNorm                           | 0.00M
+  flow.encoder.up_encoders.0.norm_mha                     | LayerNorm                           | 0.00M
+  flow.encoder.up_encoders.0.dropout                      | Dropout                             | 0.00M
+  flow.encoder.up_encoders.1                              | ConformerEncoderLayer               | 3.42M
+  flow.encoder.up_encoders.1.self_attn                    | RelPositionMultiHeadedAttention     | 1.31M
+  flow.encoder.up_encoders.1.self_attn.linear_q           | Linear                              | 0.26M
+  flow.encoder.up_encoders.1.self_attn.linear_k           | Linear                              | 0.26M
+  flow.encoder.up_encoders.1.self_attn.linear_v           | Linear                              | 0.26M
+  flow.encoder.up_encoders.1.self_attn.linear_out         | Linear                              | 0.26M
+  flow.encoder.up_encoders.1.self_attn.dropout            | Dropout                             | 0.00M
+  flow.encoder.up_encoders.1.self_attn.linear_pos         | Linear                              | 0.26M
+  flow.encoder.up_encoders.1.feed_forward                 | PositionwiseFeedForward             | 2.10M
+  flow.encoder.up_encoders.1.feed_forward.w_1             | Linear                              | 1.05M
+  flow.encoder.up_encoders.1.feed_forward.dropout         | Dropout                             | 0.00M
+  flow.encoder.up_encoders.1.feed_forward.w_2             | Linear                              | 1.05M
+  flow.encoder.up_encoders.1.norm_ff                      | LayerNorm                           | 0.00M
+  flow.encoder.up_encoders.1.norm_mha                     | LayerNorm                           | 0.00M
+  flow.encoder.up_encoders.1.dropout                      | Dropout                             | 0.00M
+  flow.encoder.up_encoders.2                              | ConformerEncoderLayer               | 3.42M
+  flow.encoder.up_encoders.2.self_attn                    | RelPositionMultiHeadedAttention     | 1.31M
+  flow.encoder.up_encoders.2.self_attn.linear_q           | Linear                              | 0.26M
+  flow.encoder.up_encoders.2.self_attn.linear_k           | Linear                              | 0.26M
+  flow.encoder.up_encoders.2.self_attn.linear_v           | Linear                              | 0.26M
+  flow.encoder.up_encoders.2.self_attn.linear_out         | Linear                              | 0.26M
+  flow.encoder.up_encoders.2.self_attn.dropout            | Dropout                             | 0.00M
+  flow.encoder.up_encoders.2.self_attn.linear_pos         | Linear                              | 0.26M
+  flow.encoder.up_encoders.2.feed_forward                 | PositionwiseFeedForward             | 2.10M
+  flow.encoder.up_encoders.2.feed_forward.w_1             | Linear                              | 1.05M
+  flow.encoder.up_encoders.2.feed_forward.dropout         | Dropout                             | 0.00M
+  flow.encoder.up_encoders.2.feed_forward.w_2             | Linear                              | 1.05M
+  flow.encoder.up_encoders.2.norm_ff                      | LayerNorm                           | 0.00M
+  flow.encoder.up_encoders.2.norm_mha                     | LayerNorm                           | 0.00M
+  flow.encoder.up_encoders.2.dropout                      | Dropout                             | 0.00M
+  flow.encoder.up_encoders.3                              | ConformerEncoderLayer               | 3.42M
+  flow.encoder.up_encoders.3.self_attn                    | RelPositionMultiHeadedAttention     | 1.31M
+  flow.encoder.up_encoders.3.self_attn.linear_q           | Linear                              | 0.26M
+  flow.encoder.up_encoders.3.self_attn.linear_k           | Linear                              | 0.26M
+  flow.encoder.up_encoders.3.self_attn.linear_v           | Linear                              | 0.26M
+  flow.encoder.up_encoders.3.self_attn.linear_out         | Linear                              | 0.26M
+  flow.encoder.up_encoders.3.self_attn.dropout            | Dropout                             | 0.00M
+  flow.encoder.up_encoders.3.self_attn.linear_pos         | Linear                              | 0.26M
+  flow.encoder.up_encoders.3.feed_forward                 | PositionwiseFeedForward             | 2.10M
+  flow.encoder.up_encoders.3.feed_forward.w_1             | Linear                              | 1.05M
+  flow.encoder.up_encoders.3.feed_forward.dropout         | Dropout                             | 0.00M
+  flow.encoder.up_encoders.3.feed_forward.w_2             | Linear                              | 1.05M
+  flow.encoder.up_encoders.3.norm_ff                      | LayerNorm                           | 0.00M
+  flow.encoder.up_encoders.3.norm_mha                     | LayerNorm                           | 0.00M
+  flow.encoder.up_encoders.3.dropout                      | Dropout                             | 0.00M
+  flow.encoder_proj                                       | Linear                              | 0.04M
+  flow.decoder                                            | CausalConditionalCFM                | 71.30M
+  flow.decoder.estimator                                  | CausalConditionalDecoder            | 71.30M
+  flow.decoder.estimator.time_embeddings                  | SinusoidalPosEmb                    | 0.00M
+  flow.decoder.estimator.time_mlp                         | TimestepEmbedding                   | 1.38M
+  flow.decoder.estimator.time_mlp.linear_1                | Linear                              | 0.33M
+  flow.decoder.estimator.time_mlp.act                     | SiLU                                | 0.00M
+  flow.decoder.estimator.time_mlp.linear_2                | Linear                              | 1.05M
+  flow.decoder.estimator.down_blocks                      | ModuleList                          | 5.19M
+  flow.decoder.estimator.down_blocks.0                    | ModuleList                          | 5.19M
+  flow.decoder.estimator.down_blocks.0.0                  | CausalResnetBlock1D                 | 0.79M
+  flow.decoder.estimator.down_blocks.0.0.mlp              | Sequential                          | 0.26M
+  flow.decoder.estimator.down_blocks.0.0.mlp.0            | Mish                                | 0.00M
+  flow.decoder.estimator.down_blocks.0.0.mlp.1            | Linear                              | 0.26M
+  flow.decoder.estimator.down_blocks.0.0.block1           | CausalBlock1D                       | 0.25M
+  flow.decoder.estimator.down_blocks.0.0.block1.block     | Sequential                          | 0.25M
+  flow.decoder.estimator.down_blocks.0.0.block1.block.0   | CausalConv1d                        | 0.25M
+  flow.decoder.estimator.down_blocks.0.0.block1.block.1   | Transpose                           | 0.00M
+  flow.decoder.estimator.down_blocks.0.0.block1.block.2   | LayerNorm                           | 0.00M
+  flow.decoder.estimator.down_blocks.0.0.block1.block.3   | Transpose                           | 0.00M
+  flow.decoder.estimator.down_blocks.0.0.block1.block.4   | Mish                                | 0.00M
+  flow.decoder.estimator.down_blocks.0.0.block2           | CausalBlock1D                       | 0.20M
+  flow.decoder.estimator.down_blocks.0.0.block2.block     | Sequential                          | 0.20M
+  flow.decoder.estimator.down_blocks.0.0.block2.block.0   | CausalConv1d                        | 0.20M
+  flow.decoder.estimator.down_blocks.0.0.block2.block.1   | Transpose                           | 0.00M
+  flow.decoder.estimator.down_blocks.0.0.block2.block.2   | LayerNorm                           | 0.00M
+  flow.decoder.estimator.down_blocks.0.0.block2.block.3   | Transpose                           | 0.00M
+  flow.decoder.estimator.down_blocks.0.0.block2.block.4   | Mish                                | 0.00M
+  flow.decoder.estimator.down_blocks.0.0.res_conv         | Conv1d                              | 0.08M
+  flow.decoder.estimator.down_blocks.0.1                  | ModuleList                          | 4.20M
+  flow.decoder.estimator.down_blocks.0.1.0                | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.down_blocks.0.1.0.norm1          | LayerNorm                           | 0.00M
+  flow.decoder.estimator.down_blocks.0.1.0.attn1          | Attention                           | 0.52M
+  flow.decoder.estimator.down_blocks.0.1.0.attn1.to_q     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.down_blocks.0.1.0.attn1.to_k     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.down_blocks.0.1.0.attn1.to_v     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.down_blocks.0.1.0.attn1.to_out   | ModuleList                          | 0.13M
+  flow.decoder.estimator.down_blocks.0.1.0.attn1.to_out.0 | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.down_blocks.0.1.0.attn1.to_out.1 | Dropout                             | 0.00M
+  flow.decoder.estimator.down_blocks.0.1.0.norm3          | LayerNorm                           | 0.00M
+  flow.decoder.estimator.down_blocks.0.1.0.ff             | FeedForward                         | 0.53M
+  flow.decoder.estimator.down_blocks.0.1.0.ff.net         | ModuleList                          | 0.53M
+  flow.decoder.estimator.down_blocks.0.1.0.ff.net.0       | GELU                                | 0.26M
+  flow.decoder.estimator.down_blocks.0.1.0.ff.net.0.proj  | Linear                              | 0.26M
+  flow.decoder.estimator.down_blocks.0.1.0.ff.net.1       | Dropout                             | 0.00M
+  flow.decoder.estimator.down_blocks.0.1.0.ff.net.2       | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.down_blocks.0.1.1                | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.down_blocks.0.1.1.norm1          | LayerNorm                           | 0.00M
+  flow.decoder.estimator.down_blocks.0.1.1.attn1          | Attention                           | 0.52M
+  flow.decoder.estimator.down_blocks.0.1.1.attn1.to_q     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.down_blocks.0.1.1.attn1.to_k     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.down_blocks.0.1.1.attn1.to_v     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.down_blocks.0.1.1.attn1.to_out   | ModuleList                          | 0.13M
+  flow.decoder.estimator.down_blocks.0.1.1.attn1.to_out.0 | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.down_blocks.0.1.1.attn1.to_out.1 | Dropout                             | 0.00M
+  flow.decoder.estimator.down_blocks.0.1.1.norm3          | LayerNorm                           | 0.00M
+  flow.decoder.estimator.down_blocks.0.1.1.ff             | FeedForward                         | 0.53M
+  flow.decoder.estimator.down_blocks.0.1.1.ff.net         | ModuleList                          | 0.53M
+  flow.decoder.estimator.down_blocks.0.1.1.ff.net.0       | GELU                                | 0.26M
+  flow.decoder.estimator.down_blocks.0.1.1.ff.net.0.proj  | Linear                              | 0.26M
+  flow.decoder.estimator.down_blocks.0.1.1.ff.net.1       | Dropout                             | 0.00M
+  flow.decoder.estimator.down_blocks.0.1.1.ff.net.2       | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.down_blocks.0.1.2                | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.down_blocks.0.1.2.norm1          | LayerNorm                           | 0.00M
+  flow.decoder.estimator.down_blocks.0.1.2.attn1          | Attention                           | 0.52M
+  flow.decoder.estimator.down_blocks.0.1.2.attn1.to_q     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.down_blocks.0.1.2.attn1.to_k     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.down_blocks.0.1.2.attn1.to_v     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.down_blocks.0.1.2.attn1.to_out   | ModuleList                          | 0.13M
+  flow.decoder.estimator.down_blocks.0.1.2.attn1.to_out.0 | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.down_blocks.0.1.2.attn1.to_out.1 | Dropout                             | 0.00M
+  flow.decoder.estimator.down_blocks.0.1.2.norm3          | LayerNorm                           | 0.00M
+  flow.decoder.estimator.down_blocks.0.1.2.ff             | FeedForward                         | 0.53M
+  flow.decoder.estimator.down_blocks.0.1.2.ff.net         | ModuleList                          | 0.53M
+  flow.decoder.estimator.down_blocks.0.1.2.ff.net.0       | GELU                                | 0.26M
+  flow.decoder.estimator.down_blocks.0.1.2.ff.net.0.proj  | Linear                              | 0.26M
+  flow.decoder.estimator.down_blocks.0.1.2.ff.net.1       | Dropout                             | 0.00M
+  flow.decoder.estimator.down_blocks.0.1.2.ff.net.2       | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.down_blocks.0.1.3                | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.down_blocks.0.1.3.norm1          | LayerNorm                           | 0.00M
+  flow.decoder.estimator.down_blocks.0.1.3.attn1          | Attention                           | 0.52M
+  flow.decoder.estimator.down_blocks.0.1.3.attn1.to_q     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.down_blocks.0.1.3.attn1.to_k     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.down_blocks.0.1.3.attn1.to_v     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.down_blocks.0.1.3.attn1.to_out   | ModuleList                          | 0.13M
+  flow.decoder.estimator.down_blocks.0.1.3.attn1.to_out.0 | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.down_blocks.0.1.3.attn1.to_out.1 | Dropout                             | 0.00M
+  flow.decoder.estimator.down_blocks.0.1.3.norm3          | LayerNorm                           | 0.00M
+  flow.decoder.estimator.down_blocks.0.1.3.ff             | FeedForward                         | 0.53M
+  flow.decoder.estimator.down_blocks.0.1.3.ff.net         | ModuleList                          | 0.53M
+  flow.decoder.estimator.down_blocks.0.1.3.ff.net.0       | GELU                                | 0.26M
+  flow.decoder.estimator.down_blocks.0.1.3.ff.net.0.proj  | Linear                              | 0.26M
+  flow.decoder.estimator.down_blocks.0.1.3.ff.net.1       | Dropout                             | 0.00M
+  flow.decoder.estimator.down_blocks.0.1.3.ff.net.2       | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.down_blocks.0.2                  | CausalConv1d                        | 0.20M
+  flow.decoder.estimator.mid_blocks                       | ModuleList                          | 59.13M
+  flow.decoder.estimator.mid_blocks.0                     | ModuleList                          | 4.93M
+  flow.decoder.estimator.mid_blocks.0.0                   | CausalResnetBlock1D                 | 0.72M
+  flow.decoder.estimator.mid_blocks.0.0.mlp               | Sequential                          | 0.26M
+  flow.decoder.estimator.mid_blocks.0.0.mlp.0             | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.0.0.mlp.1             | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.0.0.block1            | CausalBlock1D                       | 0.20M
+  flow.decoder.estimator.mid_blocks.0.0.block1.block      | Sequential                          | 0.20M
+  flow.decoder.estimator.mid_blocks.0.0.block1.block.0    | CausalConv1d                        | 0.20M
+  flow.decoder.estimator.mid_blocks.0.0.block1.block.1    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.0.0.block1.block.2    | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.0.0.block1.block.3    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.0.0.block1.block.4    | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.0.0.block2            | CausalBlock1D                       | 0.20M
+  flow.decoder.estimator.mid_blocks.0.0.block2.block      | Sequential                          | 0.20M
+  flow.decoder.estimator.mid_blocks.0.0.block2.block.0    | CausalConv1d                        | 0.20M
+  flow.decoder.estimator.mid_blocks.0.0.block2.block.1    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.0.0.block2.block.2    | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.0.0.block2.block.3    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.0.0.block2.block.4    | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.0.0.res_conv          | Conv1d                              | 0.07M
+  flow.decoder.estimator.mid_blocks.0.1                   | ModuleList                          | 4.20M
+  flow.decoder.estimator.mid_blocks.0.1.0                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.0.1.0.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.0.1.0.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.0.1.0.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.0.1.0.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.0.1.0.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.0.1.0.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.0.1.0.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.0.1.0.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.0.1.0.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.0.1.0.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.0.1.0.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.0.1.0.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.0.1.0.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.0.1.0.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.0.1.0.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.0.1.1                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.0.1.1.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.0.1.1.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.0.1.1.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.0.1.1.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.0.1.1.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.0.1.1.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.0.1.1.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.0.1.1.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.0.1.1.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.0.1.1.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.0.1.1.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.0.1.1.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.0.1.1.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.0.1.1.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.0.1.1.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.0.1.2                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.0.1.2.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.0.1.2.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.0.1.2.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.0.1.2.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.0.1.2.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.0.1.2.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.0.1.2.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.0.1.2.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.0.1.2.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.0.1.2.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.0.1.2.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.0.1.2.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.0.1.2.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.0.1.2.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.0.1.2.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.0.1.3                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.0.1.3.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.0.1.3.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.0.1.3.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.0.1.3.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.0.1.3.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.0.1.3.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.0.1.3.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.0.1.3.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.0.1.3.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.0.1.3.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.0.1.3.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.0.1.3.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.0.1.3.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.0.1.3.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.0.1.3.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.1                     | ModuleList                          | 4.93M
+  flow.decoder.estimator.mid_blocks.1.0                   | CausalResnetBlock1D                 | 0.72M
+  flow.decoder.estimator.mid_blocks.1.0.mlp               | Sequential                          | 0.26M
+  flow.decoder.estimator.mid_blocks.1.0.mlp.0             | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.1.0.mlp.1             | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.1.0.block1            | CausalBlock1D                       | 0.20M
+  flow.decoder.estimator.mid_blocks.1.0.block1.block      | Sequential                          | 0.20M
+  flow.decoder.estimator.mid_blocks.1.0.block1.block.0    | CausalConv1d                        | 0.20M
+  flow.decoder.estimator.mid_blocks.1.0.block1.block.1    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.1.0.block1.block.2    | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.1.0.block1.block.3    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.1.0.block1.block.4    | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.1.0.block2            | CausalBlock1D                       | 0.20M
+  flow.decoder.estimator.mid_blocks.1.0.block2.block      | Sequential                          | 0.20M
+  flow.decoder.estimator.mid_blocks.1.0.block2.block.0    | CausalConv1d                        | 0.20M
+  flow.decoder.estimator.mid_blocks.1.0.block2.block.1    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.1.0.block2.block.2    | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.1.0.block2.block.3    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.1.0.block2.block.4    | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.1.0.res_conv          | Conv1d                              | 0.07M
+  flow.decoder.estimator.mid_blocks.1.1                   | ModuleList                          | 4.20M
+  flow.decoder.estimator.mid_blocks.1.1.0                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.1.1.0.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.1.1.0.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.1.1.0.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.1.1.0.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.1.1.0.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.1.1.0.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.1.1.0.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.1.1.0.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.1.1.0.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.1.1.0.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.1.1.0.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.1.1.0.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.1.1.0.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.1.1.0.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.1.1.0.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.1.1.1                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.1.1.1.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.1.1.1.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.1.1.1.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.1.1.1.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.1.1.1.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.1.1.1.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.1.1.1.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.1.1.1.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.1.1.1.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.1.1.1.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.1.1.1.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.1.1.1.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.1.1.1.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.1.1.1.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.1.1.1.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.1.1.2                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.1.1.2.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.1.1.2.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.1.1.2.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.1.1.2.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.1.1.2.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.1.1.2.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.1.1.2.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.1.1.2.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.1.1.2.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.1.1.2.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.1.1.2.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.1.1.2.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.1.1.2.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.1.1.2.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.1.1.2.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.1.1.3                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.1.1.3.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.1.1.3.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.1.1.3.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.1.1.3.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.1.1.3.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.1.1.3.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.1.1.3.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.1.1.3.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.1.1.3.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.1.1.3.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.1.1.3.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.1.1.3.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.1.1.3.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.1.1.3.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.1.1.3.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.2                     | ModuleList                          | 4.93M
+  flow.decoder.estimator.mid_blocks.2.0                   | CausalResnetBlock1D                 | 0.72M
+  flow.decoder.estimator.mid_blocks.2.0.mlp               | Sequential                          | 0.26M
+  flow.decoder.estimator.mid_blocks.2.0.mlp.0             | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.2.0.mlp.1             | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.2.0.block1            | CausalBlock1D                       | 0.20M
+  flow.decoder.estimator.mid_blocks.2.0.block1.block      | Sequential                          | 0.20M
+  flow.decoder.estimator.mid_blocks.2.0.block1.block.0    | CausalConv1d                        | 0.20M
+  flow.decoder.estimator.mid_blocks.2.0.block1.block.1    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.2.0.block1.block.2    | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.2.0.block1.block.3    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.2.0.block1.block.4    | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.2.0.block2            | CausalBlock1D                       | 0.20M
+  flow.decoder.estimator.mid_blocks.2.0.block2.block      | Sequential                          | 0.20M
+  flow.decoder.estimator.mid_blocks.2.0.block2.block.0    | CausalConv1d                        | 0.20M
+  flow.decoder.estimator.mid_blocks.2.0.block2.block.1    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.2.0.block2.block.2    | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.2.0.block2.block.3    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.2.0.block2.block.4    | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.2.0.res_conv          | Conv1d                              | 0.07M
+  flow.decoder.estimator.mid_blocks.2.1                   | ModuleList                          | 4.20M
+  flow.decoder.estimator.mid_blocks.2.1.0                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.2.1.0.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.2.1.0.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.2.1.0.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.2.1.0.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.2.1.0.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.2.1.0.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.2.1.0.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.2.1.0.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.2.1.0.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.2.1.0.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.2.1.0.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.2.1.0.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.2.1.0.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.2.1.0.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.2.1.0.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.2.1.1                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.2.1.1.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.2.1.1.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.2.1.1.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.2.1.1.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.2.1.1.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.2.1.1.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.2.1.1.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.2.1.1.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.2.1.1.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.2.1.1.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.2.1.1.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.2.1.1.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.2.1.1.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.2.1.1.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.2.1.1.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.2.1.2                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.2.1.2.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.2.1.2.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.2.1.2.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.2.1.2.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.2.1.2.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.2.1.2.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.2.1.2.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.2.1.2.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.2.1.2.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.2.1.2.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.2.1.2.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.2.1.2.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.2.1.2.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.2.1.2.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.2.1.2.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.2.1.3                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.2.1.3.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.2.1.3.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.2.1.3.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.2.1.3.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.2.1.3.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.2.1.3.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.2.1.3.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.2.1.3.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.2.1.3.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.2.1.3.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.2.1.3.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.2.1.3.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.2.1.3.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.2.1.3.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.2.1.3.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.3                     | ModuleList                          | 4.93M
+  flow.decoder.estimator.mid_blocks.3.0                   | CausalResnetBlock1D                 | 0.72M
+  flow.decoder.estimator.mid_blocks.3.0.mlp               | Sequential                          | 0.26M
+  flow.decoder.estimator.mid_blocks.3.0.mlp.0             | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.3.0.mlp.1             | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.3.0.block1            | CausalBlock1D                       | 0.20M
+  flow.decoder.estimator.mid_blocks.3.0.block1.block      | Sequential                          | 0.20M
+  flow.decoder.estimator.mid_blocks.3.0.block1.block.0    | CausalConv1d                        | 0.20M
+  flow.decoder.estimator.mid_blocks.3.0.block1.block.1    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.3.0.block1.block.2    | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.3.0.block1.block.3    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.3.0.block1.block.4    | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.3.0.block2            | CausalBlock1D                       | 0.20M
+  flow.decoder.estimator.mid_blocks.3.0.block2.block      | Sequential                          | 0.20M
+  flow.decoder.estimator.mid_blocks.3.0.block2.block.0    | CausalConv1d                        | 0.20M
+  flow.decoder.estimator.mid_blocks.3.0.block2.block.1    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.3.0.block2.block.2    | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.3.0.block2.block.3    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.3.0.block2.block.4    | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.3.0.res_conv          | Conv1d                              | 0.07M
+  flow.decoder.estimator.mid_blocks.3.1                   | ModuleList                          | 4.20M
+  flow.decoder.estimator.mid_blocks.3.1.0                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.3.1.0.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.3.1.0.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.3.1.0.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.3.1.0.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.3.1.0.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.3.1.0.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.3.1.0.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.3.1.0.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.3.1.0.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.3.1.0.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.3.1.0.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.3.1.0.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.3.1.0.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.3.1.0.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.3.1.0.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.3.1.1                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.3.1.1.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.3.1.1.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.3.1.1.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.3.1.1.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.3.1.1.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.3.1.1.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.3.1.1.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.3.1.1.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.3.1.1.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.3.1.1.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.3.1.1.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.3.1.1.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.3.1.1.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.3.1.1.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.3.1.1.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.3.1.2                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.3.1.2.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.3.1.2.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.3.1.2.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.3.1.2.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.3.1.2.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.3.1.2.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.3.1.2.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.3.1.2.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.3.1.2.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.3.1.2.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.3.1.2.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.3.1.2.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.3.1.2.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.3.1.2.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.3.1.2.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.3.1.3                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.3.1.3.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.3.1.3.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.3.1.3.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.3.1.3.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.3.1.3.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.3.1.3.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.3.1.3.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.3.1.3.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.3.1.3.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.3.1.3.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.3.1.3.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.3.1.3.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.3.1.3.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.3.1.3.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.3.1.3.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.4                     | ModuleList                          | 4.93M
+  flow.decoder.estimator.mid_blocks.4.0                   | CausalResnetBlock1D                 | 0.72M
+  flow.decoder.estimator.mid_blocks.4.0.mlp               | Sequential                          | 0.26M
+  flow.decoder.estimator.mid_blocks.4.0.mlp.0             | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.4.0.mlp.1             | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.4.0.block1            | CausalBlock1D                       | 0.20M
+  flow.decoder.estimator.mid_blocks.4.0.block1.block      | Sequential                          | 0.20M
+  flow.decoder.estimator.mid_blocks.4.0.block1.block.0    | CausalConv1d                        | 0.20M
+  flow.decoder.estimator.mid_blocks.4.0.block1.block.1    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.4.0.block1.block.2    | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.4.0.block1.block.3    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.4.0.block1.block.4    | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.4.0.block2            | CausalBlock1D                       | 0.20M
+  flow.decoder.estimator.mid_blocks.4.0.block2.block      | Sequential                          | 0.20M
+  flow.decoder.estimator.mid_blocks.4.0.block2.block.0    | CausalConv1d                        | 0.20M
+  flow.decoder.estimator.mid_blocks.4.0.block2.block.1    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.4.0.block2.block.2    | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.4.0.block2.block.3    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.4.0.block2.block.4    | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.4.0.res_conv          | Conv1d                              | 0.07M
+  flow.decoder.estimator.mid_blocks.4.1                   | ModuleList                          | 4.20M
+  flow.decoder.estimator.mid_blocks.4.1.0                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.4.1.0.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.4.1.0.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.4.1.0.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.4.1.0.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.4.1.0.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.4.1.0.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.4.1.0.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.4.1.0.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.4.1.0.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.4.1.0.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.4.1.0.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.4.1.0.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.4.1.0.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.4.1.0.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.4.1.0.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.4.1.1                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.4.1.1.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.4.1.1.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.4.1.1.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.4.1.1.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.4.1.1.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.4.1.1.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.4.1.1.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.4.1.1.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.4.1.1.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.4.1.1.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.4.1.1.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.4.1.1.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.4.1.1.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.4.1.1.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.4.1.1.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.4.1.2                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.4.1.2.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.4.1.2.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.4.1.2.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.4.1.2.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.4.1.2.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.4.1.2.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.4.1.2.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.4.1.2.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.4.1.2.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.4.1.2.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.4.1.2.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.4.1.2.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.4.1.2.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.4.1.2.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.4.1.2.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.4.1.3                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.4.1.3.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.4.1.3.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.4.1.3.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.4.1.3.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.4.1.3.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.4.1.3.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.4.1.3.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.4.1.3.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.4.1.3.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.4.1.3.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.4.1.3.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.4.1.3.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.4.1.3.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.4.1.3.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.4.1.3.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.5                     | ModuleList                          | 4.93M
+  flow.decoder.estimator.mid_blocks.5.0                   | CausalResnetBlock1D                 | 0.72M
+  flow.decoder.estimator.mid_blocks.5.0.mlp               | Sequential                          | 0.26M
+  flow.decoder.estimator.mid_blocks.5.0.mlp.0             | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.5.0.mlp.1             | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.5.0.block1            | CausalBlock1D                       | 0.20M
+  flow.decoder.estimator.mid_blocks.5.0.block1.block      | Sequential                          | 0.20M
+  flow.decoder.estimator.mid_blocks.5.0.block1.block.0    | CausalConv1d                        | 0.20M
+  flow.decoder.estimator.mid_blocks.5.0.block1.block.1    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.5.0.block1.block.2    | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.5.0.block1.block.3    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.5.0.block1.block.4    | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.5.0.block2            | CausalBlock1D                       | 0.20M
+  flow.decoder.estimator.mid_blocks.5.0.block2.block      | Sequential                          | 0.20M
+  flow.decoder.estimator.mid_blocks.5.0.block2.block.0    | CausalConv1d                        | 0.20M
+  flow.decoder.estimator.mid_blocks.5.0.block2.block.1    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.5.0.block2.block.2    | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.5.0.block2.block.3    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.5.0.block2.block.4    | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.5.0.res_conv          | Conv1d                              | 0.07M
+  flow.decoder.estimator.mid_blocks.5.1                   | ModuleList                          | 4.20M
+  flow.decoder.estimator.mid_blocks.5.1.0                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.5.1.0.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.5.1.0.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.5.1.0.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.5.1.0.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.5.1.0.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.5.1.0.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.5.1.0.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.5.1.0.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.5.1.0.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.5.1.0.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.5.1.0.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.5.1.0.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.5.1.0.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.5.1.0.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.5.1.0.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.5.1.1                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.5.1.1.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.5.1.1.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.5.1.1.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.5.1.1.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.5.1.1.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.5.1.1.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.5.1.1.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.5.1.1.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.5.1.1.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.5.1.1.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.5.1.1.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.5.1.1.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.5.1.1.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.5.1.1.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.5.1.1.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.5.1.2                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.5.1.2.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.5.1.2.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.5.1.2.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.5.1.2.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.5.1.2.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.5.1.2.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.5.1.2.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.5.1.2.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.5.1.2.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.5.1.2.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.5.1.2.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.5.1.2.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.5.1.2.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.5.1.2.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.5.1.2.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.5.1.3                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.5.1.3.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.5.1.3.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.5.1.3.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.5.1.3.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.5.1.3.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.5.1.3.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.5.1.3.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.5.1.3.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.5.1.3.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.5.1.3.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.5.1.3.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.5.1.3.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.5.1.3.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.5.1.3.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.5.1.3.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.6                     | ModuleList                          | 4.93M
+  flow.decoder.estimator.mid_blocks.6.0                   | CausalResnetBlock1D                 | 0.72M
+  flow.decoder.estimator.mid_blocks.6.0.mlp               | Sequential                          | 0.26M
+  flow.decoder.estimator.mid_blocks.6.0.mlp.0             | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.6.0.mlp.1             | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.6.0.block1            | CausalBlock1D                       | 0.20M
+  flow.decoder.estimator.mid_blocks.6.0.block1.block      | Sequential                          | 0.20M
+  flow.decoder.estimator.mid_blocks.6.0.block1.block.0    | CausalConv1d                        | 0.20M
+  flow.decoder.estimator.mid_blocks.6.0.block1.block.1    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.6.0.block1.block.2    | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.6.0.block1.block.3    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.6.0.block1.block.4    | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.6.0.block2            | CausalBlock1D                       | 0.20M
+  flow.decoder.estimator.mid_blocks.6.0.block2.block      | Sequential                          | 0.20M
+  flow.decoder.estimator.mid_blocks.6.0.block2.block.0    | CausalConv1d                        | 0.20M
+  flow.decoder.estimator.mid_blocks.6.0.block2.block.1    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.6.0.block2.block.2    | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.6.0.block2.block.3    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.6.0.block2.block.4    | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.6.0.res_conv          | Conv1d                              | 0.07M
+  flow.decoder.estimator.mid_blocks.6.1                   | ModuleList                          | 4.20M
+  flow.decoder.estimator.mid_blocks.6.1.0                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.6.1.0.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.6.1.0.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.6.1.0.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.6.1.0.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.6.1.0.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.6.1.0.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.6.1.0.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.6.1.0.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.6.1.0.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.6.1.0.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.6.1.0.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.6.1.0.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.6.1.0.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.6.1.0.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.6.1.0.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.6.1.1                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.6.1.1.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.6.1.1.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.6.1.1.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.6.1.1.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.6.1.1.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.6.1.1.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.6.1.1.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.6.1.1.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.6.1.1.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.6.1.1.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.6.1.1.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.6.1.1.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.6.1.1.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.6.1.1.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.6.1.1.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.6.1.2                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.6.1.2.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.6.1.2.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.6.1.2.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.6.1.2.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.6.1.2.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.6.1.2.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.6.1.2.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.6.1.2.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.6.1.2.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.6.1.2.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.6.1.2.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.6.1.2.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.6.1.2.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.6.1.2.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.6.1.2.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.6.1.3                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.6.1.3.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.6.1.3.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.6.1.3.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.6.1.3.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.6.1.3.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.6.1.3.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.6.1.3.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.6.1.3.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.6.1.3.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.6.1.3.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.6.1.3.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.6.1.3.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.6.1.3.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.6.1.3.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.6.1.3.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.7                     | ModuleList                          | 4.93M
+  flow.decoder.estimator.mid_blocks.7.0                   | CausalResnetBlock1D                 | 0.72M
+  flow.decoder.estimator.mid_blocks.7.0.mlp               | Sequential                          | 0.26M
+  flow.decoder.estimator.mid_blocks.7.0.mlp.0             | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.7.0.mlp.1             | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.7.0.block1            | CausalBlock1D                       | 0.20M
+  flow.decoder.estimator.mid_blocks.7.0.block1.block      | Sequential                          | 0.20M
+  flow.decoder.estimator.mid_blocks.7.0.block1.block.0    | CausalConv1d                        | 0.20M
+  flow.decoder.estimator.mid_blocks.7.0.block1.block.1    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.7.0.block1.block.2    | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.7.0.block1.block.3    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.7.0.block1.block.4    | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.7.0.block2            | CausalBlock1D                       | 0.20M
+  flow.decoder.estimator.mid_blocks.7.0.block2.block      | Sequential                          | 0.20M
+  flow.decoder.estimator.mid_blocks.7.0.block2.block.0    | CausalConv1d                        | 0.20M
+  flow.decoder.estimator.mid_blocks.7.0.block2.block.1    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.7.0.block2.block.2    | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.7.0.block2.block.3    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.7.0.block2.block.4    | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.7.0.res_conv          | Conv1d                              | 0.07M
+  flow.decoder.estimator.mid_blocks.7.1                   | ModuleList                          | 4.20M
+  flow.decoder.estimator.mid_blocks.7.1.0                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.7.1.0.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.7.1.0.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.7.1.0.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.7.1.0.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.7.1.0.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.7.1.0.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.7.1.0.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.7.1.0.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.7.1.0.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.7.1.0.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.7.1.0.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.7.1.0.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.7.1.0.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.7.1.0.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.7.1.0.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.7.1.1                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.7.1.1.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.7.1.1.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.7.1.1.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.7.1.1.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.7.1.1.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.7.1.1.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.7.1.1.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.7.1.1.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.7.1.1.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.7.1.1.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.7.1.1.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.7.1.1.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.7.1.1.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.7.1.1.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.7.1.1.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.7.1.2                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.7.1.2.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.7.1.2.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.7.1.2.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.7.1.2.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.7.1.2.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.7.1.2.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.7.1.2.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.7.1.2.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.7.1.2.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.7.1.2.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.7.1.2.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.7.1.2.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.7.1.2.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.7.1.2.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.7.1.2.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.7.1.3                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.7.1.3.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.7.1.3.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.7.1.3.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.7.1.3.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.7.1.3.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.7.1.3.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.7.1.3.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.7.1.3.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.7.1.3.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.7.1.3.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.7.1.3.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.7.1.3.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.7.1.3.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.7.1.3.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.7.1.3.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.8                     | ModuleList                          | 4.93M
+  flow.decoder.estimator.mid_blocks.8.0                   | CausalResnetBlock1D                 | 0.72M
+  flow.decoder.estimator.mid_blocks.8.0.mlp               | Sequential                          | 0.26M
+  flow.decoder.estimator.mid_blocks.8.0.mlp.0             | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.8.0.mlp.1             | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.8.0.block1            | CausalBlock1D                       | 0.20M
+  flow.decoder.estimator.mid_blocks.8.0.block1.block      | Sequential                          | 0.20M
+  flow.decoder.estimator.mid_blocks.8.0.block1.block.0    | CausalConv1d                        | 0.20M
+  flow.decoder.estimator.mid_blocks.8.0.block1.block.1    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.8.0.block1.block.2    | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.8.0.block1.block.3    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.8.0.block1.block.4    | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.8.0.block2            | CausalBlock1D                       | 0.20M
+  flow.decoder.estimator.mid_blocks.8.0.block2.block      | Sequential                          | 0.20M
+  flow.decoder.estimator.mid_blocks.8.0.block2.block.0    | CausalConv1d                        | 0.20M
+  flow.decoder.estimator.mid_blocks.8.0.block2.block.1    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.8.0.block2.block.2    | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.8.0.block2.block.3    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.8.0.block2.block.4    | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.8.0.res_conv          | Conv1d                              | 0.07M
+  flow.decoder.estimator.mid_blocks.8.1                   | ModuleList                          | 4.20M
+  flow.decoder.estimator.mid_blocks.8.1.0                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.8.1.0.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.8.1.0.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.8.1.0.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.8.1.0.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.8.1.0.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.8.1.0.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.8.1.0.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.8.1.0.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.8.1.0.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.8.1.0.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.8.1.0.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.8.1.0.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.8.1.0.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.8.1.0.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.8.1.0.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.8.1.1                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.8.1.1.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.8.1.1.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.8.1.1.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.8.1.1.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.8.1.1.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.8.1.1.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.8.1.1.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.8.1.1.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.8.1.1.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.8.1.1.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.8.1.1.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.8.1.1.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.8.1.1.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.8.1.1.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.8.1.1.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.8.1.2                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.8.1.2.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.8.1.2.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.8.1.2.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.8.1.2.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.8.1.2.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.8.1.2.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.8.1.2.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.8.1.2.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.8.1.2.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.8.1.2.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.8.1.2.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.8.1.2.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.8.1.2.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.8.1.2.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.8.1.2.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.8.1.3                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.8.1.3.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.8.1.3.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.8.1.3.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.8.1.3.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.8.1.3.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.8.1.3.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.8.1.3.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.8.1.3.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.8.1.3.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.8.1.3.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.8.1.3.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.8.1.3.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.8.1.3.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.8.1.3.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.8.1.3.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.9                     | ModuleList                          | 4.93M
+  flow.decoder.estimator.mid_blocks.9.0                   | CausalResnetBlock1D                 | 0.72M
+  flow.decoder.estimator.mid_blocks.9.0.mlp               | Sequential                          | 0.26M
+  flow.decoder.estimator.mid_blocks.9.0.mlp.0             | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.9.0.mlp.1             | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.9.0.block1            | CausalBlock1D                       | 0.20M
+  flow.decoder.estimator.mid_blocks.9.0.block1.block      | Sequential                          | 0.20M
+  flow.decoder.estimator.mid_blocks.9.0.block1.block.0    | CausalConv1d                        | 0.20M
+  flow.decoder.estimator.mid_blocks.9.0.block1.block.1    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.9.0.block1.block.2    | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.9.0.block1.block.3    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.9.0.block1.block.4    | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.9.0.block2            | CausalBlock1D                       | 0.20M
+  flow.decoder.estimator.mid_blocks.9.0.block2.block      | Sequential                          | 0.20M
+  flow.decoder.estimator.mid_blocks.9.0.block2.block.0    | CausalConv1d                        | 0.20M
+  flow.decoder.estimator.mid_blocks.9.0.block2.block.1    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.9.0.block2.block.2    | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.9.0.block2.block.3    | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.9.0.block2.block.4    | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.9.0.res_conv          | Conv1d                              | 0.07M
+  flow.decoder.estimator.mid_blocks.9.1                   | ModuleList                          | 4.20M
+  flow.decoder.estimator.mid_blocks.9.1.0                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.9.1.0.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.9.1.0.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.9.1.0.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.9.1.0.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.9.1.0.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.9.1.0.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.9.1.0.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.9.1.0.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.9.1.0.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.9.1.0.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.9.1.0.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.9.1.0.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.9.1.0.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.9.1.0.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.9.1.0.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.9.1.1                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.9.1.1.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.9.1.1.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.9.1.1.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.9.1.1.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.9.1.1.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.9.1.1.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.9.1.1.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.9.1.1.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.9.1.1.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.9.1.1.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.9.1.1.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.9.1.1.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.9.1.1.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.9.1.1.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.9.1.1.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.9.1.2                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.9.1.2.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.9.1.2.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.9.1.2.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.9.1.2.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.9.1.2.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.9.1.2.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.9.1.2.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.9.1.2.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.9.1.2.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.9.1.2.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.9.1.2.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.9.1.2.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.9.1.2.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.9.1.2.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.9.1.2.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.9.1.3                 | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.9.1.3.norm1           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.9.1.3.attn1           | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.9.1.3.attn1.to_q      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.9.1.3.attn1.to_k      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.9.1.3.attn1.to_v      | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.9.1.3.attn1.to_out    | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.9.1.3.attn1.to_out.0  | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.9.1.3.attn1.to_out.1  | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.9.1.3.norm3           | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.9.1.3.ff              | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.9.1.3.ff.net          | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.9.1.3.ff.net.0        | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.9.1.3.ff.net.0.proj   | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.9.1.3.ff.net.1        | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.9.1.3.ff.net.2        | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.10                    | ModuleList                          | 4.93M
+  flow.decoder.estimator.mid_blocks.10.0                  | CausalResnetBlock1D                 | 0.72M
+  flow.decoder.estimator.mid_blocks.10.0.mlp              | Sequential                          | 0.26M
+  flow.decoder.estimator.mid_blocks.10.0.mlp.0            | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.10.0.mlp.1            | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.10.0.block1           | CausalBlock1D                       | 0.20M
+  flow.decoder.estimator.mid_blocks.10.0.block1.block     | Sequential                          | 0.20M
+  flow.decoder.estimator.mid_blocks.10.0.block1.block.0   | CausalConv1d                        | 0.20M
+  flow.decoder.estimator.mid_blocks.10.0.block1.block.1   | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.10.0.block1.block.2   | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.10.0.block1.block.3   | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.10.0.block1.block.4   | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.10.0.block2           | CausalBlock1D                       | 0.20M
+  flow.decoder.estimator.mid_blocks.10.0.block2.block     | Sequential                          | 0.20M
+  flow.decoder.estimator.mid_blocks.10.0.block2.block.0   | CausalConv1d                        | 0.20M
+  flow.decoder.estimator.mid_blocks.10.0.block2.block.1   | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.10.0.block2.block.2   | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.10.0.block2.block.3   | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.10.0.block2.block.4   | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.10.0.res_conv         | Conv1d                              | 0.07M
+  flow.decoder.estimator.mid_blocks.10.1                  | ModuleList                          | 4.20M
+  flow.decoder.estimator.mid_blocks.10.1.0                | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.10.1.0.norm1          | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.10.1.0.attn1          | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.10.1.0.attn1.to_q     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.10.1.0.attn1.to_k     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.10.1.0.attn1.to_v     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.10.1.0.attn1.to_out   | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.10.1.0.attn1.to_out.0 | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.10.1.0.attn1.to_out.1 | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.10.1.0.norm3          | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.10.1.0.ff             | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.10.1.0.ff.net         | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.10.1.0.ff.net.0       | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.10.1.0.ff.net.0.proj  | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.10.1.0.ff.net.1       | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.10.1.0.ff.net.2       | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.10.1.1                | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.10.1.1.norm1          | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.10.1.1.attn1          | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.10.1.1.attn1.to_q     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.10.1.1.attn1.to_k     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.10.1.1.attn1.to_v     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.10.1.1.attn1.to_out   | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.10.1.1.attn1.to_out.0 | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.10.1.1.attn1.to_out.1 | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.10.1.1.norm3          | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.10.1.1.ff             | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.10.1.1.ff.net         | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.10.1.1.ff.net.0       | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.10.1.1.ff.net.0.proj  | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.10.1.1.ff.net.1       | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.10.1.1.ff.net.2       | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.10.1.2                | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.10.1.2.norm1          | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.10.1.2.attn1          | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.10.1.2.attn1.to_q     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.10.1.2.attn1.to_k     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.10.1.2.attn1.to_v     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.10.1.2.attn1.to_out   | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.10.1.2.attn1.to_out.0 | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.10.1.2.attn1.to_out.1 | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.10.1.2.norm3          | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.10.1.2.ff             | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.10.1.2.ff.net         | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.10.1.2.ff.net.0       | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.10.1.2.ff.net.0.proj  | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.10.1.2.ff.net.1       | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.10.1.2.ff.net.2       | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.10.1.3                | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.10.1.3.norm1          | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.10.1.3.attn1          | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.10.1.3.attn1.to_q     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.10.1.3.attn1.to_k     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.10.1.3.attn1.to_v     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.10.1.3.attn1.to_out   | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.10.1.3.attn1.to_out.0 | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.10.1.3.attn1.to_out.1 | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.10.1.3.norm3          | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.10.1.3.ff             | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.10.1.3.ff.net         | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.10.1.3.ff.net.0       | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.10.1.3.ff.net.0.proj  | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.10.1.3.ff.net.1       | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.10.1.3.ff.net.2       | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.11                    | ModuleList                          | 4.93M
+  flow.decoder.estimator.mid_blocks.11.0                  | CausalResnetBlock1D                 | 0.72M
+  flow.decoder.estimator.mid_blocks.11.0.mlp              | Sequential                          | 0.26M
+  flow.decoder.estimator.mid_blocks.11.0.mlp.0            | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.11.0.mlp.1            | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.11.0.block1           | CausalBlock1D                       | 0.20M
+  flow.decoder.estimator.mid_blocks.11.0.block1.block     | Sequential                          | 0.20M
+  flow.decoder.estimator.mid_blocks.11.0.block1.block.0   | CausalConv1d                        | 0.20M
+  flow.decoder.estimator.mid_blocks.11.0.block1.block.1   | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.11.0.block1.block.2   | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.11.0.block1.block.3   | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.11.0.block1.block.4   | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.11.0.block2           | CausalBlock1D                       | 0.20M
+  flow.decoder.estimator.mid_blocks.11.0.block2.block     | Sequential                          | 0.20M
+  flow.decoder.estimator.mid_blocks.11.0.block2.block.0   | CausalConv1d                        | 0.20M
+  flow.decoder.estimator.mid_blocks.11.0.block2.block.1   | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.11.0.block2.block.2   | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.11.0.block2.block.3   | Transpose                           | 0.00M
+  flow.decoder.estimator.mid_blocks.11.0.block2.block.4   | Mish                                | 0.00M
+  flow.decoder.estimator.mid_blocks.11.0.res_conv         | Conv1d                              | 0.07M
+  flow.decoder.estimator.mid_blocks.11.1                  | ModuleList                          | 4.20M
+  flow.decoder.estimator.mid_blocks.11.1.0                | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.11.1.0.norm1          | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.11.1.0.attn1          | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.11.1.0.attn1.to_q     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.11.1.0.attn1.to_k     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.11.1.0.attn1.to_v     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.11.1.0.attn1.to_out   | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.11.1.0.attn1.to_out.0 | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.11.1.0.attn1.to_out.1 | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.11.1.0.norm3          | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.11.1.0.ff             | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.11.1.0.ff.net         | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.11.1.0.ff.net.0       | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.11.1.0.ff.net.0.proj  | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.11.1.0.ff.net.1       | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.11.1.0.ff.net.2       | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.11.1.1                | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.11.1.1.norm1          | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.11.1.1.attn1          | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.11.1.1.attn1.to_q     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.11.1.1.attn1.to_k     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.11.1.1.attn1.to_v     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.11.1.1.attn1.to_out   | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.11.1.1.attn1.to_out.0 | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.11.1.1.attn1.to_out.1 | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.11.1.1.norm3          | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.11.1.1.ff             | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.11.1.1.ff.net         | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.11.1.1.ff.net.0       | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.11.1.1.ff.net.0.proj  | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.11.1.1.ff.net.1       | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.11.1.1.ff.net.2       | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.11.1.2                | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.11.1.2.norm1          | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.11.1.2.attn1          | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.11.1.2.attn1.to_q     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.11.1.2.attn1.to_k     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.11.1.2.attn1.to_v     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.11.1.2.attn1.to_out   | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.11.1.2.attn1.to_out.0 | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.11.1.2.attn1.to_out.1 | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.11.1.2.norm3          | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.11.1.2.ff             | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.11.1.2.ff.net         | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.11.1.2.ff.net.0       | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.11.1.2.ff.net.0.proj  | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.11.1.2.ff.net.1       | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.11.1.2.ff.net.2       | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.mid_blocks.11.1.3                | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.mid_blocks.11.1.3.norm1          | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.11.1.3.attn1          | Attention                           | 0.52M
+  flow.decoder.estimator.mid_blocks.11.1.3.attn1.to_q     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.11.1.3.attn1.to_k     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.11.1.3.attn1.to_v     | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.11.1.3.attn1.to_out   | ModuleList                          | 0.13M
+  flow.decoder.estimator.mid_blocks.11.1.3.attn1.to_out.0 | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.mid_blocks.11.1.3.attn1.to_out.1 | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.11.1.3.norm3          | LayerNorm                           | 0.00M
+  flow.decoder.estimator.mid_blocks.11.1.3.ff             | FeedForward                         | 0.53M
+  flow.decoder.estimator.mid_blocks.11.1.3.ff.net         | ModuleList                          | 0.53M
+  flow.decoder.estimator.mid_blocks.11.1.3.ff.net.0       | GELU                                | 0.26M
+  flow.decoder.estimator.mid_blocks.11.1.3.ff.net.0.proj  | Linear                              | 0.26M
+  flow.decoder.estimator.mid_blocks.11.1.3.ff.net.1       | Dropout                             | 0.00M
+  flow.decoder.estimator.mid_blocks.11.1.3.ff.net.2       | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.up_blocks                        | ModuleList                          | 5.39M
+  flow.decoder.estimator.up_blocks.0                      | ModuleList                          | 5.39M
+  flow.decoder.estimator.up_blocks.0.0                    | CausalResnetBlock1D                 | 0.99M
+  flow.decoder.estimator.up_blocks.0.0.mlp                | Sequential                          | 0.26M
+  flow.decoder.estimator.up_blocks.0.0.mlp.0              | Mish                                | 0.00M
+  flow.decoder.estimator.up_blocks.0.0.mlp.1              | Linear                              | 0.26M
+  flow.decoder.estimator.up_blocks.0.0.block1             | CausalBlock1D                       | 0.39M
+  flow.decoder.estimator.up_blocks.0.0.block1.block       | Sequential                          | 0.39M
+  flow.decoder.estimator.up_blocks.0.0.block1.block.0     | CausalConv1d                        | 0.39M
+  flow.decoder.estimator.up_blocks.0.0.block1.block.1     | Transpose                           | 0.00M
+  flow.decoder.estimator.up_blocks.0.0.block1.block.2     | LayerNorm                           | 0.00M
+  flow.decoder.estimator.up_blocks.0.0.block1.block.3     | Transpose                           | 0.00M
+  flow.decoder.estimator.up_blocks.0.0.block1.block.4     | Mish                                | 0.00M
+  flow.decoder.estimator.up_blocks.0.0.block2             | CausalBlock1D                       | 0.20M
+  flow.decoder.estimator.up_blocks.0.0.block2.block       | Sequential                          | 0.20M
+  flow.decoder.estimator.up_blocks.0.0.block2.block.0     | CausalConv1d                        | 0.20M
+  flow.decoder.estimator.up_blocks.0.0.block2.block.1     | Transpose                           | 0.00M
+  flow.decoder.estimator.up_blocks.0.0.block2.block.2     | LayerNorm                           | 0.00M
+  flow.decoder.estimator.up_blocks.0.0.block2.block.3     | Transpose                           | 0.00M
+  flow.decoder.estimator.up_blocks.0.0.block2.block.4     | Mish                                | 0.00M
+  flow.decoder.estimator.up_blocks.0.0.res_conv           | Conv1d                              | 0.13M
+  flow.decoder.estimator.up_blocks.0.1                    | ModuleList                          | 4.20M
+  flow.decoder.estimator.up_blocks.0.1.0                  | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.up_blocks.0.1.0.norm1            | LayerNorm                           | 0.00M
+  flow.decoder.estimator.up_blocks.0.1.0.attn1            | Attention                           | 0.52M
+  flow.decoder.estimator.up_blocks.0.1.0.attn1.to_q       | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.up_blocks.0.1.0.attn1.to_k       | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.up_blocks.0.1.0.attn1.to_v       | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.up_blocks.0.1.0.attn1.to_out     | ModuleList                          | 0.13M
+  flow.decoder.estimator.up_blocks.0.1.0.attn1.to_out.0   | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.up_blocks.0.1.0.attn1.to_out.1   | Dropout                             | 0.00M
+  flow.decoder.estimator.up_blocks.0.1.0.norm3            | LayerNorm                           | 0.00M
+  flow.decoder.estimator.up_blocks.0.1.0.ff               | FeedForward                         | 0.53M
+  flow.decoder.estimator.up_blocks.0.1.0.ff.net           | ModuleList                          | 0.53M
+  flow.decoder.estimator.up_blocks.0.1.0.ff.net.0         | GELU                                | 0.26M
+  flow.decoder.estimator.up_blocks.0.1.0.ff.net.0.proj    | Linear                              | 0.26M
+  flow.decoder.estimator.up_blocks.0.1.0.ff.net.1         | Dropout                             | 0.00M
+  flow.decoder.estimator.up_blocks.0.1.0.ff.net.2         | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.up_blocks.0.1.1                  | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.up_blocks.0.1.1.norm1            | LayerNorm                           | 0.00M
+  flow.decoder.estimator.up_blocks.0.1.1.attn1            | Attention                           | 0.52M
+  flow.decoder.estimator.up_blocks.0.1.1.attn1.to_q       | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.up_blocks.0.1.1.attn1.to_k       | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.up_blocks.0.1.1.attn1.to_v       | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.up_blocks.0.1.1.attn1.to_out     | ModuleList                          | 0.13M
+  flow.decoder.estimator.up_blocks.0.1.1.attn1.to_out.0   | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.up_blocks.0.1.1.attn1.to_out.1   | Dropout                             | 0.00M
+  flow.decoder.estimator.up_blocks.0.1.1.norm3            | LayerNorm                           | 0.00M
+  flow.decoder.estimator.up_blocks.0.1.1.ff               | FeedForward                         | 0.53M
+  flow.decoder.estimator.up_blocks.0.1.1.ff.net           | ModuleList                          | 0.53M
+  flow.decoder.estimator.up_blocks.0.1.1.ff.net.0         | GELU                                | 0.26M
+  flow.decoder.estimator.up_blocks.0.1.1.ff.net.0.proj    | Linear                              | 0.26M
+  flow.decoder.estimator.up_blocks.0.1.1.ff.net.1         | Dropout                             | 0.00M
+  flow.decoder.estimator.up_blocks.0.1.1.ff.net.2         | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.up_blocks.0.1.2                  | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.up_blocks.0.1.2.norm1            | LayerNorm                           | 0.00M
+  flow.decoder.estimator.up_blocks.0.1.2.attn1            | Attention                           | 0.52M
+  flow.decoder.estimator.up_blocks.0.1.2.attn1.to_q       | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.up_blocks.0.1.2.attn1.to_k       | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.up_blocks.0.1.2.attn1.to_v       | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.up_blocks.0.1.2.attn1.to_out     | ModuleList                          | 0.13M
+  flow.decoder.estimator.up_blocks.0.1.2.attn1.to_out.0   | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.up_blocks.0.1.2.attn1.to_out.1   | Dropout                             | 0.00M
+  flow.decoder.estimator.up_blocks.0.1.2.norm3            | LayerNorm                           | 0.00M
+  flow.decoder.estimator.up_blocks.0.1.2.ff               | FeedForward                         | 0.53M
+  flow.decoder.estimator.up_blocks.0.1.2.ff.net           | ModuleList                          | 0.53M
+  flow.decoder.estimator.up_blocks.0.1.2.ff.net.0         | GELU                                | 0.26M
+  flow.decoder.estimator.up_blocks.0.1.2.ff.net.0.proj    | Linear                              | 0.26M
+  flow.decoder.estimator.up_blocks.0.1.2.ff.net.1         | Dropout                             | 0.00M
+  flow.decoder.estimator.up_blocks.0.1.2.ff.net.2         | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.up_blocks.0.1.3                  | BasicTransformerBlock               | 1.05M
+  flow.decoder.estimator.up_blocks.0.1.3.norm1            | LayerNorm                           | 0.00M
+  flow.decoder.estimator.up_blocks.0.1.3.attn1            | Attention                           | 0.52M
+  flow.decoder.estimator.up_blocks.0.1.3.attn1.to_q       | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.up_blocks.0.1.3.attn1.to_k       | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.up_blocks.0.1.3.attn1.to_v       | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.up_blocks.0.1.3.attn1.to_out     | ModuleList                          | 0.13M
+  flow.decoder.estimator.up_blocks.0.1.3.attn1.to_out.0   | LoRACompatibleLinear                | 0.13M
+  flow.decoder.estimator.up_blocks.0.1.3.attn1.to_out.1   | Dropout                             | 0.00M
+  flow.decoder.estimator.up_blocks.0.1.3.norm3            | LayerNorm                           | 0.00M
+  flow.decoder.estimator.up_blocks.0.1.3.ff               | FeedForward                         | 0.53M
+  flow.decoder.estimator.up_blocks.0.1.3.ff.net           | ModuleList                          | 0.53M
+  flow.decoder.estimator.up_blocks.0.1.3.ff.net.0         | GELU                                | 0.26M
+  flow.decoder.estimator.up_blocks.0.1.3.ff.net.0.proj    | Linear                              | 0.26M
+  flow.decoder.estimator.up_blocks.0.1.3.ff.net.1         | Dropout                             | 0.00M
+  flow.decoder.estimator.up_blocks.0.1.3.ff.net.2         | LoRACompatibleLinear                | 0.26M
+  flow.decoder.estimator.up_blocks.0.2                    | CausalConv1d                        | 0.20M
+  flow.decoder.estimator.final_block                      | CausalBlock1D                       | 0.20M
+  flow.decoder.estimator.final_block.block                | Sequential                          | 0.20M
+  flow.decoder.estimator.final_block.block.0              | CausalConv1d                        | 0.20M
+  flow.decoder.estimator.final_block.block.1              | Transpose                           | 0.00M
+  flow.decoder.estimator.final_block.block.2              | LayerNorm                           | 0.00M
+  flow.decoder.estimator.final_block.block.3              | Transpose                           | 0.00M
+  flow.decoder.estimator.final_block.block.4              | Mish                                | 0.00M
+  flow.decoder.estimator.final_proj                       | Conv1d                              | 0.02M
+
+======================================================================
+ALL submodules inside cv2.model.llm (Qwen2LM)
+======================================================================
+  llm.                                                   | Qwen2LM                             | 505.80M
+  llm.llm_embedding                                      | Embedding                           | 0.00M
+  llm.llm                                                | Qwen2Encoder                        | 494.03M
+  llm.llm.model                                          | Qwen2ForCausalLM                    | 494.03M
+  llm.llm.model.model                                    | Qwen2Model                          | 494.03M
+  llm.llm.model.lm_head                                  | Linear                              | 136.13M
+  llm.llm_decoder                                        | Linear                              | 5.89M
+  llm.criterion_ce                                       | LabelSmoothingLoss                  | 0.00M
+  llm.criterion_ce.criterion                             | KLDivLoss                           | 0.00M
+  llm.speech_embedding                                   | Embedding                           | 5.88M
+
+======================================================================
+ALL submodules inside cv2.model.hift (HiFTGenerator)
+======================================================================
+  hift.                                                   | HiFTGenerator                       | 20.82M
+  hift.m_source                                           | SourceModuleHnNSF                   | 0.00M
+  hift.m_source.l_sin_gen                                 | SineGen2                            | 0.00M
+  hift.m_source.l_linear                                  | Linear                              | 0.00M
+  hift.m_source.l_tanh                                    | Tanh                                | 0.00M
+  hift.f0_upsamp                                          | Upsample                            | 0.00M
+  hift.conv_pre                                           | ParametrizedConv1d                  | 0.29M
+  hift.conv_pre.parametrizations                          | ModuleDict                          | 0.29M
+  hift.conv_pre.parametrizations.weight                   | ParametrizationList                 | 0.29M
+  hift.ups                                                | ModuleList                          | 2.52M
+  hift.ups.0                                              | ParametrizedConvTranspose1d         | 2.10M
+  hift.ups.0.parametrizations                             | ModuleDict                          | 2.10M
+  hift.ups.1                                              | ParametrizedConvTranspose1d         | 0.36M
+  hift.ups.1.parametrizations                             | ModuleDict                          | 0.36M
+  hift.ups.2                                              | ParametrizedConvTranspose1d         | 0.06M
+  hift.ups.2.parametrizations                             | ModuleDict                          | 0.06M
+  hift.source_downs                                       | ModuleList                          | 0.15M
+  hift.source_downs.0                                     | Conv1d                              | 0.14M
+  hift.source_downs.1                                     | Conv1d                              | 0.01M
+  hift.source_downs.2                                     | Conv1d                              | 0.00M
+  hift.source_resblocks                                   | ModuleList                          | 3.72M
+  hift.source_resblocks.0                                 | ResBlock                            | 2.76M
+  hift.source_resblocks.0.convs1                          | ModuleList                          | 1.38M
+  hift.source_resblocks.0.convs2                          | ModuleList                          | 1.38M
+  hift.source_resblocks.0.activations1                    | ModuleList                          | 0.00M
+  hift.source_resblocks.0.activations2                    | ModuleList                          | 0.00M
+  hift.source_resblocks.1                                 | ResBlock                            | 0.69M
+  hift.source_resblocks.1.convs1                          | ModuleList                          | 0.34M
+  hift.source_resblocks.1.convs2                          | ModuleList                          | 0.34M
+  hift.source_resblocks.1.activations1                    | ModuleList                          | 0.00M
+  hift.source_resblocks.1.activations2                    | ModuleList                          | 0.00M
+  hift.source_resblocks.2                                 | ResBlock                            | 0.27M
+  hift.source_resblocks.2.convs1                          | ModuleList                          | 0.14M
+  hift.source_resblocks.2.convs2                          | ModuleList                          | 0.14M
+  hift.source_resblocks.2.activations1                    | ModuleList                          | 0.00M
+  hift.source_resblocks.2.activations2                    | ModuleList                          | 0.00M
+  hift.resblocks                                          | ModuleList                          | 10.86M
+  hift.resblocks.0                                        | ResBlock                            | 1.18M
+  hift.resblocks.0.convs1                                 | ModuleList                          | 0.59M
+  hift.resblocks.0.convs2                                 | ModuleList                          | 0.59M
+  hift.resblocks.0.activations1                           | ModuleList                          | 0.00M
+  hift.resblocks.0.activations2                           | ModuleList                          | 0.00M
+  hift.resblocks.1                                        | ResBlock                            | 2.76M
+  hift.resblocks.1.convs1                                 | ModuleList                          | 1.38M
+  hift.resblocks.1.convs2                                 | ModuleList                          | 1.38M
+  hift.resblocks.1.activations1                           | ModuleList                          | 0.00M
+  hift.resblocks.1.activations2                           | ModuleList                          | 0.00M
+  hift.resblocks.2                                        | ResBlock                            | 4.33M
+  hift.resblocks.2.convs1                                 | ModuleList                          | 2.16M
+  hift.resblocks.2.convs2                                 | ModuleList                          | 2.16M
+  hift.resblocks.2.activations1                           | ModuleList                          | 0.00M
+  hift.resblocks.2.activations2                           | ModuleList                          | 0.00M
+  hift.resblocks.3                                        | ResBlock                            | 0.30M
+  hift.resblocks.3.convs1                                 | ModuleList                          | 0.15M
+  hift.resblocks.3.convs2                                 | ModuleList                          | 0.15M
+  hift.resblocks.3.activations1                           | ModuleList                          | 0.00M
+  hift.resblocks.3.activations2                           | ModuleList                          | 0.00M
+  hift.resblocks.4                                        | ResBlock                            | 0.69M
+  hift.resblocks.4.convs1                                 | ModuleList                          | 0.34M
+  hift.resblocks.4.convs2                                 | ModuleList                          | 0.34M
+  hift.resblocks.4.activations1                           | ModuleList                          | 0.00M
+  hift.resblocks.4.activations2                           | ModuleList                          | 0.00M
+  hift.resblocks.5                                        | ResBlock                            | 1.08M
+  hift.resblocks.5.convs1                                 | ModuleList                          | 0.54M
+  hift.resblocks.5.convs2                                 | ModuleList                          | 0.54M
+  hift.resblocks.5.activations1                           | ModuleList                          | 0.00M
+  hift.resblocks.5.activations2                           | ModuleList                          | 0.00M
+  hift.resblocks.6                                        | ResBlock                            | 0.07M
+  hift.resblocks.6.convs1                                 | ModuleList                          | 0.04M
+  hift.resblocks.6.convs2                                 | ModuleList                          | 0.04M
+  hift.resblocks.6.activations1                           | ModuleList                          | 0.00M
+  hift.resblocks.6.activations2                           | ModuleList                          | 0.00M
+  hift.resblocks.7                                        | ResBlock                            | 0.17M
+  hift.resblocks.7.convs1                                 | ModuleList                          | 0.09M
+  hift.resblocks.7.convs2                                 | ModuleList                          | 0.09M
+  hift.resblocks.7.activations1                           | ModuleList                          | 0.00M
+  hift.resblocks.7.activations2                           | ModuleList                          | 0.00M
+  hift.resblocks.8                                        | ResBlock                            | 0.27M
+  hift.resblocks.8.convs1                                 | ModuleList                          | 0.14M
+  hift.resblocks.8.convs2                                 | ModuleList                          | 0.14M
+  hift.resblocks.8.activations1                           | ModuleList                          | 0.00M
+  hift.resblocks.8.activations2                           | ModuleList                          | 0.00M
+  hift.conv_post                                          | ParametrizedConv1d                  | 0.01M
+  hift.conv_post.parametrizations                         | ModuleDict                          | 0.01M
+  hift.conv_post.parametrizations.weight                  | ParametrizationList                 | 0.01M
+  hift.reflection_pad                                     | ReflectionPad1d                     | 0.00M
+  hift.f0_predictor                                       | ConvRNNF0Predictor                  | 3.27M
+  hift.f0_predictor.condnet                               | Sequential                          | 3.27M
+  hift.f0_predictor.condnet.0                             | ParametrizedConv1d                  | 0.12M
+  hift.f0_predictor.condnet.1                             | ELU                                 | 0.00M
+  hift.f0_predictor.condnet.2                             | ParametrizedConv1d                  | 0.79M
+  hift.f0_predictor.condnet.3                             | ELU                                 | 0.00M
+  hift.f0_predictor.condnet.4                             | ParametrizedConv1d                  | 0.79M
+  hift.f0_predictor.condnet.5                             | ELU                                 | 0.00M
+  hift.f0_predictor.condnet.6                             | ParametrizedConv1d                  | 0.79M
+  hift.f0_predictor.condnet.7                             | ELU                                 | 0.00M
+  hift.f0_predictor.condnet.8                             | ParametrizedConv1d                  | 0.79M
+  hift.f0_predictor.condnet.9                             | ELU                                 | 0.00M
+  hift.f0_predictor.classifier                            | Linear                              | 0.00M
+
+======================================================================
+ALL ModuleLists found (any size)
+======================================================================
+  ✅ flow.encoder.encoders                                   |   6 items | type: ConformerEncoderLayer
+  ✅ flow.encoder.up_encoders                                |   4 items | type: ConformerEncoderLayer
+  ✅ flow.decoder.estimator.down_blocks                      |   1 items | type: ModuleList
+  ✅ flow.decoder.estimator.down_blocks.0                    |   3 items | type: CausalResnetBlock1D
+  ✅ flow.decoder.estimator.down_blocks.0.1                  |   4 items | type: BasicTransformerBlock
+  ✅ flow.decoder.estimator.down_blocks.0.1.0.attn1.to_out   |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.down_blocks.0.1.0.ff.net         |   3 items | type: GELU
+  ✅ flow.decoder.estimator.down_blocks.0.1.1.attn1.to_out   |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.down_blocks.0.1.1.ff.net         |   3 items | type: GELU
+  ✅ flow.decoder.estimator.down_blocks.0.1.2.attn1.to_out   |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.down_blocks.0.1.2.ff.net         |   3 items | type: GELU
+  ✅ flow.decoder.estimator.down_blocks.0.1.3.attn1.to_out   |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.down_blocks.0.1.3.ff.net         |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks                       |  12 items | type: ModuleList
+  ✅ flow.decoder.estimator.mid_blocks.0                     |   2 items | type: CausalResnetBlock1D
+  ✅ flow.decoder.estimator.mid_blocks.0.1                   |   4 items | type: BasicTransformerBlock
+  ✅ flow.decoder.estimator.mid_blocks.0.1.0.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.0.1.0.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.0.1.1.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.0.1.1.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.0.1.2.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.0.1.2.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.0.1.3.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.0.1.3.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.1                     |   2 items | type: CausalResnetBlock1D
+  ✅ flow.decoder.estimator.mid_blocks.1.1                   |   4 items | type: BasicTransformerBlock
+  ✅ flow.decoder.estimator.mid_blocks.1.1.0.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.1.1.0.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.1.1.1.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.1.1.1.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.1.1.2.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.1.1.2.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.1.1.3.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.1.1.3.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.2                     |   2 items | type: CausalResnetBlock1D
+  ✅ flow.decoder.estimator.mid_blocks.2.1                   |   4 items | type: BasicTransformerBlock
+  ✅ flow.decoder.estimator.mid_blocks.2.1.0.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.2.1.0.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.2.1.1.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.2.1.1.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.2.1.2.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.2.1.2.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.2.1.3.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.2.1.3.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.3                     |   2 items | type: CausalResnetBlock1D
+  ✅ flow.decoder.estimator.mid_blocks.3.1                   |   4 items | type: BasicTransformerBlock
+  ✅ flow.decoder.estimator.mid_blocks.3.1.0.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.3.1.0.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.3.1.1.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.3.1.1.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.3.1.2.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.3.1.2.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.3.1.3.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.3.1.3.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.4                     |   2 items | type: CausalResnetBlock1D
+  ✅ flow.decoder.estimator.mid_blocks.4.1                   |   4 items | type: BasicTransformerBlock
+  ✅ flow.decoder.estimator.mid_blocks.4.1.0.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.4.1.0.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.4.1.1.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.4.1.1.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.4.1.2.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.4.1.2.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.4.1.3.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.4.1.3.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.5                     |   2 items | type: CausalResnetBlock1D
+  ✅ flow.decoder.estimator.mid_blocks.5.1                   |   4 items | type: BasicTransformerBlock
+  ✅ flow.decoder.estimator.mid_blocks.5.1.0.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.5.1.0.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.5.1.1.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.5.1.1.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.5.1.2.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.5.1.2.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.5.1.3.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.5.1.3.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.6                     |   2 items | type: CausalResnetBlock1D
+  ✅ flow.decoder.estimator.mid_blocks.6.1                   |   4 items | type: BasicTransformerBlock
+  ✅ flow.decoder.estimator.mid_blocks.6.1.0.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.6.1.0.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.6.1.1.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.6.1.1.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.6.1.2.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.6.1.2.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.6.1.3.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.6.1.3.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.7                     |   2 items | type: CausalResnetBlock1D
+  ✅ flow.decoder.estimator.mid_blocks.7.1                   |   4 items | type: BasicTransformerBlock
+  ✅ flow.decoder.estimator.mid_blocks.7.1.0.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.7.1.0.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.7.1.1.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.7.1.1.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.7.1.2.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.7.1.2.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.7.1.3.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.7.1.3.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.8                     |   2 items | type: CausalResnetBlock1D
+  ✅ flow.decoder.estimator.mid_blocks.8.1                   |   4 items | type: BasicTransformerBlock
+  ✅ flow.decoder.estimator.mid_blocks.8.1.0.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.8.1.0.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.8.1.1.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.8.1.1.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.8.1.2.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.8.1.2.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.8.1.3.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.8.1.3.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.9                     |   2 items | type: CausalResnetBlock1D
+  ✅ flow.decoder.estimator.mid_blocks.9.1                   |   4 items | type: BasicTransformerBlock
+  ✅ flow.decoder.estimator.mid_blocks.9.1.0.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.9.1.0.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.9.1.1.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.9.1.1.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.9.1.2.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.9.1.2.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.9.1.3.attn1.to_out    |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.9.1.3.ff.net          |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.10                    |   2 items | type: CausalResnetBlock1D
+  ✅ flow.decoder.estimator.mid_blocks.10.1                  |   4 items | type: BasicTransformerBlock
+  ✅ flow.decoder.estimator.mid_blocks.10.1.0.attn1.to_out   |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.10.1.0.ff.net         |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.10.1.1.attn1.to_out   |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.10.1.1.ff.net         |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.10.1.2.attn1.to_out   |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.10.1.2.ff.net         |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.10.1.3.attn1.to_out   |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.10.1.3.ff.net         |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.11                    |   2 items | type: CausalResnetBlock1D
+  ✅ flow.decoder.estimator.mid_blocks.11.1                  |   4 items | type: BasicTransformerBlock
+  ✅ flow.decoder.estimator.mid_blocks.11.1.0.attn1.to_out   |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.11.1.0.ff.net         |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.11.1.1.attn1.to_out   |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.11.1.1.ff.net         |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.11.1.2.attn1.to_out   |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.11.1.2.ff.net         |   3 items | type: GELU
+  ✅ flow.decoder.estimator.mid_blocks.11.1.3.attn1.to_out   |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.mid_blocks.11.1.3.ff.net         |   3 items | type: GELU
+  ✅ flow.decoder.estimator.up_blocks                        |   1 items | type: ModuleList
+  ✅ flow.decoder.estimator.up_blocks.0                      |   3 items | type: CausalResnetBlock1D
+  ✅ flow.decoder.estimator.up_blocks.0.1                    |   4 items | type: BasicTransformerBlock
+  ✅ flow.decoder.estimator.up_blocks.0.1.0.attn1.to_out     |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.up_blocks.0.1.0.ff.net           |   3 items | type: GELU
+  ✅ flow.decoder.estimator.up_blocks.0.1.1.attn1.to_out     |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.up_blocks.0.1.1.ff.net           |   3 items | type: GELU
+  ✅ flow.decoder.estimator.up_blocks.0.1.2.attn1.to_out     |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.up_blocks.0.1.2.ff.net           |   3 items | type: GELU
+  ✅ flow.decoder.estimator.up_blocks.0.1.3.attn1.to_out     |   2 items | type: LoRACompatibleLinear
+  ✅ flow.decoder.estimator.up_blocks.0.1.3.ff.net           |   3 items | type: GELU
+  ✅ llm.llm.model.model.layers                              |  24 items | type: Qwen2DecoderLayer
+  ✅ hift.conv_pre.parametrizations.weight                   |   1 items | type: _WeightNorm
+  ✅ hift.ups                                                |   3 items | type: ParametrizedConvTranspose1d
+  ✅ hift.ups.0.parametrizations.weight                      |   1 items | type: _WeightNorm
+  ✅ hift.ups.1.parametrizations.weight                      |   1 items | type: _WeightNorm
+  ✅ hift.ups.2.parametrizations.weight                      |   1 items | type: _WeightNorm
+  ✅ hift.source_downs                                       |   3 items | type: Conv1d
+  ✅ hift.source_resblocks                                   |   3 items | type: ResBlock
+  ✅ hift.source_resblocks.0.convs1                          |   3 items | type: ParametrizedConv1d
+  ✅ hift.source_resblocks.0.convs1.0.parametrizations.weight |   1 items | type: _WeightNorm
+  ✅ hift.source_resblocks.0.convs1.1.parametrizations.weight |   1 items | type: _WeightNorm
+  ✅ hift.source_resblocks.0.convs1.2.parametrizations.weight |   1 items | type: _WeightNorm
+  ✅ hift.source_resblocks.0.convs2                          |   3 items | type: ParametrizedConv1d
+  ✅ hift.source_resblocks.0.convs2.0.parametrizations.weight |   1 items | type: _WeightNorm
+  ✅ hift.source_resblocks.0.convs2.1.parametrizations.weight |   1 items | type: _WeightNorm
+  ✅ hift.source_resblocks.0.convs2.2.parametrizations.weight |   1 items | type: _WeightNorm
+  ✅ hift.source_resblocks.0.activations1                    |   3 items | type: Snake
+  ✅ hift.source_resblocks.0.activations2                    |   3 items | type: Snake
+  ✅ hift.source_resblocks.1.convs1                          |   3 items | type: ParametrizedConv1d
+  ✅ hift.source_resblocks.1.convs1.0.parametrizations.weight |   1 items | type: _WeightNorm
+  ✅ hift.source_resblocks.1.convs1.1.parametrizations.weight |   1 items | type: _WeightNorm
+  ✅ hift.source_resblocks.1.convs1.2.parametrizations.weight |   1 items | type: _WeightNorm
+  ✅ hift.source_resblocks.1.convs2                          |   3 items | type: ParametrizedConv1d
+  ✅ hift.source_resblocks.1.convs2.0.parametrizations.weight |   1 items | type: _WeightNorm
+  ✅ hift.source_resblocks.1.convs2.1.parametrizations.weight |   1 items | type: _WeightNorm
+  ✅ hift.source_resblocks.1.convs2.2.parametrizations.weight |   1 items | type: _WeightNorm
+  ✅ hift.source_resblocks.1.activations1                    |   3 items | type: Snake
+  ✅ hift.source_resblocks.1.activations2                    |   3 items | type: Snake
+  ✅ hift.source_resblocks.2.convs1                          |   3 items | type: ParametrizedConv1d
+  ✅ hift.source_resblocks.2.convs1.0.parametrizations.weight |   1 items | type: _WeightNorm
+  ✅ hift.source_resblocks.2.convs1.1.parametrizations.weight |   1 items | type: _WeightNorm
+  ✅ hift.source_resblocks.2.convs1.2.parametrizations.weight |   1 items | type: _WeightNorm
+  ✅ hift.source_resblocks.2.convs2                          |   3 items | type: ParametrizedConv1d
+  ✅ hift.source_resblocks.2.convs2.0.parametrizations.weight |   1 items | type: _WeightNorm
+  ✅ hift.source_resblocks.2.convs2.1.parametrizations.weight |   1 items | type: _WeightNorm
+  ✅ hift.source_resblocks.2.convs2.2.parametrizations.weight |   1 items | type: _WeightNorm
+  ✅ hift.source_resblocks.2.activations1                    |   3 items | type: Snake
+  ✅ hift.source_resblocks.2.activations2                    |   3 items | type: Snake
+  ✅ hift.resblocks                                          |   9 items | type: ResBlock
+  ✅ hift.resblocks.0.convs1                                 |   3 items | type: ParametrizedConv1d
+  ✅ hift.resblocks.0.convs1.0.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.0.convs1.1.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.0.convs1.2.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.0.convs2                                 |   3 items | type: ParametrizedConv1d
+  ✅ hift.resblocks.0.convs2.0.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.0.convs2.1.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.0.convs2.2.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.0.activations1                           |   3 items | type: Snake
+  ✅ hift.resblocks.0.activations2                           |   3 items | type: Snake
+  ✅ hift.resblocks.1.convs1                                 |   3 items | type: ParametrizedConv1d
+  ✅ hift.resblocks.1.convs1.0.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.1.convs1.1.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.1.convs1.2.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.1.convs2                                 |   3 items | type: ParametrizedConv1d
+  ✅ hift.resblocks.1.convs2.0.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.1.convs2.1.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.1.convs2.2.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.1.activations1                           |   3 items | type: Snake
+  ✅ hift.resblocks.1.activations2                           |   3 items | type: Snake
+  ✅ hift.resblocks.2.convs1                                 |   3 items | type: ParametrizedConv1d
+  ✅ hift.resblocks.2.convs1.0.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.2.convs1.1.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.2.convs1.2.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.2.convs2                                 |   3 items | type: ParametrizedConv1d
+  ✅ hift.resblocks.2.convs2.0.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.2.convs2.1.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.2.convs2.2.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.2.activations1                           |   3 items | type: Snake
+  ✅ hift.resblocks.2.activations2                           |   3 items | type: Snake
+  ✅ hift.resblocks.3.convs1                                 |   3 items | type: ParametrizedConv1d
+  ✅ hift.resblocks.3.convs1.0.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.3.convs1.1.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.3.convs1.2.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.3.convs2                                 |   3 items | type: ParametrizedConv1d
+  ✅ hift.resblocks.3.convs2.0.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.3.convs2.1.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.3.convs2.2.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.3.activations1                           |   3 items | type: Snake
+  ✅ hift.resblocks.3.activations2                           |   3 items | type: Snake
+  ✅ hift.resblocks.4.convs1                                 |   3 items | type: ParametrizedConv1d
+  ✅ hift.resblocks.4.convs1.0.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.4.convs1.1.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.4.convs1.2.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.4.convs2                                 |   3 items | type: ParametrizedConv1d
+  ✅ hift.resblocks.4.convs2.0.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.4.convs2.1.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.4.convs2.2.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.4.activations1                           |   3 items | type: Snake
+  ✅ hift.resblocks.4.activations2                           |   3 items | type: Snake
+  ✅ hift.resblocks.5.convs1                                 |   3 items | type: ParametrizedConv1d
+  ✅ hift.resblocks.5.convs1.0.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.5.convs1.1.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.5.convs1.2.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.5.convs2                                 |   3 items | type: ParametrizedConv1d
+  ✅ hift.resblocks.5.convs2.0.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.5.convs2.1.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.5.convs2.2.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.5.activations1                           |   3 items | type: Snake
+  ✅ hift.resblocks.5.activations2                           |   3 items | type: Snake
+  ✅ hift.resblocks.6.convs1                                 |   3 items | type: ParametrizedConv1d
+  ✅ hift.resblocks.6.convs1.0.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.6.convs1.1.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.6.convs1.2.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.6.convs2                                 |   3 items | type: ParametrizedConv1d
+  ✅ hift.resblocks.6.convs2.0.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.6.convs2.1.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.6.convs2.2.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.6.activations1                           |   3 items | type: Snake
+  ✅ hift.resblocks.6.activations2                           |   3 items | type: Snake
+  ✅ hift.resblocks.7.convs1                                 |   3 items | type: ParametrizedConv1d
+  ✅ hift.resblocks.7.convs1.0.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.7.convs1.1.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.7.convs1.2.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.7.convs2                                 |   3 items | type: ParametrizedConv1d
+  ✅ hift.resblocks.7.convs2.0.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.7.convs2.1.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.7.convs2.2.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.7.activations1                           |   3 items | type: Snake
+  ✅ hift.resblocks.7.activations2                           |   3 items | type: Snake
+  ✅ hift.resblocks.8.convs1                                 |   3 items | type: ParametrizedConv1d
+  ✅ hift.resblocks.8.convs1.0.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.8.convs1.1.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.8.convs1.2.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.8.convs2                                 |   3 items | type: ParametrizedConv1d
+  ✅ hift.resblocks.8.convs2.0.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.8.convs2.1.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.8.convs2.2.parametrizations.weight       |   1 items | type: _WeightNorm
+  ✅ hift.resblocks.8.activations1                           |   3 items | type: Snake
+  ✅ hift.resblocks.8.activations2                           |   3 items | type: Snake
+  ✅ hift.conv_post.parametrizations.weight                  |   1 items | type: _WeightNorm
+  ✅ hift.f0_predictor.condnet.0.parametrizations.weight     |   1 items | type: _WeightNorm
+  ✅ hift.f0_predictor.condnet.2.parametrizations.weight     |   1 items | type: _WeightNorm
+  ✅ hift.f0_predictor.condnet.4.parametrizations.weight     |   1 items | type: _WeightNorm
+  ✅ hift.f0_predictor.condnet.6.parametrizations.weight     |   1 items | type: _WeightNorm
+  ✅ hift.f0_predictor.condnet.8.parametrizations.weight     |   1 items | type: _WeightNorm

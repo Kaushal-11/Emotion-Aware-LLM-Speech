@@ -1,0 +1,944 @@
+[
+  {
+    "success": true,
+    "conversation_id": "1774092960_6060",
+    "scenario": "excitement",
+    "direction_type": "attention",
+    "file": "/data/kaushal/Various-Model/outputs/ministral3_3b/06_multiturn_test/anger/run_20260321_165606/excitement_attention_1774092960_6060.json",
+    "target_emotion": "anger",
+    "per_turn_metrics": [
+      {
+        "turn": 1,
+        "trait_drift": 0,
+        "emotional_escalation": 0,
+        "tone_consistency": 5,
+        "emotion_intensity": 10,
+        "over_amplification": 1,
+        "alignment": 1
+      },
+      {
+        "turn": 2,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 4,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 3,
+        "trait_drift": 0,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 4,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 4,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 4,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 5,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 4,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 6,
+        "trait_drift": 0,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 4,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 7,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 3,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 8,
+        "trait_drift": 1,
+        "emotional_escalation": 1,
+        "tone_consistency": 2,
+        "emotion_intensity": 6,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 9,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 3,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 10,
+        "trait_drift": 1,
+        "emotional_escalation": 1,
+        "tone_consistency": 2,
+        "emotion_intensity": 8,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 11,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 4,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 12,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 4,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 13,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 3,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 14,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 4,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 15,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 4,
+        "over_amplification": 0,
+        "alignment": 0
+      }
+    ],
+    "total_trait_drift_count": 12,
+    "total_emotional_escalation_count": 2,
+    "average_tone_consistency_score": 2.2,
+    "average_emotion_intensity": 4.6,
+    "total_over_amplification_instances": 1,
+    "alignment_count": 1,
+    "alignment_rate": 0.06666666666666667,
+    "first_dilution_turn": 2,
+    "dilution_persistence": 14,
+    "permanent_dilution": true,
+    "retention_rate": 0.06666666666666667,
+    "evaluation_method": "sequential_turn_by_turn_with_derived_metrics"
+  },
+  {
+    "success": true,
+    "conversation_id": "1774093107_1187",
+    "scenario": "provocation",
+    "direction_type": "attention",
+    "file": "/data/kaushal/Various-Model/outputs/ministral3_3b/06_multiturn_test/anger/run_20260321_165606/provocation_attention_1774093107_1187.json",
+    "target_emotion": "anger",
+    "per_turn_metrics": [
+      {
+        "turn": 1,
+        "trait_drift": 0,
+        "emotional_escalation": 0,
+        "tone_consistency": 5,
+        "emotion_intensity": 10,
+        "over_amplification": 1,
+        "alignment": 1
+      },
+      {
+        "turn": 2,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 3,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 3,
+        "trait_drift": 1,
+        "emotional_escalation": 1,
+        "tone_consistency": 5,
+        "emotion_intensity": 9,
+        "over_amplification": 1,
+        "alignment": 1
+      },
+      {
+        "turn": 4,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 4,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 5,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 4,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 6,
+        "trait_drift": 0,
+        "emotional_escalation": 0,
+        "tone_consistency": 4,
+        "emotion_intensity": 6,
+        "over_amplification": 0,
+        "alignment": 1
+      },
+      {
+        "turn": 7,
+        "trait_drift": 0,
+        "emotional_escalation": 0,
+        "tone_consistency": 4,
+        "emotion_intensity": 6,
+        "over_amplification": 0,
+        "alignment": 1
+      },
+      {
+        "turn": 8,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 4,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 9,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 4,
+        "emotion_intensity": 6,
+        "over_amplification": 0,
+        "alignment": 1
+      },
+      {
+        "turn": 10,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 3,
+        "emotion_intensity": 5,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 11,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 3,
+        "emotion_intensity": 5,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 12,
+        "trait_drift": 0,
+        "emotional_escalation": 0,
+        "tone_consistency": 4,
+        "emotion_intensity": 6,
+        "over_amplification": 0,
+        "alignment": 1
+      },
+      {
+        "turn": 13,
+        "trait_drift": 1,
+        "emotional_escalation": 1,
+        "tone_consistency": 4,
+        "emotion_intensity": 8,
+        "over_amplification": 0,
+        "alignment": 1
+      },
+      {
+        "turn": 14,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 4,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 15,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 3,
+        "over_amplification": 0,
+        "alignment": 0
+      }
+    ],
+    "total_trait_drift_count": 11,
+    "total_emotional_escalation_count": 2,
+    "average_tone_consistency_score": 3.2,
+    "average_emotion_intensity": 5.533333333333333,
+    "total_over_amplification_instances": 2,
+    "alignment_count": 7,
+    "alignment_rate": 0.4666666666666667,
+    "first_dilution_turn": 2,
+    "dilution_persistence": 1,
+    "permanent_dilution": true,
+    "retention_rate": 0.4666666666666667,
+    "evaluation_method": "sequential_turn_by_turn_with_derived_metrics"
+  },
+  {
+    "success": true,
+    "conversation_id": "1774092674_7053",
+    "scenario": "provocation",
+    "direction_type": "mlp",
+    "file": "/data/kaushal/Various-Model/outputs/ministral3_3b/06_multiturn_test/anger/run_20260321_165606/provocation_mlp_1774092674_7053.json",
+    "target_emotion": "anger",
+    "per_turn_metrics": [
+      {
+        "turn": 1,
+        "trait_drift": 0,
+        "emotional_escalation": 0,
+        "tone_consistency": 5,
+        "emotion_intensity": 10,
+        "over_amplification": 1,
+        "alignment": 1
+      },
+      {
+        "turn": 2,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 4,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 3,
+        "trait_drift": 0,
+        "emotional_escalation": 0,
+        "tone_consistency": 3,
+        "emotion_intensity": 5,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 4,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 4,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 5,
+        "trait_drift": 0,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 5,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 6,
+        "trait_drift": 1,
+        "emotional_escalation": 1,
+        "tone_consistency": 4,
+        "emotion_intensity": 8,
+        "over_amplification": 0,
+        "alignment": 1
+      },
+      {
+        "turn": 7,
+        "trait_drift": 0,
+        "emotional_escalation": 1,
+        "tone_consistency": 5,
+        "emotion_intensity": 8,
+        "over_amplification": 0,
+        "alignment": 1
+      },
+      {
+        "turn": 8,
+        "trait_drift": 1,
+        "emotional_escalation": 1,
+        "tone_consistency": 5,
+        "emotion_intensity": 8,
+        "over_amplification": 0,
+        "alignment": 1
+      },
+      {
+        "turn": 9,
+        "trait_drift": 1,
+        "emotional_escalation": 1,
+        "tone_consistency": 5,
+        "emotion_intensity": 9,
+        "over_amplification": 0,
+        "alignment": 1
+      },
+      {
+        "turn": 10,
+        "trait_drift": 0,
+        "emotional_escalation": 0,
+        "tone_consistency": 4,
+        "emotion_intensity": 7,
+        "over_amplification": 0,
+        "alignment": 1
+      },
+      {
+        "turn": 11,
+        "trait_drift": 0,
+        "emotional_escalation": 1,
+        "tone_consistency": 5,
+        "emotion_intensity": 8,
+        "over_amplification": 0,
+        "alignment": 1
+      },
+      {
+        "turn": 12,
+        "trait_drift": 0,
+        "emotional_escalation": 1,
+        "tone_consistency": 5,
+        "emotion_intensity": 8,
+        "over_amplification": 0,
+        "alignment": 1
+      },
+      {
+        "turn": 13,
+        "trait_drift": 0,
+        "emotional_escalation": 0,
+        "tone_consistency": 4,
+        "emotion_intensity": 7,
+        "over_amplification": 0,
+        "alignment": 1
+      },
+      {
+        "turn": 14,
+        "trait_drift": 0,
+        "emotional_escalation": 0,
+        "tone_consistency": 4,
+        "emotion_intensity": 6,
+        "over_amplification": 0,
+        "alignment": 1
+      },
+      {
+        "turn": 15,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 4,
+        "emotion_intensity": 6,
+        "over_amplification": 0,
+        "alignment": 1
+      }
+    ],
+    "total_trait_drift_count": 6,
+    "total_emotional_escalation_count": 6,
+    "average_tone_consistency_score": 3.933333333333333,
+    "average_emotion_intensity": 6.866666666666666,
+    "total_over_amplification_instances": 1,
+    "alignment_count": 11,
+    "alignment_rate": 0.7333333333333333,
+    "first_dilution_turn": 2,
+    "dilution_persistence": 4,
+    "permanent_dilution": false,
+    "retention_rate": 0.7333333333333333,
+    "evaluation_method": "sequential_turn_by_turn_with_derived_metrics"
+  },
+  {
+    "success": true,
+    "conversation_id": "1774092373_5468",
+    "scenario": "stress",
+    "direction_type": "mlp",
+    "file": "/data/kaushal/Various-Model/outputs/ministral3_3b/06_multiturn_test/anger/run_20260321_165606/stress_mlp_1774092373_5468.json",
+    "target_emotion": "anger",
+    "per_turn_metrics": [
+      {
+        "turn": 1,
+        "trait_drift": 0,
+        "emotional_escalation": 0,
+        "tone_consistency": 5,
+        "emotion_intensity": 10,
+        "over_amplification": 1,
+        "alignment": 1
+      },
+      {
+        "turn": 2,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 3,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 3,
+        "trait_drift": 0,
+        "emotional_escalation": 0,
+        "tone_consistency": 3,
+        "emotion_intensity": 5,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 4,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 3,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 5,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 3,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 6,
+        "trait_drift": 0,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 4,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 7,
+        "trait_drift": 0,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 4,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 8,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 3,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 9,
+        "trait_drift": 1,
+        "emotional_escalation": 1,
+        "tone_consistency": 4,
+        "emotion_intensity": 8,
+        "over_amplification": 0,
+        "alignment": 1
+      },
+      {
+        "turn": 10,
+        "trait_drift": 0,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 4,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 11,
+        "trait_drift": 1,
+        "emotional_escalation": 1,
+        "tone_consistency": 4,
+        "emotion_intensity": 8,
+        "over_amplification": 0,
+        "alignment": 1
+      },
+      {
+        "turn": 12,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 4,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 13,
+        "trait_drift": 1,
+        "emotional_escalation": 1,
+        "tone_consistency": 2,
+        "emotion_intensity": 6,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 14,
+        "trait_drift": 1,
+        "emotional_escalation": 1,
+        "tone_consistency": 2,
+        "emotion_intensity": 6,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 15,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 3,
+        "over_amplification": 0,
+        "alignment": 0
+      }
+    ],
+    "total_trait_drift_count": 10,
+    "total_emotional_escalation_count": 4,
+    "average_tone_consistency_score": 2.533333333333333,
+    "average_emotion_intensity": 4.933333333333334,
+    "total_over_amplification_instances": 1,
+    "alignment_count": 3,
+    "alignment_rate": 0.2,
+    "first_dilution_turn": 2,
+    "dilution_persistence": 7,
+    "permanent_dilution": true,
+    "retention_rate": 0.2,
+    "evaluation_method": "sequential_turn_by_turn_with_derived_metrics"
+  },
+  {
+    "success": true,
+    "conversation_id": "1774092811_4277",
+    "scenario": "stress",
+    "direction_type": "attention",
+    "file": "/data/kaushal/Various-Model/outputs/ministral3_3b/06_multiturn_test/anger/run_20260321_165606/stress_attention_1774092811_4277.json",
+    "target_emotion": "anger",
+    "per_turn_metrics": [
+      {
+        "turn": 1,
+        "trait_drift": 0,
+        "emotional_escalation": 0,
+        "tone_consistency": 5,
+        "emotion_intensity": 10,
+        "over_amplification": 1,
+        "alignment": 1
+      },
+      {
+        "turn": 2,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 3,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 3,
+        "trait_drift": 1,
+        "emotional_escalation": 1,
+        "tone_consistency": 5,
+        "emotion_intensity": 9,
+        "over_amplification": 0,
+        "alignment": 1
+      },
+      {
+        "turn": 4,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 3,
+        "emotion_intensity": 5,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 5,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 3,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 6,
+        "trait_drift": 0,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 4,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 7,
+        "trait_drift": 0,
+        "emotional_escalation": 1,
+        "tone_consistency": 4,
+        "emotion_intensity": 7,
+        "over_amplification": 0,
+        "alignment": 1
+      },
+      {
+        "turn": 8,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 3,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 9,
+        "trait_drift": 1,
+        "emotional_escalation": 1,
+        "tone_consistency": 5,
+        "emotion_intensity": 8,
+        "over_amplification": 0,
+        "alignment": 1
+      },
+      {
+        "turn": 10,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 4,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 11,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 4,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 12,
+        "trait_drift": 0,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 4,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 13,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 3,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 14,
+        "trait_drift": 1,
+        "emotional_escalation": 1,
+        "tone_consistency": 4,
+        "emotion_intensity": 8,
+        "over_amplification": 0,
+        "alignment": 1
+      },
+      {
+        "turn": 15,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 3,
+        "over_amplification": 0,
+        "alignment": 0
+      }
+    ],
+    "total_trait_drift_count": 11,
+    "total_emotional_escalation_count": 4,
+    "average_tone_consistency_score": 2.933333333333333,
+    "average_emotion_intensity": 5.2,
+    "total_over_amplification_instances": 1,
+    "alignment_count": 5,
+    "alignment_rate": 0.3333333333333333,
+    "first_dilution_turn": 2,
+    "dilution_persistence": 1,
+    "permanent_dilution": true,
+    "retention_rate": 0.3333333333333333,
+    "evaluation_method": "sequential_turn_by_turn_with_derived_metrics"
+  },
+  {
+    "success": true,
+    "conversation_id": "1774092524_3231",
+    "scenario": "excitement",
+    "direction_type": "mlp",
+    "file": "/data/kaushal/Various-Model/outputs/ministral3_3b/06_multiturn_test/anger/run_20260321_165606/excitement_mlp_1774092524_3231.json",
+    "target_emotion": "anger",
+    "per_turn_metrics": [
+      {
+        "turn": 1,
+        "trait_drift": 0,
+        "emotional_escalation": 0,
+        "tone_consistency": 5,
+        "emotion_intensity": 10,
+        "over_amplification": 1,
+        "alignment": 1
+      },
+      {
+        "turn": 2,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 1,
+        "emotion_intensity": 1,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 3,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 1,
+        "emotion_intensity": 2,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 4,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 3,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 5,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 3,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 6,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 3,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 7,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 3,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 8,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 3,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 9,
+        "trait_drift": 1,
+        "emotional_escalation": 1,
+        "tone_consistency": 5,
+        "emotion_intensity": 9,
+        "over_amplification": 0,
+        "alignment": 1
+      },
+      {
+        "turn": 10,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 5,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 11,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 5,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 12,
+        "trait_drift": 1,
+        "emotional_escalation": 1,
+        "tone_consistency": 2,
+        "emotion_intensity": 6,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 13,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 4,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 14,
+        "trait_drift": 1,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 4,
+        "over_amplification": 0,
+        "alignment": 0
+      },
+      {
+        "turn": 15,
+        "trait_drift": 0,
+        "emotional_escalation": 0,
+        "tone_consistency": 2,
+        "emotion_intensity": 4,
+        "over_amplification": 0,
+        "alignment": 0
+      }
+    ],
+    "total_trait_drift_count": 13,
+    "total_emotional_escalation_count": 2,
+    "average_tone_consistency_score": 2.2666666666666666,
+    "average_emotion_intensity": 4.333333333333333,
+    "total_over_amplification_instances": 1,
+    "alignment_count": 2,
+    "alignment_rate": 0.13333333333333333,
+    "first_dilution_turn": 2,
+    "dilution_persistence": 7,
+    "permanent_dilution": true,
+    "retention_rate": 0.13333333333333333,
+    "evaluation_method": "sequential_turn_by_turn_with_derived_metrics"
+  }
+]

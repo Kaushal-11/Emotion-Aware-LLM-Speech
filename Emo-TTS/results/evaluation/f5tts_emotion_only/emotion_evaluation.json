@@ -1,0 +1,1634 @@
+{
+  "anger": {
+    "alpha_0.5": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.44495639204978943,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.126480832695961,
+      "target_prob_std": 0.0,
+      "entropy_mean": 1.208667506445693,
+      "entropy_std": 0.0,
+      "margin_mean": 0.31847555935382843,
+      "margin_std": 0.0,
+      "emotional_score": 1.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 1,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.12616930415970273,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 0.0003115285362582654,
+        "steered_mean": 0.126480832695961
+      }
+    },
+    "alpha_1.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.47546762228012085,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.051385458558797836,
+      "target_prob_std": 0.0,
+      "entropy_mean": 1.0705578458774534,
+      "entropy_std": 0.0,
+      "margin_mean": 0.39085737615823746,
+      "margin_std": 0.0,
+      "emotional_score": 1.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 1,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.05107393002253957,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 0.0003115285362582654,
+        "steered_mean": 0.051385458558797836
+      }
+    },
+    "alpha_1.5": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.43676602840423584,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.018092656508088112,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.7987570108260005,
+      "entropy_std": 0.0,
+      "margin_mean": 0.3941509760916233,
+      "margin_std": 0.0,
+      "emotional_score": 1.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 1,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.017781127971829847,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 0.0003115285362582654,
+        "steered_mean": 0.018092656508088112
+      }
+    },
+    "alpha_2.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.3324350118637085,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.0357881523668766,
+      "target_prob_std": 0.0,
+      "entropy_mean": 1.128175014581064,
+      "entropy_std": 0.0,
+      "margin_mean": 0.05224567651748657,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.03547662383061834,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 0.0003115285362582654,
+        "steered_mean": 0.0357881523668766
+      }
+    },
+    "alpha_4.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.10748177021741867,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.02499075047671795,
+      "target_prob_std": 0.0,
+      "entropy_mean": 1.4469611749900237,
+      "entropy_std": 0.0,
+      "margin_mean": 0.049612872302532196,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 1,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.024679221940459684,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 0.0003115285362582654,
+        "steered_mean": 0.02499075047671795
+      }
+    },
+    "alpha_5.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.28363651037216187,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.018291564658284187,
+      "target_prob_std": 0.0,
+      "entropy_mean": 1.047146776693861,
+      "entropy_std": 0.0,
+      "margin_mean": 0.21445197612047195,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.017980036122025922,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 0.0003115285362582654,
+        "steered_mean": 0.018291564658284187
+      }
+    },
+    "alpha_6.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.4916735589504242,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.004126440733671188,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.8165523125853423,
+      "entropy_std": 0.0,
+      "margin_mean": 0.32617801427841187,
+      "margin_std": 0.0,
+      "emotional_score": 1.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 1,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.003814912197412923,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 0.0003115285362582654,
+        "steered_mean": 0.004126440733671188
+      }
+    },
+    "alpha_7.0": {
+      "accuracy": 1.0,
+      "confidence_mean": 0.055198248475790024,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.055198248475790024,
+      "target_prob_std": 0.0,
+      "entropy_mean": 1.5985442182128595,
+      "entropy_std": 0.0,
+      "margin_mean": 0.026013484224677086,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 1,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.05488671993953176,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 0.0003115285362582654,
+        "steered_mean": 0.055198248475790024
+      }
+    },
+    "default": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.8582726716995239,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.0007195448270067573,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.29226511195972105,
+      "entropy_std": 0.0,
+      "margin_mean": 0.7992710322141647,
+      "margin_std": 0.0,
+      "emotional_score": 1.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 1,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.0004080162907484919,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 0.0003115285362582654,
+        "steered_mean": 0.0007195448270067573
+      }
+    }
+  },
+  "happiness": {
+    "alpha_0.5": {
+      "accuracy": 1.0,
+      "confidence_mean": 0.23290325701236725,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.23290325701236725,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.9651731318721823,
+      "entropy_std": 0.0,
+      "margin_mean": 0.18386786058545113,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 1,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.2128511145710945,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 0.020052142441272736,
+        "steered_mean": 0.23290325701236725
+      }
+    },
+    "alpha_1.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.10534922033548355,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.07194230705499649,
+      "target_prob_std": 0.0,
+      "entropy_mean": 1.5406297251243288,
+      "entropy_std": 0.0,
+      "margin_mean": 0.03340691328048706,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.051890164613723755,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 0.020052142441272736,
+        "steered_mean": 0.07194230705499649
+      }
+    },
+    "alpha_1.5": {
+      "accuracy": 1.0,
+      "confidence_mean": 0.12351452559232712,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.12351452559232712,
+      "target_prob_std": 0.0,
+      "entropy_mean": 1.0345408109015894,
+      "entropy_std": 0.0,
+      "margin_mean": 0.10588711127638817,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 1,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.10346238315105438,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 0.020052142441272736,
+        "steered_mean": 0.12351452559232712
+      }
+    },
+    "alpha_2.0": {
+      "accuracy": 1.0,
+      "confidence_mean": 0.3159801661968231,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.3159801661968231,
+      "target_prob_std": 0.0,
+      "entropy_mean": 1.0773520798775813,
+      "entropy_std": 0.0,
+      "margin_mean": 0.23179728537797928,
+      "margin_std": 0.0,
+      "emotional_score": 1.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 1,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.2959280237555504,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 0.020052142441272736,
+        "steered_mean": 0.3159801661968231
+      }
+    },
+    "alpha_4.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.1252112090587616,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.1056661531329155,
+      "target_prob_std": 0.0,
+      "entropy_mean": 1.3545534099042689,
+      "entropy_std": 0.0,
+      "margin_mean": 0.010845661163330078,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.08561401069164276,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 0.020052142441272736,
+        "steered_mean": 0.1056661531329155
+      }
+    },
+    "alpha_5.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.20347145199775696,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.036899812519550323,
+      "target_prob_std": 0.0,
+      "entropy_mean": 1.175249955869241,
+      "entropy_std": 0.0,
+      "margin_mean": 0.07867448031902313,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.016847670078277588,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 0.020052142441272736,
+        "steered_mean": 0.036899812519550323
+      }
+    },
+    "alpha_6.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.12224210798740387,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.03639219328761101,
+      "target_prob_std": 0.0,
+      "entropy_mean": 1.3785327425530296,
+      "entropy_std": 0.0,
+      "margin_mean": 0.07680341601371765,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.016340050846338272,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 0.020052142441272736,
+        "steered_mean": 0.03639219328761101
+      }
+    },
+    "alpha_7.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.5346240997314453,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.0038581229746341705,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.620508706119048,
+      "entropy_std": 0.0,
+      "margin_mean": 0.39986367523670197,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": -0.016194019466638565,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 0.0,
+        "baseline_mean": 0.020052142441272736,
+        "steered_mean": 0.0038581229746341705
+      }
+    },
+    "default": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.4893299639225006,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.002037559635937214,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.5692567825687807,
+      "entropy_std": 0.0,
+      "margin_mean": 0.4374723955988884,
+      "margin_std": 0.0,
+      "emotional_score": 1.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 1,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": -0.01801458280533552,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 0.0,
+        "baseline_mean": 0.020052142441272736,
+        "steered_mean": 0.002037559635937214
+      }
+    }
+  },
+  "sadness": {
+    "alpha_0.5": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.5383894443511963,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.023273665457963943,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.5469983667010659,
+      "entropy_std": 0.0,
+      "margin_mean": 0.5151157788932323,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.01910456921905279,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 0.004169096238911152,
+        "steered_mean": 0.023273665457963943
+      }
+    },
+    "alpha_1.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.39022669196128845,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.059598665684461594,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.9374356409607199,
+      "entropy_std": 0.0,
+      "margin_mean": 0.3080454170703888,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.05542956944555044,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 0.004169096238911152,
+        "steered_mean": 0.059598665684461594
+      }
+    },
+    "alpha_1.5": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.9426755905151367,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.006605823524296284,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.16399731408086968,
+      "entropy_std": 0.0,
+      "margin_mean": 0.9322565067559481,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.002436727285385132,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 0.004169096238911152,
+        "steered_mean": 0.006605823524296284
+      }
+    },
+    "alpha_2.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.14710502326488495,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.028477873653173447,
+      "target_prob_std": 0.0,
+      "entropy_mean": 1.339626029543134,
+      "entropy_std": 0.0,
+      "margin_mean": 0.08033164590597153,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 1,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.024308777414262295,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 0.004169096238911152,
+        "steered_mean": 0.028477873653173447
+      }
+    },
+    "alpha_4.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.5750754475593567,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.27949413657188416,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.7629300264766792,
+      "entropy_std": 0.0,
+      "margin_mean": 0.29558131098747253,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.275325040332973,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 0.004169096238911152,
+        "steered_mean": 0.27949413657188416
+      }
+    },
+    "alpha_5.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.9976853132247925,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.0010327751515433192,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.011848857923031943,
+      "entropy_std": 0.0,
+      "margin_mean": 0.9966525380732492,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": -0.0031363210873678327,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 0.0,
+        "baseline_mean": 0.004169096238911152,
+        "steered_mean": 0.0010327751515433192
+      }
+    },
+    "alpha_6.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.9993746876716614,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.00047306192573159933,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.00435324283994378,
+      "entropy_std": 0.0,
+      "margin_mean": 0.9989016257459298,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": -0.0036960343131795526,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 0.0,
+        "baseline_mean": 0.004169096238911152,
+        "steered_mean": 0.00047306192573159933
+      }
+    },
+    "alpha_7.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.9993487000465393,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.0004449244006536901,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.004629052000387971,
+      "entropy_std": 0.0,
+      "margin_mean": 0.9989037756458856,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": -0.003724171838257462,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 0.0,
+        "baseline_mean": 0.004169096238911152,
+        "steered_mean": 0.0004449244006536901
+      }
+    },
+    "default": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.9753221273422241,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.010104860179126263,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.13673373208231548,
+      "entropy_std": 0.0,
+      "margin_mean": 0.9652172671630979,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.005935763940215111,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 0.004169096238911152,
+        "steered_mean": 0.010104860179126263
+      }
+    }
+  },
+  "disgust": {
+    "alpha_0.5": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.7874903082847595,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.0035602471325546503,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.4404017515857195,
+      "entropy_std": 0.0,
+      "margin_mean": 0.7144056484103203,
+      "margin_std": 0.0,
+      "emotional_score": 1.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 1,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.002830063400324434,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 0.0007301837322302163,
+        "steered_mean": 0.0035602471325546503
+      }
+    },
+    "alpha_1.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.35850751399993896,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.009709865786135197,
+      "target_prob_std": 0.0,
+      "entropy_mean": 1.0556930441492156,
+      "entropy_std": 0.0,
+      "margin_mean": 0.18070262670516968,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.00897968205390498,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 0.0007301837322302163,
+        "steered_mean": 0.009709865786135197
+      }
+    },
+    "alpha_1.5": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.22527550160884857,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.027777645736932755,
+      "target_prob_std": 0.0,
+      "entropy_mean": 1.4434505535252193,
+      "entropy_std": 0.0,
+      "margin_mean": 0.009287223219871521,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.027047462004702538,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 0.0007301837322302163,
+        "steered_mean": 0.027777645736932755
+      }
+    },
+    "alpha_2.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.5857040286064148,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.01590035855770111,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.670041288750399,
+      "entropy_std": 0.0,
+      "margin_mean": 0.5231687128543854,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.015170174825470895,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 0.0007301837322302163,
+        "steered_mean": 0.01590035855770111
+      }
+    },
+    "alpha_4.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.8608588576316833,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.007441175170242786,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.24457232309278676,
+      "entropy_std": 0.0,
+      "margin_mean": 0.8372094687074423,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.00671099143801257,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 0.0007301837322302163,
+        "steered_mean": 0.007441175170242786
+      }
+    },
+    "alpha_5.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.6002635955810547,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.009263517335057259,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.7516015910946823,
+      "entropy_std": 0.0,
+      "margin_mean": 0.296699583530426,
+      "margin_std": 0.0,
+      "emotional_score": 1.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 1,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.008533333602827042,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 0.0007301837322302163,
+        "steered_mean": 0.009263517335057259
+      }
+    },
+    "alpha_6.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.9877499938011169,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.00016030132246669382,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.06734404108825123,
+      "entropy_std": 0.0,
+      "margin_mean": 0.9797574253752828,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": -0.0005698824097635224,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 0.0,
+        "baseline_mean": 0.0007301837322302163,
+        "steered_mean": 0.00016030132246669382
+      }
+    },
+    "alpha_7.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.9279695153236389,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.0022137435153126717,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.1381952622406912,
+      "entropy_std": 0.0,
+      "margin_mean": 0.9123335629701614,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.0014835597830824554,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 0.0007301837322302163,
+        "steered_mean": 0.0022137435153126717
+      }
+    },
+    "default": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.9774697422981262,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.0006078494479879737,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.09285549280958004,
+      "entropy_std": 0.0,
+      "margin_mean": 0.9678769176825881,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": -0.00012233428424224257,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 0.0,
+        "baseline_mean": 0.0007301837322302163,
+        "steered_mean": 0.0006078494479879737
+      }
+    }
+  },
+  "fear": {
+    "alpha_0.5": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.12715022265911102,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.0018491739174351096,
+      "target_prob_std": 0.0,
+      "entropy_mean": 1.3352797266194978,
+      "entropy_std": 0.0,
+      "margin_mean": 0.02102973312139511,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 1,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.0017714181667543016,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 7.775575068080798e-05,
+        "steered_mean": 0.0018491739174351096
+      }
+    },
+    "alpha_1.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.3676433861255646,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.0018305573612451553,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.8564278956452384,
+      "entropy_std": 0.0,
+      "margin_mean": 0.3067668192088604,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.0017528016105643474,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 7.775575068080798e-05,
+        "steered_mean": 0.0018305573612451553
+      }
+    },
+    "alpha_1.5": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.5338293313980103,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.001583480043336749,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.6048592481079367,
+      "entropy_std": 0.0,
+      "margin_mean": 0.5041969828307629,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.001505724292655941,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 7.775575068080798e-05,
+        "steered_mean": 0.001583480043336749
+      }
+    },
+    "alpha_2.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.5707831382751465,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.0011743360664695501,
+      "target_prob_std": 0.0,
+      "entropy_mean": 1.0045006656566728,
+      "entropy_std": 0.0,
+      "margin_mean": 0.3160758316516876,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.0010965803157887422,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 7.775575068080798e-05,
+        "steered_mean": 0.0011743360664695501
+      }
+    },
+    "alpha_4.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.5281609892845154,
+      "confidence_std": 0.0,
+      "target_prob_mean": 2.3932050680741668e-05,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.717084840302276,
+      "entropy_std": 0.0,
+      "margin_mean": 0.06113967299461365,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": -5.382370000006631e-05,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 0.0,
+        "baseline_mean": 7.775575068080798e-05,
+        "steered_mean": 2.3932050680741668e-05
+      }
+    },
+    "alpha_5.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.9874039888381958,
+      "confidence_std": 0.0,
+      "target_prob_mean": 7.294886017916724e-05,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.06849676712293004,
+      "entropy_std": 0.0,
+      "margin_mean": 0.979597631841898,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": -4.806890501640737e-06,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 0.0,
+        "baseline_mean": 7.775575068080798e-05,
+        "steered_mean": 7.294886017916724e-05
+      }
+    },
+    "alpha_6.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.6256526708602905,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.00031678282539360225,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.7034009948802493,
+      "entropy_std": 0.0,
+      "margin_mean": 0.267982542514801,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.00023902707471279427,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 7.775575068080798e-05,
+        "steered_mean": 0.00031678282539360225
+      }
+    },
+    "alpha_7.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.9754307866096497,
+      "confidence_std": 0.0,
+      "target_prob_mean": 7.897394971223548e-05,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.1183364213408896,
+      "entropy_std": 0.0,
+      "margin_mean": 0.9590882677584887,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 1.2181990314275026e-06,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 7.775575068080798e-05,
+        "steered_mean": 7.897394971223548e-05
+      }
+    },
+    "default": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.8952367305755615,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.00036536590778268874,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.3366737035590734,
+      "entropy_std": 0.0,
+      "margin_mean": 0.8119878023862839,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.00028761015710188076,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 7.775575068080798e-05,
+        "steered_mean": 0.00036536590778268874
+      }
+    }
+  },
+  "surprise": {
+    "alpha_0.5": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.2288191169500351,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.0009526849607937038,
+      "target_prob_std": 0.0,
+      "entropy_mean": 1.4646618087036425,
+      "entropy_std": 0.0,
+      "margin_mean": 0.0703067034482956,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 1,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.0009512374049336358,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 1.4475558600679506e-06,
+        "steered_mean": 0.0009526849607937038
+      }
+    },
+    "alpha_1.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.06997999548912048,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.00030029096524231136,
+      "target_prob_std": 0.0,
+      "entropy_mean": 1.4209232159991405,
+      "entropy_std": 0.0,
+      "margin_mean": 0.04447350837290287,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 1,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.0002988434093822434,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 1.4475558600679506e-06,
+        "steered_mean": 0.00030029096524231136
+      }
+    },
+    "alpha_1.5": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.11285275965929031,
+      "confidence_std": 0.0,
+      "target_prob_mean": 8.37794432300143e-05,
+      "target_prob_std": 0.0,
+      "entropy_mean": 1.363288779381397,
+      "entropy_std": 0.0,
+      "margin_mean": 0.06659598276019096,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 1,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 8.233188736994634e-05,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 1.4475558600679506e-06,
+        "steered_mean": 8.37794432300143e-05
+      }
+    },
+    "alpha_2.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.1632995307445526,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.0005295661394484341,
+      "target_prob_std": 0.0,
+      "entropy_mean": 1.2907051284644049,
+      "entropy_std": 0.0,
+      "margin_mean": 0.11723639443516731,
+      "margin_std": 0.0,
+      "emotional_score": 0.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 1,
+        "sadness": 0,
+        "disgust": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.0005281185835883662,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 1.4475558600679506e-06,
+        "steered_mean": 0.0005295661394484341
+      }
+    },
+    "alpha_4.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.7471741437911987,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.0004029502742923796,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.6010895048419149,
+      "entropy_std": 0.0,
+      "margin_mean": 0.6615733429789543,
+      "margin_std": 0.0,
+      "emotional_score": 1.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 1,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.00040150271843231167,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 1.4475558600679506e-06,
+        "steered_mean": 0.0004029502742923796
+      }
+    },
+    "alpha_5.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.8405143618583679,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.0009660260402597487,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.5075952337027592,
+      "entropy_std": 0.0,
+      "margin_mean": 0.7658476755023003,
+      "margin_std": 0.0,
+      "emotional_score": 1.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 1,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.0009645784843996807,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 1.4475558600679506e-06,
+        "steered_mean": 0.0009660260402597487
+      }
+    },
+    "alpha_6.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.9965050220489502,
+      "confidence_std": 0.0,
+      "target_prob_mean": 5.500147744896822e-05,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.022385676048917266,
+      "entropy_std": 0.0,
+      "margin_mean": 0.9952014940790832,
+      "margin_std": 0.0,
+      "emotional_score": 1.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 1,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 5.3553921588900266e-05,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 1.4475558600679506e-06,
+        "steered_mean": 5.500147744896822e-05
+      }
+    },
+    "alpha_7.0": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.9547628164291382,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.000617162324488163,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.2094448781840072,
+      "entropy_std": 0.0,
+      "margin_mean": 0.9263348095119,
+      "margin_std": 0.0,
+      "emotional_score": 1.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 1,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.000615714768628095,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 1.4475558600679506e-06,
+        "steered_mean": 0.000617162324488163
+      }
+    },
+    "default": {
+      "accuracy": 0.0,
+      "confidence_mean": 0.8132365942001343,
+      "confidence_std": 0.0,
+      "target_prob_mean": 0.0019653625786304474,
+      "target_prob_std": 0.0,
+      "entropy_mean": 0.5979561041674434,
+      "entropy_std": 0.0,
+      "margin_mean": 0.6663533300161362,
+      "margin_std": 0.0,
+      "emotional_score": 1.0,
+      "n_samples": 1,
+      "confusion": {
+        "anger": 0,
+        "happiness": 0,
+        "sadness": 0,
+        "disgust": 1,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0,
+        "unknown": 0
+      },
+      "emotion_gain": {
+        "gain_mean": 0.0019639150227703794,
+        "gain_std": 0.0,
+        "gain_positive_ratio": 1.0,
+        "baseline_mean": 1.4475558600679506e-06,
+        "steered_mean": 0.0019653625786304474
+      }
+    }
+  }
+}

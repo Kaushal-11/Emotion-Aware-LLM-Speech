@@ -1,0 +1,21 @@
+======================================================================
+HUBERT TEST SUMMARY
+======================================================================
+
+Model:       /workspace/audio-em/finetune-results/hubert-large/lora/20260508_153317
+Strategy:    lora
+Samples:     2360
+
+Accuracy:    0.5682
+Weighted F1: 0.5573
+
+Per-class F1:
+  happiness   : 0.3196
+  anger       : 0.5726
+  sadness     : 0.5926
+  disgust     : 0.6288
+  fear        : 0.6768
+  surprise    : 0.5575
+
+Output: /workspace/audio-em/finetune-results/hubert-large/lora/20260508_153317/test_results
+======================================================================

@@ -1,0 +1,30 @@
+{
+  "model_name": "microsoft/wavlm-large",
+  "strategy": "frozen",
+  "timestamp": "20260512_132231",
+  "run_id": "wavlm-large_frozen_20260512_132231",
+  "output_dir": "/workspace/audio-em/finetune-results/wavlm-large/frozen/20260512_132231",
+  "hyperparameters": {
+    "batch_size": 2,
+    "grad_accum_steps": 8,
+    "effective_batch": 32,
+    "max_epochs": 30,
+    "patience": 7,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "focal_gamma": 2.0,
+    "label_smoothing": 0.1,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "grad_ckpt": true,
+    "num_workers": 2
+  },
+  "emotions": [
+    "happiness",
+    "anger",
+    "sadness",
+    "disgust",
+    "fear",
+    "surprise"
+  ]
+}

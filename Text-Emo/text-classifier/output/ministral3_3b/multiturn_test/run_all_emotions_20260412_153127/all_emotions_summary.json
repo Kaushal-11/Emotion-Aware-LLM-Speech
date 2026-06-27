@@ -1,0 +1,16 @@
+{
+  "experiment_id": "20260412_153127",
+  "total_emotions": 2,
+  "emotions_processed": {
+    "happiness": {
+      "status": "completed",
+      "output_dir": "/data/kaushal/Various-Model/classification/output/ministral3_3b/multiturn_test/run_all_emotions_20260412_153127/happiness"
+    },
+    "surprise": {
+      "status": "completed",
+      "output_dir": "/data/kaushal/Various-Model/classification/output/ministral3_3b/multiturn_test/run_all_emotions_20260412_153127/surprise"
+    }
+  },
+  "output_directory": "/data/kaushal/Various-Model/classification/output/ministral3_3b/multiturn_test/run_all_emotions_20260412_153127",
+  "completion_time": 1775988398.399494
+}

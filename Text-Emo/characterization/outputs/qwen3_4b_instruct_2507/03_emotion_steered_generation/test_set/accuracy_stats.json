@@ -1,0 +1,57 @@
+{
+  "dataset": "test_set",
+  "overall": {
+    "total_pairs": 2880,
+    "matches": 2864,
+    "accuracy": 99.44
+  },
+  "by_emotion": {
+    "anger": {
+      "total": 480,
+      "matches": 480,
+      "accuracy": 100.0
+    },
+    "sadness": {
+      "total": 480,
+      "matches": 480,
+      "accuracy": 100.0
+    },
+    "happiness": {
+      "total": 480,
+      "matches": 480,
+      "accuracy": 100.0
+    },
+    "fear": {
+      "total": 480,
+      "matches": 480,
+      "accuracy": 100.0
+    },
+    "surprise": {
+      "total": 480,
+      "matches": 467,
+      "accuracy": 97.29
+    },
+    "disgust": {
+      "total": 480,
+      "matches": 477,
+      "accuracy": 99.38
+    }
+  },
+  "by_valence": {
+    "positive": {
+      "total": 960,
+      "matches": 955,
+      "accuracy": 99.48
+    },
+    "neutral": {
+      "total": 960,
+      "matches": 950,
+      "accuracy": 98.96
+    },
+    "negative": {
+      "total": 960,
+      "matches": 959,
+      "accuracy": 99.9
+    }
+  }
+}

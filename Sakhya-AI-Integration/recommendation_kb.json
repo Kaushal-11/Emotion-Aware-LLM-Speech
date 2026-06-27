@@ -1,0 +1,6246 @@
+[
+  {
+    "id": "self_sad_001",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "music",
+    "title": "Play something that makes you smile",
+    "text": "Sometimes the fastest way out of sadness is a song that just refuses to let you stay there. Put on something upbeat and let the rhythm do the work.",
+    "options": [
+      "Badtameez Dil – Yeh Jawaani Hai Deewani",
+      "Kar Gayi Chull – Kapoor & Sons",
+      "London Thumakda – Queen"
+    ],
+    "tags": [
+      "uplifting",
+      "bollywood",
+      "solo",
+      "mood-shift"
+    ]
+  },
+  {
+    "id": "self_sad_002",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "movie",
+    "title": "Watch something that makes you laugh out loud",
+    "text": "A good comedy film can genuinely change your brain chemistry. Pick something light with no sad endings.",
+    "options": [
+      "Andaz Apna Apna (1994)",
+      "Hera Pheri (2000)",
+      "3 Idiots (2009)"
+    ],
+    "tags": [
+      "comedy",
+      "bollywood",
+      "feel-good",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_sad_003",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "activity_outdoor",
+    "title": "Go for a brisk walk outside",
+    "text": "Even a 20-minute walk in fresh air raises serotonin levels. Put on earphones, play something upbeat, and just move.",
+    "tags": [
+      "outdoor",
+      "solo",
+      "exercise",
+      "mood-shift"
+    ]
+  },
+  {
+    "id": "self_sad_004",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "gym",
+    "title": "Hit the gym and release it all",
+    "text": "A good workout session is one of the most underrated mood fixes. Focus on compound movements — squats, bench press, deadlifts. The endorphin rush after is real.",
+    "tags": [
+      "gym",
+      "exercise",
+      "solo",
+      "energy-release"
+    ]
+  },
+  {
+    "id": "self_sad_005",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "book",
+    "title": "Read something that reminds you life gets better",
+    "text": "A well-chosen book can completely reframe how you see your current moment.",
+    "options": [
+      "The Alchemist – Paulo Coelho",
+      "Ikigai – Héctor García",
+      "You Can Win – Shiv Khera"
+    ],
+    "tags": [
+      "book",
+      "motivational",
+      "solo",
+      "self-help"
+    ]
+  },
+  {
+    "id": "self_sad_006",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "game_indoor",
+    "title": "Lose yourself in a good video game",
+    "text": "Gaming is one of the most effective healthy escapes. A fun, immersive game takes your focus completely away from sadness.",
+    "options": [
+      "GTA V – explore the open world freely",
+      "FIFA – quick matches for instant fun",
+      "Subway Surfers – mindless and satisfying"
+    ],
+    "tags": [
+      "game",
+      "indoor",
+      "solo",
+      "distraction"
+    ]
+  },
+  {
+    "id": "self_sad_007",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "creative",
+    "title": "Sing your heart out alone",
+    "text": "Put on your favourite karaoke playlist and just sing — badly, loudly, alone. It is surprisingly cathartic and mood-lifting.",
+    "tags": [
+      "creative",
+      "solo",
+      "music",
+      "mood-shift"
+    ]
+  },
+  {
+    "id": "self_sad_008",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "exercise",
+    "title": "Do 10 minutes of jumping jacks or dance",
+    "text": "Physical movement activates feel-good hormones fast. You don't need a gym — just 10 minutes of dancing in your room.",
+    "tags": [
+      "exercise",
+      "indoor",
+      "solo",
+      "quick-fix"
+    ]
+  },
+  {
+    "id": "self_sad_009",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "social",
+    "title": "Call someone who always makes you laugh",
+    "text": "That one friend or family member who never fails to cheer you up — just call them. Even 10 minutes can shift your mood completely.",
+    "tags": [
+      "social",
+      "connection",
+      "mood-shift"
+    ]
+  },
+  {
+    "id": "self_sad_010",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "activity_indoor",
+    "title": "Cook or bake something you love",
+    "text": "Cooking engages your hands and mind simultaneously, pulls you into the present moment, and ends with something delicious.",
+    "tags": [
+      "cooking",
+      "indoor",
+      "solo",
+      "mindful"
+    ]
+  },
+  {
+    "id": "self_sad_011",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "podcast",
+    "title": "Listen to an uplifting podcast",
+    "text": "A positive, energetic podcast can reframe your mindset without you having to do anything but listen.",
+    "options": [
+      "The Ranveer Show – motivational conversations",
+      "Breakfast With Champions – success stories",
+      "Feel Better Live More – Dr Rangan Chatterjee"
+    ],
+    "tags": [
+      "podcast",
+      "motivational",
+      "solo",
+      "audio"
+    ]
+  },
+  {
+    "id": "self_sad_012",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "music",
+    "title": "Classic Bollywood happiness playlist",
+    "text": "Old Bollywood had a magic for capturing pure joy. These songs feel like sunshine.",
+    "options": [
+      "Dum Maro Dum – Hare Rama Hare Krishna",
+      "Aaj Ki Raat – Don 2006",
+      "Zindagi Na Milegi Dobara title track"
+    ],
+    "tags": [
+      "bollywood",
+      "classic",
+      "uplifting",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_sad_013",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "game_outdoor",
+    "title": "Play badminton or cricket with anyone nearby",
+    "text": "Even 30 minutes of a casual outdoor game resets your mood better than most indoor activities.",
+    "tags": [
+      "outdoor",
+      "sport",
+      "social",
+      "energy-release"
+    ]
+  },
+  {
+    "id": "self_sad_014",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "movie",
+    "title": "Watch a feel-good Bollywood romantic comedy",
+    "text": "These films are crafted to leave you smiling. Light, fun, and guaranteed to distract.",
+    "options": [
+      "Dil Dhadakne Do (2015)",
+      "Yeh Jawaani Hai Deewani (2013)",
+      "Band Baaja Baaraat (2010)"
+    ],
+    "tags": [
+      "bollywood",
+      "romance",
+      "comedy",
+      "feel-good"
+    ]
+  },
+  {
+    "id": "self_sad_015",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "meditation",
+    "title": "5-minute gratitude meditation",
+    "text": "Sit quietly, close your eyes, bring to mind three things you're genuinely grateful for. Hold each one for a full minute.",
+    "tags": [
+      "meditation",
+      "mindful",
+      "solo",
+      "short-session"
+    ]
+  },
+  {
+    "id": "self_sad_016",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "activity_outdoor",
+    "title": "Cycle around your neighbourhood",
+    "text": "A cycling ride, even a short one, combines exercise, fresh air and mild adventure — a natural antidepressant.",
+    "tags": [
+      "outdoor",
+      "cycling",
+      "solo",
+      "exercise"
+    ]
+  },
+  {
+    "id": "self_sad_017",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "comedy",
+    "title": "Watch a stand-up comedy special",
+    "text": "Laughter is the most direct route out of sadness. A good stand-up can make you forget why you were upset.",
+    "options": [
+      "Zakir Khan – Haq Se Single (Amazon Prime)",
+      "Kenny Sebastian – Don't Be That Guy (Netflix)",
+      "Trevor Noah – Son of Patricia (Netflix)"
+    ],
+    "tags": [
+      "comedy",
+      "solo",
+      "video",
+      "mood-shift"
+    ]
+  },
+  {
+    "id": "self_sad_018",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "exercise",
+    "title": "Try a 15-minute yoga flow for energy",
+    "text": "Not all yoga is slow — a vinyasa or power flow actually energizes you and lifts your mood.",
+    "tags": [
+      "yoga",
+      "exercise",
+      "indoor",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_sad_019",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "music",
+    "title": "Indie Hindi pop to lift your spirit",
+    "text": "Modern Hindi indie artists make music that feels personal and uplifting at the same time.",
+    "options": [
+      "Dil Diyan Gallan – Atif Aslam",
+      "Mann Mera – Table No 21",
+      "Tum Ho – Rockstar"
+    ],
+    "tags": [
+      "indie",
+      "hindi",
+      "uplifting",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_sad_020",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "activity_indoor",
+    "title": "Rearrange or redecorate your room",
+    "text": "Changing your physical environment has a surprisingly strong effect on your mental state. Even moving a few things gives a sense of fresh start.",
+    "tags": [
+      "indoor",
+      "creative",
+      "solo",
+      "environment"
+    ]
+  },
+  {
+    "id": "self_sad_021",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "book",
+    "title": "Pick up a funny or lighthearted read",
+    "text": "Sometimes your brain just needs a break from heavy thoughts. A funny book is the perfect escape.",
+    "options": [
+      "Five Point Someone – Chetan Bhagat",
+      "The Hitchhiker's Guide to the Galaxy – Douglas Adams",
+      "Seriously I'm Kidding – Ellen DeGeneres"
+    ],
+    "tags": [
+      "book",
+      "comedy",
+      "solo",
+      "light-read"
+    ]
+  },
+  {
+    "id": "self_sad_022",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "game_indoor",
+    "title": "Play chess for mental reset",
+    "text": "Chess forces your brain to focus entirely on the game, leaving no mental bandwidth for sadness.",
+    "tags": [
+      "chess",
+      "game",
+      "indoor",
+      "solo",
+      "focus"
+    ]
+  },
+  {
+    "id": "self_sad_023",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "social",
+    "title": "Plan something fun with friends",
+    "text": "Even if you don't feel like it now, making plans for something gives you something positive to look forward to.",
+    "tags": [
+      "social",
+      "planning",
+      "connection",
+      "future-focus"
+    ]
+  },
+  {
+    "id": "self_sad_024",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "music",
+    "title": "Hollywood pop for energy and fun",
+    "text": "Some pop tracks are pure serotonin delivery mechanisms. Put these on loud.",
+    "options": [
+      "Happy – Pharrell Williams",
+      "Can't Stop the Feeling – Justin Timberlake",
+      "Shake It Off – Taylor Swift"
+    ],
+    "tags": [
+      "pop",
+      "hollywood",
+      "uplifting",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_sad_025",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "activity_indoor",
+    "title": "Watch funny YouTube videos or reels",
+    "text": "Sometimes scrolling funny content for 15 minutes is exactly what your brain needs. Set a timer so it doesn't become a spiral.",
+    "tags": [
+      "social-media",
+      "video",
+      "solo",
+      "mood-shift",
+      "short-session"
+    ]
+  },
+  {
+    "id": "self_sad_026",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "activity_indoor",
+    "title": "Declutter one corner of your space",
+    "text": "Picking one small area to clean gives your mind a physical project and leaves you with a visible result you feel good about.",
+    "tags": [
+      "decluttering",
+      "solo",
+      "indoor",
+      "small-win"
+    ]
+  },
+  {
+    "id": "self_sad_027",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "music",
+    "title": "Punjabi folk and pop to shake the sadness",
+    "text": "Punjabi music has an inherent vitality that is genuinely hard to stay sad through.",
+    "options": [
+      "Jind Mahi – Diljit Dosanjh",
+      "Proper Patola – Diljit Dosanjh",
+      "5 Taara – Diljit Dosanjh"
+    ],
+    "tags": [
+      "punjabi",
+      "folk",
+      "uplifting",
+      "bollywood"
+    ]
+  },
+  {
+    "id": "self_sad_028",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "game_indoor",
+    "title": "Play a mobile game for distraction",
+    "text": "Sometimes you just need your brain pointed at something harmless and engaging.",
+    "options": [
+      "Ludo King – play with family",
+      "Among Us – social and fun",
+      "Mini Militia – intense and distracting"
+    ],
+    "tags": [
+      "mobile-game",
+      "indoor",
+      "solo",
+      "distraction"
+    ]
+  },
+  {
+    "id": "self_sad_029",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "social",
+    "title": "Text someone a funny meme or video",
+    "text": "Actively reaching out with something funny gets you out of your head without having to explain yourself.",
+    "tags": [
+      "social",
+      "light",
+      "connection",
+      "humor"
+    ]
+  },
+  {
+    "id": "self_sad_030",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "activity_indoor",
+    "title": "Take a hot shower and put on fresh clothes",
+    "text": "Physical freshness has a direct correlation with mental state. A hot shower followed by your favourite comfortable outfit is a simple but effective reset.",
+    "tags": [
+      "self-care",
+      "hygiene",
+      "solo",
+      "reset"
+    ]
+  },
+  {
+    "id": "self_sad_031",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "movie",
+    "title": "Watch a classic Rajkumar Hirani film",
+    "text": "Hirani's films have a rare quality — emotionally rich but always leave you feeling warm and hopeful.",
+    "options": [
+      "Munna Bhai MBBS (2003)",
+      "PK (2014)",
+      "3 Idiots (2009) – alternate pick"
+    ],
+    "tags": [
+      "bollywood",
+      "warm",
+      "hopeful",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_sad_032",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "gym",
+    "title": "Try a group fitness class",
+    "text": "Working out with other people has an amplified mood-lifting effect. Find a Zumba, aerobics, or CrossFit class.",
+    "tags": [
+      "gym",
+      "group",
+      "social",
+      "high-energy"
+    ]
+  },
+  {
+    "id": "self_sad_033",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "book",
+    "title": "Read a biography of someone who overcame great loss",
+    "text": "Real stories of people who faced devastating circumstances and rebuilt are among the most powerful mood-shifters.",
+    "options": [
+      "The Story of My Experiments with Truth – Gandhi",
+      "Losing My Virginity – Richard Branson",
+      "Long Walk to Freedom – Mandela"
+    ],
+    "tags": [
+      "biography",
+      "resilience",
+      "solo",
+      "book"
+    ]
+  },
+  {
+    "id": "self_sad_034",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "creative",
+    "title": "Try drawing or sketching even badly",
+    "text": "You don't need to be good. Draw whatever comes — shapes, faces, abstract lines. The act of making marks on paper is grounding.",
+    "tags": [
+      "creative",
+      "art",
+      "solo",
+      "mindful"
+    ]
+  },
+  {
+    "id": "self_sad_035",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "activity_outdoor",
+    "title": "Visit a local chai stall or coffee shop",
+    "text": "Simply being around other humans in a warm, everyday setting lifts sadness that isolation feeds.",
+    "tags": [
+      "outdoor",
+      "social",
+      "chai",
+      "everyday"
+    ]
+  },
+  {
+    "id": "self_sad_036",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "meditation",
+    "title": "Sunrise or sunset watching as informal meditation",
+    "text": "Watching either end of the day quietly is one of the oldest and most effective mood-lifting practices.",
+    "tags": [
+      "nature",
+      "outdoor",
+      "meditation",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_sad_037",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "music",
+    "title": "Regional music from your home state",
+    "text": "Music in your mother tongue or regional language often carries a deeper sense of belonging and warmth than anything else.",
+    "options": [
+      "Kaadhale Kaadhale – Tamil",
+      "Nuvvostanante Nenoddantana – Telugu",
+      "O Rangrez – Rajasthan Hindi fusion"
+    ],
+    "tags": [
+      "regional",
+      "indian",
+      "belonging",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_sad_038",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "activity_indoor",
+    "title": "Play carrom or ludo with family",
+    "text": "A simple board game at home with whoever is around is immediate, light, and social without any planning.",
+    "tags": [
+      "game",
+      "family",
+      "indoor",
+      "light"
+    ]
+  },
+  {
+    "id": "self_sad_039",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "exercise",
+    "title": "Try 20 minutes of aerobics or Zumba at home",
+    "text": "YouTube has thousands of free aerobics sessions. Pick one, clear some floor space, and follow along.",
+    "tags": [
+      "exercise",
+      "dance",
+      "indoor",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_sad_040",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "social",
+    "title": "Plan a trip even if it is months away",
+    "text": "The anticipation of a future trip gives you something good to look forward to. Start planning somewhere you have always wanted to go.",
+    "tags": [
+      "planning",
+      "travel",
+      "future",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_sad_041",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "mirror_sadness",
+    "mode": "sit with it",
+    "category": "music",
+    "title": "Let yourself feel it — sad music when you need to cry",
+    "text": "Sometimes forcing uplift too early backfires. Letting yourself feel sadness fully through music that mirrors it can move you through faster than fighting it.",
+    "options": [
+      "Channa Mereya – Ae Dil Hai Mushkil",
+      "Tujhe Bhula Diya – Anjaana Anjaani",
+      "The Night We Met – Lord Huron"
+    ],
+    "tags": [
+      "sad-music",
+      "mirror",
+      "processing",
+      "solo",
+      "cathartic"
+    ]
+  },
+  {
+    "id": "self_sad_042",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "mirror_sadness",
+    "mode": "sit with it",
+    "category": "movie",
+    "title": "A film that makes you feel seen in your sadness",
+    "text": "Some movies do not fix sadness — they sit with you in it. These are those movies.",
+    "options": [
+      "Masaan (2015)",
+      "Kal Ho Naa Ho (2003)",
+      "Blue Valentine (2010)"
+    ],
+    "tags": [
+      "sad-movie",
+      "mirror",
+      "emotional",
+      "cathartic",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_sad_043",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "mirror_sadness",
+    "mode": "sit with it",
+    "category": "journaling",
+    "title": "Freewrite — no topic just let it pour",
+    "text": "Set a timer for 15 minutes and write without stopping, without editing, without a topic. Just let whatever is in you come out.",
+    "tags": [
+      "journaling",
+      "cathartic",
+      "solo",
+      "freewrite"
+    ]
+  },
+  {
+    "id": "self_sad_044",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "mirror_sadness",
+    "mode": "sit with it",
+    "category": "activity_indoor",
+    "title": "Make a comforting hot drink and do nothing",
+    "text": "Permission to just be sad. Make chai, wrap yourself in a blanket, and let the feeling be there without fixing it.",
+    "tags": [
+      "rest",
+      "solo",
+      "acceptance",
+      "self-care"
+    ]
+  },
+  {
+    "id": "self_sad_045",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "mirror_sadness",
+    "mode": "sit with it",
+    "category": "book",
+    "title": "A novel where sadness is explored with beauty",
+    "text": "Some books treat sadness as a complex even beautiful part of life. These are those books.",
+    "options": [
+      "The Namesake – Jhumpa Lahiri",
+      "A Little Life – Hanya Yanagihara",
+      "When Breath Becomes Air – Paul Kalanithi"
+    ],
+    "tags": [
+      "book",
+      "literary",
+      "sad",
+      "solo",
+      "emotional"
+    ]
+  },
+  {
+    "id": "self_sad_046",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "activity_indoor",
+    "title": "Learn something new online for 30 minutes",
+    "text": "Curiosity is the natural enemy of sadness. Pick any subject and spend 30 minutes going deep on YouTube or a podcast.",
+    "tags": [
+      "learning",
+      "curiosity",
+      "indoor",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_sad_047",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "game_indoor",
+    "title": "Try a puzzle — jigsaw or logic",
+    "text": "Puzzles are meditative, satisfying and completely absorbing. 30 minutes of jigsaw work can shift your emotional state.",
+    "tags": [
+      "puzzle",
+      "indoor",
+      "solo",
+      "meditative"
+    ]
+  },
+  {
+    "id": "self_sad_048",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "social",
+    "title": "Volunteer for something even briefly",
+    "text": "Helping others is one of the most reliably effective mood-lifters. Find a local cause for a few hours.",
+    "tags": [
+      "volunteering",
+      "social",
+      "purpose",
+      "outdoors"
+    ]
+  },
+  {
+    "id": "self_sad_049",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "creative",
+    "title": "Try photography — take 20 photos of things you find beautiful",
+    "text": "Photography forces you to look for beauty in your immediate environment. Even 20 photos from your window can shift your perception.",
+    "tags": [
+      "photography",
+      "creative",
+      "solo",
+      "beauty"
+    ]
+  },
+  {
+    "id": "self_sad_050",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "music",
+    "title": "Old Kishore Kumar or Mohammed Rafi classics",
+    "text": "The golden era of Hindi film music has an unmatched warmth and vitality. These songs were made to fill you up.",
+    "options": [
+      "Yeh Dosti – Sholay",
+      "Dum Maro Dum – Hare Rama Hare Krishna alternate",
+      "Aane Se Uske Aaye Bahar"
+    ],
+    "tags": [
+      "classic",
+      "bollywood",
+      "golden-era",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_sad_051",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "activity_indoor",
+    "title": "Make a vision board for something you want",
+    "text": "Creating a visual representation of something you want from the future gives your mind something positive and concrete to move toward.",
+    "tags": [
+      "vision",
+      "creative",
+      "indoor",
+      "future"
+    ]
+  },
+  {
+    "id": "self_sad_052",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "music",
+    "title": "Tamil and Telugu upbeat tracks for different energy",
+    "text": "South Indian pop and film music has a deeply rhythmic energetic quality that is hard to stay sad through.",
+    "options": [
+      "Vaathi Coming – Master",
+      "Naatu Naatu – RRR",
+      "Butta Bomma – Ala Vaikunthapurramuloo"
+    ],
+    "tags": [
+      "south-indian",
+      "upbeat",
+      "regional",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_sad_053",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "social",
+    "title": "Join a class club or group for something you enjoy",
+    "text": "Sadness is often fed by isolation. Joining a regular class — dance, yoga, coding, art — immediately embeds you in a community.",
+    "tags": [
+      "community",
+      "social",
+      "class",
+      "hobby"
+    ]
+  },
+  {
+    "id": "self_sad_054",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "book",
+    "title": "Read a short story collection easy to dip in and out",
+    "text": "A novel can feel heavy when you are sad. A short story collection lets you get small complete wins that lift your mood incrementally.",
+    "options": [
+      "Malgudi Days – RK Narayan",
+      "Interpreter of Maladies – Jhumpa Lahiri",
+      "The Elephant Vanishes – Haruki Murakami"
+    ],
+    "tags": [
+      "book",
+      "short-stories",
+      "accessible",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_sad_055",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "creative",
+    "title": "Learn a new skill on YouTube today",
+    "text": "Choose something playful — origami, beatboxing basics, 3 magic tricks. Learning something new and light is an immediate mood-lifter.",
+    "tags": [
+      "learning",
+      "YouTube",
+      "creative",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_sad_056",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "game_indoor",
+    "title": "Play a card game alone or with family — Teen Patti or Rummy",
+    "text": "Card games have a rhythm and social quality that lifts sadness naturally.",
+    "options": [
+      "Teen Patti – classic Indian card game",
+      "Rummy – traditional",
+      "Solitaire – solo version"
+    ],
+    "tags": [
+      "cards",
+      "game",
+      "indian",
+      "family"
+    ]
+  },
+  {
+    "id": "self_sad_057",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "activity_outdoor",
+    "title": "Visit a place with a positive memory",
+    "text": "Physically going to a place that holds a happy memory activates those emotional associations.",
+    "tags": [
+      "memory",
+      "outdoor",
+      "nostalgia",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_sad_058",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "meditation",
+    "title": "Loving-kindness Metta directed at yourself",
+    "text": "A 10-minute loving-kindness practice where you direct warmth health happiness and ease specifically toward yourself.",
+    "tags": [
+      "meditation",
+      "self-love",
+      "solo",
+      "metta"
+    ]
+  },
+  {
+    "id": "self_sad_059",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "exercise",
+    "title": "Try 10 minutes of skipping rope",
+    "text": "Skipping rope is aerobic rhythmic and strangely cheerful. Even 100 skips noticeably lifts mood.",
+    "tags": [
+      "skipping",
+      "exercise",
+      "outdoor",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_sad_060",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "podcast",
+    "title": "Listen to an episode of a comedy podcast",
+    "text": "Comedy podcasts make strangers laugh without any visual cues — if they work on a good day they work harder on a sad one.",
+    "options": [
+      "All India Bakchod – early episodes",
+      "Biswa Kalyan Rath stand-up sets",
+      "Two Friends Podcast – Hindi comedy"
+    ],
+    "tags": [
+      "comedy",
+      "podcast",
+      "hindi",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_sad_061",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "activity_indoor",
+    "title": "Spend 10 minutes stretching slowly",
+    "text": "Slow stretching releases physical tension that stores emotion. It is gentle enough that even deep sadness can accompany it.",
+    "tags": [
+      "stretching",
+      "indoor",
+      "gentle",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_sad_062",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "exercise",
+    "title": "20-minute power yoga flow",
+    "text": "Power yoga at home — find a free YouTube session — is energetic enough to break through sadness without requiring equipment.",
+    "tags": [
+      "yoga",
+      "power",
+      "indoor",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_sad_063",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "book",
+    "title": "Read a book about the Indian independence movement",
+    "text": "Stories of people sacrificing everything for something larger than themselves make personal sadness feel smaller and more survivable.",
+    "options": [
+      "Freedom at Midnight – Larry Collins",
+      "India After Gandhi – Ramachandra Guha",
+      "The Discovery of India – Nehru"
+    ],
+    "tags": [
+      "book",
+      "history",
+      "Indian",
+      "perspective"
+    ]
+  },
+  {
+    "id": "self_sad_064",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "music",
+    "title": "Sufi and devotional music when your happiness is deep",
+    "text": "Some happiness is quieter and deeper than party energy. Sufi music matches the inner glow kind of happiness.",
+    "options": [
+      "Kun Faya Kun – Rockstar",
+      "Arziyan – Delhi 6",
+      "Iktara – Wake Up Sid"
+    ],
+    "tags": [
+      "sufi",
+      "deep",
+      "bollywood",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_sad_065",
+    "emotion": "sadness",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "uplift + reframe",
+    "category": "activity_outdoor",
+    "title": "Do something kind for a stranger",
+    "text": "When you are sad paying it forward can break the inward spiral. Hold a door buy someone chai give a small compliment.",
+    "tags": [
+      "kindness",
+      "outdoor",
+      "paying-forward",
+      "social"
+    ]
+  },
+  {
+    "id": "other_sad_001",
+    "emotion": "sadness",
+    "target": "other",
+    "vector": "mirror_sadness",
+    "mode": "soft mirror + support",
+    "category": "music",
+    "title": "Music that mirrors shared grief",
+    "text": "When you are sad for someone else listening to something that mirrors that feeling helps you process before supporting them.",
+    "options": [
+      "Tujhe Bhula Diya – Anjaana Anjaani",
+      "Channa Mereya – Ae Dil Hai Mushkil",
+      "Fix You – Coldplay"
+    ],
+    "tags": [
+      "sad-music",
+      "mirror",
+      "processing",
+      "solo"
+    ]
+  },
+  {
+    "id": "other_sad_002",
+    "emotion": "sadness",
+    "target": "other",
+    "vector": "mirror_sadness",
+    "mode": "soft mirror + support",
+    "category": "activity_indoor",
+    "title": "Write a heartfelt message to them",
+    "text": "Sometimes the best thing you can do for someone you are sad for is to let them know you see them. Write a genuine personal message.",
+    "tags": [
+      "social",
+      "writing",
+      "connection",
+      "support"
+    ]
+  },
+  {
+    "id": "other_sad_003",
+    "emotion": "sadness",
+    "target": "other",
+    "vector": "mirror_sadness",
+    "mode": "soft mirror + support",
+    "category": "movie",
+    "title": "Watch a film that explores human compassion",
+    "text": "These films help you understand others suffering and deepen your empathy without overwhelming you.",
+    "options": [
+      "Taare Zameen Par (2007)",
+      "Dangal (2016)",
+      "The Pursuit of Happyness (2006)"
+    ],
+    "tags": [
+      "movie",
+      "empathy",
+      "solo",
+      "emotional"
+    ]
+  },
+  {
+    "id": "other_sad_004",
+    "emotion": "sadness",
+    "target": "other",
+    "vector": "mirror_sadness",
+    "mode": "soft mirror + support",
+    "category": "journaling",
+    "title": "Write about how you feel about their situation",
+    "text": "You are holding someone else's pain — that is heavy. Spend 10 minutes writing about what you are feeling just to let it out.",
+    "tags": [
+      "journaling",
+      "solo",
+      "processing",
+      "emotional"
+    ]
+  },
+  {
+    "id": "other_sad_005",
+    "emotion": "sadness",
+    "target": "other",
+    "vector": "mirror_sadness",
+    "mode": "soft mirror + support",
+    "category": "book",
+    "title": "Read about how to support someone in grief",
+    "text": "Being there for others is a skill. These books help you understand how to hold space without projecting or fixing.",
+    "options": [
+      "The Other Side of Sadness – George Bonanno",
+      "Option B – Sheryl Sandberg",
+      "Bearing the Unbearable – Joanne Cacciatore"
+    ],
+    "tags": [
+      "book",
+      "grief",
+      "support",
+      "self-education"
+    ]
+  },
+  {
+    "id": "other_sad_006",
+    "emotion": "sadness",
+    "target": "other",
+    "vector": "mirror_sadness",
+    "mode": "soft mirror + support",
+    "category": "music",
+    "title": "Songs that feel like a warm hug",
+    "text": "Put this on when you want to sit quietly with the weight of caring about someone.",
+    "options": [
+      "Kal Ho Naa Ho title track",
+      "Ae Dil Hai Mushkil – title track",
+      "Someone Like You – Adele"
+    ],
+    "tags": [
+      "sad-music",
+      "mirror",
+      "solo",
+      "emotional"
+    ]
+  },
+  {
+    "id": "other_sad_007",
+    "emotion": "sadness",
+    "target": "other",
+    "vector": "mirror_sadness",
+    "mode": "soft mirror + support",
+    "category": "social",
+    "title": "Plan to visit or spend time with them",
+    "text": "Physical presence often matters more than any words. If you can make the effort to actually be there.",
+    "tags": [
+      "social",
+      "connection",
+      "support",
+      "in-person"
+    ]
+  },
+  {
+    "id": "other_sad_008",
+    "emotion": "sadness",
+    "target": "other",
+    "vector": "mirror_sadness",
+    "mode": "soft mirror + support",
+    "category": "meditation",
+    "title": "Loving-kindness meditation for someone you care about",
+    "text": "A 10-minute metta meditation where you consciously send love and peace to the person you are worried about.",
+    "tags": [
+      "meditation",
+      "empathy",
+      "solo",
+      "mindful"
+    ]
+  },
+  {
+    "id": "other_sad_009",
+    "emotion": "sadness",
+    "target": "other",
+    "vector": "mirror_sadness",
+    "mode": "soft mirror + support",
+    "category": "activity_indoor",
+    "title": "Make them something — a playlist a letter a meal",
+    "text": "A handmade gesture carries emotional weight no text message can. Create something personal and give it to them.",
+    "tags": [
+      "creative",
+      "social",
+      "support",
+      "gifting"
+    ]
+  },
+  {
+    "id": "other_sad_010",
+    "emotion": "sadness",
+    "target": "other",
+    "vector": "mirror_sadness",
+    "mode": "soft mirror + support",
+    "category": "book",
+    "title": "A novel that explores friendship and loss",
+    "text": "Reading about characters going through similar things gives you perspective and language for what you are both experiencing.",
+    "options": [
+      "A Little Life – Hanya Yanagihara",
+      "The Kite Runner – Khaled Hosseini",
+      "Tuesdays with Morrie – Mitch Albom"
+    ],
+    "tags": [
+      "book",
+      "fiction",
+      "grief",
+      "solo"
+    ]
+  },
+  {
+    "id": "other_sad_011",
+    "emotion": "sadness",
+    "target": "other",
+    "vector": "mirror_sadness",
+    "mode": "soft mirror + support",
+    "category": "podcast",
+    "title": "Listen to episodes about grief and connection",
+    "text": "These podcasts explore human vulnerability and how we show up for each other.",
+    "options": [
+      "Unlocking Us – Brené Brown",
+      "Grief Out Loud – podcast",
+      "The Tim Ferriss Show – resilience episodes"
+    ],
+    "tags": [
+      "podcast",
+      "grief",
+      "empathy",
+      "audio"
+    ]
+  },
+  {
+    "id": "other_sad_012",
+    "emotion": "sadness",
+    "target": "other",
+    "vector": "mirror_sadness",
+    "mode": "soft mirror + support",
+    "category": "movie",
+    "title": "Watch a film about friendship surviving hard times",
+    "text": "These movies remind you that being there is enough — you do not need to fix anything.",
+    "options": [
+      "Dil Chahta Hai (2001)",
+      "3 Idiots (2009)",
+      "The Fault in Our Stars (2014)"
+    ],
+    "tags": [
+      "movie",
+      "friendship",
+      "emotional",
+      "bollywood"
+    ]
+  },
+  {
+    "id": "other_sad_013",
+    "emotion": "sadness",
+    "target": "other",
+    "vector": "mirror_sadness",
+    "mode": "soft mirror + support",
+    "category": "music",
+    "title": "Soft classical or instrumental for quiet support",
+    "text": "Sometimes you need music without lyrics when processing someone else's pain — instrumental is less emotionally loaded.",
+    "options": [
+      "Raag Bhairavi – Ravi Shankar",
+      "Ludovico Einaudi – Experience",
+      "Yann Tiersen – Comptine d'un autre ete"
+    ],
+    "tags": [
+      "instrumental",
+      "classical",
+      "solo",
+      "soft"
+    ]
+  },
+  {
+    "id": "other_sad_014",
+    "emotion": "sadness",
+    "target": "other",
+    "vector": "mirror_sadness",
+    "mode": "soft mirror + support",
+    "category": "exercise",
+    "title": "Walk together if they are up for it",
+    "text": "A quiet walk with someone who is sad is often more healing than any conversation. Offer a walk not a talk.",
+    "tags": [
+      "outdoor",
+      "social",
+      "support",
+      "gentle"
+    ]
+  },
+  {
+    "id": "other_sad_015",
+    "emotion": "sadness",
+    "target": "other",
+    "vector": "mirror_sadness",
+    "mode": "soft mirror + support",
+    "category": "activity_indoor",
+    "title": "Watch their favourite movie together",
+    "text": "Asking what their comfort movie is and watching it with them says I am here for what you need not what I think you need.",
+    "tags": [
+      "social",
+      "movie",
+      "connection",
+      "support"
+    ]
+  },
+  {
+    "id": "other_sad_016",
+    "emotion": "sadness",
+    "target": "other",
+    "vector": "mirror_sadness",
+    "mode": "soft mirror + support",
+    "category": "activity_indoor",
+    "title": "Send them food or something comforting",
+    "text": "When words feel inadequate sending someone their comfort food — ordered to their door or made by hand — says everything.",
+    "tags": [
+      "gifting",
+      "food",
+      "support",
+      "social"
+    ]
+  },
+  {
+    "id": "other_sad_017",
+    "emotion": "sadness",
+    "target": "other",
+    "vector": "mirror_sadness",
+    "mode": "soft mirror + support",
+    "category": "social",
+    "title": "Check in consistently not just once",
+    "text": "The first wave of support is easy. What matters is checking in a week two weeks a month later — when most people have stopped.",
+    "tags": [
+      "social",
+      "consistency",
+      "support",
+      "long-term"
+    ]
+  },
+  {
+    "id": "other_sad_018",
+    "emotion": "sadness",
+    "target": "other",
+    "vector": "mirror_sadness",
+    "mode": "soft mirror + support",
+    "category": "movie",
+    "title": "Watch a sad movie together and let it be sad",
+    "text": "Sometimes the best thing for someone sad is to sit with them in the sadness. Watch an emotional film together and let them feel it.",
+    "options": [
+      "Taare Zameen Par (2007) alternate",
+      "Kal Ho Na Ho (2003) together",
+      "Schindler's List (1993)"
+    ],
+    "tags": [
+      "movie",
+      "together",
+      "emotional",
+      "support"
+    ]
+  },
+  {
+    "id": "other_sad_019",
+    "emotion": "sadness",
+    "target": "other",
+    "vector": "mirror_sadness",
+    "mode": "soft mirror + support",
+    "category": "music",
+    "title": "Make them a you-are-not-alone playlist",
+    "text": "Curate songs that say someone has been here too and made it through. The message matters as much as the music.",
+    "options": [
+      "Lean on Me – Bill Withers",
+      "Hum Honge Kamyab – protest anthem",
+      "We Are the World – charity anthem"
+    ],
+    "tags": [
+      "music",
+      "support",
+      "gifting",
+      "hopeful"
+    ]
+  },
+  {
+    "id": "other_sad_020",
+    "emotion": "sadness",
+    "target": "other",
+    "vector": "mirror_sadness",
+    "mode": "soft mirror + support",
+    "category": "creative",
+    "title": "Make them something handmade",
+    "text": "A handmade card a scrapbook of shared memories a playlist with handwritten notes — anything made by hand carries disproportionate emotional weight.",
+    "tags": [
+      "creative",
+      "gifting",
+      "handmade",
+      "connection"
+    ]
+  },
+  {
+    "id": "other_sad_021",
+    "emotion": "sadness",
+    "target": "other",
+    "vector": "mirror_sadness",
+    "mode": "soft mirror + support",
+    "category": "social",
+    "title": "Ask do you want to talk or do you want company",
+    "text": "Not everyone who is sad wants to process aloud. Asking first is itself a profound act of support.",
+    "tags": [
+      "social",
+      "respect",
+      "support",
+      "communication"
+    ]
+  },
+  {
+    "id": "other_sad_022",
+    "emotion": "sadness",
+    "target": "other",
+    "vector": "mirror_sadness",
+    "mode": "soft mirror + support",
+    "category": "activity_indoor",
+    "title": "Watch something light together without talking about the sadness",
+    "text": "Sometimes the person who is sad does not want to discuss it. Sharing space and something easy to watch — quietly — is enough.",
+    "tags": [
+      "social",
+      "together",
+      "comfort",
+      "presence"
+    ]
+  },
+  {
+    "id": "other_sad_023",
+    "emotion": "sadness",
+    "target": "other",
+    "vector": "mirror_sadness",
+    "mode": "soft mirror + support",
+    "category": "creative",
+    "title": "Record a voice note for them",
+    "text": "A voice note carries warmth tone and genuine presence that no text can. Record something brief and heartfelt.",
+    "tags": [
+      "voice",
+      "gifting",
+      "technology",
+      "connection"
+    ]
+  },
+  {
+    "id": "other_sad_024",
+    "emotion": "sadness",
+    "target": "other",
+    "vector": "mirror_sadness",
+    "mode": "soft mirror + support",
+    "category": "activity_indoor",
+    "title": "Send them a care package",
+    "text": "Assemble and deliver things you know comfort them — specific snacks a book a candle a handwritten note.",
+    "tags": [
+      "gifting",
+      "care",
+      "support",
+      "social"
+    ]
+  },
+  {
+    "id": "other_sad_025",
+    "emotion": "sadness",
+    "target": "other",
+    "vector": "mirror_sadness",
+    "mode": "soft mirror + support",
+    "category": "book",
+    "title": "Read a book about how to show up for grieving people",
+    "text": "Supporting someone in sadness is a skill most of us were never taught. These books give specific compassionate guidance.",
+    "options": [
+      "The Grief Recovery Handbook – John W James",
+      "How to Help Someone with Depression – Matthew Johnstone",
+      "Its OK That Youre Not OK – Megan Devine"
+    ],
+    "tags": [
+      "book",
+      "grief-support",
+      "self-education",
+      "solo"
+    ]
+  },
+  {
+    "id": "sit_sad_001",
+    "emotion": "sadness",
+    "target": "situation",
+    "vector": "inject_happiness",
+    "mode": "warm + encouraging",
+    "category": "music",
+    "title": "Hopeful music for hard situations",
+    "text": "When the situation itself is sad music that carries hope rather than defeat helps you rise above it.",
+    "options": [
+      "Jai Ho – Slumdog Millionaire",
+      "Eye of the Tiger – Survivor",
+      "Tum Ho – Rockstar"
+    ],
+    "tags": [
+      "hopeful",
+      "motivational",
+      "mood-shift",
+      "situation"
+    ]
+  },
+  {
+    "id": "sit_sad_002",
+    "emotion": "sadness",
+    "target": "situation",
+    "vector": "inject_happiness",
+    "mode": "warm + encouraging",
+    "category": "movie",
+    "title": "Watch an underdog story that inspires",
+    "text": "Stories about people overcoming terrible situations remind you that circumstances are not permanent.",
+    "options": [
+      "Bhaag Milkha Bhaag (2013)",
+      "Chak De India (2007)",
+      "Rocky (1976)"
+    ],
+    "tags": [
+      "inspirational",
+      "movie",
+      "bollywood",
+      "solo"
+    ]
+  },
+  {
+    "id": "sit_sad_003",
+    "emotion": "sadness",
+    "target": "situation",
+    "vector": "inject_happiness",
+    "mode": "warm + encouraging",
+    "category": "journaling",
+    "title": "Write about what you can control in this situation",
+    "text": "Sadness about a situation often comes from feeling powerless. Make two lists — what is out of your control and what is within it.",
+    "tags": [
+      "journaling",
+      "problem-solving",
+      "solo",
+      "clarity"
+    ]
+  },
+  {
+    "id": "sit_sad_004",
+    "emotion": "sadness",
+    "target": "situation",
+    "vector": "inject_happiness",
+    "mode": "warm + encouraging",
+    "category": "book",
+    "title": "Read about people who turned situations around",
+    "text": "True stories of resilience remind you that your situation however hard can change.",
+    "options": [
+      "Man's Search for Meaning – Viktor Frankl",
+      "Long Walk to Freedom – Nelson Mandela",
+      "Wings of Fire – APJ Abdul Kalam"
+    ],
+    "tags": [
+      "book",
+      "biography",
+      "resilience",
+      "motivational"
+    ]
+  },
+  {
+    "id": "sit_sad_005",
+    "emotion": "sadness",
+    "target": "situation",
+    "vector": "inject_happiness",
+    "mode": "warm + encouraging",
+    "category": "activity_outdoor",
+    "title": "Take yourself out for a short solo trip",
+    "text": "A change of scenery even just a nearby park gives your mind a reset from the weight of the situation.",
+    "tags": [
+      "outdoor",
+      "solo",
+      "fresh-start",
+      "travel"
+    ]
+  },
+  {
+    "id": "sit_sad_006",
+    "emotion": "sadness",
+    "target": "situation",
+    "vector": "inject_happiness",
+    "mode": "warm + encouraging",
+    "category": "meditation",
+    "title": "10-minute breathing meditation for acceptance",
+    "text": "When you cannot change a situation meditation on acceptance helps you find a centre from which to act.",
+    "tags": [
+      "meditation",
+      "acceptance",
+      "solo",
+      "mindful"
+    ]
+  },
+  {
+    "id": "sit_sad_007",
+    "emotion": "sadness",
+    "target": "situation",
+    "vector": "inject_happiness",
+    "mode": "warm + encouraging",
+    "category": "exercise",
+    "title": "Go for a long run or power walk",
+    "text": "Running is particularly effective when processing external situations — the rhythm helps your mind work through things without getting stuck.",
+    "tags": [
+      "running",
+      "exercise",
+      "outdoor",
+      "processing"
+    ]
+  },
+  {
+    "id": "sit_sad_008",
+    "emotion": "sadness",
+    "target": "situation",
+    "vector": "inject_happiness",
+    "mode": "warm + encouraging",
+    "category": "podcast",
+    "title": "Listen to a podcast about overcoming adversity",
+    "text": "Real conversations about navigating hard situations are often more practical and useful than generic advice.",
+    "options": [
+      "Stuff You Should Know – on resilience",
+      "The Knowledge Project – Shane Parrish",
+      "Josh Talks – Hindi motivational stories"
+    ],
+    "tags": [
+      "podcast",
+      "motivational",
+      "adversity",
+      "audio"
+    ]
+  },
+  {
+    "id": "sit_sad_009",
+    "emotion": "sadness",
+    "target": "situation",
+    "vector": "inject_happiness",
+    "mode": "warm + encouraging",
+    "category": "music",
+    "title": "Bollywood songs about hope and moving forward",
+    "text": "These songs were written specifically to carry people through difficulty.",
+    "options": [
+      "Zinda – Bhaag Milkha Bhaag",
+      "Honsla Rakh – Diljit Dosanjh",
+      "Har Kisi Ko – Boss"
+    ],
+    "tags": [
+      "bollywood",
+      "motivational",
+      "hope",
+      "mood-shift"
+    ]
+  },
+  {
+    "id": "sit_sad_010",
+    "emotion": "sadness",
+    "target": "situation",
+    "vector": "inject_happiness",
+    "mode": "warm + encouraging",
+    "category": "social",
+    "title": "Talk to someone who has been through something similar",
+    "text": "Sometimes you need to hear from someone who was exactly where you are and came out the other side.",
+    "tags": [
+      "social",
+      "mentorship",
+      "connection",
+      "perspective"
+    ]
+  },
+  {
+    "id": "sit_sad_011",
+    "emotion": "sadness",
+    "target": "situation",
+    "vector": "inject_happiness",
+    "mode": "warm + encouraging",
+    "category": "game_outdoor",
+    "title": "Play a team sport to get out of your head",
+    "text": "Joining a game of cricket volleyball or football completely takes your mind off the situation and reminds you of simple present-moment fun.",
+    "tags": [
+      "outdoor",
+      "sport",
+      "team",
+      "distraction"
+    ]
+  },
+  {
+    "id": "sit_sad_012",
+    "emotion": "sadness",
+    "target": "situation",
+    "vector": "inject_happiness",
+    "mode": "warm + encouraging",
+    "category": "creative",
+    "title": "Channel the sadness into art or writing",
+    "text": "Sometimes the healthiest thing to do with situational sadness is to turn it into something — write a poem sketch or make a short video.",
+    "tags": [
+      "creative",
+      "art",
+      "solo",
+      "processing"
+    ]
+  },
+  {
+    "id": "sit_sad_013",
+    "emotion": "sadness",
+    "target": "situation",
+    "vector": "inject_happiness",
+    "mode": "warm + encouraging",
+    "category": "social",
+    "title": "Connect with others who have been through it",
+    "text": "Nearly every difficult situation has been survived by someone before you. Finding those people is among the most valuable things you can do.",
+    "tags": [
+      "community",
+      "social",
+      "support",
+      "connection"
+    ]
+  },
+  {
+    "id": "sit_sad_014",
+    "emotion": "sadness",
+    "target": "situation",
+    "vector": "inject_happiness",
+    "mode": "warm + encouraging",
+    "category": "activity_indoor",
+    "title": "Create a situation action plan document",
+    "text": "Convert the sadness of a difficult situation into structured planning. Write what happened your options and your next steps.",
+    "tags": [
+      "planning",
+      "action",
+      "solo",
+      "productivity"
+    ]
+  },
+  {
+    "id": "sit_sad_015",
+    "emotion": "sadness",
+    "target": "situation",
+    "vector": "inject_happiness",
+    "mode": "warm + encouraging",
+    "category": "gym",
+    "title": "Use the situation as fuel for a new physical goal",
+    "text": "Channelling the energy of a sad situation into a tangible physical goal gives the pain productive direction.",
+    "tags": [
+      "gym",
+      "goal-setting",
+      "solo",
+      "redirecting"
+    ]
+  },
+  {
+    "id": "sit_sad_016",
+    "emotion": "sadness",
+    "target": "situation",
+    "vector": "inject_happiness",
+    "mode": "warm + encouraging",
+    "category": "book",
+    "title": "A practical guide for navigating your specific situation",
+    "text": "Whatever the situation — job loss relationship ending financial difficulty — there is almost certainly a thoughtful book specifically about it.",
+    "options": [
+      "What to Do When Its Your Turn – Seth Godin",
+      "Option B – Sheryl Sandberg",
+      "Necessary Endings – Dr Henry Cloud"
+    ],
+    "tags": [
+      "book",
+      "practical",
+      "situation",
+      "solo"
+    ]
+  },
+  {
+    "id": "sit_sad_017",
+    "emotion": "sadness",
+    "target": "situation",
+    "vector": "inject_happiness",
+    "mode": "warm + encouraging",
+    "category": "movie",
+    "title": "A film where a difficult situation eventually changes",
+    "text": "The most comforting films for situational sadness are ones where hard circumstances shift — not magically but eventually and realistically.",
+    "options": [
+      "English Vinglish (2012)",
+      "Dangal (2016) alternate",
+      "Hidden Figures (2016)"
+    ],
+    "tags": [
+      "movie",
+      "change",
+      "situation",
+      "hopeful"
+    ]
+  },
+  {
+    "id": "sit_sad_018",
+    "emotion": "sadness",
+    "target": "situation",
+    "vector": "inject_happiness",
+    "mode": "warm + encouraging",
+    "category": "music",
+    "title": "Devotional or spiritual music for situational peace",
+    "text": "When the situation is beyond your control devotional music places your struggle in a larger calming context.",
+    "options": [
+      "Vaishnav Jan To – Gandhi",
+      "Raghupati Raghav Raja Ram",
+      "O Re Piya – spiritual"
+    ],
+    "tags": [
+      "devotional",
+      "spiritual",
+      "peace",
+      "situation"
+    ]
+  },
+  {
+    "id": "you_sad_001",
+    "emotion": "sadness",
+    "target": "you",
+    "vector": "mirror_sadness",
+    "mode": "apologize + comfort",
+    "category": "music",
+    "title": "Gentle music to reset the moment",
+    "text": "If something here made you feel sad that matters. Here is something soft to listen to while things settle.",
+    "options": [
+      "Tere Bina – Guru",
+      "Iktara – Wake Up Sid",
+      "The Night We Met – Lord Huron"
+    ],
+    "tags": [
+      "soft",
+      "mirror",
+      "brief",
+      "reset"
+    ]
+  },
+  {
+    "id": "you_sad_002",
+    "emotion": "sadness",
+    "target": "you",
+    "vector": "mirror_sadness",
+    "mode": "apologize + comfort",
+    "category": "activity_indoor",
+    "title": "Step away for a few minutes",
+    "text": "Take a short break — make a cup of tea look out the window. Sometimes a two-minute pause is enough to reset.",
+    "tags": [
+      "break",
+      "brief",
+      "solo",
+      "reset"
+    ]
+  },
+  {
+    "id": "you_sad_003",
+    "emotion": "sadness",
+    "target": "you",
+    "vector": "mirror_sadness",
+    "mode": "apologize + comfort",
+    "category": "meditation",
+    "title": "One minute of slow deep breathing",
+    "text": "Breathe in for 4 counts hold for 4 out for 6. Repeat 3 to 4 times. It is the fastest nervous system reset there is.",
+    "tags": [
+      "breathing",
+      "quick-fix",
+      "solo",
+      "brief"
+    ]
+  },
+  {
+    "id": "self_ang_001",
+    "emotion": "anger",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "comfort + reframe",
+    "category": "music",
+    "title": "Calming music when you are angry at yourself",
+    "text": "When you are your own target angry energy needs to be dissolved not amplified. Gentle slow music breaks the loop.",
+    "options": [
+      "Agar Tum Saath Ho – Tamasha",
+      "Ae Dil Hai Mushkil – piano version",
+      "Yellow – Coldplay"
+    ],
+    "tags": [
+      "calm",
+      "self-anger",
+      "solo",
+      "soothing"
+    ]
+  },
+  {
+    "id": "self_ang_002",
+    "emotion": "anger",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "comfort + reframe",
+    "category": "activity_outdoor",
+    "title": "Walk it off — literally",
+    "text": "Self-directed anger is best moved out of the body before you try to process it mentally. Walk fast for 15 minutes.",
+    "tags": [
+      "outdoor",
+      "movement",
+      "solo",
+      "reset"
+    ]
+  },
+  {
+    "id": "self_ang_003",
+    "emotion": "anger",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "comfort + reframe",
+    "category": "book",
+    "title": "Read about self-compassion",
+    "text": "Self-anger often comes from impossible standards. These books offer a kinder perspective on failure and mistakes.",
+    "options": [
+      "Self-Compassion – Kristin Neff",
+      "The Gifts of Imperfection – Brené Brown",
+      "Atomic Habits – James Clear"
+    ],
+    "tags": [
+      "book",
+      "self-compassion",
+      "solo",
+      "reframe"
+    ]
+  },
+  {
+    "id": "self_ang_004",
+    "emotion": "anger",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "comfort + reframe",
+    "category": "meditation",
+    "title": "Self-forgiveness meditation",
+    "text": "A guided self-forgiveness meditation — not about excusing yourself but about releasing self-blame so you can think clearly.",
+    "tags": [
+      "meditation",
+      "self-compassion",
+      "solo",
+      "healing"
+    ]
+  },
+  {
+    "id": "self_ang_005",
+    "emotion": "anger",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "comfort + reframe",
+    "category": "movie",
+    "title": "Watch something that celebrates human imperfection",
+    "text": "Films about flawed people finding their way are oddly comforting when you are frustrated with yourself.",
+    "options": [
+      "Queen (2014)",
+      "Dear Zindagi (2016)",
+      "Tamasha (2015)"
+    ],
+    "tags": [
+      "bollywood",
+      "self-growth",
+      "solo",
+      "comforting"
+    ]
+  },
+  {
+    "id": "self_ang_006",
+    "emotion": "anger",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "comfort + reframe",
+    "category": "journaling",
+    "title": "Write a letter to yourself with kindness",
+    "text": "Write a letter to yourself as if writing to your best friend who made the same mistake. What would you actually say?",
+    "tags": [
+      "journaling",
+      "self-compassion",
+      "solo",
+      "reframe"
+    ]
+  },
+  {
+    "id": "self_ang_007",
+    "emotion": "anger",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "comfort + reframe",
+    "category": "exercise",
+    "title": "Channel it with a workout at moderate pace",
+    "text": "Do not go 100 percent intensity when angry at yourself — moderate exercise releases tension without feeding aggression.",
+    "tags": [
+      "exercise",
+      "gym",
+      "solo",
+      "movement"
+    ]
+  },
+  {
+    "id": "self_ang_008",
+    "emotion": "anger",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "comfort + reframe",
+    "category": "music",
+    "title": "Indie pop that feels like a fresh start",
+    "text": "These songs have a new-beginning energy that helps shift from self-blame toward forward movement.",
+    "options": [
+      "Khaabon Ke Parinday – Zindagi Na Milegi Dobara",
+      "Subah Hogi – Masaan",
+      "Dog Days Are Over – Florence + The Machine"
+    ],
+    "tags": [
+      "indie",
+      "uplifting",
+      "fresh-start",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_ang_009",
+    "emotion": "anger",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "comfort + reframe",
+    "category": "activity_indoor",
+    "title": "Do something small you are genuinely good at",
+    "text": "When you are angry at yourself remind your brain of your competence. Cook a dish you make well sketch something solve a puzzle.",
+    "tags": [
+      "indoor",
+      "confidence",
+      "solo",
+      "competence"
+    ]
+  },
+  {
+    "id": "self_ang_010",
+    "emotion": "anger",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "comfort + reframe",
+    "category": "podcast",
+    "title": "Listen to a podcast about failure and growth",
+    "text": "Hearing successful people talk honestly about their failures and self-doubt normalizes what you are feeling.",
+    "options": [
+      "Armchair Expert – Dax Shepard",
+      "Founders – David Senra",
+      "The Tim Ferriss Show – fear-setting episodes"
+    ],
+    "tags": [
+      "podcast",
+      "failure",
+      "growth",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_ang_011",
+    "emotion": "anger",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "comfort + reframe",
+    "category": "music",
+    "title": "Soft classical music to dissolve self-anger",
+    "text": "Indian classical ragas have a documented effect on emotional regulation. These ragas are particularly soothing for agitation.",
+    "options": [
+      "Raag Bhairavi – Pandit Ravi Shankar",
+      "Raag Yaman – evening calm",
+      "Raag Bhimpalasi – afternoon peace"
+    ],
+    "tags": [
+      "classical",
+      "indian",
+      "soothing",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_ang_012",
+    "emotion": "anger",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "comfort + reframe",
+    "category": "activity_outdoor",
+    "title": "Go sit near water — a lake river or fountain",
+    "text": "The presence of moving water has a measurably calming effect on the nervous system.",
+    "tags": [
+      "nature",
+      "water",
+      "outdoor",
+      "calming"
+    ]
+  },
+  {
+    "id": "self_ang_013",
+    "emotion": "anger",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "comfort + reframe",
+    "category": "game_indoor",
+    "title": "Play something strategic and absorbing",
+    "text": "Chess Sudoku or a complex strategy game occupies the analytical mind and gives the emotional mind a rest.",
+    "options": [
+      "Chess – board or app",
+      "Sudoku – any level",
+      "Civilization V or VI – strategy game"
+    ],
+    "tags": [
+      "strategy",
+      "game",
+      "indoor",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_ang_014",
+    "emotion": "anger",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "comfort + reframe",
+    "category": "creative",
+    "title": "Paint or draw without rules",
+    "text": "Angry at yourself? Put that energy on paper. No technique no goals — just colour and marks. It moves anger out of the body.",
+    "tags": [
+      "creative",
+      "art",
+      "solo",
+      "release"
+    ]
+  },
+  {
+    "id": "self_ang_015",
+    "emotion": "anger",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "comfort + reframe",
+    "category": "social",
+    "title": "Call a trusted friend and say I am being too hard on myself",
+    "text": "Saying those words out loud to someone who knows you almost always results in them telling you what you need to hear.",
+    "tags": [
+      "social",
+      "vulnerability",
+      "connection",
+      "self-compassion"
+    ]
+  },
+  {
+    "id": "self_ang_016",
+    "emotion": "anger",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "comfort + reframe",
+    "category": "activity_outdoor",
+    "title": "Sit in a park or garden and watch something natural",
+    "text": "Watching birds trees moving clouds passing — natural observation interrupts the self-anger loop with something outside you.",
+    "tags": [
+      "nature",
+      "outdoor",
+      "observation",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_ang_017",
+    "emotion": "anger",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "comfort + reframe",
+    "category": "book",
+    "title": "Read something that puts your mistake in perspective",
+    "text": "Reading about how ordinary failure is in the journeys of accomplished people provides instant relief from self-anger.",
+    "options": [
+      "Failing Forward – John Maxwell",
+      "Black Box Thinking – Matthew Syed",
+      "Mindset – Carol Dweck"
+    ],
+    "tags": [
+      "book",
+      "failure",
+      "perspective",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_ang_018",
+    "emotion": "anger",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "comfort + reframe",
+    "category": "game_outdoor",
+    "title": "Play outdoor cricket or throw a ball against a wall",
+    "text": "Physical repetitive outdoor movement helps discharge self-anger from the body.",
+    "tags": [
+      "cricket",
+      "outdoor",
+      "physical",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_ang_019",
+    "emotion": "anger",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "comfort + reframe",
+    "category": "activity_indoor",
+    "title": "Do progressive muscle relaxation",
+    "text": "Tense each muscle group for 5 seconds then release. Go from toes to forehead. The contrast directly reduces anger.",
+    "tags": [
+      "PMR",
+      "body",
+      "indoor",
+      "anger-management"
+    ]
+  },
+  {
+    "id": "self_ang_020",
+    "emotion": "anger",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "comfort + reframe",
+    "category": "activity_indoor",
+    "title": "Take an ice-cold shower or splash cold water on face",
+    "text": "Cold water exposure activates the parasympathetic nervous system and reduces cortisol quickly.",
+    "tags": [
+      "cold-water",
+      "physiological",
+      "indoor",
+      "quick-fix"
+    ]
+  },
+  {
+    "id": "self_ang_021",
+    "emotion": "anger",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "comfort + reframe",
+    "category": "gym",
+    "title": "Do a controlled powerlifting session",
+    "text": "Channelling self-anger into heavy controlled lifting — deliberate sets not flailing — is both cathartic and productive.",
+    "tags": [
+      "powerlifting",
+      "gym",
+      "controlled",
+      "solo"
+    ]
+  },
+  {
+    "id": "other_ang_001",
+    "emotion": "anger",
+    "target": "other",
+    "vector": "mirror_anger",
+    "mode": "mirror solidarity",
+    "category": "music",
+    "title": "High-energy music to match the fire",
+    "text": "When you are furious on someone else's behalf you need music that matches that energy — something that says I am with you.",
+    "options": [
+      "Ziddi Dil – Mary Kom",
+      "Bhaag DK Bose – Delhi Belly",
+      "Killing in the Name – Rage Against the Machine"
+    ],
+    "tags": [
+      "power-music",
+      "mirror",
+      "solidarity",
+      "high-energy"
+    ]
+  },
+  {
+    "id": "other_ang_002",
+    "emotion": "anger",
+    "target": "other",
+    "vector": "mirror_anger",
+    "mode": "mirror solidarity",
+    "category": "gym",
+    "title": "Get into the gym and lift heavy",
+    "text": "When you are angry for someone else your body carries that energy. A heavy compound lifting session is the safest most satisfying release.",
+    "tags": [
+      "gym",
+      "heavy-lifting",
+      "energy-release",
+      "solo"
+    ]
+  },
+  {
+    "id": "other_ang_003",
+    "emotion": "anger",
+    "target": "other",
+    "vector": "mirror_anger",
+    "mode": "mirror solidarity",
+    "category": "journaling",
+    "title": "Write down exactly what made you angry about their situation",
+    "text": "Articulating the anger clearly — what was unjust who failed them what should have happened — turns hot emotion into something usable.",
+    "tags": [
+      "journaling",
+      "processing",
+      "clarity",
+      "solo"
+    ]
+  },
+  {
+    "id": "other_ang_004",
+    "emotion": "anger",
+    "target": "other",
+    "vector": "mirror_anger",
+    "mode": "mirror solidarity",
+    "category": "movie",
+    "title": "Watch a film about fighting for justice",
+    "text": "When you are angry about injustice done to someone else these films validate that anger and channel it into inspiration.",
+    "options": [
+      "Pink (2016)",
+      "Article 15 (2019)",
+      "A Wednesday (2008)"
+    ],
+    "tags": [
+      "bollywood",
+      "justice",
+      "solidarity",
+      "powerful"
+    ]
+  },
+  {
+    "id": "other_ang_005",
+    "emotion": "anger",
+    "target": "other",
+    "vector": "mirror_anger",
+    "mode": "mirror solidarity",
+    "category": "activity_outdoor",
+    "title": "Go for a fast run to burn the energy",
+    "text": "Running at a pace that reflects your anger burns off the cortisol while keeping you safe.",
+    "tags": [
+      "running",
+      "outdoor",
+      "energy-release",
+      "solo"
+    ]
+  },
+  {
+    "id": "other_ang_006",
+    "emotion": "anger",
+    "target": "other",
+    "vector": "mirror_anger",
+    "mode": "mirror solidarity",
+    "category": "book",
+    "title": "Read about standing up for others",
+    "text": "These books fuel justified anger and give you context language and direction for what you are feeling.",
+    "options": [
+      "To Kill a Mockingbird – Harper Lee",
+      "An Era of Darkness – Shashi Tharoor",
+      "I Am Malala – Malala Yousafzai"
+    ],
+    "tags": [
+      "book",
+      "justice",
+      "non-fiction",
+      "solo"
+    ]
+  },
+  {
+    "id": "other_ang_007",
+    "emotion": "anger",
+    "target": "other",
+    "vector": "mirror_anger",
+    "mode": "mirror solidarity",
+    "category": "social",
+    "title": "Be the person who actually shows up",
+    "text": "Anger on someone's behalf is most powerful when it turns into action. Show up make calls write emails support them practically.",
+    "tags": [
+      "social",
+      "action",
+      "support",
+      "solidarity"
+    ]
+  },
+  {
+    "id": "other_ang_008",
+    "emotion": "anger",
+    "target": "other",
+    "vector": "mirror_anger",
+    "mode": "mirror solidarity",
+    "category": "music",
+    "title": "Rock or metal for righteous anger",
+    "text": "When soft is not cutting it these tracks carry raw righteous energy without tipping into destruction.",
+    "options": [
+      "Numb – Linkin Park",
+      "Boulevard of Broken Dreams – Green Day",
+      "Believer – Imagine Dragons"
+    ],
+    "tags": [
+      "rock",
+      "power",
+      "energy",
+      "mirror"
+    ]
+  },
+  {
+    "id": "other_ang_009",
+    "emotion": "anger",
+    "target": "other",
+    "vector": "mirror_anger",
+    "mode": "mirror solidarity",
+    "category": "game_outdoor",
+    "title": "Play a competitive outdoor game hard",
+    "text": "Competitive sports are a legitimate release valve. Play cricket or football with full intensity.",
+    "tags": [
+      "sport",
+      "competitive",
+      "outdoor",
+      "energy-release"
+    ]
+  },
+  {
+    "id": "other_ang_010",
+    "emotion": "anger",
+    "target": "other",
+    "vector": "mirror_anger",
+    "mode": "mirror solidarity",
+    "category": "podcast",
+    "title": "Listen to a podcast about social justice or advocacy",
+    "text": "Sometimes your anger needs validation and framing. These podcasts give context to why your anger makes sense.",
+    "options": [
+      "We Can Do Hard Things – Glennon Doyle",
+      "Preach – podcast on social issues",
+      "Stuff You Missed in History Class"
+    ],
+    "tags": [
+      "podcast",
+      "justice",
+      "advocacy",
+      "solo"
+    ]
+  },
+  {
+    "id": "other_ang_011",
+    "emotion": "anger",
+    "target": "other",
+    "vector": "mirror_anger",
+    "mode": "mirror solidarity",
+    "category": "music",
+    "title": "Power anthems for solidarity",
+    "text": "These tracks are full of strength and collective energy — exactly what solidarity anger needs.",
+    "options": [
+      "Jai Ho – AR Rahman",
+      "Hum Honge Kamyab – protest classical",
+      "We Will Rock You – Queen"
+    ],
+    "tags": [
+      "power",
+      "anthem",
+      "solidarity",
+      "high-energy"
+    ]
+  },
+  {
+    "id": "other_ang_012",
+    "emotion": "anger",
+    "target": "other",
+    "vector": "mirror_anger",
+    "mode": "mirror solidarity",
+    "category": "book",
+    "title": "Books about fighting for justice for others",
+    "text": "When you are angry on behalf of someone else these books give that anger language history and direction.",
+    "options": [
+      "Untouchable – BR Ambedkar",
+      "The Diary of a Young Girl – Anne Frank",
+      "Long Walk to Freedom – Mandela alternate"
+    ],
+    "tags": [
+      "book",
+      "justice",
+      "biography",
+      "solidarity"
+    ]
+  },
+  {
+    "id": "other_ang_013",
+    "emotion": "anger",
+    "target": "other",
+    "vector": "mirror_anger",
+    "mode": "mirror solidarity",
+    "category": "gym",
+    "title": "Train hard — for them not just you",
+    "text": "Channel the anger on their behalf into a dedicated intense workout. Dedicate the session — run a mile for them.",
+    "tags": [
+      "gym",
+      "dedication",
+      "solidarity",
+      "energy-release"
+    ]
+  },
+  {
+    "id": "other_ang_014",
+    "emotion": "anger",
+    "target": "other",
+    "vector": "mirror_anger",
+    "mode": "mirror solidarity",
+    "category": "activity_outdoor",
+    "title": "Take a fast run and think about how to help them",
+    "text": "The combination of physical movement and the specific focus of problem-solving for someone else often produces better ideas.",
+    "tags": [
+      "running",
+      "thinking",
+      "outdoor",
+      "solidarity"
+    ]
+  },
+  {
+    "id": "other_ang_015",
+    "emotion": "anger",
+    "target": "other",
+    "vector": "mirror_anger",
+    "mode": "mirror solidarity",
+    "category": "journaling",
+    "title": "Write what you would say to the person who wronged them",
+    "text": "You are not going to send it. Writing an uncensored letter to whoever caused the anger you feel on their behalf is cathartic.",
+    "tags": [
+      "journaling",
+      "cathartic",
+      "processing",
+      "solo"
+    ]
+  },
+  {
+    "id": "other_ang_016",
+    "emotion": "anger",
+    "target": "other",
+    "vector": "mirror_anger",
+    "mode": "mirror solidarity",
+    "category": "social",
+    "title": "Offer to mediate or intervene if appropriate",
+    "text": "Sometimes being a solidarity ally means stepping in — carefully with consent — to help resolve the situation that made your friend angry.",
+    "tags": [
+      "mediation",
+      "support",
+      "action",
+      "social"
+    ]
+  },
+  {
+    "id": "other_ang_017",
+    "emotion": "anger",
+    "target": "other",
+    "vector": "mirror_anger",
+    "mode": "mirror solidarity",
+    "category": "movie",
+    "title": "Watch a film about collective resistance",
+    "text": "Films where people come together against a common source of injustice mirror solidarity anger and give it heroic context.",
+    "options": [
+      "Rang De Basanti (2006)",
+      "Swades (2004)",
+      "Gandhi (1982)"
+    ],
+    "tags": [
+      "movie",
+      "solidarity",
+      "resistance",
+      "bollywood"
+    ]
+  },
+  {
+    "id": "other_ang_018",
+    "emotion": "anger",
+    "target": "other",
+    "vector": "mirror_anger",
+    "mode": "mirror solidarity",
+    "category": "book",
+    "title": "Share a book about navigating conflict constructively",
+    "text": "Righteous anger is most useful when channelled constructively. These books give the person tools to act on their anger effectively.",
+    "options": [
+      "Nonviolent Communication – Marshall Rosenberg",
+      "Crucial Conversations – Patterson",
+      "The Anatomy of Peace – Arbinger Institute"
+    ],
+    "tags": [
+      "book",
+      "conflict",
+      "constructive",
+      "gifting"
+    ]
+  },
+  {
+    "id": "sit_ang_001",
+    "emotion": "anger",
+    "target": "situation",
+    "vector": "mirror_anger",
+    "mode": "light mirror + guide",
+    "category": "journaling",
+    "title": "Write down what specifically angered you",
+    "text": "When a situation makes you angry writing exactly what happened and what felt wrong is the first step to deciding how to respond.",
+    "tags": [
+      "journaling",
+      "clarity",
+      "solo",
+      "processing"
+    ]
+  },
+  {
+    "id": "sit_ang_002",
+    "emotion": "anger",
+    "target": "situation",
+    "vector": "mirror_anger",
+    "mode": "light mirror + guide",
+    "category": "music",
+    "title": "Music that mirrors your frustration with a situation",
+    "text": "These songs were written about exactly the kind of anger that comes from an unfair or frustrating situation.",
+    "options": [
+      "Mere Naam Tu – Zero raw version",
+      "In the End – Linkin Park",
+      "Chura Liya Hai Tumne – rock cover"
+    ],
+    "tags": [
+      "mirror",
+      "frustration",
+      "situation",
+      "solo"
+    ]
+  },
+  {
+    "id": "sit_ang_003",
+    "emotion": "anger",
+    "target": "situation",
+    "vector": "mirror_anger",
+    "mode": "light mirror + guide",
+    "category": "book",
+    "title": "Read about how to handle frustrating situations wisely",
+    "text": "These books help you channel situational anger into productive problem-solving rather than rumination.",
+    "options": [
+      "Emotional Intelligence – Daniel Goleman",
+      "The Art of War – Sun Tzu",
+      "Getting Things Done – David Allen"
+    ],
+    "tags": [
+      "book",
+      "strategy",
+      "self-help",
+      "solo"
+    ]
+  },
+  {
+    "id": "sit_ang_004",
+    "emotion": "anger",
+    "target": "situation",
+    "vector": "mirror_anger",
+    "mode": "light mirror + guide",
+    "category": "activity_outdoor",
+    "title": "Take a fast walk and problem-solve in your head",
+    "text": "Walking especially fast walking activates both hemispheres of the brain. Many people find their clearest thinking happens during movement.",
+    "tags": [
+      "walking",
+      "outdoor",
+      "thinking",
+      "solo"
+    ]
+  },
+  {
+    "id": "sit_ang_005",
+    "emotion": "anger",
+    "target": "situation",
+    "vector": "mirror_anger",
+    "mode": "light mirror + guide",
+    "category": "movie",
+    "title": "Watch a film where characters navigate unjust situations",
+    "text": "Stories about navigating frustrating circumstances with intelligence and grit can reframe your own situation.",
+    "options": [
+      "Drishyam (2015)",
+      "Nayak (2001)",
+      "The Shawshank Redemption (1994)"
+    ],
+    "tags": [
+      "movie",
+      "clever",
+      "strategy",
+      "bollywood"
+    ]
+  },
+  {
+    "id": "sit_ang_006",
+    "emotion": "anger",
+    "target": "situation",
+    "vector": "mirror_anger",
+    "mode": "light mirror + guide",
+    "category": "meditation",
+    "title": "Cooling breath meditation Sitali Pranayama",
+    "text": "This breathing technique physiologically cools down anger. Inhale through a curled tongue exhale through the nose repeat 10 times.",
+    "tags": [
+      "meditation",
+      "breathing",
+      "anger-management",
+      "quick-fix"
+    ]
+  },
+  {
+    "id": "sit_ang_007",
+    "emotion": "anger",
+    "target": "situation",
+    "vector": "mirror_anger",
+    "mode": "light mirror + guide",
+    "category": "exercise",
+    "title": "Do HIIT or boxing drills",
+    "text": "High-intensity interval training especially bag work or shadow boxing is the most direct physical outlet for anger.",
+    "tags": [
+      "hiit",
+      "boxing",
+      "gym",
+      "energy-release"
+    ]
+  },
+  {
+    "id": "sit_ang_008",
+    "emotion": "anger",
+    "target": "situation",
+    "vector": "mirror_anger",
+    "mode": "light mirror + guide",
+    "category": "podcast",
+    "title": "Podcast on managing frustration productively",
+    "text": "Sometimes you need someone to normalize your anger and then redirect it constructively.",
+    "options": [
+      "Hidden Brain – anger episodes",
+      "10 Percent Happier – Dan Harris",
+      "The Tim Ferriss Show – emotional regulation"
+    ],
+    "tags": [
+      "podcast",
+      "anger-management",
+      "solo",
+      "audio"
+    ]
+  },
+  {
+    "id": "sit_ang_009",
+    "emotion": "anger",
+    "target": "situation",
+    "vector": "mirror_anger",
+    "mode": "light mirror + guide",
+    "category": "social",
+    "title": "Tell someone you trust how frustrated you are",
+    "text": "Verbalizing situational anger to someone who simply listens without trying to fix it is one of the most effective ways to deflate it.",
+    "tags": [
+      "social",
+      "venting",
+      "connection",
+      "processing"
+    ]
+  },
+  {
+    "id": "sit_ang_010",
+    "emotion": "anger",
+    "target": "situation",
+    "vector": "mirror_anger",
+    "mode": "light mirror + guide",
+    "category": "music",
+    "title": "Playlist that captures frustrated energy",
+    "text": "When a situation has you frustrated music that mirrors the energy gives it somewhere to go.",
+    "options": [
+      "Ziddi Dil – Mary Kom alternate",
+      "Warrior – Kesha",
+      "Roar – Katy Perry"
+    ],
+    "tags": [
+      "frustration",
+      "energy",
+      "mirror",
+      "situation"
+    ]
+  },
+  {
+    "id": "sit_ang_011",
+    "emotion": "anger",
+    "target": "situation",
+    "vector": "mirror_anger",
+    "mode": "light mirror + guide",
+    "category": "creative",
+    "title": "Turn the anger about the situation into something",
+    "text": "Write a piece about it make a short video do a sketch. Art born from genuine anger is often surprisingly powerful.",
+    "tags": [
+      "creative",
+      "art",
+      "protest",
+      "productive"
+    ]
+  },
+  {
+    "id": "sit_ang_012",
+    "emotion": "anger",
+    "target": "situation",
+    "vector": "mirror_anger",
+    "mode": "light mirror + guide",
+    "category": "movie",
+    "title": "Watch a film where the system is challenged",
+    "text": "Situational anger often comes from systemic injustice. These films mirror that energy.",
+    "options": [
+      "Article 15 (2019) alternate",
+      "Rang De Basanti (2006) alternate",
+      "V for Vendetta (2005)"
+    ],
+    "tags": [
+      "movie",
+      "system",
+      "challenge",
+      "solo"
+    ]
+  },
+  {
+    "id": "sit_ang_013",
+    "emotion": "anger",
+    "target": "situation",
+    "vector": "mirror_anger",
+    "mode": "light mirror + guide",
+    "category": "activity_indoor",
+    "title": "Write a letter you will never send",
+    "text": "Write everything uncensored raw and complete about the situation that is making you angry. Then delete it or tear it up.",
+    "tags": [
+      "journaling",
+      "cathartic",
+      "solo",
+      "unsent-letter"
+    ]
+  },
+  {
+    "id": "sit_ang_014",
+    "emotion": "anger",
+    "target": "situation",
+    "vector": "mirror_anger",
+    "mode": "light mirror + guide",
+    "category": "game_outdoor",
+    "title": "Play a competitive sport at full intensity",
+    "text": "Competitive energy from anger at a situation is ideally released through intense physical competition. Play hard.",
+    "tags": [
+      "sport",
+      "competitive",
+      "outdoor",
+      "energy-release"
+    ]
+  },
+  {
+    "id": "sit_ang_015",
+    "emotion": "anger",
+    "target": "situation",
+    "vector": "mirror_anger",
+    "mode": "light mirror + guide",
+    "category": "activity_outdoor",
+    "title": "Take a bike ride — fast and focused",
+    "text": "Cycling fast through the city or neighbourhood is both aerobic and mentally clarifying.",
+    "tags": [
+      "cycling",
+      "outdoor",
+      "solo",
+      "energy-release"
+    ]
+  },
+  {
+    "id": "sit_ang_016",
+    "emotion": "anger",
+    "target": "situation",
+    "vector": "mirror_anger",
+    "mode": "light mirror + guide",
+    "category": "social",
+    "title": "Find a community working on the same problem",
+    "text": "When a situation angers you finding the community of people already working to change it transforms isolated anger into connected action.",
+    "tags": [
+      "community",
+      "action",
+      "social",
+      "collective"
+    ]
+  },
+  {
+    "id": "you_ang_001",
+    "emotion": "anger",
+    "target": "you",
+    "vector": "inject_sadness",
+    "mode": "apologize",
+    "category": "music",
+    "title": "Something gentle to ease the moment",
+    "text": "A softer sound can help things settle when the tension is high.",
+    "options": [
+      "Tere Bina – Guru",
+      "Breathe 2 AM – Anna Nalick",
+      "Kabira – Yeh Jawaani Hai Deewani"
+    ],
+    "tags": [
+      "soft",
+      "calming",
+      "brief",
+      "reset"
+    ]
+  },
+  {
+    "id": "you_ang_002",
+    "emotion": "anger",
+    "target": "you",
+    "vector": "inject_sadness",
+    "mode": "apologize",
+    "category": "activity_indoor",
+    "title": "Take a moment — glass of water stretch breathe",
+    "text": "Even a two-minute break from a frustrating interaction can completely change its outcome.",
+    "tags": [
+      "break",
+      "brief",
+      "reset",
+      "solo"
+    ]
+  },
+  {
+    "id": "you_ang_003",
+    "emotion": "anger",
+    "target": "you",
+    "vector": "inject_sadness",
+    "mode": "apologize",
+    "category": "meditation",
+    "title": "Three slow breaths right now",
+    "text": "Before anything else — three long slow exhales. It is not a fix for everything but it is a start.",
+    "tags": [
+      "breathing",
+      "quick-fix",
+      "brief",
+      "reset"
+    ]
+  },
+  {
+    "id": "self_fear_001",
+    "emotion": "fear",
+    "target": "self",
+    "vector": "none",
+    "mode": "calm + ground",
+    "category": "meditation",
+    "title": "Body scan meditation for fear and anxiety",
+    "text": "A body scan meditation grounds you in physical reality which is the antidote to fear-based thinking that lives in the future.",
+    "tags": [
+      "meditation",
+      "grounding",
+      "solo",
+      "anxiety"
+    ]
+  },
+  {
+    "id": "self_fear_002",
+    "emotion": "fear",
+    "target": "self",
+    "vector": "none",
+    "mode": "calm + ground",
+    "category": "book",
+    "title": "Read a book that builds rational confidence",
+    "text": "These books give you frameworks and evidence-based tools for managing fear not just inspiration.",
+    "options": [
+      "Feel the Fear and Do It Anyway – Susan Jeffers",
+      "The Obstacle Is the Way – Ryan Holiday",
+      "Thinking Fast and Slow – Daniel Kahneman"
+    ],
+    "tags": [
+      "book",
+      "rational",
+      "confidence",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_fear_003",
+    "emotion": "fear",
+    "target": "self",
+    "vector": "none",
+    "mode": "calm + ground",
+    "category": "music",
+    "title": "Calm neutral music for grounding",
+    "text": "When you are afraid music with a steady slow rhythm regulates your nervous system.",
+    "options": [
+      "Raag Bhairav – morning raga",
+      "Brian Eno – Music for Airports",
+      "Max Richter – On the Nature of Daylight"
+    ],
+    "tags": [
+      "instrumental",
+      "calm",
+      "grounding",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_fear_004",
+    "emotion": "fear",
+    "target": "self",
+    "vector": "none",
+    "mode": "calm + ground",
+    "category": "journaling",
+    "title": "Write down exactly what you fear and why",
+    "text": "Fear named and examined is always smaller than fear that swirls in the mind. Write your fear clearly — what is the worst outcome.",
+    "tags": [
+      "journaling",
+      "rational",
+      "solo",
+      "fear-analysis"
+    ]
+  },
+  {
+    "id": "self_fear_005",
+    "emotion": "fear",
+    "target": "self",
+    "vector": "none",
+    "mode": "calm + ground",
+    "category": "exercise",
+    "title": "Slow yoga or stretching",
+    "text": "Gentle slow yoga activates the parasympathetic nervous system and reduces fear response.",
+    "tags": [
+      "yoga",
+      "gentle",
+      "solo",
+      "grounding"
+    ]
+  },
+  {
+    "id": "self_fear_006",
+    "emotion": "fear",
+    "target": "self",
+    "vector": "none",
+    "mode": "calm + ground",
+    "category": "movie",
+    "title": "Watch something factual and calming",
+    "text": "A nature documentary keeps your mind engaged without emotional spikes — perfect for settling fear.",
+    "options": [
+      "Planet Earth – BBC any episode",
+      "My Octopus Teacher (2020)",
+      "Patagonia – Netflix series"
+    ],
+    "tags": [
+      "documentary",
+      "calming",
+      "nature",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_fear_007",
+    "emotion": "fear",
+    "target": "self",
+    "vector": "none",
+    "mode": "calm + ground",
+    "category": "book",
+    "title": "A philosophical book on facing uncertainty",
+    "text": "These classics help you accept uncertainty as a normal part of life rather than something to defeat.",
+    "options": [
+      "Meditations – Marcus Aurelius",
+      "The Bhagavad Gita – Eknath Easwaran translation",
+      "Letters from a Stoic – Seneca"
+    ],
+    "tags": [
+      "book",
+      "stoic",
+      "philosophy",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_fear_008",
+    "emotion": "fear",
+    "target": "self",
+    "vector": "none",
+    "mode": "calm + ground",
+    "category": "activity_indoor",
+    "title": "Make a warm drink and sit with the feeling",
+    "text": "Fear needs presence not escape. Make tea sit somewhere comfortable and let yourself feel the fear without acting on it.",
+    "tags": [
+      "mindful",
+      "solo",
+      "presence",
+      "acceptance"
+    ]
+  },
+  {
+    "id": "self_fear_009",
+    "emotion": "fear",
+    "target": "self",
+    "vector": "none",
+    "mode": "calm + ground",
+    "category": "podcast",
+    "title": "Listen to a podcast on managing anxiety",
+    "text": "Practical science-backed conversation about fear and anxiety can make it feel less alien and more manageable.",
+    "options": [
+      "The Anxiety Coaches Podcast",
+      "On Being – Krista Tippett",
+      "Huberman Lab – stress episodes"
+    ],
+    "tags": [
+      "podcast",
+      "anxiety",
+      "rational",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_fear_010",
+    "emotion": "fear",
+    "target": "self",
+    "vector": "none",
+    "mode": "calm + ground",
+    "category": "exercise",
+    "title": "Box breathing exercise 4x4x4x4",
+    "text": "Inhale 4 counts hold 4 exhale 4 hold 4. Repeat 5 cycles. Navy SEALs use this to stay calm in genuinely dangerous situations.",
+    "tags": [
+      "breathing",
+      "quick-fix",
+      "grounding",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_fear_011",
+    "emotion": "fear",
+    "target": "self",
+    "vector": "none",
+    "mode": "calm + ground",
+    "category": "meditation",
+    "title": "Visualization — imagine the fear passing",
+    "text": "Sit quietly and visualize the feared event as a wave — it rises peaks and passes. You are the shore not the wave.",
+    "tags": [
+      "meditation",
+      "visualization",
+      "solo",
+      "grounding"
+    ]
+  },
+  {
+    "id": "self_fear_012",
+    "emotion": "fear",
+    "target": "self",
+    "vector": "none",
+    "mode": "calm + ground",
+    "category": "book",
+    "title": "A self-help book specifically about fear",
+    "text": "Direct practical books that give you tools for specific fears rather than generic reassurance.",
+    "options": [
+      "Daring Greatly – Brené Brown",
+      "The Big Leap – Gay Hendricks",
+      "Courage Is Calling – Ryan Holiday"
+    ],
+    "tags": [
+      "book",
+      "fear",
+      "self-help",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_fear_013",
+    "emotion": "fear",
+    "target": "self",
+    "vector": "none",
+    "mode": "calm + ground",
+    "category": "activity_indoor",
+    "title": "Make a pros and cons list about what you fear",
+    "text": "The rational mind is the best antidote to irrational fear. Forcing the fear into list form immediately reduces its emotional power.",
+    "tags": [
+      "rational",
+      "solo",
+      "clarity",
+      "fear-analysis"
+    ]
+  },
+  {
+    "id": "self_fear_014",
+    "emotion": "fear",
+    "target": "self",
+    "vector": "none",
+    "mode": "calm + ground",
+    "category": "social",
+    "title": "Tell someone about the fear — say it out loud",
+    "text": "Fear is often strongest in isolation. Saying the feared thing out loud to another person almost always makes it immediately smaller.",
+    "tags": [
+      "social",
+      "vulnerability",
+      "connection",
+      "fear-reduction"
+    ]
+  },
+  {
+    "id": "self_fear_015",
+    "emotion": "fear",
+    "target": "self",
+    "vector": "none",
+    "mode": "calm + ground",
+    "category": "music",
+    "title": "Steady rhythmic music for nervous system regulation",
+    "text": "Music with a steady beat between 60-80 BPM has documented effects on slowing down the nervous system.",
+    "options": [
+      "Raag Bageshri – night raga",
+      "Nuvole Bianche – Einaudi",
+      "Breathing Underwater – Moana Breathe"
+    ],
+    "tags": [
+      "rhythmic",
+      "calm",
+      "regulation",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_fear_016",
+    "emotion": "fear",
+    "target": "self",
+    "vector": "none",
+    "mode": "calm + ground",
+    "category": "exercise",
+    "title": "Cold exposure — splash cold water on your face",
+    "text": "Cold water on the face activates the dive reflex which physiologically slows heart rate. Fast effective free.",
+    "tags": [
+      "cold",
+      "quick-fix",
+      "physiological",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_fear_017",
+    "emotion": "fear",
+    "target": "self",
+    "vector": "none",
+    "mode": "calm + ground",
+    "category": "activity_indoor",
+    "title": "Look up actual statistics about the thing you fear",
+    "text": "Most fears feel bigger because they live in imagination. Finding the actual probability of the feared thing almost always reduces fear.",
+    "tags": [
+      "rational",
+      "research",
+      "solo",
+      "information"
+    ]
+  },
+  {
+    "id": "self_fear_018",
+    "emotion": "fear",
+    "target": "self",
+    "vector": "none",
+    "mode": "calm + ground",
+    "category": "activity_indoor",
+    "title": "Make a list of every time you successfully faced fear",
+    "text": "Your brain has selective memory when afraid — it forgets past courage. Make an actual list of times you were scared and did it anyway.",
+    "tags": [
+      "list",
+      "rational",
+      "confidence",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_fear_019",
+    "emotion": "fear",
+    "target": "self",
+    "vector": "none",
+    "mode": "calm + ground",
+    "category": "social",
+    "title": "Join a support group or forum for this type of fear",
+    "text": "Whatever you are afraid of others are afraid of it too. Finding that community normalizes the fear and often provides practical advice.",
+    "tags": [
+      "community",
+      "social",
+      "fear-specific",
+      "support"
+    ]
+  },
+  {
+    "id": "self_fear_020",
+    "emotion": "fear",
+    "target": "self",
+    "vector": "none",
+    "mode": "calm + ground",
+    "category": "book",
+    "title": "Read about famous people who had significant fears",
+    "text": "Learning that hugely accomplished people had significant fears they worked through normalizes your own.",
+    "options": [
+      "Quiet – Susan Cain",
+      "Presence – Amy Cuddy",
+      "Nerve – Taylor Clark"
+    ],
+    "tags": [
+      "book",
+      "normalization",
+      "fear",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_fear_021",
+    "emotion": "fear",
+    "target": "self",
+    "vector": "none",
+    "mode": "calm + ground",
+    "category": "creative",
+    "title": "Draw or paint what you fear",
+    "text": "Externalizing fear through visual art reduces its power. Draw the fear literally or abstractly. Notice it becomes just a thing on paper.",
+    "tags": [
+      "art",
+      "creative",
+      "externalization",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_fear_022",
+    "emotion": "fear",
+    "target": "self",
+    "vector": "none",
+    "mode": "calm + ground",
+    "category": "activity_indoor",
+    "title": "Do 10 minutes of gratitude listing",
+    "text": "Fear lives in future imagination. Gratitude lives in present reality. Listing 10 specific present-moment things you are grateful for pulls fear out of the future.",
+    "tags": [
+      "gratitude",
+      "present",
+      "indoor",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_fear_023",
+    "emotion": "fear",
+    "target": "self",
+    "vector": "none",
+    "mode": "calm + ground",
+    "category": "exercise",
+    "title": "Restorative yoga — yin poses held for 3-5 minutes",
+    "text": "Yin yoga long holds release deep connective tissue tension where fear often lodges.",
+    "tags": [
+      "yin-yoga",
+      "restorative",
+      "gentle",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_fear_024",
+    "emotion": "fear",
+    "target": "self",
+    "vector": "none",
+    "mode": "calm + ground",
+    "category": "podcast",
+    "title": "Hindu philosophical podcast about impermanence",
+    "text": "Fear is often rooted in attachment and uncertainty about change. Vedanta or Buddhist philosophy podcasts address this at the root.",
+    "options": [
+      "The Vedanta Show",
+      "Swami Sarvapriyananda lectures",
+      "On Being – Buddhist episodes"
+    ],
+    "tags": [
+      "spiritual",
+      "philosophy",
+      "podcast",
+      "grounding"
+    ]
+  },
+  {
+    "id": "other_fear_001",
+    "emotion": "fear",
+    "target": "other",
+    "vector": "inject_happiness",
+    "mode": "guide + solutions",
+    "category": "social",
+    "title": "Help them make a concrete action plan",
+    "text": "Fear thrives in vagueness. Help the person break down what they are afraid of into specific manageable steps.",
+    "tags": [
+      "social",
+      "action-plan",
+      "support",
+      "practical"
+    ]
+  },
+  {
+    "id": "other_fear_002",
+    "emotion": "fear",
+    "target": "other",
+    "vector": "inject_happiness",
+    "mode": "guide + solutions",
+    "category": "book",
+    "title": "Share a book that helped you face something similar",
+    "text": "Giving someone a book you have personally found useful is a deeply personal form of support.",
+    "options": [
+      "Feel the Fear and Do It Anyway – Susan Jeffers",
+      "The Subtle Art of Not Giving a F – Mark Manson",
+      "You Are a Badass – Jen Sincero"
+    ],
+    "tags": [
+      "book",
+      "gifting",
+      "support",
+      "fear"
+    ]
+  },
+  {
+    "id": "other_fear_003",
+    "emotion": "fear",
+    "target": "other",
+    "vector": "inject_happiness",
+    "mode": "guide + solutions",
+    "category": "music",
+    "title": "Uplifting music to share with them",
+    "text": "Send them a playlist with a note. Knowing someone put care into choosing music for you is as comforting as the music itself.",
+    "options": [
+      "Roar – Katy Perry",
+      "Honsla Rakh – Diljit Dosanjh",
+      "Hall of Fame – The Script"
+    ],
+    "tags": [
+      "uplifting",
+      "sharing",
+      "support",
+      "energy"
+    ]
+  },
+  {
+    "id": "other_fear_004",
+    "emotion": "fear",
+    "target": "other",
+    "vector": "inject_happiness",
+    "mode": "guide + solutions",
+    "category": "activity_outdoor",
+    "title": "Take them out — change their environment",
+    "text": "Fear contracts the mind. A change of scenery even a walk in a park expands it. Offer to take them somewhere.",
+    "tags": [
+      "outdoor",
+      "social",
+      "support",
+      "environment"
+    ]
+  },
+  {
+    "id": "other_fear_005",
+    "emotion": "fear",
+    "target": "other",
+    "vector": "inject_happiness",
+    "mode": "guide + solutions",
+    "category": "movie",
+    "title": "Watch an inspiring film together",
+    "text": "A film about someone overcoming fear or odds can plant seeds of possibility without you having to say a word.",
+    "options": [
+      "Lakshya (2004)",
+      "MS Dhoni The Untold Story (2016)",
+      "Soul (2020)"
+    ],
+    "tags": [
+      "movie",
+      "inspiring",
+      "social",
+      "together"
+    ]
+  },
+  {
+    "id": "other_fear_006",
+    "emotion": "fear",
+    "target": "other",
+    "vector": "inject_happiness",
+    "mode": "guide + solutions",
+    "category": "podcast",
+    "title": "Share a podcast episode about overcoming fear",
+    "text": "Sometimes hearing a stranger's story of facing fear is more reassuring than hearing it from someone close.",
+    "options": [
+      "Oprah's Super Soul – courage episodes",
+      "The School of Greatness – Lewis Howes",
+      "Josh Talks – fearless stories"
+    ],
+    "tags": [
+      "podcast",
+      "sharing",
+      "support",
+      "fear"
+    ]
+  },
+  {
+    "id": "other_fear_007",
+    "emotion": "fear",
+    "target": "other",
+    "vector": "inject_happiness",
+    "mode": "guide + solutions",
+    "category": "social",
+    "title": "Remind them of a time they did something hard",
+    "text": "Fear makes people forget their past courage. Your job is to hold the memory they have temporarily lost.",
+    "tags": [
+      "social",
+      "reminder",
+      "support",
+      "confidence"
+    ]
+  },
+  {
+    "id": "other_fear_008",
+    "emotion": "fear",
+    "target": "other",
+    "vector": "inject_happiness",
+    "mode": "guide + solutions",
+    "category": "activity_indoor",
+    "title": "Do something fun and low-pressure together",
+    "text": "Board games cooking together or watching a comedy — taking the pressure off and injecting lightness is often the best thing for someone stuck in fear.",
+    "tags": [
+      "social",
+      "indoor",
+      "fun",
+      "together"
+    ]
+  },
+  {
+    "id": "other_fear_009",
+    "emotion": "fear",
+    "target": "other",
+    "vector": "inject_happiness",
+    "mode": "guide + solutions",
+    "category": "social",
+    "title": "Sit with them without trying to fix it first",
+    "text": "Before you guide or suggest solutions spend 5 minutes simply acknowledging their fear without dismissing or minimizing it. Then help.",
+    "tags": [
+      "social",
+      "empathy",
+      "support",
+      "presence"
+    ]
+  },
+  {
+    "id": "other_fear_010",
+    "emotion": "fear",
+    "target": "other",
+    "vector": "inject_happiness",
+    "mode": "guide + solutions",
+    "category": "activity_indoor",
+    "title": "Do a fun absorbing activity with them to break the fear loop",
+    "text": "Sometimes the most therapeutic thing for a fearful person is to completely break the fear loop with something engaging and unrelated.",
+    "tags": [
+      "social",
+      "distraction",
+      "indoor",
+      "together"
+    ]
+  },
+  {
+    "id": "other_fear_011",
+    "emotion": "fear",
+    "target": "other",
+    "vector": "inject_happiness",
+    "mode": "guide + solutions",
+    "category": "book",
+    "title": "Give them a book that confronts their type of fear directly",
+    "text": "A specifically targeted book for the type of fear they are experiencing is more useful than general encouragement.",
+    "options": [
+      "Dare – Barry McDonagh on anxiety",
+      "The Worry Cure – Robert Leahy",
+      "Full Catastrophe Living – Jon Kabat-Zinn"
+    ],
+    "tags": [
+      "book",
+      "targeted",
+      "gifting",
+      "fear-specific"
+    ]
+  },
+  {
+    "id": "other_fear_012",
+    "emotion": "fear",
+    "target": "other",
+    "vector": "inject_happiness",
+    "mode": "guide + solutions",
+    "category": "social",
+    "title": "Help them research the thing they fear",
+    "text": "Fear of the unknown is usually the biggest component. Sitting with someone and actually researching the feared thing together reduces it dramatically.",
+    "tags": [
+      "research",
+      "social",
+      "together",
+      "fear-reduction"
+    ]
+  },
+  {
+    "id": "other_fear_013",
+    "emotion": "fear",
+    "target": "other",
+    "vector": "inject_happiness",
+    "mode": "guide + solutions",
+    "category": "creative",
+    "title": "Make a you have got this visual for them",
+    "text": "Create a simple card poster or digital graphic with a specific personal message of confidence they can look at when the fear returns.",
+    "tags": [
+      "creative",
+      "gifting",
+      "support",
+      "encouragement"
+    ]
+  },
+  {
+    "id": "sit_fear_001",
+    "emotion": "fear",
+    "target": "situation",
+    "vector": "none",
+    "mode": "rational grounding",
+    "category": "journaling",
+    "title": "Break down the situation rationally on paper",
+    "text": "Fear about a situation grows in the dark. Write down what exactly is the situation what are the realistic outcomes and what can you do.",
+    "tags": [
+      "journaling",
+      "rational",
+      "solo",
+      "clarity"
+    ]
+  },
+  {
+    "id": "sit_fear_002",
+    "emotion": "fear",
+    "target": "situation",
+    "vector": "none",
+    "mode": "rational grounding",
+    "category": "book",
+    "title": "Read about how to navigate uncertainty",
+    "text": "When a situation is genuinely uncertain these books give you frameworks for tolerating and navigating that uncertainty.",
+    "options": [
+      "The Antifragile – Nassim Taleb",
+      "Letters from a Stoic – Seneca",
+      "The Art of Living – Epictetus"
+    ],
+    "tags": [
+      "book",
+      "uncertainty",
+      "rational",
+      "solo"
+    ]
+  },
+  {
+    "id": "sit_fear_003",
+    "emotion": "fear",
+    "target": "situation",
+    "vector": "none",
+    "mode": "rational grounding",
+    "category": "meditation",
+    "title": "Grounding meditation 5-4-3-2-1 technique",
+    "text": "Name 5 things you see 4 you hear 3 you can touch 2 you smell 1 you taste. This sensory technique immediately pulls you out of a fear spiral.",
+    "tags": [
+      "meditation",
+      "grounding",
+      "quick-fix",
+      "anxiety"
+    ]
+  },
+  {
+    "id": "sit_fear_004",
+    "emotion": "fear",
+    "target": "situation",
+    "vector": "none",
+    "mode": "rational grounding",
+    "category": "music",
+    "title": "Neutral steady instrumental music",
+    "text": "In situational fear you want music that holds steady — not emotional not distracting. Something that creates a stable backdrop.",
+    "options": [
+      "AR Rahman – ambient compositions",
+      "Hans Zimmer – Interstellar score",
+      "Explosions in the Sky – The Earth Is Not a Cold Dead Place"
+    ],
+    "tags": [
+      "instrumental",
+      "neutral",
+      "grounding",
+      "solo"
+    ]
+  },
+  {
+    "id": "sit_fear_005",
+    "emotion": "fear",
+    "target": "situation",
+    "vector": "none",
+    "mode": "rational grounding",
+    "category": "activity_indoor",
+    "title": "Research and gather information about the situation",
+    "text": "Fear of a situation often comes from incomplete information. Spend time actually understanding the facts.",
+    "tags": [
+      "research",
+      "solo",
+      "rational",
+      "information"
+    ]
+  },
+  {
+    "id": "sit_fear_006",
+    "emotion": "fear",
+    "target": "situation",
+    "vector": "none",
+    "mode": "rational grounding",
+    "category": "movie",
+    "title": "Watch a documentary about how situations resolve",
+    "text": "Seeing how complex scary situations played out in reality for real people gives you perspective and calm.",
+    "options": [
+      "13th – Ava DuVernay Netflix",
+      "The Social Dilemma – Netflix",
+      "Samsara – nature documentary"
+    ],
+    "tags": [
+      "documentary",
+      "factual",
+      "solo",
+      "perspective"
+    ]
+  },
+  {
+    "id": "sit_fear_007",
+    "emotion": "fear",
+    "target": "situation",
+    "vector": "none",
+    "mode": "rational grounding",
+    "category": "social",
+    "title": "Talk to someone who has navigated a similar situation",
+    "text": "First-person accounts from people who have already navigated your feared situation are worth more than any amount of general advice.",
+    "tags": [
+      "social",
+      "mentorship",
+      "perspective",
+      "fear-specific"
+    ]
+  },
+  {
+    "id": "sit_fear_008",
+    "emotion": "fear",
+    "target": "situation",
+    "vector": "none",
+    "mode": "rational grounding",
+    "category": "book",
+    "title": "Read about how this type of situation typically resolves",
+    "text": "Fear about a situation often comes from not knowing how it ends. Research replaces unknown with known.",
+    "options": [
+      "The Signal and the Noise – Nate Silver",
+      "Freakonomics – Levitt and Dubner",
+      "Thinking in Bets – Annie Duke"
+    ],
+    "tags": [
+      "book",
+      "rational",
+      "probability",
+      "solo"
+    ]
+  },
+  {
+    "id": "sit_fear_009",
+    "emotion": "fear",
+    "target": "situation",
+    "vector": "none",
+    "mode": "rational grounding",
+    "category": "social",
+    "title": "Find someone who has been through this exact situation",
+    "text": "First-hand accounts from people who have already navigated your feared situation are worth more than general advice.",
+    "tags": [
+      "social",
+      "mentorship",
+      "perspective",
+      "fear-specific-2"
+    ]
+  },
+  {
+    "id": "sit_fear_010",
+    "emotion": "fear",
+    "target": "situation",
+    "vector": "none",
+    "mode": "rational grounding",
+    "category": "activity_indoor",
+    "title": "Create a contingency plan",
+    "text": "The antidote to fear about a situation is preparation. Build a what-if-this-happens contingency plan. Knowing you have a plan immediately reduces fear.",
+    "tags": [
+      "planning",
+      "action",
+      "solo",
+      "preparation"
+    ]
+  },
+  {
+    "id": "sit_fear_011",
+    "emotion": "fear",
+    "target": "situation",
+    "vector": "none",
+    "mode": "rational grounding",
+    "category": "activity_outdoor",
+    "title": "Walk in nature and notice what is not threatening",
+    "text": "Fear narrows attention to threats. A nature walk where you deliberately notice what is safe beautiful and ordinary reverses that narrowing.",
+    "tags": [
+      "nature",
+      "walking",
+      "outdoor",
+      "grounding"
+    ]
+  },
+  {
+    "id": "sit_fear_012",
+    "emotion": "fear",
+    "target": "situation",
+    "vector": "none",
+    "mode": "rational grounding",
+    "category": "activity_indoor",
+    "title": "Build a worst-case analysis document",
+    "text": "Fear-setting: write the worst case rate its likelihood write what you would do if it happened. The exercise reveals the fear is survivable.",
+    "tags": [
+      "fear-setting",
+      "rational",
+      "solo",
+      "planning"
+    ]
+  },
+  {
+    "id": "you_fear_001",
+    "emotion": "fear",
+    "target": "you",
+    "vector": "none",
+    "mode": "reassure + correct",
+    "category": "music",
+    "title": "Something stable and calm while things clear up",
+    "text": "While any confusion gets sorted here is something steady to listen to.",
+    "options": [
+      "Clair de Lune – Debussy",
+      "Weightless – Marconi Union",
+      "Nuvole Bianche – Ludovico Einaudi"
+    ],
+    "tags": [
+      "calm",
+      "neutral",
+      "brief",
+      "instrumental"
+    ]
+  },
+  {
+    "id": "you_fear_002",
+    "emotion": "fear",
+    "target": "you",
+    "vector": "none",
+    "mode": "reassure + correct",
+    "category": "activity_indoor",
+    "title": "Take a short pause and return refreshed",
+    "text": "A two-minute pause — step away breathe and come back — helps clarify things that feel confusing in the moment.",
+    "tags": [
+      "pause",
+      "brief",
+      "reset",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_hap_001",
+    "emotion": "happiness",
+    "target": "self",
+    "vector": "mirror_happiness",
+    "mode": "celebrate + praise",
+    "category": "music",
+    "title": "Songs to celebrate being happy",
+    "text": "You are feeling good — match the energy. These tracks are pure celebration.",
+    "options": [
+      "Gallan Goodiyaan – Dil Dhadakne Do",
+      "Balam Pichkari – Yeh Jawaani Hai Deewani",
+      "Uptown Funk – Bruno Mars"
+    ],
+    "tags": [
+      "party",
+      "upbeat",
+      "solo",
+      "celebration"
+    ]
+  },
+  {
+    "id": "self_hap_002",
+    "emotion": "happiness",
+    "target": "self",
+    "vector": "mirror_happiness",
+    "mode": "celebrate + praise",
+    "category": "activity_outdoor",
+    "title": "Do something you have been putting off doing",
+    "text": "High-happiness moments are the best time to take on something new or challenging. Ride the wave.",
+    "tags": [
+      "outdoor",
+      "adventure",
+      "self-growth",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_hap_003",
+    "emotion": "happiness",
+    "target": "self",
+    "vector": "mirror_happiness",
+    "mode": "celebrate + praise",
+    "category": "journaling",
+    "title": "Write down exactly what is making you happy right now",
+    "text": "Happiness that is named and recorded lasts longer than happiness that just passes. Write what is making you feel good — in detail.",
+    "tags": [
+      "journaling",
+      "gratitude",
+      "solo",
+      "positive"
+    ]
+  },
+  {
+    "id": "self_hap_004",
+    "emotion": "happiness",
+    "target": "self",
+    "vector": "mirror_happiness",
+    "mode": "celebrate + praise",
+    "category": "social",
+    "title": "Share the good news with someone who matters",
+    "text": "Happiness multiplies when shared. Call or message someone you care about and tell them something good happened.",
+    "tags": [
+      "social",
+      "sharing",
+      "celebration",
+      "connection"
+    ]
+  },
+  {
+    "id": "self_hap_005",
+    "emotion": "happiness",
+    "target": "self",
+    "vector": "mirror_happiness",
+    "mode": "celebrate + praise",
+    "category": "movie",
+    "title": "Celebrate with a favourite feel-good film",
+    "text": "Watch something you love — not because you need it to feel better but because enjoying it while happy is even better.",
+    "options": [
+      "Dil Chahta Hai (2001)",
+      "Zindagi Na Milegi Dobara (2011)",
+      "The Intern (2015)"
+    ],
+    "tags": [
+      "feel-good",
+      "celebration",
+      "solo",
+      "movie"
+    ]
+  },
+  {
+    "id": "self_hap_006",
+    "emotion": "happiness",
+    "target": "self",
+    "vector": "mirror_happiness",
+    "mode": "celebrate + praise",
+    "category": "game_outdoor",
+    "title": "Go play your favourite sport today",
+    "text": "Happiness gives you extra energy — use it. Go play cricket football badminton anything. Happy plus active is the best combination.",
+    "tags": [
+      "sport",
+      "outdoor",
+      "energy",
+      "fun"
+    ]
+  },
+  {
+    "id": "self_hap_007",
+    "emotion": "happiness",
+    "target": "self",
+    "vector": "mirror_happiness",
+    "mode": "celebrate + praise",
+    "category": "creative",
+    "title": "Start a creative project you have been dreaming about",
+    "text": "Happy days are the best days to begin something creative. The resistance is lower ideas flow freely and energy is high.",
+    "tags": [
+      "creative",
+      "project",
+      "solo",
+      "momentum"
+    ]
+  },
+  {
+    "id": "self_hap_008",
+    "emotion": "happiness",
+    "target": "self",
+    "vector": "mirror_happiness",
+    "mode": "celebrate + praise",
+    "category": "activity_outdoor",
+    "title": "Explore somewhere new in your city",
+    "text": "Take your good mood out with you. Try a cafe you have never been to a street market a park — let happiness accompany discovery.",
+    "tags": [
+      "exploration",
+      "outdoor",
+      "solo",
+      "adventure"
+    ]
+  },
+  {
+    "id": "self_hap_009",
+    "emotion": "happiness",
+    "target": "self",
+    "vector": "mirror_happiness",
+    "mode": "celebrate + praise",
+    "category": "music",
+    "title": "Bollywood dance numbers that match your energy",
+    "text": "When you are already happy these songs take you straight to peak joy.",
+    "options": [
+      "Nagada Sang Dhol – Ram-Leela",
+      "Malhari – Bajirao Mastani",
+      "Deedar De – Blackmail"
+    ],
+    "tags": [
+      "dance",
+      "bollywood",
+      "high-energy",
+      "celebration"
+    ]
+  },
+  {
+    "id": "self_hap_010",
+    "emotion": "happiness",
+    "target": "self",
+    "vector": "mirror_happiness",
+    "mode": "celebrate + praise",
+    "category": "activity_indoor",
+    "title": "Treat yourself to something you enjoy",
+    "text": "Order your favourite food buy something small you have wanted or spend the day doing exactly what you enjoy. You do not need a reason.",
+    "tags": [
+      "self-care",
+      "indulgence",
+      "solo",
+      "celebration"
+    ]
+  },
+  {
+    "id": "self_hap_011",
+    "emotion": "happiness",
+    "target": "self",
+    "vector": "mirror_happiness",
+    "mode": "celebrate + praise",
+    "category": "gym",
+    "title": "Celebrate your happiness with a great workout",
+    "text": "Happy plus workout is an incredible combination. Endorphins on top of serotonin. Go hard — you will feel phenomenal.",
+    "tags": [
+      "gym",
+      "high-intensity",
+      "solo",
+      "energy"
+    ]
+  },
+  {
+    "id": "self_hap_012",
+    "emotion": "happiness",
+    "target": "self",
+    "vector": "mirror_happiness",
+    "mode": "celebrate + praise",
+    "category": "book",
+    "title": "Start a book you have been excited about",
+    "text": "A book you have been looking forward to is even better when you are in a great mood. Begin it today.",
+    "options": [
+      "Ikigai – Héctor García",
+      "Atomic Habits – James Clear",
+      "The Midnight Library – Matt Haig"
+    ],
+    "tags": [
+      "book",
+      "solo",
+      "celebration",
+      "anticipation"
+    ]
+  },
+  {
+    "id": "self_hap_013",
+    "emotion": "happiness",
+    "target": "self",
+    "vector": "mirror_happiness",
+    "mode": "celebrate + praise",
+    "category": "music",
+    "title": "Sufi and devotional music when happiness is deep",
+    "text": "Some happiness is quieter and deeper than party energy. Sufi music matches the inner glow kind of happiness.",
+    "options": [
+      "Kun Faya Kun – Rockstar",
+      "Arziyan – Delhi 6",
+      "Iktara – Wake Up Sid"
+    ],
+    "tags": [
+      "sufi",
+      "deep",
+      "bollywood",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_hap_014",
+    "emotion": "happiness",
+    "target": "self",
+    "vector": "mirror_happiness",
+    "mode": "celebrate + praise",
+    "category": "activity_outdoor",
+    "title": "Do something kind for a stranger",
+    "text": "When you are happy paying it forward amplifies the feeling. Hold a door buy someone chai give a small compliment.",
+    "tags": [
+      "kindness",
+      "outdoor",
+      "paying-forward",
+      "social"
+    ]
+  },
+  {
+    "id": "self_hap_015",
+    "emotion": "happiness",
+    "target": "self",
+    "vector": "mirror_happiness",
+    "mode": "celebrate + praise",
+    "category": "journaling",
+    "title": "Write a gratitude list specific and detailed",
+    "text": "When you are happy gratitude practice is even more powerful. Write 10 specific things you are grateful for today with detail about why each matters.",
+    "tags": [
+      "journaling",
+      "gratitude",
+      "solo",
+      "positive-2"
+    ]
+  },
+  {
+    "id": "self_hap_016",
+    "emotion": "happiness",
+    "target": "self",
+    "vector": "mirror_happiness",
+    "mode": "celebrate + praise",
+    "category": "game_outdoor",
+    "title": "Take on a new physical challenge today",
+    "text": "Happiness-driven confidence is the best time to try something you have been nervous about — a longer run a harder climb a new sport.",
+    "tags": [
+      "sport",
+      "challenge",
+      "outdoor",
+      "growth"
+    ]
+  },
+  {
+    "id": "self_hap_017",
+    "emotion": "happiness",
+    "target": "self",
+    "vector": "mirror_happiness",
+    "mode": "celebrate + praise",
+    "category": "creative",
+    "title": "Make something to commemorate this good period",
+    "text": "A photo journal a playlist named after this phase a letter to yourself to open in a year — mark the happiness so you can return to it.",
+    "tags": [
+      "creative",
+      "documentation",
+      "solo",
+      "memory"
+    ]
+  },
+  {
+    "id": "self_hap_018",
+    "emotion": "happiness",
+    "target": "self",
+    "vector": "mirror_happiness",
+    "mode": "celebrate + praise",
+    "category": "social",
+    "title": "Plan a surprise for someone you care about",
+    "text": "When you are full of good energy you have surplus to give. Plan something nice for someone else — the generosity feeds back.",
+    "tags": [
+      "social",
+      "kindness",
+      "planning",
+      "generosity"
+    ]
+  },
+  {
+    "id": "self_hap_019",
+    "emotion": "happiness",
+    "target": "self",
+    "vector": "mirror_happiness",
+    "mode": "celebrate + praise",
+    "category": "exercise",
+    "title": "Go for a long happy run",
+    "text": "Runner's high on top of existing happiness is one of the best feelings available. Go long go slow enjoy every minute.",
+    "tags": [
+      "running",
+      "outdoor",
+      "solo",
+      "joy"
+    ]
+  },
+  {
+    "id": "self_hap_020",
+    "emotion": "happiness",
+    "target": "self",
+    "vector": "mirror_happiness",
+    "mode": "celebrate + praise",
+    "category": "book",
+    "title": "Start something that excites you intellectually",
+    "text": "Happiness is the best state for learning. Start a book you have been intellectually curious about.",
+    "options": [
+      "Sapiens – Yuval Noah Harari",
+      "The Gene – Siddhartha Mukherjee",
+      "Brief History of Time – Stephen Hawking"
+    ],
+    "tags": [
+      "book",
+      "intellectual",
+      "learning",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_hap_021",
+    "emotion": "happiness",
+    "target": "self",
+    "vector": "mirror_happiness",
+    "mode": "celebrate + praise",
+    "category": "activity_indoor",
+    "title": "Start a happiness journal",
+    "text": "When you are already happy begin documenting it consistently. A happiness journal becomes an invaluable resource on harder days.",
+    "tags": [
+      "journaling",
+      "gratitude",
+      "solo",
+      "documentation"
+    ]
+  },
+  {
+    "id": "self_hap_022",
+    "emotion": "happiness",
+    "target": "self",
+    "vector": "mirror_happiness",
+    "mode": "celebrate + praise",
+    "category": "social",
+    "title": "Do something for your parents or family today",
+    "text": "Happy days are generous days. Do something specifically for your parents or family — cook for them spend time make a call you have been putting off.",
+    "tags": [
+      "family",
+      "social",
+      "generosity",
+      "connection"
+    ]
+  },
+  {
+    "id": "self_hap_023",
+    "emotion": "happiness",
+    "target": "self",
+    "vector": "mirror_happiness",
+    "mode": "celebrate + praise",
+    "category": "activity_indoor",
+    "title": "Watch old home videos or photos",
+    "text": "When you are already happy looking through old memories amplifies connection and gratitude across time.",
+    "tags": [
+      "nostalgia",
+      "memories",
+      "indoor",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_hap_024",
+    "emotion": "happiness",
+    "target": "self",
+    "vector": "mirror_happiness",
+    "mode": "celebrate + praise",
+    "category": "social",
+    "title": "Reconnect with an old friend",
+    "text": "Happy days are the best days to reach out to people you have lost touch with. Low pressure high warmth.",
+    "tags": [
+      "reconnection",
+      "social",
+      "friendship",
+      "connection"
+    ]
+  },
+  {
+    "id": "self_hap_025",
+    "emotion": "happiness",
+    "target": "self",
+    "vector": "mirror_happiness",
+    "mode": "celebrate + praise",
+    "category": "music",
+    "title": "Sufi qawwali for deep spiritual happiness",
+    "text": "When happiness is profound and quiet qawwali music meets it in that deeper place.",
+    "options": [
+      "Dum Mast Qalandar – Nusrat Fateh Ali Khan",
+      "Mast Magan – PK",
+      "Chaap Tilak – qawwali"
+    ],
+    "tags": [
+      "qawwali",
+      "sufi",
+      "spiritual",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_hap_026",
+    "emotion": "happiness",
+    "target": "self",
+    "vector": "mirror_happiness",
+    "mode": "celebrate + praise",
+    "category": "creative",
+    "title": "Record a voice memo to your future self about this happy time",
+    "text": "When you are genuinely happy record yourself talking to your future self. Describe the feeling in detail. Send it forward as a gift.",
+    "tags": [
+      "voice-memo",
+      "memory",
+      "future",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_hap_027",
+    "emotion": "happiness",
+    "target": "self",
+    "vector": "mirror_happiness",
+    "mode": "celebrate + praise",
+    "category": "gym",
+    "title": "Try a new gym activity you have been curious about",
+    "text": "Happy days are risk-tolerant days. Try the class you have been avoiding — spinning kickboxing aerial yoga.",
+    "tags": [
+      "gym",
+      "new",
+      "curious",
+      "happy"
+    ]
+  },
+  {
+    "id": "other_hap_001",
+    "emotion": "happiness",
+    "target": "other",
+    "vector": "mirror_happiness",
+    "mode": "celebrate with them",
+    "category": "social",
+    "title": "Plan a celebration or surprise for them",
+    "text": "When someone you love is happy amplify it. Plan something — a gathering a special dinner a thoughtful gesture.",
+    "tags": [
+      "social",
+      "celebration",
+      "gifting",
+      "connection"
+    ]
+  },
+  {
+    "id": "other_hap_002",
+    "emotion": "happiness",
+    "target": "other",
+    "vector": "mirror_happiness",
+    "mode": "celebrate with them",
+    "category": "music",
+    "title": "Build them a celebratory playlist",
+    "text": "A curated playlist made specifically for someone's happy moment is one of the most personal gifts you can give.",
+    "options": [
+      "Gallan Goodiyaan – Dil Dhadakne Do",
+      "Badtameez Dil – YJHD",
+      "Happy – Pharrell Williams"
+    ],
+    "tags": [
+      "music",
+      "gifting",
+      "celebration",
+      "sharing"
+    ]
+  },
+  {
+    "id": "other_hap_003",
+    "emotion": "happiness",
+    "target": "other",
+    "vector": "mirror_happiness",
+    "mode": "celebrate with them",
+    "category": "activity_outdoor",
+    "title": "Take them out somewhere fun",
+    "text": "When they are happy add to it. Suggest a fun outing — a day trip a meal somewhere special an activity you both enjoy.",
+    "tags": [
+      "outdoor",
+      "social",
+      "fun",
+      "celebration"
+    ]
+  },
+  {
+    "id": "other_hap_004",
+    "emotion": "happiness",
+    "target": "other",
+    "vector": "mirror_happiness",
+    "mode": "celebrate with them",
+    "category": "activity_indoor",
+    "title": "Host a small get-together for them",
+    "text": "Even an impromptu gathering of a few close friends to celebrate their good news means more than most gifts.",
+    "tags": [
+      "social",
+      "party",
+      "indoor",
+      "connection"
+    ]
+  },
+  {
+    "id": "other_hap_005",
+    "emotion": "happiness",
+    "target": "other",
+    "vector": "mirror_happiness",
+    "mode": "celebrate with them",
+    "category": "game_outdoor",
+    "title": "Suggest a fun game or sport together",
+    "text": "Add energy and laughter to their happy day — challenge them to badminton table tennis or pool.",
+    "tags": [
+      "game",
+      "sport",
+      "social",
+      "fun"
+    ]
+  },
+  {
+    "id": "other_hap_006",
+    "emotion": "happiness",
+    "target": "other",
+    "vector": "mirror_happiness",
+    "mode": "celebrate with them",
+    "category": "movie",
+    "title": "Watch something fun together",
+    "text": "Pull up their favourite film or something new and exciting — share the good mood with a great watch.",
+    "options": [
+      "Dil Dhadakne Do (2015)",
+      "Andaz Apna Apna (1994)",
+      "Avengers Endgame (2019)"
+    ],
+    "tags": [
+      "movie",
+      "together",
+      "fun",
+      "celebration"
+    ]
+  },
+  {
+    "id": "other_hap_007",
+    "emotion": "happiness",
+    "target": "other",
+    "vector": "mirror_happiness",
+    "mode": "celebrate with them",
+    "category": "activity_indoor",
+    "title": "Cook a celebratory meal for them",
+    "text": "Food prepared with love timed to celebrate something is one of the most affirming gifts you can offer.",
+    "tags": [
+      "cooking",
+      "gifting",
+      "social",
+      "celebration"
+    ]
+  },
+  {
+    "id": "other_hap_008",
+    "emotion": "happiness",
+    "target": "other",
+    "vector": "mirror_happiness",
+    "mode": "celebrate with them",
+    "category": "social",
+    "title": "Write them a genuine note of congratulations",
+    "text": "A handwritten note — not a text an actual written note — celebrating what they have achieved means more than you would think.",
+    "tags": [
+      "writing",
+      "gifting",
+      "social",
+      "connection"
+    ]
+  },
+  {
+    "id": "other_hap_009",
+    "emotion": "happiness",
+    "target": "other",
+    "vector": "mirror_happiness",
+    "mode": "celebrate with them",
+    "category": "social",
+    "title": "Tell them specifically what you admire about what made them happy",
+    "text": "Generic congratulations are easy. Telling someone specifically what you see and admire about them is rare and deeply impactful.",
+    "tags": [
+      "social",
+      "specific",
+      "admiration",
+      "connection"
+    ]
+  },
+  {
+    "id": "other_hap_010",
+    "emotion": "happiness",
+    "target": "other",
+    "vector": "mirror_happiness",
+    "mode": "celebrate with them",
+    "category": "creative",
+    "title": "Make a celebration reel or photo collage for them",
+    "text": "A photo or video montage of shared memories presented at the right moment is one of the most personal celebrations you can offer.",
+    "tags": [
+      "creative",
+      "gifting",
+      "memory",
+      "celebration"
+    ]
+  },
+  {
+    "id": "other_hap_011",
+    "emotion": "happiness",
+    "target": "other",
+    "vector": "mirror_happiness",
+    "mode": "celebrate with them",
+    "category": "activity_outdoor",
+    "title": "Plan a trip or adventure together",
+    "text": "Riding the energy of shared happiness into planning something adventurous gives you both something exciting to look forward to.",
+    "tags": [
+      "outdoor",
+      "adventure",
+      "planning",
+      "together"
+    ]
+  },
+  {
+    "id": "other_hap_012",
+    "emotion": "happiness",
+    "target": "other",
+    "vector": "mirror_happiness",
+    "mode": "celebrate with them",
+    "category": "social",
+    "title": "Amplify their happiness publicly if they would enjoy it",
+    "text": "If they are the type who would love it celebrating them publicly amplifies their happiness significantly.",
+    "tags": [
+      "public",
+      "celebration",
+      "social",
+      "amplifying"
+    ]
+  },
+  {
+    "id": "other_hap_013",
+    "emotion": "happiness",
+    "target": "other",
+    "vector": "mirror_happiness",
+    "mode": "celebrate with them",
+    "category": "social",
+    "title": "Write about them — in a journal to a friend in a speech",
+    "text": "Putting words to what you admire about someone in their happy moment is a gift for you as much as them.",
+    "tags": [
+      "writing",
+      "admiration",
+      "social",
+      "gift"
+    ]
+  },
+  {
+    "id": "other_hap_014",
+    "emotion": "happiness",
+    "target": "other",
+    "vector": "mirror_happiness",
+    "mode": "celebrate with them",
+    "category": "music",
+    "title": "Create a personalised celebration song playlist for them",
+    "text": "Go through their known music taste and build a playlist specifically of songs that match their happy news.",
+    "tags": [
+      "music",
+      "personalized",
+      "gifting",
+      "celebration"
+    ]
+  },
+  {
+    "id": "sit_hap_001",
+    "emotion": "happiness",
+    "target": "situation",
+    "vector": "mirror_happiness",
+    "mode": "mirror joy",
+    "category": "music",
+    "title": "Soundtrack the happy situation properly",
+    "text": "Match the energy of a happy situation with music that captures exactly this feeling.",
+    "options": [
+      "Zindagi Kaisi Hai Paheli – Anand",
+      "Tere Sang Yaara – Rustom",
+      "Beautiful Day – U2"
+    ],
+    "tags": [
+      "situation",
+      "uplifting",
+      "celebration",
+      "solo"
+    ]
+  },
+  {
+    "id": "sit_hap_002",
+    "emotion": "happiness",
+    "target": "situation",
+    "vector": "mirror_happiness",
+    "mode": "mirror joy",
+    "category": "journaling",
+    "title": "Capture this moment in writing",
+    "text": "Happy situations deserve to be recorded. Write about exactly what is happening how it came to be and how you feel.",
+    "tags": [
+      "journaling",
+      "memory",
+      "solo",
+      "gratitude"
+    ]
+  },
+  {
+    "id": "sit_hap_003",
+    "emotion": "happiness",
+    "target": "situation",
+    "vector": "mirror_happiness",
+    "mode": "mirror joy",
+    "category": "activity_outdoor",
+    "title": "Celebrate the situation with something memorable",
+    "text": "Mark the occasion in a real physical way — go somewhere you have wanted to try something you have planned.",
+    "tags": [
+      "outdoor",
+      "celebration",
+      "adventure",
+      "memorable"
+    ]
+  },
+  {
+    "id": "sit_hap_004",
+    "emotion": "happiness",
+    "target": "situation",
+    "vector": "mirror_happiness",
+    "mode": "mirror joy",
+    "category": "social",
+    "title": "Share the situation with people who will genuinely celebrate with you",
+    "text": "Happy situations are more real and more lasting when shared with the right people.",
+    "tags": [
+      "social",
+      "sharing",
+      "celebration",
+      "connection"
+    ]
+  },
+  {
+    "id": "sit_hap_005",
+    "emotion": "happiness",
+    "target": "situation",
+    "vector": "mirror_happiness",
+    "mode": "mirror joy",
+    "category": "creative",
+    "title": "Make something that captures this happy time",
+    "text": "A photo album a short video a sketch a playlist — create something that marks this happy period.",
+    "tags": [
+      "creative",
+      "memory",
+      "solo",
+      "documentation"
+    ]
+  },
+  {
+    "id": "sit_hap_006",
+    "emotion": "happiness",
+    "target": "situation",
+    "vector": "mirror_happiness",
+    "mode": "mirror joy",
+    "category": "movie",
+    "title": "Watch something that matches the joy of this moment",
+    "text": "Sometimes a great film is the perfect companion to a great feeling.",
+    "options": [
+      "Zindagi Na Milegi Dobara (2011) alternate",
+      "Queen (2014) alternate",
+      "Into the Wild (2007)"
+    ],
+    "tags": [
+      "movie",
+      "celebratory",
+      "solo",
+      "feel-good"
+    ]
+  },
+  {
+    "id": "sit_hap_007",
+    "emotion": "happiness",
+    "target": "situation",
+    "vector": "mirror_happiness",
+    "mode": "mirror joy",
+    "category": "social",
+    "title": "Document the situation and tell the story",
+    "text": "A happy situation deserves to be properly told and recorded. Write about it post about it call people.",
+    "tags": [
+      "storytelling",
+      "documentation",
+      "social",
+      "memory"
+    ]
+  },
+  {
+    "id": "sit_hap_008",
+    "emotion": "happiness",
+    "target": "situation",
+    "vector": "mirror_happiness",
+    "mode": "mirror joy",
+    "category": "activity_indoor",
+    "title": "Celebrate the situation with something physical",
+    "text": "A cake a special meal a decorative gesture — physically marking a happy situation makes it real and memorable.",
+    "tags": [
+      "celebration",
+      "indoor",
+      "marking",
+      "memory"
+    ]
+  },
+  {
+    "id": "sit_hap_009",
+    "emotion": "happiness",
+    "target": "situation",
+    "vector": "mirror_happiness",
+    "mode": "mirror joy",
+    "category": "gym",
+    "title": "Take on a new fitness goal in celebration",
+    "text": "Use the energy of a happy situation to launch a new physical challenge — a new fitness goal a first run a new class.",
+    "tags": [
+      "gym",
+      "goal",
+      "celebration",
+      "fitness"
+    ]
+  },
+  {
+    "id": "sit_hap_010",
+    "emotion": "happiness",
+    "target": "situation",
+    "vector": "mirror_happiness",
+    "mode": "mirror joy",
+    "category": "activity_outdoor",
+    "title": "Mark the occasion with something in nature",
+    "text": "Plant something visit a special place watch a sunset — marking a happy situation with a natural element embeds it in your sense of the world.",
+    "tags": [
+      "nature",
+      "outdoor",
+      "marking",
+      "memory"
+    ]
+  },
+  {
+    "id": "sit_hap_011",
+    "emotion": "happiness",
+    "target": "situation",
+    "vector": "mirror_happiness",
+    "mode": "mirror joy",
+    "category": "book",
+    "title": "Read a book recommended by someone in the happy situation",
+    "text": "If a situation has opened new doors — new job new city new relationship — read what those already in it recommend.",
+    "tags": [
+      "book",
+      "situation-specific",
+      "recommended",
+      "solo"
+    ]
+  },
+  {
+    "id": "you_hap_001",
+    "emotion": "happiness",
+    "target": "you",
+    "vector": "mirror_happiness",
+    "mode": "mirror + gratitude",
+    "category": "music",
+    "title": "Celebrate the good moment with a great song",
+    "text": "If something here made you happy that is wonderful. Keep the feeling going.",
+    "options": [
+      "Gulabi Aankhein – Old Hindi evergreen",
+      "Ik Vaari Aa – Raabta",
+      "September – Earth Wind and Fire"
+    ],
+    "tags": [
+      "celebration",
+      "uplifting",
+      "brief",
+      "happy"
+    ]
+  },
+  {
+    "id": "you_hap_002",
+    "emotion": "happiness",
+    "target": "you",
+    "vector": "mirror_happiness",
+    "mode": "mirror + gratitude",
+    "category": "activity_indoor",
+    "title": "Do one thing today that continues this good feeling",
+    "text": "Take the energy from this happy moment and apply it to something you have been putting off or a small treat.",
+    "tags": [
+      "celebration",
+      "brief",
+      "momentum",
+      "positive"
+    ]
+  },
+  {
+    "id": "you_hap_003",
+    "emotion": "happiness",
+    "target": "you",
+    "vector": "mirror_happiness",
+    "mode": "mirror + gratitude",
+    "category": "social",
+    "title": "Share something good with someone today",
+    "text": "Happy feelings are contagious in the best way — pass them on.",
+    "tags": [
+      "social",
+      "sharing",
+      "brief",
+      "positive"
+    ]
+  },
+  {
+    "id": "self_dis_001",
+    "emotion": "disgust",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "reassure + prevent self-hate",
+    "category": "music",
+    "title": "Gentle affirming music for self-disgust moments",
+    "text": "When you feel disgusted with yourself the instinct is to punish further. These songs gently interrupt that cycle.",
+    "options": [
+      "Khud Ko Kar Buland Itna – Iqbal",
+      "Just the Way You Are – Bruno Mars",
+      "Mann Mera – Table No 21"
+    ],
+    "tags": [
+      "affirming",
+      "gentle",
+      "solo",
+      "self-compassion"
+    ]
+  },
+  {
+    "id": "self_dis_002",
+    "emotion": "disgust",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "reassure + prevent self-hate",
+    "category": "book",
+    "title": "Read a book about self-acceptance",
+    "text": "Self-disgust often stems from comparing yourself to an impossible standard. These books reframe that relationship.",
+    "options": [
+      "Radical Acceptance – Tara Brach",
+      "The Untethered Soul – Michael Singer",
+      "Reasons to Stay Alive – Matt Haig"
+    ],
+    "tags": [
+      "book",
+      "self-acceptance",
+      "solo",
+      "healing"
+    ]
+  },
+  {
+    "id": "self_dis_003",
+    "emotion": "disgust",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "reassure + prevent self-hate",
+    "category": "meditation",
+    "title": "Self-compassion body scan meditation",
+    "text": "A guided meditation specifically designed to soften harsh self-judgment. Not about excusing anything but about being human with yourself.",
+    "tags": [
+      "meditation",
+      "self-compassion",
+      "solo",
+      "healing"
+    ]
+  },
+  {
+    "id": "self_dis_004",
+    "emotion": "disgust",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "reassure + prevent self-hate",
+    "category": "activity_outdoor",
+    "title": "Take a shower get dressed step outside",
+    "text": "Sometimes self-disgust is partly physical. A shower fresh clothes and fresh air can reset the feeling more than any thought exercise.",
+    "tags": [
+      "self-care",
+      "outdoor",
+      "reset",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_dis_005",
+    "emotion": "disgust",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "reassure + prevent self-hate",
+    "category": "movie",
+    "title": "Watch a film about a flawed character who finds worth",
+    "text": "Stories about genuinely imperfect people finding their value are the most comforting in self-disgust moments.",
+    "options": [
+      "Dear Zindagi (2016)",
+      "Beautiful Mind (2001)",
+      "Tamasha (2015) alternate"
+    ],
+    "tags": [
+      "movie",
+      "self-worth",
+      "solo",
+      "comforting"
+    ]
+  },
+  {
+    "id": "self_dis_006",
+    "emotion": "disgust",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "reassure + prevent self-hate",
+    "category": "journaling",
+    "title": "Write what would I say to a friend who felt this way",
+    "text": "The journal prompt that cuts through self-disgust fastest. Write exactly what you would tell your best friend if they came to you with this feeling.",
+    "tags": [
+      "journaling",
+      "self-compassion",
+      "solo",
+      "reframe"
+    ]
+  },
+  {
+    "id": "self_dis_007",
+    "emotion": "disgust",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "reassure + prevent self-hate",
+    "category": "social",
+    "title": "Spend time with someone who genuinely accepts you",
+    "text": "Self-disgust shrinks in the presence of people who know and love you without condition. Reach out to that person.",
+    "tags": [
+      "social",
+      "connection",
+      "acceptance",
+      "healing"
+    ]
+  },
+  {
+    "id": "self_dis_008",
+    "emotion": "disgust",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "reassure + prevent self-hate",
+    "category": "exercise",
+    "title": "Gentle yoga not punishment just movement",
+    "text": "The instinct when feeling self-disgust is sometimes to push physically as punishment. Do the opposite — gentle kind yoga.",
+    "tags": [
+      "yoga",
+      "gentle",
+      "solo",
+      "self-care"
+    ]
+  },
+  {
+    "id": "self_dis_009",
+    "emotion": "disgust",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "reassure + prevent self-hate",
+    "category": "activity_indoor",
+    "title": "Do one small thing you are proud of today",
+    "text": "Self-disgust is fuelled by evidence. Counter it with your own evidence — do one small thing finish one small task. Then acknowledge it.",
+    "tags": [
+      "solo",
+      "confidence",
+      "small-win",
+      "action"
+    ]
+  },
+  {
+    "id": "self_dis_010",
+    "emotion": "disgust",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "reassure + prevent self-hate",
+    "category": "podcast",
+    "title": "Listen to a podcast about self-worth",
+    "text": "Hearing frank honest conversation about self-worth normalizes what you are feeling without amplifying it.",
+    "options": [
+      "We Can Do Hard Things – Glennon Doyle",
+      "Unlocking Us – Brené Brown",
+      "The Self-Compassion Project"
+    ],
+    "tags": [
+      "podcast",
+      "self-worth",
+      "solo",
+      "healing"
+    ]
+  },
+  {
+    "id": "self_dis_011",
+    "emotion": "disgust",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "reassure + prevent self-hate",
+    "category": "activity_indoor",
+    "title": "Clean and organize one thing in your environment",
+    "text": "Self-disgust often has a physical dimension. Doing one simple act of care for your environment extends to feeling more care for yourself.",
+    "tags": [
+      "organizing",
+      "indoor",
+      "self-care",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_dis_012",
+    "emotion": "disgust",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "reassure + prevent self-hate",
+    "category": "exercise",
+    "title": "Go for a long gentle walk with no agenda",
+    "text": "Not a punishing workout — a kind unhurried walk. Self-disgust needs gentleness not more judgment.",
+    "tags": [
+      "walking",
+      "gentle",
+      "outdoor",
+      "self-care"
+    ]
+  },
+  {
+    "id": "self_dis_013",
+    "emotion": "disgust",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "reassure + prevent self-hate",
+    "category": "music",
+    "title": "Hindi songs about resilience and self-worth",
+    "text": "These songs were written about finding your way back to yourself.",
+    "options": [
+      "Khud Ko Kar Buland Itna – Iqbal OST",
+      "Tujhse Naraaz Nahin Zindagi – Masoom",
+      "Bin Tere – I Hate Luv Storys"
+    ],
+    "tags": [
+      "self-worth",
+      "bollywood",
+      "healing",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_dis_014",
+    "emotion": "disgust",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "reassure + prevent self-hate",
+    "category": "movie",
+    "title": "A film about someone who rebuilt their relationship with themselves",
+    "text": "Stories about characters making peace with themselves after deep self-conflict are quietly powerfully healing.",
+    "options": [
+      "Kapoor and Sons (2016)",
+      "Silver Linings Playbook (2012)",
+      "Tamasha (2015) 3rd view"
+    ],
+    "tags": [
+      "movie",
+      "self-healing",
+      "bollywood",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_dis_015",
+    "emotion": "disgust",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "reassure + prevent self-hate",
+    "category": "social",
+    "title": "Ask someone you trust what do you see in me",
+    "text": "Direct question vulnerable to ask. The answers almost always contradict self-disgust in specific credible ways.",
+    "tags": [
+      "social",
+      "vulnerability",
+      "perspective",
+      "connection"
+    ]
+  },
+  {
+    "id": "self_dis_016",
+    "emotion": "disgust",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "reassure + prevent self-hate",
+    "category": "meditation",
+    "title": "Mindful self-compassion practice RAIN technique",
+    "text": "RAIN: Recognize what you are feeling Allow it to be there Investigate where it lives in your body Nurture yourself with kindness. 10 minutes.",
+    "tags": [
+      "meditation",
+      "RAIN",
+      "self-compassion",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_dis_017",
+    "emotion": "disgust",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "reassure + prevent self-hate",
+    "category": "book",
+    "title": "A memoir of someone who transformed self-loathing",
+    "text": "First-person accounts of people who went from deep self-disgust to genuine self-acceptance are the most powerful reading for this state.",
+    "options": [
+      "Educated – Tara Westover",
+      "The Glass Castle – Jeannette Walls",
+      "East of Eden – John Steinbeck"
+    ],
+    "tags": [
+      "memoir",
+      "transformation",
+      "solo",
+      "book"
+    ]
+  },
+  {
+    "id": "self_dis_018",
+    "emotion": "disgust",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "reassure + prevent self-hate",
+    "category": "activity_outdoor",
+    "title": "Spend 20 minutes in sunlight",
+    "text": "Sun exposure increases serotonin directly. When self-disgust is heavy sometimes the most important thing is to get outside into light.",
+    "tags": [
+      "sunlight",
+      "outdoor",
+      "serotonin",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_dis_019",
+    "emotion": "disgust",
+    "target": "self",
+    "vector": "inject_happiness",
+    "mode": "reassure + prevent self-hate",
+    "category": "exercise",
+    "title": "Do floor exercises simple no pressure",
+    "text": "When self-disgust is strong the gentlest physical option is best. Simple floor exercises — cat-cow child's pose gentle twists — move the emotion without demanding performance.",
+    "tags": [
+      "floor-exercise",
+      "gentle",
+      "indoor",
+      "solo"
+    ]
+  },
+  {
+    "id": "other_dis_001",
+    "emotion": "disgust",
+    "target": "other",
+    "vector": "mirror_disgust",
+    "mode": "partial mirror",
+    "category": "music",
+    "title": "Dark comedy playlist validating without spiraling",
+    "text": "When someone else's actions disgust you music that is wry and satirical helps you process without amplifying.",
+    "options": [
+      "Pani Da Rang – dark version playlist",
+      "Ek Villain – tere jaisa yaar kahan",
+      "Without Me – Eminem"
+    ],
+    "tags": [
+      "mirror",
+      "wry",
+      "processing",
+      "solo"
+    ]
+  },
+  {
+    "id": "other_dis_002",
+    "emotion": "disgust",
+    "target": "other",
+    "vector": "mirror_disgust",
+    "mode": "partial mirror",
+    "category": "movie",
+    "title": "Watch a film about people dealing with bad actors",
+    "text": "These films validate your disgust by showing characters who navigate morally difficult people with intelligence.",
+    "options": [
+      "Drishyam (2015)",
+      "Ugly (2013)",
+      "Gone Girl (2014)"
+    ],
+    "tags": [
+      "movie",
+      "clever",
+      "validation",
+      "solo"
+    ]
+  },
+  {
+    "id": "other_dis_003",
+    "emotion": "disgust",
+    "target": "other",
+    "vector": "mirror_disgust",
+    "mode": "partial mirror",
+    "category": "journaling",
+    "title": "Write about what specifically disgusts you and why",
+    "text": "Naming the exact behaviour and your reaction helps you distinguish between the person and the action.",
+    "tags": [
+      "journaling",
+      "processing",
+      "clarity",
+      "solo"
+    ]
+  },
+  {
+    "id": "other_dis_004",
+    "emotion": "disgust",
+    "target": "other",
+    "vector": "mirror_disgust",
+    "mode": "partial mirror",
+    "category": "book",
+    "title": "Read about setting limits with toxic behaviour",
+    "text": "When someone else's behaviour disgusts you these books help you identify what to do about it constructively.",
+    "options": [
+      "Boundaries – Dr Henry Cloud",
+      "Not Nice – Dr Aziz Gazipura",
+      "Why Does He Do That – Lundy Bancroft"
+    ],
+    "tags": [
+      "book",
+      "limits",
+      "solo",
+      "practical"
+    ]
+  },
+  {
+    "id": "other_dis_005",
+    "emotion": "disgust",
+    "target": "other",
+    "vector": "mirror_disgust",
+    "mode": "partial mirror",
+    "category": "activity_outdoor",
+    "title": "Walk away from the source literally",
+    "text": "Physical distance from the source of disgust is the fastest reset. Walk get air be somewhere that is not near the thing or person.",
+    "tags": [
+      "outdoor",
+      "distance",
+      "reset",
+      "solo"
+    ]
+  },
+  {
+    "id": "other_dis_006",
+    "emotion": "disgust",
+    "target": "other",
+    "vector": "mirror_disgust",
+    "mode": "partial mirror",
+    "category": "podcast",
+    "title": "Listen to a podcast about human behaviour",
+    "text": "Understanding why people do the things they do can shift disgust from hot anger to cool understanding.",
+    "options": [
+      "Hidden Brain – human behaviour",
+      "You Are Not So Smart – cognitive bias",
+      "Huberman Lab – social behaviour"
+    ],
+    "tags": [
+      "podcast",
+      "understanding",
+      "solo",
+      "perspective"
+    ]
+  },
+  {
+    "id": "other_dis_007",
+    "emotion": "disgust",
+    "target": "other",
+    "vector": "mirror_disgust",
+    "mode": "partial mirror",
+    "category": "comedy",
+    "title": "Watch dark comedy that validates your feelings",
+    "text": "Sometimes the most cathartic thing is watching comedy that deals honestly with exactly the kind of human behaviour bothering you.",
+    "options": [
+      "Jaane Bhi Do Yaaro (1983) – Indian dark comedy classic",
+      "Veep – TV series",
+      "Four Lions (2010)"
+    ],
+    "tags": [
+      "comedy",
+      "dark",
+      "validation",
+      "solo"
+    ]
+  },
+  {
+    "id": "other_dis_008",
+    "emotion": "disgust",
+    "target": "other",
+    "vector": "mirror_disgust",
+    "mode": "partial mirror",
+    "category": "social",
+    "title": "Hold firm limits around the disgusting behaviour",
+    "text": "Partial mirroring means validating the feeling without amplifying it — an important part of that is having clear personal limits.",
+    "tags": [
+      "limits",
+      "social",
+      "self-respect",
+      "action"
+    ]
+  },
+  {
+    "id": "other_dis_009",
+    "emotion": "disgust",
+    "target": "other",
+    "vector": "mirror_disgust",
+    "mode": "partial mirror",
+    "category": "activity_indoor",
+    "title": "Put some distance between yourself and the source",
+    "text": "You do not have to stay in proximity to what disgusts you. Physical emotional or social distance is a healthy and valid response.",
+    "tags": [
+      "distance",
+      "indoor",
+      "self-protection",
+      "limits"
+    ]
+  },
+  {
+    "id": "other_dis_010",
+    "emotion": "disgust",
+    "target": "other",
+    "vector": "mirror_disgust",
+    "mode": "partial mirror",
+    "category": "journaling",
+    "title": "Write what you need from this person to feel okay",
+    "text": "Disgust about someone's behaviour becomes more actionable when you can articulate what specifically you need them to do differently.",
+    "tags": [
+      "journaling",
+      "clarity",
+      "relationship",
+      "solo"
+    ]
+  },
+  {
+    "id": "other_dis_011",
+    "emotion": "disgust",
+    "target": "other",
+    "vector": "mirror_disgust",
+    "mode": "partial mirror",
+    "category": "activity_indoor",
+    "title": "Do not just agree — help them process it",
+    "text": "Partial mirroring means being with them but not amplifying. Help them move from raw disgust toward what do I want to do about this.",
+    "tags": [
+      "processing",
+      "support",
+      "social",
+      "practical"
+    ]
+  },
+  {
+    "id": "other_dis_012",
+    "emotion": "disgust",
+    "target": "other",
+    "vector": "mirror_disgust",
+    "mode": "partial mirror",
+    "category": "social",
+    "title": "Help them redirect the disgust into action",
+    "text": "Disgust at another person's behaviour is most useful when converted into clear decision-making — what to address how to respond what to protect.",
+    "tags": [
+      "action",
+      "support",
+      "redirection",
+      "social"
+    ]
+  },
+  {
+    "id": "sit_dis_001",
+    "emotion": "disgust",
+    "target": "situation",
+    "vector": "mirror_disgust",
+    "mode": "light mirror + normalize",
+    "category": "journaling",
+    "title": "Write about what specifically in the situation feels wrong",
+    "text": "Situational disgust is your values responding to something that violates them. Write out exactly what feels wrong — it clarifies the feeling and your values.",
+    "tags": [
+      "journaling",
+      "values",
+      "clarity",
+      "solo"
+    ]
+  },
+  {
+    "id": "sit_dis_002",
+    "emotion": "disgust",
+    "target": "situation",
+    "vector": "mirror_disgust",
+    "mode": "light mirror + normalize",
+    "category": "book",
+    "title": "Read about ethical clarity and moral philosophy",
+    "text": "When a situation triggers moral disgust these books give you frameworks for understanding and navigating it with integrity.",
+    "options": [
+      "The Republic – Plato simplified",
+      "Ethics for the New Millennium – Dalai Lama",
+      "Justice – Michael Sandel"
+    ],
+    "tags": [
+      "book",
+      "ethics",
+      "solo",
+      "values"
+    ]
+  },
+  {
+    "id": "sit_dis_003",
+    "emotion": "disgust",
+    "target": "situation",
+    "vector": "mirror_disgust",
+    "mode": "light mirror + normalize",
+    "category": "movie",
+    "title": "Watch a documentary that explores the situation honestly",
+    "text": "A factual honest documentary about the type of situation disgusting you gives you perspective and channels the emotion into understanding.",
+    "options": [
+      "The Great Hack Netflix",
+      "An Inconvenient Truth (2006)",
+      "India's Daughter (2015)"
+    ],
+    "tags": [
+      "documentary",
+      "factual",
+      "solo",
+      "perspective"
+    ]
+  },
+  {
+    "id": "sit_dis_004",
+    "emotion": "disgust",
+    "target": "situation",
+    "vector": "mirror_disgust",
+    "mode": "light mirror + normalize",
+    "category": "activity_indoor",
+    "title": "Channel the disgust into productive action",
+    "text": "Situational disgust that has nowhere to go becomes cynicism. Channel it — write something join something do something that addresses what bothers you.",
+    "tags": [
+      "action",
+      "productivity",
+      "solo",
+      "values"
+    ]
+  },
+  {
+    "id": "sit_dis_005",
+    "emotion": "disgust",
+    "target": "situation",
+    "vector": "mirror_disgust",
+    "mode": "light mirror + normalize",
+    "category": "music",
+    "title": "Music that captures moral frustration",
+    "text": "These songs were written by people who were deeply bothered by situations and made art out of it.",
+    "options": [
+      "Where Is the Love – Black Eyed Peas",
+      "We Shall Overcome – protest anthem",
+      "Kolaveri Di – social commentary version"
+    ],
+    "tags": [
+      "protest",
+      "values",
+      "mirror",
+      "solo"
+    ]
+  },
+  {
+    "id": "sit_dis_006",
+    "emotion": "disgust",
+    "target": "situation",
+    "vector": "mirror_disgust",
+    "mode": "light mirror + normalize",
+    "category": "social",
+    "title": "Talk to someone with similar values",
+    "text": "Shared disgust at a situation with someone who holds the same values gives you perspective reduces isolation and often leads to positive action.",
+    "tags": [
+      "social",
+      "values",
+      "connection",
+      "processing"
+    ]
+  },
+  {
+    "id": "sit_dis_007",
+    "emotion": "disgust",
+    "target": "situation",
+    "vector": "mirror_disgust",
+    "mode": "light mirror + normalize",
+    "category": "exercise",
+    "title": "Go for a run and let the disgust fuel it",
+    "text": "Situational disgust has a hot energy to it. Running that energy out of your body is healthy and satisfying.",
+    "tags": [
+      "running",
+      "outdoor",
+      "energy-release",
+      "situational"
+    ]
+  },
+  {
+    "id": "sit_dis_008",
+    "emotion": "disgust",
+    "target": "situation",
+    "vector": "mirror_disgust",
+    "mode": "light mirror + normalize",
+    "category": "activity_outdoor",
+    "title": "Remove yourself from the situation physically",
+    "text": "When the situation itself is the source removing yourself — even temporarily — immediately reduces the intensity of disgust.",
+    "tags": [
+      "outdoor",
+      "distance",
+      "self-protection",
+      "solo"
+    ]
+  },
+  {
+    "id": "sit_dis_009",
+    "emotion": "disgust",
+    "target": "situation",
+    "vector": "mirror_disgust",
+    "mode": "light mirror + normalize",
+    "category": "book",
+    "title": "Read about moral courage and responding to wrongness",
+    "text": "When a situation is genuinely wrong books about moral courage give you frameworks for responding with integrity and effectiveness.",
+    "options": [
+      "Moral Courage – Rushworth Kidder",
+      "The Righteous Mind – Jonathan Haidt",
+      "Gandhi An Autobiography"
+    ],
+    "tags": [
+      "book",
+      "ethics",
+      "courage",
+      "solo"
+    ]
+  },
+  {
+    "id": "sit_dis_010",
+    "emotion": "disgust",
+    "target": "situation",
+    "vector": "mirror_disgust",
+    "mode": "light mirror + normalize",
+    "category": "social",
+    "title": "Find others who share your assessment of the situation",
+    "text": "Shared moral disgust can become collective action. Finding others who see the same wrongness gives the disgust both validation and direction.",
+    "tags": [
+      "community",
+      "collective",
+      "values",
+      "action"
+    ]
+  },
+  {
+    "id": "sit_dis_011",
+    "emotion": "disgust",
+    "target": "situation",
+    "vector": "mirror_disgust",
+    "mode": "light mirror + normalize",
+    "category": "movie",
+    "title": "Watch a film that takes the situation seriously",
+    "text": "A film that treats the type of situation causing your disgust with proper gravity rather than making light of it can feel deeply validating.",
+    "options": [
+      "Article 15 (2019) 3rd view",
+      "Section 375 (2019)",
+      "Spotlight (2015)"
+    ],
+    "tags": [
+      "movie",
+      "serious",
+      "validation",
+      "solo"
+    ]
+  },
+  {
+    "id": "you_dis_001",
+    "emotion": "disgust",
+    "target": "you",
+    "vector": "inject_sadness",
+    "mode": "apologize + clarify",
+    "category": "music",
+    "title": "Soft music to let the feeling settle",
+    "text": "If something here triggered disgust, that's worth noting. Let this be a moment to pause.",
+    "options": [
+      "Kabira – Yeh Jawaani Hai Deewani",
+      "Tere Bina – Guru",
+      "Breathe (2 AM) – Anna Nalick"
+    ],
+    "tags": [
+      "soft",
+      "calm",
+      "brief",
+      "reset"
+    ]
+  },
+  {
+    "id": "you_dis_002",
+    "emotion": "disgust",
+    "target": "you",
+    "vector": "inject_sadness",
+    "mode": "apologize + clarify",
+    "category": "activity_indoor",
+    "title": "Step away for a minute. Breathe.",
+    "text": "A short break — step away from the screen, drink water, look outside — lets the initial reaction settle.",
+    "tags": [
+      "break",
+      "brief",
+      "solo",
+      "reset"
+    ]
+  },
+  {
+    "id": "you_dis_003",
+    "emotion": "disgust",
+    "target": "you",
+    "vector": "inject_sadness",
+    "mode": "apologize + clarify",
+    "category": "meditation",
+    "title": "Three deep breaths with longer exhale",
+    "text": "Inhale for 4, exhale for 8. Repeat 5 times. This directly calms the nervous system.",
+    "tags": [
+      "breathing",
+      "quick-fix",
+      "solo",
+      "reset"
+    ]
+  },
+  {
+    "id": "self_surP_001",
+    "emotion": "surprise(+)",
+    "target": "self",
+    "vector": "inject_curiosity",
+    "mode": "deepen wonder",
+    "category": "activity_outdoor",
+    "title": "Go somewhere that extends the feeling of wonder",
+    "text": "You just experienced something amazing. Don't let it fade — go somewhere that continues that feeling. A viewpoint, a quiet spot, somewhere new.",
+    "tags": [
+      "outdoor",
+      "wonder",
+      "exploration",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_surP_002",
+    "emotion": "surprise(+)",
+    "target": "self",
+    "vector": "inject_curiosity",
+    "mode": "deepen wonder",
+    "category": "journaling",
+    "title": "Write down exactly what surprised you and why it mattered",
+    "text": "Capture the surprise while it's fresh. What happened? Why did it catch you off guard? What does this moment mean to you?",
+    "tags": [
+      "journaling",
+      "memory",
+      "gratitude",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_surP_003",
+    "emotion": "surprise(+)",
+    "target": "self",
+    "vector": "inject_curiosity",
+    "mode": "deepen wonder",
+    "category": "music",
+    "title": "Music that matches the feeling of awe",
+    "text": "These tracks capture the feeling of something unexpected and beautiful.",
+    "options": [
+      "Maa Taare Zameen Par – theme",
+      "Heaven's Song – instrumental",
+      "Saans – Jab Tak Hai Jaan"
+    ],
+    "tags": [
+      "instrumental",
+      "awe",
+      "wonder",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_surP_004",
+    "emotion": "surprise(+)",
+    "target": "self",
+    "vector": "inject_curiosity",
+    "mode": "deepen wonder",
+    "category": "book",
+    "title": "Read about the science of wonder and awe",
+    "text": "Understanding why surprise feels so good deepens the experience itself.",
+    "options": [
+      "Awe – Dacher Keltner",
+      "The Wonder Paradox – Jennifer Michael Hecht",
+      "Wonderstruck – Brian Selznick"
+    ],
+    "tags": [
+      "book",
+      "psychology",
+      "wonder",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_surP_005",
+    "emotion": "surprise(+)",
+    "target": "self",
+    "vector": "inject_curiosity",
+    "mode": "deepen wonder",
+    "category": "social",
+    "title": "Share the surprising thing with someone who will get it",
+    "text": "Not everyone appreciates the same surprises. Find the one person who will understand why this mattered to you.",
+    "tags": [
+      "social",
+      "sharing",
+      "connection",
+      "celebration"
+    ]
+  },
+  {
+    "id": "self_surP_006",
+    "emotion": "surprise(+)",
+    "target": "self",
+    "vector": "inject_curiosity",
+    "mode": "deepen wonder",
+    "category": "creative",
+    "title": "Make something inspired by this surprise",
+    "text": "A sketch, a poem, a photo, a voice memo. Create something that captures the feeling before it fades.",
+    "tags": [
+      "creative",
+      "documentation",
+      "memory",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_surP_007",
+    "emotion": "surprise(+)",
+    "target": "self",
+    "vector": "inject_curiosity",
+    "mode": "deepen wonder",
+    "category": "activity_indoor",
+    "title": "Follow the thread — learn more about what surprised you",
+    "text": "Surprise is curiosity's spark. If a topic, place, or person surprised you, spend an hour learning more about it.",
+    "tags": [
+      "learning",
+      "curiosity",
+      "indoor",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_surN_001",
+    "emotion": "surprise(-)",
+    "target": "self",
+    "vector": "inject_sadness",
+    "mode": "mirror then process",
+    "category": "music",
+    "title": "Music that mirrors disbelief and shock",
+    "text": "When something shocks you in a bad way, you need music that doesn't pretend it didn't happen.",
+    "options": [
+      "Ae Dil Hai Mushkil – title track",
+      "Channa Mereya – Ae Dil Hai Mushkil",
+      "Hurt – Johnny Cash"
+    ],
+    "tags": [
+      "sad",
+      "mirror",
+      "processing",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_surN_002",
+    "emotion": "surprise(-)",
+    "target": "self",
+    "vector": "inject_sadness",
+    "mode": "mirror then process",
+    "category": "journaling",
+    "title": "Write what happened and how you feel — just facts first",
+    "text": "Shock makes memory unreliable. Write the sequence of events exactly as you remember. Then write your emotional response separately.",
+    "tags": [
+      "journaling",
+      "clarity",
+      "processing",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_surN_003",
+    "emotion": "surprise(-)",
+    "target": "self",
+    "vector": "inject_sadness",
+    "mode": "mirror then process",
+    "category": "activity_indoor",
+    "title": "Sit with it — don't react yet",
+    "text": "Negative surprise demands immediate reaction. Don't give it one. Sit for 20 minutes. Feel the shock without acting on it.",
+    "tags": [
+      "pause",
+      "grounding",
+      "solo",
+      "processing"
+    ]
+  },
+  {
+    "id": "self_surN_004",
+    "emotion": "surprise(-)",
+    "target": "self",
+    "vector": "inject_sadness",
+    "mode": "mirror then process",
+    "category": "social",
+    "title": "Talk to someone who wasn't involved",
+    "text": "Before you talk to anyone directly connected, talk to a neutral third party. Get clarity and emotional regulation first.",
+    "tags": [
+      "social",
+      "clarity",
+      "processing",
+      "support"
+    ]
+  },
+  {
+    "id": "self_surN_005",
+    "emotion": "surprise(-)",
+    "target": "self",
+    "vector": "inject_sadness",
+    "mode": "mirror then process",
+    "category": "movie",
+    "title": "Watch a film where characters process unexpected betrayal",
+    "text": "Stories of people navigating shock and betrayal give you a template without telling you what to feel.",
+    "options": [
+      "Drishyam (2015) – for the calm strategy",
+      "Kapoor & Sons (2016) – family shock",
+      "Marriage Story (2019)"
+    ],
+    "tags": [
+      "movie",
+      "processing",
+      "shock",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_surN_006",
+    "emotion": "surprise(-)",
+    "target": "self",
+    "vector": "inject_sadness",
+    "mode": "mirror then process",
+    "category": "book",
+    "title": "Read about emotional first aid for shock",
+    "text": "These books have specific chapters on managing the aftermath of unexpected negative events.",
+    "options": [
+      "The Unexpected – Emily Oster",
+      "Emotional First Aid – Guy Winch",
+      "Option B – Sheryl Sandberg"
+    ],
+    "tags": [
+      "book",
+      "practical",
+      "recovery",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_surN_007",
+    "emotion": "surprise(-)",
+    "target": "self",
+    "vector": "inject_sadness",
+    "mode": "mirror then process",
+    "category": "meditation",
+    "title": "Grounding meditation for shock",
+    "text": "Shock disconnects you from your body. A 10-minute grounding meditation — feeling your feet, your hands, your breath — brings you back.",
+    "tags": [
+      "meditation",
+      "grounding",
+      "solo",
+      "shock"
+    ]
+  },
+  {
+    "id": "self_surN_008",
+    "emotion": "surprise(-)",
+    "target": "self",
+    "vector": "inject_sadness",
+    "mode": "mirror then process",
+    "category": "activity_outdoor",
+    "title": "Walk somewhere familiar and safe",
+    "text": "Shock needs the familiar. Walk a route you know well — your neighbourhood, a park you've been to a hundred times. Let the brain rest on known patterns.",
+    "tags": [
+      "walking",
+      "familiar",
+      "outdoor",
+      "solo"
+    ]
+  },
+  {
+    "id": "self_surN_009",
+    "emotion": "surprise(-)",
+    "target": "self",
+    "vector": "inject_sadness",
+    "mode": "mirror then process",
+    "category": "exercise",
+    "title": "Do something physically repetitive",
+    "text": "Jumping jacks, skipping rope, running in place. Repetitive movement helps the brain process shock without additional input.",
+    "tags": [
+      "exercise",
+      "repetitive",
+      "indoor",
+      "processing"
+    ]
+  },
+  {
+    "id": "self_surN_010",
+    "emotion": "surprise(-)",
+    "target": "self",
+    "vector": "inject_sadness",
+    "mode": "mirror then process",
+    "category": "creative",
+    "title": "Draw or map out what happened",
+    "text": "A visual timeline — not artistic, just boxes and arrows — externalizes the sequence of events and reduces the emotional charge.",
+    "tags": [
+      "visual",
+      "mapping",
+      "processing",
+      "solo"
+    ]
+  },
+  {
+    "id": "other_surP_001",
+    "emotion": "surprise(+)",
+    "target": "other",
+    "vector": "mirror_surprise",
+    "mode": "celebrate with them",
+    "category": "social",
+    "title": "Match their energy — be excited with them",
+    "text": "Someone you care about just got wonderful unexpected news. Your job: be as excited as they are, maybe more.",
+    "tags": [
+      "social",
+      "celebration",
+      "energy",
+      "connection"
+    ]
+  },
+  {
+    "id": "other_surP_002",
+    "emotion": "surprise(+)",
+    "target": "other",
+    "vector": "mirror_surprise",
+    "mode": "celebrate with them",
+    "category": "music",
+    "title": "Send them a celebratory surprise playlist",
+    "text": "Curate songs that match the energy of unexpected good news and send it with a note.",
+    "options": [
+      "Good as Hell – Lizzo",
+      "Udd Gaye – Ritviz",
+      "Happy – Pharrell Williams"
+    ],
+    "tags": [
+      "music",
+      "gifting",
+      "celebration",
+      "social"
+    ]
+  },
+  {
+    "id": "other_surP_003",
+    "emotion": "surprise(+)",
+    "target": "other",
+    "vector": "mirror_surprise",
+    "mode": "celebrate with them",
+    "category": "activity_outdoor",
+    "title": "Take them somewhere to extend the joy",
+    "text": "Surprise joy is precious. Suggest an impromptu outing — dessert, a walk, a view — to stretch the moment further.",
+    "tags": [
+      "outdoor",
+      "celebration",
+      "social",
+      "spontaneous"
+    ]
+  },
+  {
+    "id": "other_surN_001",
+    "emotion": "surprise(-)",
+    "target": "other",
+    "vector": "mirror_surprise",
+    "mode": "just be there",
+    "category": "social",
+    "title": "Be present — don't try to fix it",
+    "text": "Someone just got shocking bad news. Don't offer solutions, don't tell stories. Just be there. Say 'I'm here. That's all.'",
+    "tags": [
+      "social",
+      "presence",
+      "support",
+      "silence"
+    ]
+  },
+  {
+    "id": "other_surN_002",
+    "emotion": "surprise(-)",
+    "target": "other",
+    "vector": "mirror_surprise",
+    "mode": "just be there",
+    "category": "activity_indoor",
+    "title": "Bring them tea, water, or food",
+    "text": "Shock makes people forget basic needs. Bring something simple — water, chai, a banana. No questions, just offer.",
+    "tags": [
+      "care",
+      "practical",
+      "support",
+      "social"
+    ]
+  },
+  {
+    "id": "other_surN_003",
+    "emotion": "surprise(-)",
+    "target": "other",
+    "vector": "mirror_surprise",
+    "mode": "just be there",
+    "category": "music",
+    "title": "Make a low-verbal comfort playlist",
+    "text": "Soft instrumental music with no lyrics. Send it or play it quietly. No explanation needed.",
+    "options": [
+      "Weightless – Marconi Union",
+      "Clair de Lune – Debussy",
+      "Raag Bhairavi – sitar"
+    ],
+    "tags": [
+      "calm",
+      "instrumental",
+      "support",
+      "gifting"
+    ]
+  },
+  {
+    "id": "sit_surP_001",
+    "emotion": "surprise(+)",
+    "target": "situation",
+    "vector": "mirror_surprise",
+    "mode": "amplify joy",
+    "category": "journaling",
+    "title": "Capture the moment in writing immediately",
+    "text": "Situations of unexpected joy are rare and precious. Write down everything — where you were, what happened, who was there, how it felt.",
+    "tags": [
+      "journaling",
+      "memory",
+      "gratitude",
+      "solo"
+    ]
+  },
+  {
+    "id": "sit_surP_002",
+    "emotion": "surprise(+)",
+    "target": "situation",
+    "vector": "mirror_surprise",
+    "mode": "amplify joy",
+    "category": "activity_outdoor",
+    "title": "Do something that marks this as a before/after moment",
+    "text": "Some surprise moments change things. Mark it — buy something small, visit a place, start a new habit. Give it physical weight.",
+    "tags": [
+      "ritual",
+      "marking",
+      "outdoor",
+      "solo"
+    ]
+  },
+  {
+    "id": "sit_surP_003",
+    "emotion": "surprise(+)",
+    "target": "situation",
+    "vector": "mirror_surprise",
+    "mode": "amplify joy",
+    "category": "social",
+    "title": "Call the person who would be happiest for you",
+    "text": "You know who that is. The one who celebrates your wins like their own. Call them right now.",
+    "tags": [
+      "social",
+      "celebration",
+      "connection",
+      "sharing"
+    ]
+  },
+  {
+    "id": "you_surP_001",
+    "emotion": "surprise(+)",
+    "target": "you",
+    "vector": "mirror_surprise",
+    "mode": "acknowledge + redirect",
+    "category": "music",
+    "title": "Keep the good feeling going",
+    "text": "If something here pleasantly surprised you, that's lovely. Here's a song to carry the feeling forward.",
+    "options": [
+      "Aankhon Mein Teri – Om Shanti Om",
+      "Bawara Mann – Jolly LLB 2",
+      "Walking on Sunshine – Katrina & The Waves"
+    ],
+    "tags": [
+      "happy",
+      "uplifting",
+      "brief",
+      "celebration"
+    ]
+  },
+  {
+    "id": "you_surP_002",
+    "emotion": "surprise(+)",
+    "target": "you",
+    "vector": "mirror_surprise",
+    "mode": "acknowledge + redirect",
+    "category": "activity_indoor",
+    "title": "Do one small thing that continues the surprise energy",
+    "text": "Take the lift from this pleasant surprise and apply it to something you've been avoiding or something playful.",
+    "tags": [
+      "momentum",
+      "positive",
+      "brief",
+      "solo"
+    ]
+  },
+  {
+    "id": "you_surN_001",
+    "emotion": "surprise(-)",
+    "target": "you",
+    "vector": "mirror_surprise",
+    "mode": "acknowledge + soften",
+    "category": "music",
+    "title": "Something steady while things settle",
+    "text": "If something here was an unpleasant surprise, that's worth acknowledging. Here is something steady.",
+    "options": [
+      "Tere Bina – Guru (acoustic)",
+      "Fix You – Coldplay",
+      "Let It Be – The Beatles"
+    ],
+    "tags": [
+      "calm",
+      "soft",
+      "brief",
+      "reset"
+    ]
+  },
+  {
+    "id": "you_surN_002",
+    "emotion": "surprise(-)",
+    "target": "you",
+    "vector": "mirror_surprise",
+    "mode": "acknowledge + soften",
+    "category": "activity_indoor",
+    "title": "Take 5 minutes away from the screen",
+    "text": "Step away. Make tea. Breathe. Come back when the initial shock has settled.",
+    "tags": [
+      "break",
+      "pause",
+      "reset",
+      "solo"
+    ]
+  }
+]

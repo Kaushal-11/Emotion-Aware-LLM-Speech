@@ -1,0 +1,20 @@
+{
+  "emotion_to_sensevoice": {
+    "happiness": "<|HAPPY|>",
+    "anger": "<|ANGRY|>",
+    "sadness": "<|SAD|>",
+    "disgust": "<|DISGUSTED|>",
+    "fear": "<|FEARFUL|>",
+    "surprise": "<|SURPRISED|>"
+  },
+  "sensevoice_to_emotion": {
+    "<|HAPPY|>": "happiness",
+    "<|ANGRY|>": "anger",
+    "<|SAD|>": "sadness",
+    "<|DISGUSTED|>": "disgust",
+    "<|FEARFUL|>": "fear",
+    "<|SURPRISED|>": "surprise"
+  },
+  "language_tag": "<|en|>",
+  "event_tag": "<|Speech|>"
+}

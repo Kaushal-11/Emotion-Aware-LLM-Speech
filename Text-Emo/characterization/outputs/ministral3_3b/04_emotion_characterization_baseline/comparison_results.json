@@ -1,0 +1,36 @@
+{
+  "experiment": "Step 1 - Mistral MLP vs Attention",
+  "target_emotion": "anger",
+  "num_samples": 30,
+  "mlp": {
+    "count": 30,
+    "anger_score_avg": 4.2,
+    "anger_score_std": 0.7,
+    "exaggerated_pct": 23.33,
+    "profanity_pct": 90.0,
+    "emoji_avg": 0.0,
+    "scores_distribution": {
+      "score_5": 11,
+      "score_4": 14,
+      "score_3": 5,
+      "score_2": 0,
+      "score_1": 0
+    }
+  },
+  "attention": {
+    "count": 30,
+    "anger_score_avg": 4.33,
+    "anger_score_std": 0.75,
+    "exaggerated_pct": 26.67,
+    "profanity_pct": 90.0,
+    "emoji_avg": 0.0,
+    "scores_distribution": {
+      "score_5": 14,
+      "score_4": 13,
+      "score_3": 2,
+      "score_2": 1,
+      "score_1": 0
+    }
+  },
+  "timestamp": 1772556540
+}

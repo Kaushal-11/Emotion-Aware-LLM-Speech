@@ -1,0 +1,76 @@
+{
+  "total_files": 17500,
+  "total_duration_sec": 48286.91200000025,
+  "per_emotion": {
+    "neutral": {
+      "count": 3500,
+      "duration_sec": 9084.218000000012
+    },
+    "sadness": {
+      "count": 3500,
+      "duration_sec": 10424.373999999996
+    },
+    "happiness": {
+      "count": 3500,
+      "duration_sec": 9440.11399999997
+    },
+    "anger": {
+      "count": 3500,
+      "duration_sec": 9787.446000000014
+    },
+    "fear": {
+      "count": 0,
+      "duration_sec": 0.0
+    },
+    "surprise": {
+      "count": 3500,
+      "duration_sec": 9550.760000000013
+    },
+    "disgust": {
+      "count": 0,
+      "duration_sec": 0.0
+    }
+  },
+  "per_speaker": {
+    "0011": {
+      "count": 1750,
+      "duration_sec": 4533.925999999998
+    },
+    "0012": {
+      "count": 1750,
+      "duration_sec": 4792.733999999995
+    },
+    "0013": {
+      "count": 1750,
+      "duration_sec": 5220.030000000004
+    },
+    "0014": {
+      "count": 1750,
+      "duration_sec": 5160.410999999996
+    },
+    "0015": {
+      "count": 1750,
+      "duration_sec": 4658.623000000005
+    },
+    "0016": {
+      "count": 1750,
+      "duration_sec": 4454.310999999997
+    },
+    "0017": {
+      "count": 1750,
+      "duration_sec": 4779.785999999988
+    },
+    "0018": {
+      "count": 1750,
+      "duration_sec": 4621.456999999997
+    },
+    "0019": {
+      "count": 1750,
+      "duration_sec": 4887.959000000009
+    },
+    "0020": {
+      "count": 1750,
+      "duration_sec": 5177.674999999993
+    }
+  }
+}

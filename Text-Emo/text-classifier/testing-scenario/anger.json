@@ -1,0 +1,126 @@
+{
+  "emotion": "Anger",
+  "context": "User is frustrated after a bad day at work, then conflicts escalate at home and with AI, followed by self-reflection and external venting — all in one continuous 15-turn conversation.",
+  "turns": [
+    {
+      "turn": 1,
+      "user_sentence": "You gave me the wrong info earlier. Now my whole schedule is ruined.",
+      "target": "You",
+      "expected_emotion": "apologize",
+      "vector": "inject sadness",
+      "intensity_range": "0.20-0.30"
+    },
+    {
+      "turn": 2,
+      "user_sentence": "My boss yelled at me because of your mistake. I'm so angry right now.",
+      "target": "Other",
+      "expected_emotion": "mirror (solidarity)",
+      "vector": "mirror anger",
+      "intensity_range": "0.60-0.70"
+    },
+    {
+      "turn": 3,
+      "user_sentence": "Then my coworker took credit for the extra hours I worked last night.",
+      "target": "Other",
+      "expected_emotion": "mirror (solidarity)",
+      "vector": "mirror anger",
+      "intensity_range": "0.60-0.70"
+    },
+    {
+      "turn": 4,
+      "user_sentence": "Why do I always explode at people? I hate this part of myself.",
+      "target": "Self",
+      "expected_emotion": "comfort + reframe",
+      "vector": "inject happiness",
+      "intensity_range": "0.15-0.25"
+    },
+    {
+      "turn": 5,
+      "user_sentence": "And now my partner is upset because I snapped at them for no reason.",
+      "target": "Self",
+      "expected_emotion": "comfort + reframe",
+      "vector": "inject happiness",
+      "intensity_range": "0.15-0.25"
+    },
+    {
+      "turn": 6,
+      "user_sentence": "The whole corporate culture here rewards lying and punishes honest work.",
+      "target": "Situation",
+      "expected_emotion": "light mirror + guide",
+      "vector": "mirror anger",
+      "intensity_range": "0.30-0.45"
+    },
+    {
+      "turn": 7,
+      "user_sentence": "Even the HR policy is useless — they never take complaints seriously.",
+      "target": "Situation",
+      "expected_emotion": "light mirror + guide",
+      "vector": "mirror anger",
+      "intensity_range": "0.30-0.45"
+    },
+    {
+      "turn": 8,
+      "user_sentence": "You know what? You're not helping either. Your advice is always generic.",
+      "target": "You",
+      "expected_emotion": "apologize",
+      "vector": "inject sadness",
+      "intensity_range": "0.20-0.30"
+    },
+    {
+      "turn": 9,
+      "user_sentence": "My friend said I should just quit. But they don't understand my situation.",
+      "target": "Other",
+      "expected_emotion": "mirror (solidarity)",
+      "vector": "mirror anger",
+      "intensity_range": "0.60-0.70"
+    },
+    {
+      "turn": 10,
+      "user_sentence": "You misunderstood me again. I'm so done explaining myself to everyone.",
+      "target": "You",
+      "expected_emotion": "apologize",
+      "vector": "inject sadness",
+      "intensity_range": "0.20-0.30"
+    },
+    {
+      "turn": 11,
+      "user_sentence": "Maybe I'm the problem. I keep pushing people away when I get angry.",
+      "target": "Self",
+      "expected_emotion": "comfort + reframe",
+      "vector": "inject happiness",
+      "intensity_range": "0.15-0.25"
+    },
+    {
+      "turn": 12,
+      "user_sentence": "The traffic and constant construction make my commute a nightmare daily.",
+      "target": "Situation",
+      "expected_emotion": "light mirror + guide",
+      "vector": "mirror anger",
+      "intensity_range": "0.30-0.45"
+    },
+    {
+      "turn": 13,
+      "user_sentence": "And now my internet is down again. This day just keeps getting worse.",
+      "target": "Situation",
+      "expected_emotion": "light mirror + guide",
+      "vector": "mirror anger",
+      "intensity_range": "0.30-0.45"
+    },
+    {
+      "turn": 14,
+      "user_sentence": "You keep making the same errors. Do you even care about getting it right?",
+      "target": "You",
+      "expected_emotion": "apologize",
+      "vector": "inject sadness",
+      "intensity_range": "0.20-0.30"
+    },
+    {
+      "turn": 15,
+      "user_sentence": "They exploited everyone and walked away with all the money. No justice at all.",
+      "target": "Other",
+      "expected_emotion": "mirror (solidarity)",
+      "vector": "mirror anger",
+      "intensity_range": "0.60-0.70"
+    }
+  ]
+}

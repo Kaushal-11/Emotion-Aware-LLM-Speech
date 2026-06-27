@@ -1,0 +1,9 @@
+{
+  "experiment_id": "20260414_183002",
+  "target_emotion": "disgust",
+  "total_turns": 15,
+  "scenario_context": "User encounters morally repulsive behavior, unsanitary conditions, betrayal, and hypocrisy. Conversation covers AI error, other people's actions, self-disgust, and gross situations.",
+  "style_contract_enforced": true,
+  "style_enforcement_method": "prompt_injection + max_tokens",
+  "timestamp": 1776171942.2573175
+}

@@ -1,0 +1,56 @@
+{
+  "datasets": {
+    "cremad": {
+      "total_files": 6355,
+      "total_duration_hours": 4.52
+    },
+    "ravdess": {
+      "total_files": 1152,
+      "total_duration_hours": 1.18
+    },
+    "tess": {
+      "total_files": 2000,
+      "total_duration_hours": 1.15
+    },
+    "savee": {
+      "total_files": 360,
+      "total_duration_hours": 0.39
+    },
+    "meld": {
+      "total_files": 7272,
+      "total_duration_hours": 6.74
+    },
+    "iemocap": {
+      "total_files": 3972,
+      "total_duration_hours": 5.26
+    }
+  },
+  "total_files": 21111,
+  "total_duration_hours": 19.240000000000002,
+  "emotion_summary": {
+    "happiness": {
+      "count": 5867,
+      "duration_seconds": 20071.21
+    },
+    "anger": {
+      "count": 4633,
+      "duration_seconds": 15359.27
+    },
+    "sadness": {
+      "count": 4009,
+      "duration_seconds": 15008.68
+    },
+    "disgust": {
+      "count": 2286,
+      "duration_seconds": 7103.179999999999
+    },
+    "fear": {
+      "count": 2321,
+      "duration_seconds": 6068.55
+    },
+    "surprise": {
+      "count": 1995,
+      "duration_seconds": 5666.88
+    }
+  }
+}

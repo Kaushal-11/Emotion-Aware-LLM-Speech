@@ -1,0 +1,177 @@
+.drawer-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 200;
+  display: flex;
+  justify-content: flex-end;
+  backdrop-filter: blur(2px);
+}
+
+.drawer {
+  width: 360px;
+  height: 100%;
+  background: var(--bg-surface);
+  border-left: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: -8px 0 32px rgba(0,0,0,0.4);
+}
+
+/* ── Header ── */
+.drawer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+.drawer-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.drawer-close {
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 13px;
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s;
+  font-family: var(--font);
+}
+.drawer-close:hover {
+  color: var(--text-primary);
+  background: var(--bg-hover);
+  border-color: var(--border-light);
+}
+
+/* ── Body ── */
+.drawer-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+/* ── Section ── */
+.drawer-section { display: flex; flex-direction: column; gap: 16px; }
+.drawer-section-title {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+/* ── Backend toggle ── */
+.backend-group { display: flex; flex-direction: column; gap: 7px; }
+.backend-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+.backend-note {
+  font-size: 11px;
+  color: var(--text-muted);
+  line-height: 1.5;
+  padding: 6px 8px;
+  background: var(--bg-raised);
+  border-radius: 5px;
+  border-left: 2px solid var(--em-surprise);
+}
+
+.backend-options { display: flex; gap: 8px; }
+.backend-btn {
+  flex: 1;
+  padding: 8px 0;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--bg-raised);
+  color: var(--text-secondary);
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: var(--mono);
+  font-weight: 500;
+}
+.backend-btn:hover:not(:disabled):not(.active) {
+  border-color: var(--border-light);
+  color: var(--text-primary);
+  background: var(--bg-hover);
+}
+.backend-btn.active {
+  border-color: rgba(200,150,90,0.4);
+  background: var(--accent-glow);
+  color: var(--accent-bright);
+}
+.backend-btn:disabled { opacity: 0.45; cursor: not-allowed; }
+
+.backend-msg { font-size: 12px; font-family: var(--mono); }
+.backend-msg.ok   { color: var(--em-disgust); }
+.backend-msg.err  { color: var(--em-anger);   }
+.backend-msg.wait { color: var(--text-muted); }
+
+/* ── GPU cards ── */
+.gpu-list { display: flex; flex-direction: column; gap: 10px; }
+
+.gpu-card {
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.gpu-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+}
+.gpu-name {
+  font-size: 12px;
+  color: var(--text-secondary);
+  font-weight: 500;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.gpu-mem-text {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text-primary);
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.gpu-bar-track {
+  height: 5px;
+  background: var(--bg-base);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.gpu-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.6s ease;
+}
+.gpu-bar-label {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--text-muted);
+}

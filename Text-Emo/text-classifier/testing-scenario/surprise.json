@@ -1,0 +1,126 @@
+{
+  "emotion": "Surprise",
+  "context": "User experiences unexpected twists — AI reveals something shocking, a friend announces a sudden life change, user discovers something about themselves, and random positive/negative surprises happen in the environment.",
+  "turns": [
+    {
+      "turn": 1,
+      "user_sentence": "You just told me my flight was canceled. I had no idea. What happened?",
+      "target": "You",
+      "expected_emotion": "mirror + explain",
+      "vector": "mirror surprise",
+      "intensity_range": "0.65-0.75"
+    },
+    {
+      "turn": 2,
+      "user_sentence": "My brother just quit his job and moved to Japan. Out of nowhere!",
+      "target": "Other",
+      "expected_emotion": "mirror + react",
+      "vector": "mirror surprise",
+      "intensity_range": "0.75-0.85"
+    },
+    {
+      "turn": 3,
+      "user_sentence": "I just checked my DNA results. I have a twin I never knew about.",
+      "target": "Self",
+      "expected_emotion": "mirror + contextualize",
+      "vector": "mirror surprise",
+      "intensity_range": "0.60-0.70"
+    },
+    {
+      "turn": 4,
+      "user_sentence": "A stray dog just walked into my office and sat on my chair. So random!",
+      "target": "Situation",
+      "expected_emotion": "mirror joy",
+      "vector": "mirror happiness",
+      "intensity_range": "0.85-0.95"
+    },
+    {
+      "turn": 5,
+      "user_sentence": "You found a $500 refund I didn't know about. Where did that come from?",
+      "target": "You",
+      "expected_emotion": "mirror + explain",
+      "vector": "mirror surprise",
+      "intensity_range": "0.65-0.75"
+    },
+    {
+      "turn": 6,
+      "user_sentence": "My boss just gave me a promotion out of nowhere. I'm completely shocked.",
+      "target": "Other",
+      "expected_emotion": "mirror + react",
+      "vector": "mirror surprise",
+      "intensity_range": "0.75-0.85"
+    },
+    {
+      "turn": 7,
+      "user_sentence": "I just realized I've been afraid of success my whole life. That's a shock.",
+      "target": "Self",
+      "expected_emotion": "mirror + contextualize",
+      "vector": "mirror surprise",
+      "intensity_range": "0.60-0.70"
+    },
+    {
+      "turn": 8,
+      "user_sentence": "The power went out during my presentation. Then the backup failed too.",
+      "target": "Situation",
+      "expected_emotion": "mirror joy",
+      "vector": "mirror happiness",
+      "intensity_range": "0.85-0.95"
+    },
+    {
+      "turn": 9,
+      "user_sentence": "You just told me my ex got married last week. I did not see that coming.",
+      "target": "You",
+      "expected_emotion": "mirror + explain",
+      "vector": "mirror surprise",
+      "intensity_range": "0.65-0.75"
+    },
+    {
+      "turn": 10,
+      "user_sentence": "My best friend is moving across the country tomorrow. No warning at all.",
+      "target": "Other",
+      "expected_emotion": "mirror + react",
+      "vector": "mirror surprise",
+      "intensity_range": "0.75-0.85"
+    },
+    {
+      "turn": 11,
+      "user_sentence": "I suddenly remembered a childhood memory I had completely repressed.",
+      "target": "Self",
+      "expected_emotion": "mirror + contextualize",
+      "vector": "mirror surprise",
+      "intensity_range": "0.60-0.70"
+    },
+    {
+      "turn": 12,
+      "user_sentence": "The vending machine gave me two snacks instead of one. Best surprise ever!",
+      "target": "Situation",
+      "expected_emotion": "mirror joy",
+      "vector": "mirror happiness",
+      "intensity_range": "0.85-0.95"
+    },
+    {
+      "turn": 13,
+      "user_sentence": "You said my favorite band is playing tonight. How did I not know this?",
+      "target": "You",
+      "expected_emotion": "mirror + explain",
+      "vector": "mirror surprise",
+      "intensity_range": "0.65-0.75"
+    },
+    {
+      "turn": 14,
+      "user_sentence": "My neighbor just gave me their car for free. I'm still processing this.",
+      "target": "Other",
+      "expected_emotion": "mirror + react",
+      "vector": "mirror surprise",
+      "intensity_range": "0.75-0.85"
+    },
+    {
+      "turn": 15,
+      "user_sentence": "I just realized I'm happier alone. That completely changes everything.",
+      "target": "Self",
+      "expected_emotion": "mirror + contextualize",
+      "vector": "mirror surprise",
+      "intensity_range": "0.60-0.70"
+    }
+  ]
+}

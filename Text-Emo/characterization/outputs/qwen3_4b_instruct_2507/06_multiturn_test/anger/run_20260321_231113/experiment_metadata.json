@@ -1,0 +1,31 @@
+{
+  "experiment_id": "20260321_231113",
+  "model": "qwen3_4b_instruct_2507",
+  "target_emotion": "anger",
+  "steering_parameters": {
+    "alpha": 8.0,
+    "layers": "15-25",
+    "last_k": 1,
+    "scale": "rms"
+  },
+  "direction_types": [
+    "mlp",
+    "attention"
+  ],
+  "scenarios": [
+    "stress",
+    "excitement",
+    "provocation"
+  ],
+  "injection_rule": "anger_vector_injected_once_at_first_turn_only",
+  "context_handling": "full_conversation_history_preserved",
+  "system_prompt_used": false,
+  "output_directory": "/data/kaushal/Various-Model/outputs/qwen3_4b_instruct_2507/06_multiturn_test/anger/run_20260321_231113",
+  "timestamp": "20260321_231113",
+  "gpu_info": {
+    "cuda_available": true,
+    "num_gpus": 4,
+    "visible_gpus": "0,1,2,3",
+    "device_map": "{'model.embed_tokens': 0, 'lm_head': 0, 'model.layers.0': 0, 'model.layers.1': 0, 'model.layers.2': 0, 'model.layers.3': 0, 'model.layers.4': 0, 'model.layers.5': 0, 'model.layers.6': 1, 'model.layers.7': 1, 'model.layers.8': 1, 'model.layers.9': 1, 'model.layers.10': 1, 'model.layers.11': 1, 'model.layers.12': 1, 'model.layers.13': 1, 'model.layers.14': 1, 'model.layers.15': 1, 'model.layers.16': 1, 'model.layers.17': 2, 'model.layers.18': 2, 'model.layers.19': 2, 'model.layers.20': 2, 'model.layers.21': 2, 'model.layers.22': 2, 'model.layers.23': 2, 'model.layers.24': 2, 'model.layers.25': 2, 'model.layers.26': 2, 'model.layers.27': 2, 'model.layers.28': 3, 'model.layers.29': 3, 'model.layers.30': 3, 'model.layers.31': 3, 'model.layers.32': 3, 'model.layers.33': 3, 'model.layers.34': 3, 'model.layers.35': 3, 'model.norm': 3, 'model.rotary_emb': 3}"
+  }
+}

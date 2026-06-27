@@ -1,0 +1,24 @@
+
+======================================================================
+HUBERT MODEL TEST SUMMARY
+======================================================================
+
+Model Directory: /workspace/audio-em/finetune-results/hubert-large/frozen/20260506_115147
+Strategy:        frozen
+Test Samples:    3301
+
+Performance Metrics:
+-------------------
+Accuracy:        0.3123
+Weighted F1:     0.2646
+
+Per-class F1 Scores:
+  happiness   : 0.0041
+  anger       : 0.4819
+  sadness     : 0.2874
+  disgust     : 0.3982
+  fear        : 0.3392
+  surprise    : 0.3009
+
+Output Directory: /workspace/audio-em/finetune-results/hubert-large/frozen/20260506_115147/test_results
+======================================================================

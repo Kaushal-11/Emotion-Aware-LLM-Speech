@@ -1,0 +1,582 @@
+{
+  "orders": {
+    "ORD-1001": {
+      "intent": "track_order",
+      "status": "Out for delivery",
+      "eta": "20 minutes",
+      "items": [
+        { "name": "Butter Chicken Penne Pasta", "price": 13.00 },
+        { "name": "Masala Chai",                "price":  3.00 }
+      ],
+      "total": 16.00,
+      "customer": "Aarav",
+      "timestamp": "2026-06-27T12:10:00"
+    },
+    "ORD-1002": {
+      "intent": "track_order",
+      "status": "Preparing",
+      "eta": "35 minutes",
+      "items": [
+        { "name": "Benne Masala Dosa", "price": 12.00 },
+        { "name": "Filter Coffee",     "price":  3.00 }
+      ],
+      "total": 15.00,
+      "customer": "Kavya",
+      "timestamp": "2026-06-27T12:20:00"
+    },
+    "ORD-1003": {
+      "intent": "track_order",
+      "status": "Order Confirmed",
+      "eta": "45 minutes",
+      "items": [
+        { "name": "Chicken Rice Bowl",    "price": 10.00 },
+        { "name": "Masala Season Fries",  "price":  5.00 }
+      ],
+      "total": 15.00,
+      "customer": "Rohan",
+      "timestamp": "2026-06-27T12:30:00"
+    },
+    "ORD-1004": {
+      "intent": "track_order",
+      "status": "Out for delivery",
+      "eta": "10 minutes",
+      "items": [
+        { "name": "XOtikka Paneer", "price": 10.00 },
+        { "name": "Thumbs Up",      "price":  4.00 }
+      ],
+      "total": 14.00,
+      "customer": "Nisha",
+      "timestamp": "2026-06-27T11:55:00"
+    },
+    "ORD-1005": {
+      "intent": "track_order",
+      "status": "Delivered",
+      "eta": null,
+      "items": [
+        { "name": "Vada Pav Burger", "price": 7.00 },
+        { "name": "Limca",           "price": 4.00 }
+      ],
+      "total": 11.00,
+      "customer": "Suresh",
+      "timestamp": "2026-06-27T11:00:00"
+    },
+    "ORD-1006": {
+      "intent": "track_order",
+      "status": "Preparing",
+      "eta": "30 minutes",
+      "items": [
+        { "name": "Paneer Rice Bowl", "price": 10.00 },
+        { "name": "Dal Tadka",        "price":  6.00 },
+        { "name": "Sprite",           "price":  3.00 }
+      ],
+      "total": 19.00,
+      "customer": "Meera",
+      "timestamp": "2026-06-27T12:35:00"
+    },
+    "ORD-1007": {
+      "intent": "track_order",
+      "status": "Order Confirmed",
+      "eta": "50 minutes",
+      "items": [
+        { "name": "Fiery Schezwan Chicken", "price": 8.50 },
+        { "name": "Masala Season Fries",    "price": 5.00 }
+      ],
+      "total": 13.50,
+      "customer": "Arjun",
+      "timestamp": "2026-06-27T12:40:00"
+    },
+    "ORD-1008": {
+      "intent": "track_order",
+      "status": "Out for delivery",
+      "eta": "5 minutes",
+      "items": [
+        { "name": "Samosa (2 Pieces)",        "price": 6.00 },
+        { "name": "Masala Chai with Parle-G", "price": 4.00 }
+      ],
+      "total": 10.00,
+      "customer": "Divya",
+      "timestamp": "2026-06-27T12:00:00"
+    },
+    "ORD-1009": {
+      "intent": "track_order",
+      "status": "Delivered",
+      "eta": null,
+      "items": [
+        { "name": "Tadka Dal Rice Bowl", "price": 10.00 },
+        { "name": "Jeera Rice",          "price":  4.00 }
+      ],
+      "total": 14.00,
+      "customer": "Vikram",
+      "timestamp": "2026-06-27T10:30:00"
+    },
+    "ORD-1010": {
+      "intent": "track_order",
+      "status": "Preparing",
+      "eta": "40 minutes",
+      "items": [
+        { "name": "Dabeli Burger",      "price":  8.00 },
+        { "name": "Kutchi Dabeli Bowl", "price": 10.00 },
+        { "name": "Water Bottle",       "price":  2.00 }
+      ],
+      "total": 20.00,
+      "customer": "Pooja",
+      "timestamp": "2026-06-27T12:45:00"
+    },
+
+    "ORD-2001": {
+      "intent": "late_order",
+      "status": "Significantly Delayed",
+      "eta": "60 minutes",
+      "promised_eta": "30 minutes",
+      "delay_reason": "High demand at kitchen",
+      "items": [
+        { "name": "Classic Butter Chicken", "price": 8.50 },
+        { "name": "Masala Season Fries",    "price": 5.00 }
+      ],
+      "total": 13.50,
+      "customer": "Rahul",
+      "timestamp": "2026-06-27T11:00:00"
+    },
+    "ORD-2002": {
+      "intent": "late_order",
+      "status": "Significantly Delayed",
+      "eta": "45 minutes",
+      "promised_eta": "20 minutes",
+      "delay_reason": "Delivery agent unavailable",
+      "items": [
+        { "name": "Benne Masala Dosa", "price": 12.00 },
+        { "name": "Masala Chai",       "price":  3.00 }
+      ],
+      "total": 15.00,
+      "customer": "Priya",
+      "timestamp": "2026-06-27T11:15:00"
+    },
+    "ORD-2003": {
+      "intent": "late_order",
+      "status": "Significantly Delayed",
+      "eta": "75 minutes",
+      "promised_eta": "40 minutes",
+      "delay_reason": "Traffic congestion",
+      "items": [
+        { "name": "Chicken Rice Bowl",   "price": 10.00 },
+        { "name": "Masala Season Fries", "price":  5.00 },
+        { "name": "Limca",               "price":  4.00 }
+      ],
+      "total": 19.00,
+      "customer": "Amit",
+      "timestamp": "2026-06-27T10:45:00"
+    },
+    "ORD-2004": {
+      "intent": "late_order",
+      "status": "Significantly Delayed",
+      "eta": "55 minutes",
+      "promised_eta": "25 minutes",
+      "delay_reason": "Kitchen overload",
+      "items": [
+        { "name": "XOtikka Paneer", "price": 10.00 },
+        { "name": "Sprite",         "price":  3.00 }
+      ],
+      "total": 13.00,
+      "customer": "Sneha",
+      "timestamp": "2026-06-27T11:30:00"
+    },
+    "ORD-2005": {
+      "intent": "late_order",
+      "status": "Significantly Delayed",
+      "eta": "90 minutes",
+      "promised_eta": "45 minutes",
+      "delay_reason": "Delivery partner issue",
+      "items": [
+        { "name": "Fiery Schezwan Chicken", "price": 8.50 },
+        { "name": "Cheese Masala Fries",    "price": 7.50 }
+      ],
+      "total": 16.00,
+      "customer": "Kiran",
+      "timestamp": "2026-06-27T10:30:00"
+    },
+    "ORD-2006": {
+      "intent": "late_order",
+      "status": "Significantly Delayed",
+      "eta": "50 minutes",
+      "promised_eta": "20 minutes",
+      "delay_reason": "High demand",
+      "items": [
+        { "name": "Vada Pav Burger",    "price": 7.00 },
+        { "name": "Samosa (2 Pieces)", "price": 6.00 },
+        { "name": "Masala Chai",        "price": 3.00 }
+      ],
+      "total": 16.00,
+      "customer": "Ravi",
+      "timestamp": "2026-06-27T11:45:00"
+    },
+    "ORD-2007": {
+      "intent": "late_order",
+      "status": "Significantly Delayed",
+      "eta": "80 minutes",
+      "promised_eta": "35 minutes",
+      "delay_reason": "Kitchen preparation delay",
+      "items": [
+        { "name": "Paneer Rice Bowl", "price": 10.00 },
+        { "name": "Dal Tadka",        "price":  6.00 }
+      ],
+      "total": 16.00,
+      "customer": "Ananya",
+      "timestamp": "2026-06-27T11:00:00"
+    },
+    "ORD-2008": {
+      "intent": "late_order",
+      "status": "Significantly Delayed",
+      "eta": "65 minutes",
+      "promised_eta": "30 minutes",
+      "delay_reason": "Traffic congestion",
+      "items": [
+        { "name": "Malai Chicken Penne Pasta", "price": 14.00 },
+        { "name": "Thumbs Up",                 "price":  4.00 }
+      ],
+      "total": 18.00,
+      "customer": "Siddharth",
+      "timestamp": "2026-06-27T11:20:00"
+    },
+    "ORD-2009": {
+      "intent": "late_order",
+      "status": "Significantly Delayed",
+      "eta": "70 minutes",
+      "promised_eta": "40 minutes",
+      "delay_reason": "Delivery agent unavailable",
+      "items": [
+        { "name": "Chili Manchurian Paneer", "price": 10.00 },
+        { "name": "Amul Mac & Cheese",       "price":  6.00 }
+      ],
+      "total": 16.00,
+      "customer": "Lakshmi",
+      "timestamp": "2026-06-27T10:55:00"
+    },
+    "ORD-2010": {
+      "intent": "late_order",
+      "status": "Significantly Delayed",
+      "eta": "100 minutes",
+      "promised_eta": "45 minutes",
+      "delay_reason": "High demand at kitchen",
+      "items": [
+        { "name": "Egg Bhurji Rice Bowl",  "price": 10.00 },
+        { "name": "Filter Coffee",         "price":  3.00 },
+        { "name": "Masala Season Fries",   "price":  5.00 }
+      ],
+      "total": 18.00,
+      "customer": "Tarun",
+      "timestamp": "2026-06-27T10:15:00"
+    },
+
+    "ORD-3001": {
+      "intent": "wrong_item",
+      "status": "Delivered",
+      "eta": null,
+      "items_ordered": [
+        { "name": "Classic Butter Chicken", "price": 8.50 }
+      ],
+      "items_received": [
+        { "name": "Classic Butter Paneer", "price": 10.00 }
+      ],
+      "total": 8.50,
+      "issue": "Non-veg replaced with veg variant without consent",
+      "customer": "Neha",
+      "timestamp": "2026-06-27T10:00:00"
+    },
+    "ORD-3002": {
+      "intent": "wrong_item",
+      "status": "Delivered",
+      "eta": null,
+      "items_ordered": [
+        { "name": "Fiery Schezwan Paneer", "price": 10.00 },
+        { "name": "Masala Chai",           "price":  3.00 }
+      ],
+      "items_received": [
+        { "name": "Fiery Schezwan Chicken", "price": 8.50 },
+        { "name": "Masala Chai",            "price": 3.00 }
+      ],
+      "total": 13.00,
+      "issue": "Sent chicken instead of paneer — customer is vegetarian",
+      "customer": "Mohit",
+      "timestamp": "2026-06-27T09:45:00"
+    },
+    "ORD-3003": {
+      "intent": "wrong_item",
+      "status": "Delivered",
+      "eta": null,
+      "items_ordered": [
+        { "name": "Paneer Rice Bowl", "price": 10.00 },
+        { "name": "Sprite",           "price":  3.00 }
+      ],
+      "items_received": [
+        { "name": "Chicken Rice Bowl", "price": 10.00 },
+        { "name": "Sprite",            "price":  3.00 }
+      ],
+      "total": 13.00,
+      "issue": "Wrong rice bowl delivered",
+      "customer": "Deepika",
+      "timestamp": "2026-06-27T10:15:00"
+    },
+    "ORD-3004": {
+      "intent": "wrong_item",
+      "status": "Delivered",
+      "eta": null,
+      "items_ordered": [
+        { "name": "Benne Masala Dosa", "price": 12.00 },
+        { "name": "Filter Coffee",     "price":  3.00 }
+      ],
+      "items_received": [
+        { "name": "Tadka Maggie Masala", "price": 6.00 },
+        { "name": "Filter Coffee",       "price": 3.00 }
+      ],
+      "total": 15.00,
+      "issue": "Completely different dish sent",
+      "customer": "Harish",
+      "timestamp": "2026-06-27T09:30:00"
+    },
+    "ORD-3005": {
+      "intent": "wrong_item",
+      "status": "Delivered",
+      "eta": null,
+      "items_ordered": [
+        { "name": "XO Paneer 65", "price": 10.00 },
+        { "name": "Thumbs Up",    "price":  4.00 }
+      ],
+      "items_received": [
+        { "name": "XO Chicken 65", "price": 8.50 },
+        { "name": "Thumbs Up",     "price": 4.00 }
+      ],
+      "total": 14.00,
+      "issue": "Veg customer received non-veg item",
+      "customer": "Sunita",
+      "timestamp": "2026-06-27T10:30:00"
+    },
+    "ORD-3006": {
+      "intent": "wrong_item",
+      "status": "Delivered",
+      "eta": null,
+      "items_ordered": [
+        { "name": "Vada Pav Burger",     "price": 7.00 },
+        { "name": "Masala Season Fries", "price": 5.00 }
+      ],
+      "items_received": [
+        { "name": "Dabeli Burger",       "price": 8.00 },
+        { "name": "Masala Season Fries", "price": 5.00 }
+      ],
+      "total": 12.00,
+      "issue": "Wrong burger variant sent",
+      "customer": "Ganesh",
+      "timestamp": "2026-06-27T11:00:00"
+    },
+    "ORD-3007": {
+      "intent": "wrong_item",
+      "status": "Delivered",
+      "eta": null,
+      "items_ordered": [
+        { "name": "Malai Penne Pasta", "price": 14.00 },
+        { "name": "Limca",             "price":  4.00 }
+      ],
+      "items_received": [
+        { "name": "Butter Paneer Penne Pasta", "price": 13.00 },
+        { "name": "Limca",                     "price":  4.00 }
+      ],
+      "total": 18.00,
+      "issue": "Wrong pasta variant sent",
+      "customer": "Rekha",
+      "timestamp": "2026-06-27T10:45:00"
+    },
+    "ORD-3008": {
+      "intent": "wrong_item",
+      "status": "Delivered",
+      "eta": null,
+      "items_ordered": [
+        { "name": "Creamy Malai Paneer", "price": 10.00 },
+        { "name": "Sprite",              "price":  3.00 }
+      ],
+      "items_received": [
+        { "name": "Creamy Malai Chicken", "price": 8.50 },
+        { "name": "Sprite",               "price": 3.00 }
+      ],
+      "total": 13.00,
+      "issue": "Paneer swapped with chicken",
+      "customer": "Aditya",
+      "timestamp": "2026-06-27T09:50:00"
+    },
+    "ORD-3009": {
+      "intent": "wrong_item",
+      "status": "Delivered",
+      "eta": null,
+      "items_ordered": [
+        { "name": "Bombay Frankie Wrap", "price": 10.00 },
+        { "name": "Masala Chai",         "price":  3.00 }
+      ],
+      "items_received": [
+        { "name": "Bun Samosa",  "price": 8.00 },
+        { "name": "Masala Chai", "price": 3.00 }
+      ],
+      "total": 13.00,
+      "issue": "Completely different item sent",
+      "customer": "Payal",
+      "timestamp": "2026-06-27T11:15:00"
+    },
+    "ORD-3010": {
+      "intent": "wrong_item",
+      "status": "Delivered",
+      "eta": null,
+      "items_ordered": [
+        { "name": "Samosa (2 Pieces)",   "price": 6.00 },
+        { "name": "Creamy Mint Chutney", "price": 0.50 }
+      ],
+      "items_received": [
+        { "name": "Tadka Hash Browns",   "price": 6.00 },
+        { "name": "Creamy Mint Chutney", "price": 0.50 }
+      ],
+      "total": 6.50,
+      "issue": "Snack item substituted without consent",
+      "customer": "Jayesh",
+      "timestamp": "2026-06-27T10:00:00"
+    },
+
+    "ORD-4001": {
+      "intent": "refund",
+      "status": "Refund Requested",
+      "eta": null,
+      "refund_reason": "Order never arrived",
+      "refund_status": "Pending review",
+      "items": [
+        { "name": "Butter Chicken Penne Pasta", "price": 13.00 },
+        { "name": "Masala Chai",                "price":  3.00 }
+      ],
+      "total": 16.00,
+      "customer": "Ishaan",
+      "timestamp": "2026-06-27T09:00:00"
+    },
+    "ORD-4002": {
+      "intent": "refund",
+      "status": "Refund Requested",
+      "eta": null,
+      "refund_reason": "Food quality was unacceptable",
+      "refund_status": "Under review",
+      "items": [
+        { "name": "Benne Masala Dosa", "price": 12.00 },
+        { "name": "Samosa (2 Pieces)", "price":  6.00 }
+      ],
+      "total": 18.00,
+      "customer": "Shruti",
+      "timestamp": "2026-06-27T09:30:00"
+    },
+    "ORD-4003": {
+      "intent": "refund",
+      "status": "Refund Requested",
+      "eta": null,
+      "refund_reason": "Wrong items delivered",
+      "refund_status": "Approved",
+      "items": [
+        { "name": "Classic Butter Chicken", "price": 8.50 },
+        { "name": "Masala Season Fries",    "price": 5.00 },
+        { "name": "Sprite",                 "price": 3.00 }
+      ],
+      "total": 16.50,
+      "customer": "Akash",
+      "timestamp": "2026-06-27T09:45:00"
+    },
+    "ORD-4004": {
+      "intent": "refund",
+      "status": "Refund Requested",
+      "eta": null,
+      "refund_reason": "Order arrived extremely late and cold",
+      "refund_status": "Pending review",
+      "items": [
+        { "name": "Fiery Schezwan Paneer", "price": 10.00 },
+        { "name": "Cheese Masala Fries",   "price":  7.50 }
+      ],
+      "total": 17.50,
+      "customer": "Bhavna",
+      "timestamp": "2026-06-27T10:00:00"
+    },
+    "ORD-4005": {
+      "intent": "refund",
+      "status": "Refund Requested",
+      "eta": null,
+      "refund_reason": "Found foreign object in food",
+      "refund_status": "Escalated to manager",
+      "items": [
+        { "name": "Paneer Rice Bowl", "price": 10.00 },
+        { "name": "Dal Tadka",        "price":  6.00 }
+      ],
+      "total": 16.00,
+      "customer": "Chetan",
+      "timestamp": "2026-06-27T10:15:00"
+    },
+    "ORD-4006": {
+      "intent": "refund",
+      "status": "Refund Requested",
+      "eta": null,
+      "refund_reason": "Charged twice for same order",
+      "refund_status": "Approved",
+      "items": [
+        { "name": "Vada Pav Burger",          "price": 7.00 },
+        { "name": "Masala Chai with Parle-G", "price": 4.00 }
+      ],
+      "total": 11.00,
+      "customer": "Disha",
+      "timestamp": "2026-06-27T10:30:00"
+    },
+    "ORD-4007": {
+      "intent": "refund",
+      "status": "Refund Requested",
+      "eta": null,
+      "refund_reason": "Order cancelled but already charged",
+      "refund_status": "Under review",
+      "items": [
+        { "name": "Malai Chicken Penne Pasta", "price": 14.00 },
+        { "name": "Thumbs Up",                 "price":  4.00 }
+      ],
+      "total": 18.00,
+      "customer": "Farhan",
+      "timestamp": "2026-06-27T10:45:00"
+    },
+    "ORD-4008": {
+      "intent": "refund",
+      "status": "Refund Requested",
+      "eta": null,
+      "refund_reason": "Allergic reaction suspected — wrong ingredients",
+      "refund_status": "Escalated to food safety",
+      "items": [
+        { "name": "XOtikka Chicken",   "price": 8.50 },
+        { "name": "Amul Mac & Cheese", "price": 6.00 }
+      ],
+      "total": 14.50,
+      "customer": "Geeta",
+      "timestamp": "2026-06-27T11:00:00"
+    },
+    "ORD-4009": {
+      "intent": "refund",
+      "status": "Refund Requested",
+      "eta": null,
+      "refund_reason": "Item missing from delivery",
+      "refund_status": "Pending review",
+      "items": [
+        { "name": "Kutchi Dabeli Bowl", "price": 10.00 },
+        { "name": "Water Bottle",       "price":  2.00 }
+      ],
+      "total": 12.00,
+      "customer": "Hemant",
+      "timestamp": "2026-06-27T11:15:00"
+    },
+    "ORD-4010": {
+      "intent": "refund",
+      "status": "Refund Requested",
+      "eta": null,
+      "refund_reason": "Promotional discount not applied",
+      "refund_status": "Under review",
+      "items": [
+        { "name": "Egg Bhurji Rice Bowl", "price": 10.00 },
+        { "name": "Jeera Rice",           "price":  4.00 },
+        { "name": "Filter Coffee",        "price":  3.00 }
+      ],
+      "total": 17.00,
+      "customer": "Indira",
+      "timestamp": "2026-06-27T11:30:00"
+    }
+  }
+}

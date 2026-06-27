@@ -1,0 +1,31 @@
+{
+  "experiment_id": "20260321_165606",
+  "model": "ministral3_3b",
+  "target_emotion": "anger",
+  "steering_parameters": {
+    "alpha": 8.0,
+    "layers": "11-20",
+    "last_k": 1,
+    "scale": "rms"
+  },
+  "direction_types": [
+    "mlp",
+    "attention"
+  ],
+  "scenarios": [
+    "stress",
+    "excitement",
+    "provocation"
+  ],
+  "injection_rule": "anger_vector_injected_once_at_first_turn_only",
+  "context_handling": "full_conversation_history_preserved",
+  "system_prompt_used": false,
+  "output_directory": "/data/kaushal/Various-Model/outputs/ministral3_3b/06_multiturn_test/anger/run_20260321_165606",
+  "timestamp": "20260321_165606",
+  "gpu_info": {
+    "cuda_available": true,
+    "num_gpus": 3,
+    "visible_gpus": "0,1,2,3",
+    "device_map": "{'model.vision_tower': 0, 'model.multi_modal_projector': 0, 'model.language_model.embed_tokens': 0, 'lm_head': 0, 'model.language_model.layers.0': 0, 'model.language_model.layers.1': 0, 'model.language_model.layers.2': 0, 'model.language_model.layers.3': 0, 'model.language_model.layers.4': 1, 'model.language_model.layers.5': 1, 'model.language_model.layers.6': 1, 'model.language_model.layers.7': 1, 'model.language_model.layers.8': 1, 'model.language_model.layers.9': 1, 'model.language_model.layers.10': 1, 'model.language_model.layers.11': 1, 'model.language_model.layers.12': 1, 'model.language_model.layers.13': 1, 'model.language_model.layers.14': 1, 'model.language_model.layers.15': 1, 'model.language_model.layers.16': 2, 'model.language_model.layers.17': 2, 'model.language_model.layers.18': 2, 'model.language_model.layers.19': 2, 'model.language_model.layers.20': 2, 'model.language_model.layers.21': 2, 'model.language_model.layers.22': 2, 'model.language_model.layers.23': 2, 'model.language_model.layers.24': 2, 'model.language_model.layers.25': 2, 'model.language_model.norm': 2, 'model.language_model.rotary_emb': 2}"
+  }
+}

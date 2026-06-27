@@ -1,0 +1,21 @@
+======================================================================
+SENSEVOICE-SMALL TEST SUMMARY
+======================================================================
+
+Model:       /workspace/audio-em/finetune-results/sensevoice-small/lora/20260521_212218
+Strategy:    lora
+Samples:     2,360
+
+Accuracy:    0.6568
+Weighted F1: 0.6590
+
+Per-class F1:
+  happiness   : 0.6106
+  anger       : 0.7107
+  sadness     : 0.6553
+  disgust     : 0.6718
+  fear        : 0.6950
+  surprise    : 0.5968
+
+Output: /workspace/audio-em/finetune-results/sensevoice-small/lora/20260521_212218/test_results
+======================================================================

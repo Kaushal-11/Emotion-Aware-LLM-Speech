@@ -1,0 +1,9 @@
+{
+  "experiment_id": "20260414_183002",
+  "target_emotion": "sadness",
+  "total_turns": 15,
+  "scenario_context": "User is going through a quiet emotional low after a personal loss, feeling distant from friends, guilty, and unmotivated. Conversation moves through AI mistake, friend's insensitivity, self-blame, and life circumstances.",
+  "style_contract_enforced": true,
+  "style_enforcement_method": "prompt_injection + max_tokens",
+  "timestamp": 1776171705.769245
+}

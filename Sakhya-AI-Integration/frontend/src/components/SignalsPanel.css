@@ -1,0 +1,208 @@
+.signals-panel {
+  background: var(--bg-surface);
+  border-left: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* ── Header ── */
+.signals-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px 12px;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+.signals-title {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+}
+.live-badge {
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 0.05em;
+  animation: blink 1.4s ease-in-out infinite;
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.35; }
+}
+
+/* ── Empty ── */
+.signals-empty {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 24px;
+  text-align: center;
+}
+.signals-empty-icon {
+  font-size: 28px;
+  color: var(--text-muted);
+  opacity: 0.3;
+}
+.signals-empty p {
+  font-size: 12px;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+/* ── Body ── */
+.signals-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* ── Section ── */
+.sig-section {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: opacity 0.35s ease;
+}
+.sig-section.dimmed  { opacity: 0.18; pointer-events: none; }
+.sig-section.visible { opacity: 1; }
+.sig-section.live {
+  border-color: rgba(200,150,90,0.35);
+  box-shadow: 0 0 0 1px rgba(200,150,90,0.1) inset;
+}
+
+.sig-section-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 11px 6px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: var(--bg-raised);
+  border-bottom: 1px solid var(--border);
+}
+.live-dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  animation: blink 1s ease-in-out infinite;
+  flex-shrink: 0;
+}
+
+.sig-section-body {
+  padding: 9px 11px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: var(--bg-surface);
+}
+
+/* ── Rows ── */
+.sig-row { display: flex; flex-direction: column; gap: 4px; }
+
+/* inline label + value on same line */
+.sig-row-inline {
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.sig-row-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sig-label {
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  flex-shrink: 0;
+}
+
+.sig-value {
+  font-size: 12px;
+  color: var(--text-primary);
+  font-weight: 500;
+  text-align: right;
+  word-break: break-word;
+}
+
+/* percentage — large and clearly readable */
+.sig-pct {
+  font-size: 13px;
+  font-family: var(--mono);
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+/* ── Emotion pill ── */
+.sig-emotion-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 9px;
+  border-radius: 20px;
+  flex-shrink: 0;
+}
+/* Reuse global emotion classes */
+.emotion-happiness { background: rgba(212,168,75,0.14);  color: var(--em-happiness); }
+.emotion-sadness   { background: rgba(90,143,194,0.14);  color: var(--em-sadness);   }
+.emotion-anger     { background: rgba(201,79,79,0.14);   color: var(--em-anger);     }
+.emotion-fear      { background: rgba(138,98,196,0.14);  color: var(--em-fear);      }
+.emotion-disgust   { background: rgba(90,170,106,0.14);  color: var(--em-disgust);   }
+.emotion-surprise  { background: rgba(212,120,74,0.14);  color: var(--em-surprise);  }
+.emotion-neutral   { background: rgba(110,122,122,0.14); color: var(--em-neutral);   }
+
+/* ── Bar ── */
+.bar-track {
+  height: 5px;
+  background: var(--bg-base);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  min-width: 2px;
+}
+
+/* ── Mode indicator ── */
+.signals-header-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.mode-indicator {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 10px;
+  letter-spacing: 0.04em;
+}
+.audio-mode-ind {
+  background: rgba(200,150,90,0.12);
+  color: var(--accent);
+  border: 1px solid rgba(200,150,90,0.2);
+}
+.text-mode-ind {
+  background: rgba(90,143,194,0.12);
+  color: var(--em-sadness);
+  border: 1px solid rgba(90,143,194,0.2);
+}

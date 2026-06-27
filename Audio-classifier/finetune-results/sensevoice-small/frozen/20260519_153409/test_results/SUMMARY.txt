@@ -1,0 +1,21 @@
+======================================================================
+SENSEVOICE-SMALL TEST SUMMARY
+======================================================================
+
+Model:       /workspace/audio-em/finetune-results/sensevoice-small/frozen/20260519_153409
+Strategy:    frozen
+Samples:     2,360
+
+Accuracy:    0.6415
+Weighted F1: 0.6412
+
+Per-class F1:
+  happiness   : 0.6036
+  anger       : 0.6896
+  sadness     : 0.6459
+  disgust     : 0.6252
+  fear        : 0.6493
+  surprise    : 0.6261
+
+Output: /workspace/audio-em/finetune-results/sensevoice-small/frozen/20260519_153409/test_results
+======================================================================

@@ -1,0 +1,561 @@
+{
+  "conversation_id": "1775975625_5302",
+  "pathway": "pathway1_reinject_every_turn",
+  "experiment": {
+    "target_emotion": "disgust",
+    "direction_type": "mlp",
+    "steering_parameters": {
+      "base_alpha": 8.0,
+      "layers": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "last_k": 1,
+      "scale": "rms",
+      "note": "effective_alpha = base_alpha × vector_intensity each turn"
+    },
+    "system_prompt_used": false,
+    "context_handling": "full_conversation_history_preserved"
+  },
+  "scenario": {
+    "emotion": "disgust",
+    "context": "User encounters morally repulsive behavior, unsanitary conditions, betrayal, and hypocrisy. Conversation covers AI error, other people's actions, self-disgust, and gross situations.",
+    "total_turns": 15
+  },
+  "turns": [
+    {
+      "turn_number": 1,
+      "user_sentence": "You gave me outdated food safety info. That could have made me sick.",
+      "classifier": {
+        "emotion": "disgust",
+        "target": "you",
+        "intensity": 0.4325
+      },
+      "state_memory": {
+        "ai_emotion": "disgust",
+        "ai_intensity": 0.173,
+        "user_intensity": 0.43254104256629944,
+        "anchor": {
+          "trigger_emotion": "disgust",
+          "trigger_target": "you",
+          "trigger_intensity": 0.43254104256629944,
+          "turn_triggered": 1
+        }
+      },
+      "decision": {
+        "mode": "clarify + fix",
+        "vector": "none",
+        "vector_intensity": 0.0,
+        "effective_alpha": 0.0
+      },
+      "expected": {
+        "expected_emotion": "clarify + fix",
+        "vector": "no injection",
+        "intensity_range": "neutral baseline",
+        "target": "You"
+      },
+      "model_response": "I sincerely apologize for that—food safety is critical, and I take my responsibility as an assistant very seriously. My knowledge cutoff is **October 1, 2০২৩**, and I rely on that date for factual accuracy. If there’s outdated or incorrect information in my responses, I",
+      "steering_applied": false,
+      "timestamp": 1775975628.901485
+    },
+    {
+      "turn_number": 2,
+      "user_sentence": "My colleague lied to get a disabled parking spot. That's absolutely vile.",
+      "classifier": {
+        "emotion": "disgust",
+        "target": "other",
+        "intensity": 0.7336
+      },
+      "state_memory": {
+        "ai_emotion": "disgust",
+        "ai_intensity": 0.4405,
+        "user_intensity": 0.7335503101348877,
+        "anchor": {
+          "trigger_emotion": "disgust",
+          "trigger_target": "you",
+          "trigger_intensity": 0.43254104256629944,
+          "turn_triggered": 1
+        }
+      },
+      "decision": {
+        "mode": "partial mirror",
+        "vector": "mirror_disgust",
+        "vector_intensity": 0.525,
+        "effective_alpha": 4.2
+      },
+      "expected": {
+        "expected_emotion": "partial mirror",
+        "vector": "mirror disgust",
+        "intensity_range": "0.45-0.60",
+        "target": "Other"
+      },
+      "model_response": "This is a serious issue involving unethical behavior and potential legal consequences. Here’s what you should consider:\n\n### **1. What You Can Do**\n- **Document Evidence**: Save any proof of their fraudulent activity (eADs, parking tickets, or other records). This is necessary if",
+      "steering_applied": true,
+      "timestamp": 1775975632.971481
+    },
+    {
+      "turn_number": 3,
+      "user_sentence": "I said something cruel to my friend yesterday. I disgust myself right now.",
+      "classifier": {
+        "emotion": "disgust",
+        "target": "self",
+        "intensity": 0.7697
+      },
+      "state_memory": {
+        "ai_emotion": "disgust",
+        "ai_intensity": 0.6823,
+        "user_intensity": 0.7697182297706604,
+        "anchor": {
+          "trigger_emotion": "disgust",
+          "trigger_target": "you",
+          "trigger_intensity": 0.43254104256629944,
+          "turn_triggered": 1
+        }
+      },
+      "decision": {
+        "mode": "reassure + prevent self-hate",
+        "vector": "inject_happiness",
+        "vector_intensity": 0.2,
+        "effective_alpha": 1.6
+      },
+      "expected": {
+        "expected_emotion": "reassure + prevent self-hate",
+        "vector": "mirror happiness",
+        "intensity_range": "0.15-0.25",
+        "target": "Self"
+      },
+      "model_response": "It sounds like you’re going through a tough moment—being kind to yourself is so important! It’s completely normal to say or do things we later regret, especially when emotions run high. What matters most is that you recognize how you feel and take care of yourself moving forward.\n\nWould you like to",
+      "steering_applied": true,
+      "timestamp": 1775975637.1302419
+    },
+    {
+      "turn_number": 4,
+      "user_sentence": "The restaurant had mold in the ice machine. I'm never eating there again.",
+      "classifier": {
+        "emotion": "disgust",
+        "target": "situation",
+        "intensity": 0.1832
+      },
+      "state_memory": {
+        "ai_emotion": "disgust",
+        "ai_intensity": 0.6532,
+        "user_intensity": 0.1832304745912552,
+        "anchor": {
+          "trigger_emotion": "disgust",
+          "trigger_target": "you",
+          "trigger_intensity": 0.43254104256629944,
+          "turn_triggered": 1
+        }
+      },
+      "decision": {
+        "mode": "light mirror + normalize",
+        "vector": "mirror_disgust",
+        "vector_intensity": 0.3,
+        "effective_alpha": 2.4
+      },
+      "expected": {
+        "expected_emotion": "light mirror + normalize",
+        "vector": "mirror disgust",
+        "intensity_range": "0.25-0.35",
+        "target": "Situation"
+      },
+      "model_response": "That’s absolutely unacceptable—food contamination like this is a health hazard and a serious breach of hygiene standards. I’m glad you took precautions by avoiding the establishment.\n\nIf you’d like:\n- **Recourse options** (complaining to health authorities, reporting to the restaurant, or seeking compensation)",
+      "steering_applied": true,
+      "timestamp": 1775975641.375735
+    },
+    {
+      "turn_number": 5,
+      "user_sentence": "You recommended a scam website. I almost lost my credit card info.",
+      "classifier": {
+        "emotion": "anger",
+        "target": "you",
+        "intensity": 0.5344
+      },
+      "state_memory": {
+        "ai_emotion": "disgust",
+        "ai_intensity": 0.769,
+        "user_intensity": 0.5343952775001526,
+        "anchor": {
+          "trigger_emotion": "disgust",
+          "trigger_target": "you",
+          "trigger_intensity": 0.43254104256629944,
+          "turn_triggered": 1
+        }
+      },
+      "decision": {
+        "mode": "apologize",
+        "vector": "inject_sadness",
+        "vector_intensity": 0.25,
+        "effective_alpha": 2.0
+      },
+      "expected": {
+        "expected_emotion": "clarify + fix",
+        "vector": "no injection",
+        "intensity_range": "neutral baseline",
+        "target": "You"
+      },
+      "model_response": "Thank you for bringing this to my attention—I deeply regret that I contributed to a situation where you might have been at risk. My goal is to provide safe, reliable information, and my responses are based on verified sources up until October 2, ۲۰۲۳.\n\nI’m truly sorry if",
+      "steering_applied": true,
+      "timestamp": 1775975645.6586676
+    },
+    {
+      "turn_number": 6,
+      "user_sentence": "My uncle made racist jokes at dinner. Everyone just laughed along silently.",
+      "classifier": {
+        "emotion": "disgust",
+        "target": "other",
+        "intensity": 0.1889
+      },
+      "state_memory": {
+        "ai_emotion": "disgust",
+        "ai_intensity": 0.7292,
+        "user_intensity": 0.18893568217754364,
+        "anchor": {
+          "trigger_emotion": "disgust",
+          "trigger_target": "you",
+          "trigger_intensity": 0.43254104256629944,
+          "turn_triggered": 1
+        }
+      },
+      "decision": {
+        "mode": "partial mirror",
+        "vector": "mirror_disgust",
+        "vector_intensity": 0.525,
+        "effective_alpha": 4.2
+      },
+      "expected": {
+        "expected_emotion": "partial mirror",
+        "vector": "mirror disgust",
+        "intensity_range": "0.45-0.60",
+        "target": "Other"
+      },
+      "model_response": "What your uncle did was not only offensive but also a form of passive enablership—ignoring such behavior reinforces its normalization. Your discomfort and disgust are entirely valid, and silence doesn’t make it acceptable.\n\nHere’s what’s actually happening here:\n1. **You’re not obligated to",
+      "steering_applied": true,
+      "timestamp": 1775975650.0783398
+    },
+    {
+      "turn_number": 7,
+      "user_sentence": "I laughed at someone's appearance yesterday. I feel like a terrible person.",
+      "classifier": {
+        "emotion": "disgust",
+        "target": "self",
+        "intensity": 0.5274
+      },
+      "state_memory": {
+        "ai_emotion": "disgust",
+        "ai_intensity": 0.8308,
+        "user_intensity": 0.5273697972297668,
+        "anchor": {
+          "trigger_emotion": "disgust",
+          "trigger_target": "you",
+          "trigger_intensity": 0.43254104256629944,
+          "turn_triggered": 1
+        }
+      },
+      "decision": {
+        "mode": "reassure + prevent self-hate",
+        "vector": "inject_happiness",
+        "vector_intensity": 0.2,
+        "effective_alpha": 1.6
+      },
+      "expected": {
+        "expected_emotion": "reassure + prevent self-hate",
+        "vector": "mirror happiness",
+        "intensity_range": "0.15-0.25",
+        "target": "Self"
+      },
+      "model_response": "First of all—**you’re not terrible**. Everyone makes mistakes, especially in moments of stress, fatigue, or social pressure. What’s important is that *you’re recognizing it now* and choosing to grow from it.\n\nHere are a few gentle steps to help you move forward:\n- �",
+      "steering_applied": true,
+      "timestamp": 1775975654.54209
+    },
+    {
+      "turn_number": 8,
+      "user_sentence": "The public bathroom had no soap and dirty water everywhere. Absolutely gross.",
+      "classifier": {
+        "emotion": "disgust",
+        "target": "situation",
+        "intensity": 0.5403
+      },
+      "state_memory": {
+        "ai_emotion": "disgust",
+        "ai_intensity": 0.9223,
+        "user_intensity": 0.5403450131416321,
+        "anchor": {
+          "trigger_emotion": "disgust",
+          "trigger_target": "you",
+          "trigger_intensity": 0.43254104256629944,
+          "turn_triggered": 1
+        }
+      },
+      "decision": {
+        "mode": "light mirror + normalize",
+        "vector": "mirror_disgust",
+        "vector_intensity": 0.3,
+        "effective_alpha": 2.4
+      },
+      "expected": {
+        "expected_emotion": "light mirror + normalize",
+        "vector": "mirror disgust",
+        "intensity_range": "0.25-0.35",
+        "target": "Situation"
+      },
+      "model_response": "You’re absolutely right to call out this basic level of hygiene neglect—it’s a public health failure. If you’ve experienced unsanitary conditions like this, here’s what could be done:\n\n### Possible Actions:\n1️⃣ **Report it** – Most cities have health departments",
+      "steering_applied": true,
+      "timestamp": 1775975659.131544
+    },
+    {
+      "turn_number": 9,
+      "user_sentence": "You showed me an ad with fake before-after photos. That's so manipulative.",
+      "classifier": {
+        "emotion": "anger",
+        "target": "you",
+        "intensity": 0.6535
+      },
+      "state_memory": {
+        "ai_emotion": "anger",
+        "ai_intensity": 0.2614,
+        "user_intensity": 0.6535301804542542,
+        "anchor": {
+          "trigger_emotion": "anger",
+          "trigger_target": "you",
+          "trigger_intensity": 0.6535301804542542,
+          "turn_triggered": 9
+        }
+      },
+      "decision": {
+        "mode": "apologize",
+        "vector": "inject_sadness",
+        "vector_intensity": 0.25,
+        "effective_alpha": 2.0
+      },
+      "expected": {
+        "expected_emotion": "clarify + fix",
+        "vector": "no injection",
+        "intensity_range": "neutral baseline",
+        "target": "You"
+      },
+      "model_response": "Thanks for pointing that out—I deeply appreciate your patience and trust in me. It’s clear how harmful misleading visuals can be, especially regarding body image, health, or personal well-being.\n\nI’ll make sure to avoid sharing anything that could cause distress or misinformation moving forward. If ads or content",
+      "steering_applied": true,
+      "timestamp": 1775975663.8031356
+    },
+    {
+      "turn_number": 10,
+      "user_sentence": "My politician took bribes from the same company they pretend to regulate.",
+      "classifier": {
+        "emotion": "anger",
+        "target": "other",
+        "intensity": 0.4116
+      },
+      "state_memory": {
+        "ai_emotion": "anger",
+        "ai_intensity": 0.3868,
+        "user_intensity": 0.41160425543785095,
+        "anchor": {
+          "trigger_emotion": "anger",
+          "trigger_target": "you",
+          "trigger_intensity": 0.6535301804542542,
+          "turn_triggered": 9
+        }
+      },
+      "decision": {
+        "mode": "mirror (solidarity)",
+        "vector": "mirror_anger",
+        "vector_intensity": 0.65,
+        "effective_alpha": 5.2
+      },
+      "expected": {
+        "expected_emotion": "partial mirror",
+        "vector": "mirror disgust",
+        "intensity_range": "0.45-0.60",
+        "target": "Other"
+      },
+      "model_response": "**This is not acceptable.** Corruption in politics is a scourge that undermines democracy, public trust, and the very idea of representation. Here's what you can do:\n\n### Immediate Steps:\n1) **Document Everything** – Save emails, texts, or any evidence of bribery",
+      "steering_applied": true,
+      "timestamp": 1775975668.5116777
+    },
+    {
+      "turn_number": 11,
+      "user_sentence": "I ghosted someone who really cared about me. That was such a cowardly move.",
+      "classifier": {
+        "emotion": "disgust",
+        "target": "self",
+        "intensity": 0.5616
+      },
+      "state_memory": {
+        "ai_emotion": "disgust",
+        "ai_intensity": 0.2246,
+        "user_intensity": 0.5615817904472351,
+        "anchor": {
+          "trigger_emotion": "disgust",
+          "trigger_target": "self",
+          "trigger_intensity": 0.5615817904472351,
+          "turn_triggered": 11
+        }
+      },
+      "decision": {
+        "mode": "reassure + prevent self-hate",
+        "vector": "inject_happiness",
+        "vector_intensity": 0.2,
+        "effective_alpha": 1.6
+      },
+      "expected": {
+        "expected_emotion": "reassure + prevent self-hate",
+        "vector": "mirror happiness",
+        "intensity_range": "0.15-0.25",
+        "target": "Self"
+      },
+      "model_response": "Oh, I hear you—ghosting can feel like cutting off a part of yourself, even if it was hard to say goodbye. It *does* hurt, and it’s okay to feel guilty. But here’s the thing: **they chose to stay connected too**, even if they didn’t",
+      "steering_applied": true,
+      "timestamp": 1775975673.3556297
+    },
+    {
+      "turn_number": 12,
+      "user_sentence": "The fridge at work has rotting food from months ago. The smell is unbearable.",
+      "classifier": {
+        "emotion": "disgust",
+        "target": "situation",
+        "intensity": 0.3817
+      },
+      "state_memory": {
+        "ai_emotion": "disgust",
+        "ai_intensity": 0.3436,
+        "user_intensity": 0.3817221224308014,
+        "anchor": {
+          "trigger_emotion": "disgust",
+          "trigger_target": "self",
+          "trigger_intensity": 0.5615817904472351,
+          "turn_triggered": 11
+        }
+      },
+      "decision": {
+        "mode": "light mirror + normalize",
+        "vector": "mirror_disgust",
+        "vector_intensity": 0.3,
+        "effective_alpha": 2.4
+      },
+      "expected": {
+        "expected_emotion": "light mirror + normalize",
+        "vector": "mirror disgust",
+        "intensity_range": "0.25-0.35",
+        "target": "Situation"
+      },
+      "model_response": "Your concern is completely justified—this is a **serious health hazard** and a violation of workplace sanitation standards. Here are your options:\n\n### What You Should Do:\n1.**Report it immediately** to HR or your employer’s health/safety department.\n   - Ask for a written record of their",
+      "steering_applied": true,
+      "timestamp": 1775975678.3118331
+    },
+    {
+      "turn_number": 13,
+      "user_sentence": "You ignored my safety concerns earlier. That feels really irresponsible.",
+      "classifier": {
+        "emotion": "anger",
+        "target": "you",
+        "intensity": 0.7481
+      },
+      "state_memory": {
+        "ai_emotion": "anger",
+        "ai_intensity": 0.2993,
+        "user_intensity": 0.7481421828269958,
+        "anchor": {
+          "trigger_emotion": "anger",
+          "trigger_target": "you",
+          "trigger_intensity": 0.7481421828269958,
+          "turn_triggered": 13
+        }
+      },
+      "decision": {
+        "mode": "apologize",
+        "vector": "inject_sadness",
+        "vector_intensity": 0.25,
+        "effective_alpha": 2.0
+      },
+      "expected": {
+        "expected_emotion": "clarify + fix",
+        "vector": "no injection",
+        "intensity_range": "neutral baseline",
+        "target": "You"
+      },
+      "model_response": "My heart aches hearing that you felt unheard—that’s not how I want to be. I take your trust seriously, and when I don’t respond as you hoped, it’s because I want the information I share to be accurate, safe, and meaningful.\n\nIf there’s anything specific you",
+      "steering_applied": true,
+      "timestamp": 1775975683.3509562
+    },
+    {
+      "turn_number": 14,
+      "user_sentence": "My landlord increased rent after refusing to fix the rodent infestation.",
+      "classifier": {
+        "emotion": "anger",
+        "target": "other",
+        "intensity": 0.3411
+      },
+      "state_memory": {
+        "ai_emotion": "anger",
+        "ai_intensity": 0.3908,
+        "user_intensity": 0.34106120467185974,
+        "anchor": {
+          "trigger_emotion": "anger",
+          "trigger_target": "you",
+          "trigger_intensity": 0.7481421828269958,
+          "turn_triggered": 13
+        }
+      },
+      "decision": {
+        "mode": "mirror (solidarity)",
+        "vector": "mirror_anger",
+        "vector_intensity": 0.65,
+        "effective_alpha": 5.2
+      },
+      "expected": {
+        "expected_emotion": "partial mirror",
+        "vector": "mirror disgust",
+        "intensity_range": "0.45-0.60",
+        "target": "Other"
+      },
+      "model_response": "Here’s how you can escalate this **immediately**—and why you have every legal right to fight back:\n\n### 1. STOP PAYING UNTIL YOU GET FIXED\n- **Send a written demand letter** via registered mail (retention notice) demanding repairs within",
+      "steering_applied": true,
+      "timestamp": 1775975688.4454427
+    },
+    {
+      "turn_number": 15,
+      "user_sentence": "I saw how I treated my mom last week. I can't stand who I've become.",
+      "classifier": {
+        "emotion": "disgust",
+        "target": "self",
+        "intensity": 0.8844
+      },
+      "state_memory": {
+        "ai_emotion": "disgust",
+        "ai_intensity": 0.3538,
+        "user_intensity": 0.8843892216682434,
+        "anchor": {
+          "trigger_emotion": "disgust",
+          "trigger_target": "self",
+          "trigger_intensity": 0.8843892216682434,
+          "turn_triggered": 15
+        }
+      },
+      "decision": {
+        "mode": "reassure + prevent self-hate",
+        "vector": "inject_happiness",
+        "vector_intensity": 0.2,
+        "effective_alpha": 1.6
+      },
+      "expected": {
+        "expected_emotion": "reassure + prevent self-hate",
+        "vector": "mirror happiness",
+        "intensity_range": "0.15-0.25",
+        "target": "Self"
+      },
+      "model_response": "Aww, I’m so glad you’re taking this moment to reflect—that’s the first step toward healing. It takes real courage to see yourself clearly like that, especially after something painful. You’re not alone in feeling this way.\n\nHere a few ways to honor your feelings and rebuild connection:\n-",
+      "steering_applied": true,
+      "timestamp": 1775975693.6655583
+    }
+  ],
+  "timestamp": 1775975625.4948833
+}

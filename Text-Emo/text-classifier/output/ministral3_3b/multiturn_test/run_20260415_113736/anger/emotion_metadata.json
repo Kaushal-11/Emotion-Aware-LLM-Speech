@@ -1,0 +1,9 @@
+{
+  "experiment_id": "20260415_113736",
+  "target_emotion": "anger",
+  "total_turns": 15,
+  "scenario_context": "User is frustrated after a bad day at work, then conflicts escalate at home and with AI, followed by self-reflection and external venting — all in one continuous 15-turn conversation.",
+  "style_contract_enforced": true,
+  "style_enforcement_method": "prompt_template_injection",
+  "timestamp": 1776233272.7981243
+}

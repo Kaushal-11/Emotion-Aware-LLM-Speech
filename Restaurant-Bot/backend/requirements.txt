@@ -1,0 +1,21 @@
+# Web framework
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+pydantic>=2.0.0
+python-multipart>=0.0.9
+
+# Steered LLM (Ministral-3)
+torch>=2.1.0
+transformers>=4.40.0
+accelerate>=0.29.0
+sentencepiece>=0.1.99
+numpy>=1.24.0
+
+# Hugging Face auth (optional — only needed if model is gated)
+huggingface_hub>=0.22.0
+
+# Classifier (RoBERTa)
+# already covered by transformers above
+
+# Recommender
+sentence-transformers>=2.6.0

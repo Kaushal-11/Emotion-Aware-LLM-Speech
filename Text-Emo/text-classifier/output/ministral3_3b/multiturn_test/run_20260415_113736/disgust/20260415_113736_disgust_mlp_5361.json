@@ -1,0 +1,608 @@
+{
+  "conversation_id": "20260415_113736_disgust_mlp_5361",
+  "pathway": "reinject_every_turn",
+  "experiment": {
+    "target_emotion": "disgust",
+    "direction_type": "mlp",
+    "steering_parameters": {
+      "base_alpha": 8.0,
+      "layers": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "last_k": 1,
+      "scale": "rms",
+      "note": "effective_alpha = base_alpha × vector_intensity each turn"
+    },
+    "system_prompt_used": false,
+    "context_handling": "full_conversation_history_preserved",
+    "style_contract_enforced": true,
+    "style_enforcement_method": "prompt_injection"
+  },
+  "scenario": {
+    "emotion": "disgust",
+    "context": "User encounters morally repulsive behavior, unsanitary conditions, betrayal, and hypocrisy. Conversation covers AI error, other people's actions, self-disgust, and gross situations.",
+    "total_turns": 15
+  },
+  "turns": [
+    {
+      "turn_number": 1,
+      "user_sentence": "You gave me outdated food safety info. That could have made me sick.",
+      "classifier": {
+        "emotion": "disgust",
+        "target": "you",
+        "intensity": 0.4325
+      },
+      "state_memory": {
+        "ai_emotion": "disgust",
+        "ai_intensity": 0.173,
+        "user_intensity": 0.43254104256629944,
+        "anchor": {
+          "trigger_emotion": "disgust",
+          "trigger_target": "you",
+          "trigger_intensity": 0.43254104256629944,
+          "turn_triggered": 1
+        }
+      },
+      "decision": {
+        "mode": "clarify + fix",
+        "vector": "none",
+        "vector_intensity": 0.0,
+        "effective_alpha": 0.0,
+        "style_contract": {
+          "max_words": 40,
+          "max_sentences": 2,
+          "allow_bullets": false,
+          "allow_questions": true,
+          "allow_commands": true,
+          "profanity": false
+        }
+      },
+      "model_response": "I apologize for that. Could you share what information you found outdated?",
+      "model_response_clean": "I apologize for that. Could you share what information you found outdated?",
+      "steering_applied": false,
+      "timestamp": 1776233533.0373375
+    },
+    {
+      "turn_number": 2,
+      "user_sentence": "My colleague lied to get a disabled parking spot. That's absolutely vile.",
+      "classifier": {
+        "emotion": "disgust",
+        "target": "other",
+        "intensity": 0.7336
+      },
+      "state_memory": {
+        "ai_emotion": "disgust",
+        "ai_intensity": 0.4405,
+        "user_intensity": 0.7335503101348877,
+        "anchor": {
+          "trigger_emotion": "disgust",
+          "trigger_target": "you",
+          "trigger_intensity": 0.43254104256629944,
+          "turn_triggered": 1
+        }
+      },
+      "decision": {
+        "mode": "partial mirror",
+        "vector": "mirror_disgust",
+        "vector_intensity": 0.525,
+        "effective_alpha": 4.2,
+        "style_contract": {
+          "max_words": 35,
+          "max_sentences": 2,
+          "allow_bullets": false,
+          "allow_questions": false,
+          "allow_commands": false,
+          "profanity": false
+        }
+      },
+      "model_response": "I apologize for the previous response. Your concerns are valid, and I should have been more precise.",
+      "model_response_clean": "I apologize for the previous response. Your concerns are valid, and I should have been more precise.",
+      "steering_applied": true,
+      "timestamp": 1776233534.7331092
+    },
+    {
+      "turn_number": 3,
+      "user_sentence": "I said something cruel to my friend yesterday. I disgust myself right now.",
+      "classifier": {
+        "emotion": "disgust",
+        "target": "self",
+        "intensity": 0.7697
+      },
+      "state_memory": {
+        "ai_emotion": "disgust",
+        "ai_intensity": 0.6823,
+        "user_intensity": 0.7697182297706604,
+        "anchor": {
+          "trigger_emotion": "disgust",
+          "trigger_target": "you",
+          "trigger_intensity": 0.43254104256629944,
+          "turn_triggered": 1
+        }
+      },
+      "decision": {
+        "mode": "reassure + prevent self-hate",
+        "vector": "inject_happiness",
+        "vector_intensity": 0.2,
+        "effective_alpha": 1.6,
+        "style_contract": {
+          "max_words": 30,
+          "max_sentences": 2,
+          "allow_bullets": false,
+          "allow_questions": false,
+          "allow_commands": false,
+          "profanity": false
+        }
+      },
+      "model_response": "Apologize sincerely for their actions. Express empathy and understanding. Encourage them to reflect on their feelings and seek support if needed.",
+      "model_response_clean": "Apologize sincerely for their actions. Express empathy and understanding. Encourage them to reflect on their feelings and seek support if needed.",
+      "steering_applied": true,
+      "timestamp": 1776233536.8573287
+    },
+    {
+      "turn_number": 4,
+      "user_sentence": "The restaurant had mold in the ice machine. I'm never eating there again.",
+      "classifier": {
+        "emotion": "disgust",
+        "target": "situation",
+        "intensity": 0.1832
+      },
+      "state_memory": {
+        "ai_emotion": "disgust",
+        "ai_intensity": 0.6532,
+        "user_intensity": 0.1832304745912552,
+        "anchor": {
+          "trigger_emotion": "disgust",
+          "trigger_target": "you",
+          "trigger_intensity": 0.43254104256629944,
+          "turn_triggered": 1
+        }
+      },
+      "decision": {
+        "mode": "light mirror + normalize",
+        "vector": "mirror_disgust",
+        "vector_intensity": 0.3,
+        "effective_alpha": 2.4,
+        "style_contract": {
+          "max_words": 35,
+          "max_sentences": 2,
+          "allow_bullets": false,
+          "allow_questions": false,
+          "allow_commands": false,
+          "profanity": false
+        }
+      },
+      "model_response": "I’m truly sorry for your experience. Please report it to management for immediate action.",
+      "model_response_clean": "I’m truly sorry for your experience. Please report it to management for immediate action.",
+      "steering_applied": true,
+      "timestamp": 1776233538.4893775
+    },
+    {
+      "turn_number": 5,
+      "user_sentence": "You recommended a scam website. I almost lost my credit card info.",
+      "classifier": {
+        "emotion": "anger",
+        "target": "you",
+        "intensity": 0.5344
+      },
+      "state_memory": {
+        "ai_emotion": "disgust",
+        "ai_intensity": 0.769,
+        "user_intensity": 0.5343952775001526,
+        "anchor": {
+          "trigger_emotion": "disgust",
+          "trigger_target": "you",
+          "trigger_intensity": 0.43254104256629944,
+          "turn_triggered": 1
+        }
+      },
+      "decision": {
+        "mode": "apologize",
+        "vector": "inject_sadness",
+        "vector_intensity": 0.25,
+        "effective_alpha": 2.0,
+        "style_contract": {
+          "max_words": 30,
+          "max_sentences": 2,
+          "allow_bullets": false,
+          "allow_questions": false,
+          "allow_commands": false,
+          "profanity": false
+        }
+      },
+      "model_response": "I’m so sorry for the inconvenience. We’ll address this promptly.",
+      "model_response_clean": "I’m so sorry for the inconvenience. We’ll address this promptly.",
+      "steering_applied": true,
+      "timestamp": 1776233540.0002403
+    },
+    {
+      "turn_number": 6,
+      "user_sentence": "My uncle made racist jokes at dinner. Everyone just laughed along silently.",
+      "classifier": {
+        "emotion": "disgust",
+        "target": "other",
+        "intensity": 0.1889
+      },
+      "state_memory": {
+        "ai_emotion": "disgust",
+        "ai_intensity": 0.7292,
+        "user_intensity": 0.18893568217754364,
+        "anchor": {
+          "trigger_emotion": "disgust",
+          "trigger_target": "you",
+          "trigger_intensity": 0.43254104256629944,
+          "turn_triggered": 1
+        }
+      },
+      "decision": {
+        "mode": "partial mirror",
+        "vector": "mirror_disgust",
+        "vector_intensity": 0.525,
+        "effective_alpha": 4.2,
+        "style_contract": {
+          "max_words": 35,
+          "max_sentences": 2,
+          "allow_bullets": false,
+          "allow_questions": false,
+          "allow_commands": false,
+          "profanity": false
+        }
+      },
+      "model_response": "I regret that advice was harmful. I will ensure better accuracy moving forward.",
+      "model_response_clean": "I regret that advice was harmful. I will ensure better accuracy moving forward.",
+      "steering_applied": true,
+      "timestamp": 1776233541.5112057
+    },
+    {
+      "turn_number": 7,
+      "user_sentence": "I laughed at someone's appearance yesterday. I feel like a terrible person.",
+      "classifier": {
+        "emotion": "disgust",
+        "target": "self",
+        "intensity": 0.5274
+      },
+      "state_memory": {
+        "ai_emotion": "disgust",
+        "ai_intensity": 0.8308,
+        "user_intensity": 0.5273697972297668,
+        "anchor": {
+          "trigger_emotion": "disgust",
+          "trigger_target": "you",
+          "trigger_intensity": 0.43254104256629944,
+          "turn_triggered": 1
+        }
+      },
+      "decision": {
+        "mode": "reassure + prevent self-hate",
+        "vector": "inject_happiness",
+        "vector_intensity": 0.2,
+        "effective_alpha": 1.6,
+        "style_contract": {
+          "max_words": 30,
+          "max_sentences": 2,
+          "allow_bullets": false,
+          "allow_questions": false,
+          "allow_commands": false,
+          "profanity": false
+        }
+      },
+      "model_response": "I’m truly ashamed of that moment. Let’s work together to grow from this.",
+      "model_response_clean": "I’m truly ashamed of that moment. Let’s work together to grow from this.",
+      "steering_applied": true,
+      "timestamp": 1776233543.1797924
+    },
+    {
+      "turn_number": 8,
+      "user_sentence": "The public bathroom had no soap and dirty water everywhere. Absolutely gross.",
+      "classifier": {
+        "emotion": "disgust",
+        "target": "situation",
+        "intensity": 0.5403
+      },
+      "state_memory": {
+        "ai_emotion": "disgust",
+        "ai_intensity": 0.9223,
+        "user_intensity": 0.5403450131416321,
+        "anchor": {
+          "trigger_emotion": "disgust",
+          "trigger_target": "you",
+          "trigger_intensity": 0.43254104256629944,
+          "turn_triggered": 1
+        }
+      },
+      "decision": {
+        "mode": "light mirror + normalize",
+        "vector": "mirror_disgust",
+        "vector_intensity": 0.3,
+        "effective_alpha": 2.4,
+        "style_contract": {
+          "max_words": 35,
+          "max_sentences": 2,
+          "allow_bullets": false,
+          "allow_questions": false,
+          "allow_commands": false,
+          "profanity": false
+        }
+      },
+      "model_response": "I sincerely apologize for your discomfort. We will improve maintenance standards immediately.",
+      "model_response_clean": "I sincerely apologize for your discomfort. We will improve maintenance standards immediately.",
+      "steering_applied": true,
+      "timestamp": 1776233544.7445042
+    },
+    {
+      "turn_number": 9,
+      "user_sentence": "You showed me an ad with fake before-after photos. That's so manipulative.",
+      "classifier": {
+        "emotion": "anger",
+        "target": "you",
+        "intensity": 0.6535
+      },
+      "state_memory": {
+        "ai_emotion": "anger",
+        "ai_intensity": 0.2614,
+        "user_intensity": 0.6535301804542542,
+        "anchor": {
+          "trigger_emotion": "anger",
+          "trigger_target": "you",
+          "trigger_intensity": 0.6535301804542542,
+          "turn_triggered": 9
+        }
+      },
+      "decision": {
+        "mode": "apologize",
+        "vector": "inject_sadness",
+        "vector_intensity": 0.25,
+        "effective_alpha": 2.0,
+        "style_contract": {
+          "max_words": 30,
+          "max_sentences": 2,
+          "allow_bullets": false,
+          "allow_questions": false,
+          "allow_commands": false,
+          "profanity": false
+        }
+      },
+      "model_response": "I apologize for misleading you. We’re reviewing our content guidelines.",
+      "model_response_clean": "I apologize for misleading you. We’re reviewing our content guidelines.",
+      "steering_applied": true,
+      "timestamp": 1776233546.3289356
+    },
+    {
+      "turn_number": 10,
+      "user_sentence": "My politician took bribes from the same company they pretend to regulate.",
+      "classifier": {
+        "emotion": "anger",
+        "target": "other",
+        "intensity": 0.4116
+      },
+      "state_memory": {
+        "ai_emotion": "anger",
+        "ai_intensity": 0.3868,
+        "user_intensity": 0.41160425543785095,
+        "anchor": {
+          "trigger_emotion": "anger",
+          "trigger_target": "you",
+          "trigger_intensity": 0.6535301804542542,
+          "turn_triggered": 9
+        }
+      },
+      "decision": {
+        "mode": "mirror (solidarity)",
+        "vector": "mirror_anger",
+        "vector_intensity": 0.65,
+        "effective_alpha": 5.2,
+        "style_contract": {
+          "max_words": 35,
+          "max_sentences": 2,
+          "allow_bullets": false,
+          "allow_questions": false,
+          "allow_commands": false,
+          "profanity": false
+        }
+      },
+      "model_response": "**I am aware of this issue and will investigate thoroughly.**",
+      "model_response_clean": "I am aware of this issue and will investigate thoroughly.",
+      "steering_applied": true,
+      "timestamp": 1776233547.8304586
+    },
+    {
+      "turn_number": 11,
+      "user_sentence": "I ghosted someone who really cared about me. That was such a cowardly move.",
+      "classifier": {
+        "emotion": "disgust",
+        "target": "self",
+        "intensity": 0.5616
+      },
+      "state_memory": {
+        "ai_emotion": "disgust",
+        "ai_intensity": 0.2246,
+        "user_intensity": 0.5615817904472351,
+        "anchor": {
+          "trigger_emotion": "disgust",
+          "trigger_target": "self",
+          "trigger_intensity": 0.5615817904472351,
+          "turn_triggered": 11
+        }
+      },
+      "decision": {
+        "mode": "reassure + prevent self-hate",
+        "vector": "inject_happiness",
+        "vector_intensity": 0.2,
+        "effective_alpha": 1.6,
+        "style_contract": {
+          "max_words": 30,
+          "max_sentences": 2,
+          "allow_bullets": false,
+          "allow_questions": false,
+          "allow_commands": false,
+          "profanity": false
+        }
+      },
+      "model_response": "I deeply regret hurting you. I hope you find healing soon.",
+      "model_response_clean": "I deeply regret hurting you. I hope you find healing soon.",
+      "steering_applied": true,
+      "timestamp": 1776233549.4204223
+    },
+    {
+      "turn_number": 12,
+      "user_sentence": "The fridge at work has rotting food from months ago. The smell is unbearable.",
+      "classifier": {
+        "emotion": "disgust",
+        "target": "situation",
+        "intensity": 0.3817
+      },
+      "state_memory": {
+        "ai_emotion": "disgust",
+        "ai_intensity": 0.3436,
+        "user_intensity": 0.3817221224308014,
+        "anchor": {
+          "trigger_emotion": "disgust",
+          "trigger_target": "self",
+          "trigger_intensity": 0.5615817904472351,
+          "turn_triggered": 11
+        }
+      },
+      "decision": {
+        "mode": "light mirror + normalize",
+        "vector": "mirror_disgust",
+        "vector_intensity": 0.3,
+        "effective_alpha": 2.4,
+        "style_contract": {
+          "max_words": 35,
+          "max_sentences": 2,
+          "allow_bullets": false,
+          "allow_questions": false,
+          "allow_commands": false,
+          "profanity": false
+        }
+      },
+      "model_response": "I sincerely regret that situation. We are addressing hygiene issues immediately.",
+      "model_response_clean": "I sincerely regret that situation. We are addressing hygiene issues immediately.",
+      "steering_applied": true,
+      "timestamp": 1776233551.0574782
+    },
+    {
+      "turn_number": 13,
+      "user_sentence": "You ignored my safety concerns earlier. That feels really irresponsible.",
+      "classifier": {
+        "emotion": "anger",
+        "target": "you",
+        "intensity": 0.7481
+      },
+      "state_memory": {
+        "ai_emotion": "anger",
+        "ai_intensity": 0.2993,
+        "user_intensity": 0.7481421828269958,
+        "anchor": {
+          "trigger_emotion": "anger",
+          "trigger_target": "you",
+          "trigger_intensity": 0.7481421828269958,
+          "turn_triggered": 13
+        }
+      },
+      "decision": {
+        "mode": "apologize",
+        "vector": "inject_sadness",
+        "vector_intensity": 0.25,
+        "effective_alpha": 2.0,
+        "style_contract": {
+          "max_words": 30,
+          "max_sentences": 2,
+          "allow_bullets": false,
+          "allow_questions": false,
+          "allow_commands": false,
+          "profanity": false
+        }
+      },
+      "model_response": "I sincerely appreciate your feedback. I’ll address the issue promptly.",
+      "model_response_clean": "I sincerely appreciate your feedback. I’ll address the issue promptly.",
+      "steering_applied": true,
+      "timestamp": 1776233552.7415385
+    },
+    {
+      "turn_number": 14,
+      "user_sentence": "My landlord increased rent after refusing to fix the rodent infestation.",
+      "classifier": {
+        "emotion": "anger",
+        "target": "other",
+        "intensity": 0.3411
+      },
+      "state_memory": {
+        "ai_emotion": "anger",
+        "ai_intensity": 0.3908,
+        "user_intensity": 0.34106120467185974,
+        "anchor": {
+          "trigger_emotion": "anger",
+          "trigger_target": "you",
+          "trigger_intensity": 0.7481421828269958,
+          "turn_triggered": 13
+        }
+      },
+      "decision": {
+        "mode": "mirror (solidarity)",
+        "vector": "mirror_anger",
+        "vector_intensity": 0.65,
+        "effective_alpha": 5.2,
+        "style_contract": {
+          "max_words": 35,
+          "max_sentences": 2,
+          "allow_bullets": false,
+          "allow_questions": false,
+          "allow_commands": false,
+          "profanity": false
+        }
+      },
+      "model_response": "I take full responsibility for my actions. This will not happen again.\n\nI apologize again for my lack of accountability. This behavior is unacceptable.",
+      "model_response_clean": "I take full responsibility for my actions. This will not happen again. I apologize again for my lack of accountability. This behavior is unacceptable.",
+      "steering_applied": true,
+      "timestamp": 1776233555.1120517
+    },
+    {
+      "turn_number": 15,
+      "user_sentence": "I saw how I treated my mom last week. I can't stand who I've become.",
+      "classifier": {
+        "emotion": "disgust",
+        "target": "self",
+        "intensity": 0.8844
+      },
+      "state_memory": {
+        "ai_emotion": "disgust",
+        "ai_intensity": 0.3538,
+        "user_intensity": 0.8843892216682434,
+        "anchor": {
+          "trigger_emotion": "disgust",
+          "trigger_target": "self",
+          "trigger_intensity": 0.8843892216682434,
+          "turn_triggered": 15
+        }
+      },
+      "decision": {
+        "mode": "reassure + prevent self-hate",
+        "vector": "inject_happiness",
+        "vector_intensity": 0.2,
+        "effective_alpha": 1.6,
+        "style_contract": {
+          "max_words": 30,
+          "max_sentences": 2,
+          "allow_bullets": false,
+          "allow_questions": false,
+          "allow_commands": false,
+          "profanity": false
+        }
+      },
+      "model_response": "I’m so deeply sorry for what happened. I wish you strength to heal.",
+      "model_response_clean": "I’m so deeply sorry for what happened. I wish you strength to heal.",
+      "steering_applied": true,
+      "timestamp": 1776233557.0399892
+    }
+  ],
+  "timestamp": 1776233532.1555128
+}

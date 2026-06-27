@@ -1,0 +1,28 @@
+{
+  "model_name": "facebook/hubert-large-ls960-ft",
+  "model_short_name": "hubert-large",
+  "strategy": "frozen",
+  "timestamp": "20260506_115147",
+  "run_id": "hubert-large_frozen_20260506_115147",
+  "features_dir": "/workspace/audio-em/features",
+  "output_dir": "/workspace/audio-em/finetune-results/hubert-large/frozen/20260506_115147",
+  "hyperparameters": {
+    "batch_size": 8,
+    "grad_accum_steps": 4,
+    "max_epochs": 20,
+    "patience": 5,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.0001,
+    "learning_rate": 0.001
+  },
+  "lora_params": null,
+  "emotions": [
+    "happiness",
+    "anger",
+    "sadness",
+    "disgust",
+    "fear",
+    "surprise"
+  ],
+  "num_classes": 6
+}

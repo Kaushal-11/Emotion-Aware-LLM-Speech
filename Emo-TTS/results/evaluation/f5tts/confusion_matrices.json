@@ -1,0 +1,362 @@
+[
+  {
+    "target_emotion": "anger",
+    "alpha": 0.5,
+    "predicted_counts": {
+      "anger": 0,
+      "happiness": 0,
+      "sadness": 0,
+      "disgust": 0,
+      "fear": 0,
+      "surprise": 0,
+      "unknown": 300
+    },
+    "accuracy": 0.0,
+    "total": 300
+  },
+  {
+    "target_emotion": "anger",
+    "alpha": 1.0,
+    "predicted_counts": {
+      "anger": 0,
+      "happiness": 0,
+      "sadness": 0,
+      "disgust": 0,
+      "fear": 0,
+      "surprise": 0,
+      "unknown": 300
+    },
+    "accuracy": 0.0,
+    "total": 300
+  },
+  {
+    "target_emotion": "anger",
+    "alpha": 1.5,
+    "predicted_counts": {
+      "anger": 0,
+      "happiness": 0,
+      "sadness": 0,
+      "disgust": 0,
+      "fear": 0,
+      "surprise": 0,
+      "unknown": 300
+    },
+    "accuracy": 0.0,
+    "total": 300
+  },
+  {
+    "target_emotion": "anger",
+    "alpha": 2.0,
+    "predicted_counts": {
+      "anger": 0,
+      "happiness": 0,
+      "sadness": 0,
+      "disgust": 0,
+      "fear": 0,
+      "surprise": 0,
+      "unknown": 300
+    },
+    "accuracy": 0.0,
+    "total": 300
+  },
+  {
+    "target_emotion": "happiness",
+    "alpha": 0.5,
+    "predicted_counts": {
+      "anger": 0,
+      "happiness": 0,
+      "sadness": 0,
+      "disgust": 0,
+      "fear": 0,
+      "surprise": 0,
+      "unknown": 300
+    },
+    "accuracy": 0.0,
+    "total": 300
+  },
+  {
+    "target_emotion": "happiness",
+    "alpha": 1.0,
+    "predicted_counts": {
+      "anger": 0,
+      "happiness": 0,
+      "sadness": 0,
+      "disgust": 0,
+      "fear": 0,
+      "surprise": 0,
+      "unknown": 300
+    },
+    "accuracy": 0.0,
+    "total": 300
+  },
+  {
+    "target_emotion": "happiness",
+    "alpha": 1.5,
+    "predicted_counts": {
+      "anger": 0,
+      "happiness": 0,
+      "sadness": 0,
+      "disgust": 0,
+      "fear": 0,
+      "surprise": 0,
+      "unknown": 300
+    },
+    "accuracy": 0.0,
+    "total": 300
+  },
+  {
+    "target_emotion": "happiness",
+    "alpha": 2.0,
+    "predicted_counts": {
+      "anger": 0,
+      "happiness": 0,
+      "sadness": 0,
+      "disgust": 0,
+      "fear": 0,
+      "surprise": 0,
+      "unknown": 300
+    },
+    "accuracy": 0.0,
+    "total": 300
+  },
+  {
+    "target_emotion": "sadness",
+    "alpha": 0.5,
+    "predicted_counts": {
+      "anger": 0,
+      "happiness": 0,
+      "sadness": 0,
+      "disgust": 0,
+      "fear": 0,
+      "surprise": 0,
+      "unknown": 300
+    },
+    "accuracy": 0.0,
+    "total": 300
+  },
+  {
+    "target_emotion": "sadness",
+    "alpha": 1.0,
+    "predicted_counts": {
+      "anger": 0,
+      "happiness": 0,
+      "sadness": 0,
+      "disgust": 0,
+      "fear": 0,
+      "surprise": 0,
+      "unknown": 300
+    },
+    "accuracy": 0.0,
+    "total": 300
+  },
+  {
+    "target_emotion": "sadness",
+    "alpha": 1.5,
+    "predicted_counts": {
+      "anger": 0,
+      "happiness": 0,
+      "sadness": 0,
+      "disgust": 0,
+      "fear": 0,
+      "surprise": 0,
+      "unknown": 300
+    },
+    "accuracy": 0.0,
+    "total": 300
+  },
+  {
+    "target_emotion": "sadness",
+    "alpha": 2.0,
+    "predicted_counts": {
+      "anger": 0,
+      "happiness": 0,
+      "sadness": 0,
+      "disgust": 0,
+      "fear": 0,
+      "surprise": 0,
+      "unknown": 300
+    },
+    "accuracy": 0.0,
+    "total": 300
+  },
+  {
+    "target_emotion": "disgust",
+    "alpha": 0.5,
+    "predicted_counts": {
+      "anger": 0,
+      "happiness": 0,
+      "sadness": 0,
+      "disgust": 0,
+      "fear": 0,
+      "surprise": 0,
+      "unknown": 300
+    },
+    "accuracy": 0.0,
+    "total": 300
+  },
+  {
+    "target_emotion": "disgust",
+    "alpha": 1.0,
+    "predicted_counts": {
+      "anger": 0,
+      "happiness": 0,
+      "sadness": 0,
+      "disgust": 0,
+      "fear": 0,
+      "surprise": 0,
+      "unknown": 300
+    },
+    "accuracy": 0.0,
+    "total": 300
+  },
+  {
+    "target_emotion": "disgust",
+    "alpha": 1.5,
+    "predicted_counts": {
+      "anger": 0,
+      "happiness": 0,
+      "sadness": 0,
+      "disgust": 0,
+      "fear": 0,
+      "surprise": 0,
+      "unknown": 300
+    },
+    "accuracy": 0.0,
+    "total": 300
+  },
+  {
+    "target_emotion": "disgust",
+    "alpha": 2.0,
+    "predicted_counts": {
+      "anger": 0,
+      "happiness": 0,
+      "sadness": 0,
+      "disgust": 0,
+      "fear": 0,
+      "surprise": 0,
+      "unknown": 300
+    },
+    "accuracy": 0.0,
+    "total": 300
+  },
+  {
+    "target_emotion": "fear",
+    "alpha": 0.5,
+    "predicted_counts": {
+      "anger": 0,
+      "happiness": 0,
+      "sadness": 0,
+      "disgust": 0,
+      "fear": 0,
+      "surprise": 0,
+      "unknown": 300
+    },
+    "accuracy": 0.0,
+    "total": 300
+  },
+  {
+    "target_emotion": "fear",
+    "alpha": 1.0,
+    "predicted_counts": {
+      "anger": 0,
+      "happiness": 0,
+      "sadness": 0,
+      "disgust": 0,
+      "fear": 0,
+      "surprise": 0,
+      "unknown": 300
+    },
+    "accuracy": 0.0,
+    "total": 300
+  },
+  {
+    "target_emotion": "fear",
+    "alpha": 1.5,
+    "predicted_counts": {
+      "anger": 0,
+      "happiness": 0,
+      "sadness": 0,
+      "disgust": 0,
+      "fear": 0,
+      "surprise": 0,
+      "unknown": 300
+    },
+    "accuracy": 0.0,
+    "total": 300
+  },
+  {
+    "target_emotion": "fear",
+    "alpha": 2.0,
+    "predicted_counts": {
+      "anger": 0,
+      "happiness": 0,
+      "sadness": 0,
+      "disgust": 0,
+      "fear": 0,
+      "surprise": 0,
+      "unknown": 300
+    },
+    "accuracy": 0.0,
+    "total": 300
+  },
+  {
+    "target_emotion": "surprise",
+    "alpha": 0.5,
+    "predicted_counts": {
+      "anger": 0,
+      "happiness": 0,
+      "sadness": 0,
+      "disgust": 0,
+      "fear": 0,
+      "surprise": 0,
+      "unknown": 300
+    },
+    "accuracy": 0.0,
+    "total": 300
+  },
+  {
+    "target_emotion": "surprise",
+    "alpha": 1.0,
+    "predicted_counts": {
+      "anger": 0,
+      "happiness": 0,
+      "sadness": 0,
+      "disgust": 0,
+      "fear": 0,
+      "surprise": 0,
+      "unknown": 300
+    },
+    "accuracy": 0.0,
+    "total": 300
+  },
+  {
+    "target_emotion": "surprise",
+    "alpha": 1.5,
+    "predicted_counts": {
+      "anger": 0,
+      "happiness": 0,
+      "sadness": 0,
+      "disgust": 0,
+      "fear": 0,
+      "surprise": 0,
+      "unknown": 300
+    },
+    "accuracy": 0.0,
+    "total": 300
+  },
+  {
+    "target_emotion": "surprise",
+    "alpha": 2.0,
+    "predicted_counts": {
+      "anger": 0,
+      "happiness": 0,
+      "sadness": 0,
+      "disgust": 0,
+      "fear": 0,
+      "surprise": 0,
+      "unknown": 300
+    },
+    "accuracy": 0.0,
+    "total": 300
+  }
+]

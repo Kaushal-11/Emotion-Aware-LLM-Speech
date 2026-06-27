@@ -1,0 +1,16 @@
+{
+  "epoch": 19,
+  "best_val_f1": 0.25248622138993293,
+  "train_loss_at_best": 1.3168800201918511,
+  "val_loss_at_best": 1.5634782448545232,
+  "train_accuracy_at_best": 0.4070207399103139,
+  "val_accuracy_at_best": 0.31644144144144143,
+  "per_class_f1_at_best": {
+    "happiness": 0.002254791431792559,
+    "anger": 0.38492063492063494,
+    "sadness": 0.1956043956043956,
+    "disgust": 0.4,
+    "fear": 0.42044801838024126,
+    "surprise": 0.33094994892747703
+  }
+}

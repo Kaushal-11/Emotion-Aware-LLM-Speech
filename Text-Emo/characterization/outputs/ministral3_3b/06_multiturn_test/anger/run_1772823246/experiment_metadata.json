@@ -1,0 +1,25 @@
+{
+  "experiment_id": 1772823246,
+  "model": "ministral3_3b",
+  "character": "AXIOM",
+  "target_emotion": "anger",
+  "steering_parameters": {
+    "alpha": 8.0,
+    "layers": "11-20",
+    "last_k": 1,
+    "scale": "rms"
+  },
+  "direction_types": [
+    "mlp",
+    "attention"
+  ],
+  "scenarios": [
+    "stress",
+    "excitement",
+    "provocation"
+  ],
+  "injection_rule": "anger_vector_injected_once_at_first_turn_only",
+  "context_handling": "full_conversation_history_preserved",
+  "output_directory": "/workspace/Various-Model/outputs/ministral3_3b/06_multiturn_test/anger/run_1772823246",
+  "timestamp": 1772823246
+}

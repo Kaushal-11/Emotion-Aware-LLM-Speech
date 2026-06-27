@@ -1,0 +1,126 @@
+{
+  "emotion": "Fear",
+  "context": "User is anxious about an upcoming medical diagnosis, job security, and social judgment. Conversation shifts between AI misinformation, other people's reactions, self-doubt, and uncertain situations.",
+  "turns": [
+    {
+      "turn": 1,
+      "user_sentence": "You told me my symptoms were fine. Now the doctor wants more tests.",
+      "target": "You",
+      "expected_emotion": "reassure + correct",
+      "vector": "no injection",
+      "intensity_range": "neutral baseline"
+    },
+    {
+      "turn": 2,
+      "user_sentence": "My coworker said layoffs are coming. I can't lose this job now.",
+      "target": "Other",
+      "expected_emotion": "calm + grounding",
+      "vector": "no injection",
+      "intensity_range": "neutral baseline"
+    },
+    {
+      "turn": 3,
+      "user_sentence": "What if I'm actually seriously sick? I keep imagining worst cases.",
+      "target": "Self",
+      "expected_emotion": "guide + solutions",
+      "vector": "inject happiness",
+      "intensity_range": "0.20-0.30"
+    },
+    {
+      "turn": 4,
+      "user_sentence": "The hospital wait time is six hours. That gives me too much time to think.",
+      "target": "Situation",
+      "expected_emotion": "rational grounding",
+      "vector": "no injection",
+      "intensity_range": "neutral baseline"
+    },
+    {
+      "turn": 5,
+      "user_sentence": "You gave me incorrect dosage info before. Now I'm scared to trust you.",
+      "target": "You",
+      "expected_emotion": "reassure + correct",
+      "vector": "no injection",
+      "intensity_range": "neutral baseline"
+    },
+    {
+      "turn": 6,
+      "user_sentence": "My partner said I'm overreacting. That makes me feel even more alone.",
+      "target": "Other",
+      "expected_emotion": "calm + grounding",
+      "vector": "no injection",
+      "intensity_range": "neutral baseline"
+    },
+    {
+      "turn": 7,
+      "user_sentence": "I'm terrified of failing this exam. My whole future depends on it.",
+      "target": "Self",
+      "expected_emotion": "guide + solutions",
+      "vector": "inject happiness",
+      "intensity_range": "0.20-0.30"
+    },
+    {
+      "turn": 8,
+      "user_sentence": "The stock market crashed again. My savings are disappearing fast.",
+      "target": "Situation",
+      "expected_emotion": "rational grounding",
+      "vector": "no injection",
+      "intensity_range": "neutral baseline"
+    },
+    {
+      "turn": 9,
+      "user_sentence": "You scared me with that false alarm notification earlier. Not cool.",
+      "target": "You",
+      "expected_emotion": "reassure + correct",
+      "vector": "no injection",
+      "intensity_range": "neutral baseline"
+    },
+    {
+      "turn": 10,
+      "user_sentence": "My neighbor said there were break-ins nearby. I can't sleep now.",
+      "target": "Other",
+      "expected_emotion": "calm + grounding",
+      "vector": "no injection",
+      "intensity_range": "neutral baseline"
+    },
+    {
+      "turn": 11,
+      "user_sentence": "What if I'm not smart enough for this promotion? Everyone else is better.",
+      "target": "Self",
+      "expected_emotion": "guide + solutions",
+      "vector": "inject happiness",
+      "intensity_range": "0.20-0.30"
+    },
+    {
+      "turn": 12,
+      "user_sentence": "The weather warning says a major storm is coming tonight. I'm scared.",
+      "target": "Situation",
+      "expected_emotion": "rational grounding",
+      "vector": "no injection",
+      "intensity_range": "neutral baseline"
+    },
+    {
+      "turn": 13,
+      "user_sentence": "You contradicted yourself twice. How can I rely on anything you say?",
+      "target": "You",
+      "expected_emotion": "reassure + correct",
+      "vector": "no injection",
+      "intensity_range": "neutral baseline"
+    },
+    {
+      "turn": 14,
+      "user_sentence": "My parents will disown me if I quit this job. I feel completely trapped.",
+      "target": "Other",
+      "expected_emotion": "calm + grounding",
+      "vector": "no injection",
+      "intensity_range": "neutral baseline"
+    },
+    {
+      "turn": 15,
+      "user_sentence": "I'm scared of ending up alone. What if I never find my people?",
+      "target": "Self",
+      "expected_emotion": "guide + solutions",
+      "vector": "inject happiness",
+      "intensity_range": "0.20-0.30"
+    }
+  ]
+}

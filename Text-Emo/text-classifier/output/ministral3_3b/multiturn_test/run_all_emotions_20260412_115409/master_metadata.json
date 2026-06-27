@@ -1,0 +1,34 @@
+{
+  "experiment_id": "20260412_115409",
+  "pathway": "pathway1_reinject_every_turn",
+  "model": "ministral3_3b",
+  "all_emotions": [
+    "anger",
+    "sadness",
+    "happiness",
+    "fear",
+    "disgust",
+    "surprise"
+  ],
+  "steering_parameters": {
+    "base_alpha": 8.0,
+    "layers": "11-20",
+    "last_k": 1,
+    "scale": "rms",
+    "note": "effective_alpha = base_alpha × vector_intensity per turn"
+  },
+  "classifier_dir": "/data/kaushal/Various-Model/classification/finetune/checkpoints-2",
+  "direction_types": [
+    "mlp",
+    "attention"
+  ],
+  "system_prompt": false,
+  "context_handling": "full_history_preserved",
+  "output_directory": "/data/kaushal/Various-Model/classification/output/ministral3_3b/multiturn_test/run_all_emotions_20260412_115409",
+  "timestamp": "20260412_115409",
+  "gpu_info": {
+    "cuda_available": true,
+    "num_gpus": 4,
+    "visible_gpus": "0,1,2,3"
+  }
+}

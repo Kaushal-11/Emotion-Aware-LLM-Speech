@@ -1,0 +1,21 @@
+======================================================================
+WAVLM-LARGE TEST SUMMARY
+======================================================================
+
+Model:       /workspace/audio-em/finetune-results/wavlm-large/frozen/20260512_132231
+Strategy:    frozen
+Samples:     2,360
+
+Accuracy:    0.4407
+Weighted F1: 0.4153
+
+Per-class F1:
+  happiness   : 0.2004
+  anger       : 0.5349
+  sadness     : 0.4489
+  disgust     : 0.4972
+  fear        : 0.5000
+  surprise    : 0.2830
+
+Output: /workspace/audio-em/finetune-results/wavlm-large/frozen/20260512_132231/test_results
+======================================================================

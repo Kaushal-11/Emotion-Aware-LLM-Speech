@@ -1,0 +1,500 @@
+{
+  "anger": {
+    "alpha_0.5": {
+      "n_samples": 300,
+      "wer_mean": 12.880230880230883,
+      "ssim_mean": 0.8507510842879613,
+      "nmos_mean": 3.234658203125,
+      "emotion_accuracy": 0.0,
+      "emotion_confidence_mean": 0.0,
+      "emotion_margin_mean": 0.0,
+      "emotion_gain_mean": 0.0,
+      "esim_mean": -1.0
+    },
+    "alpha_1.0": {
+      "n_samples": 300,
+      "wer_mean": 13.475060125060127,
+      "ssim_mean": 0.8393139799435934,
+      "nmos_mean": 3.2261393229166666,
+      "emotion_accuracy": 0.0,
+      "emotion_confidence_mean": 0.0,
+      "emotion_margin_mean": 0.0,
+      "emotion_gain_mean": 0.0,
+      "esim_mean": -1.0
+    },
+    "alpha_1.5": {
+      "n_samples": 300,
+      "wer_mean": 13.641209716209715,
+      "ssim_mean": 0.8370742565393448,
+      "nmos_mean": 3.2100944010416668,
+      "emotion_accuracy": 0.0,
+      "emotion_confidence_mean": 0.0,
+      "emotion_margin_mean": 0.0,
+      "emotion_gain_mean": 0.0,
+      "esim_mean": -1.0
+    },
+    "alpha_2.0": {
+      "n_samples": 300,
+      "wer_mean": 13.902861952861956,
+      "ssim_mean": 0.8281755655010541,
+      "nmos_mean": 3.1955110677083334,
+      "emotion_accuracy": 0.0,
+      "emotion_confidence_mean": 0.0,
+      "emotion_margin_mean": 0.0,
+      "emotion_gain_mean": 0.0,
+      "esim_mean": -1.0
+    },
+    "alpha_trend": {
+      "alphas": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0
+      ],
+      "probs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "correlation": 0.0,
+      "monotonic": true,
+      "baseline_prob": 0.0
+    },
+    "saturation_curve": {
+      "alphas": [
+        0,
+        0.5,
+        1.0,
+        1.5,
+        2.0
+      ],
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "saturation_alpha": 0,
+      "max_probability": 0.0
+    }
+  },
+  "happiness": {
+    "alpha_0.5": {
+      "n_samples": 300,
+      "wer_mean": 13.329954304954303,
+      "ssim_mean": 0.8471485618750254,
+      "nmos_mean": 3.2307389322916666,
+      "emotion_accuracy": 0.0,
+      "emotion_confidence_mean": 0.0,
+      "emotion_margin_mean": 0.0,
+      "emotion_gain_mean": 0.0,
+      "esim_mean": -1.0
+    },
+    "alpha_1.0": {
+      "n_samples": 300,
+      "wer_mean": 14.001382876382875,
+      "ssim_mean": 0.8458958157896995,
+      "nmos_mean": 3.2013834635416667,
+      "emotion_accuracy": 0.0,
+      "emotion_confidence_mean": 0.0,
+      "emotion_margin_mean": 0.0,
+      "emotion_gain_mean": 0.0,
+      "esim_mean": -1.0
+    },
+    "alpha_1.5": {
+      "n_samples": 300,
+      "wer_mean": 13.195851370851372,
+      "ssim_mean": 0.8409790023167928,
+      "nmos_mean": 3.2094205729166667,
+      "emotion_accuracy": 0.0,
+      "emotion_confidence_mean": 0.0,
+      "emotion_margin_mean": 0.0,
+      "emotion_gain_mean": 0.0,
+      "esim_mean": -1.0
+    },
+    "alpha_2.0": {
+      "n_samples": 300,
+      "wer_mean": 13.361171236171234,
+      "ssim_mean": 0.8366280089815458,
+      "nmos_mean": 3.226637369791667,
+      "emotion_accuracy": 0.0,
+      "emotion_confidence_mean": 0.0,
+      "emotion_margin_mean": 0.0,
+      "emotion_gain_mean": 0.0,
+      "esim_mean": -1.0
+    },
+    "alpha_trend": {
+      "alphas": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0
+      ],
+      "probs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "correlation": 0.0,
+      "monotonic": true,
+      "baseline_prob": 0.0
+    },
+    "saturation_curve": {
+      "alphas": [
+        0,
+        0.5,
+        1.0,
+        1.5,
+        2.0
+      ],
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "saturation_alpha": 0,
+      "max_probability": 0.0
+    }
+  },
+  "sadness": {
+    "alpha_0.5": {
+      "n_samples": 300,
+      "wer_mean": 13.56290283790284,
+      "ssim_mean": 0.8515417857964833,
+      "nmos_mean": 3.218896484375,
+      "emotion_accuracy": 0.0,
+      "emotion_confidence_mean": 0.0,
+      "emotion_margin_mean": 0.0,
+      "emotion_gain_mean": 0.0,
+      "esim_mean": -1.0
+    },
+    "alpha_1.0": {
+      "n_samples": 300,
+      "wer_mean": 12.52005772005772,
+      "ssim_mean": 0.845714095234871,
+      "nmos_mean": 3.209189453125,
+      "emotion_accuracy": 0.0,
+      "emotion_confidence_mean": 0.0,
+      "emotion_margin_mean": 0.0,
+      "emotion_gain_mean": 0.0,
+      "esim_mean": -1.0
+    },
+    "alpha_1.5": {
+      "n_samples": 300,
+      "wer_mean": 13.069396344396342,
+      "ssim_mean": 0.8346316749850909,
+      "nmos_mean": 3.181715494791667,
+      "emotion_accuracy": 0.0,
+      "emotion_confidence_mean": 0.0,
+      "emotion_margin_mean": 0.0,
+      "emotion_gain_mean": 0.0,
+      "esim_mean": -1.0
+    },
+    "alpha_2.0": {
+      "n_samples": 300,
+      "wer_mean": 13.460521885521883,
+      "ssim_mean": 0.8319036134084066,
+      "nmos_mean": 3.1359830729166664,
+      "emotion_accuracy": 0.0,
+      "emotion_confidence_mean": 0.0,
+      "emotion_margin_mean": 0.0,
+      "emotion_gain_mean": 0.0,
+      "esim_mean": -1.0
+    },
+    "alpha_trend": {
+      "alphas": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0
+      ],
+      "probs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "correlation": 0.0,
+      "monotonic": true,
+      "baseline_prob": 0.0
+    },
+    "saturation_curve": {
+      "alphas": [
+        0,
+        0.5,
+        1.0,
+        1.5,
+        2.0
+      ],
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "saturation_alpha": 0,
+      "max_probability": 0.0
+    }
+  },
+  "disgust": {
+    "alpha_0.5": {
+      "n_samples": 300,
+      "wer_mean": 13.000204425204426,
+      "ssim_mean": 0.8487386394540469,
+      "nmos_mean": 3.226448567708333,
+      "emotion_accuracy": 0.0,
+      "emotion_confidence_mean": 0.0,
+      "emotion_margin_mean": 0.0,
+      "emotion_gain_mean": 0.0,
+      "esim_mean": -1.0
+    },
+    "alpha_1.0": {
+      "n_samples": 300,
+      "wer_mean": 13.163552188552188,
+      "ssim_mean": 0.8431199334065119,
+      "nmos_mean": 3.2555859375,
+      "emotion_accuracy": 0.0,
+      "emotion_confidence_mean": 0.0,
+      "emotion_margin_mean": 0.0,
+      "emotion_gain_mean": 0.0,
+      "esim_mean": -1.0
+    },
+    "alpha_1.5": {
+      "n_samples": 300,
+      "wer_mean": 13.13724146224146,
+      "ssim_mean": 0.8406886026263237,
+      "nmos_mean": 3.239729817708333,
+      "emotion_accuracy": 0.0,
+      "emotion_confidence_mean": 0.0,
+      "emotion_margin_mean": 0.0,
+      "emotion_gain_mean": 0.0,
+      "esim_mean": -1.0
+    },
+    "alpha_2.0": {
+      "n_samples": 300,
+      "wer_mean": 13.701250601250603,
+      "ssim_mean": 0.8324375154574712,
+      "nmos_mean": 3.218349609375,
+      "emotion_accuracy": 0.0,
+      "emotion_confidence_mean": 0.0,
+      "emotion_margin_mean": 0.0,
+      "emotion_gain_mean": 0.0,
+      "esim_mean": -1.0
+    },
+    "alpha_trend": {
+      "alphas": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0
+      ],
+      "probs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "correlation": 0.0,
+      "monotonic": true,
+      "baseline_prob": 0.0
+    },
+    "saturation_curve": {
+      "alphas": [
+        0,
+        0.5,
+        1.0,
+        1.5,
+        2.0
+      ],
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "saturation_alpha": 0,
+      "max_probability": 0.0
+    }
+  },
+  "fear": {
+    "alpha_0.5": {
+      "n_samples": 300,
+      "wer_mean": 13.789237614237615,
+      "ssim_mean": 0.8457251110672951,
+      "nmos_mean": 3.220159505208333,
+      "emotion_accuracy": 0.0,
+      "emotion_confidence_mean": 0.0,
+      "emotion_margin_mean": 0.0,
+      "emotion_gain_mean": 0.0,
+      "esim_mean": -1.0
+    },
+    "alpha_1.0": {
+      "n_samples": 300,
+      "wer_mean": 13.958140933140934,
+      "ssim_mean": 0.8442125586668651,
+      "nmos_mean": 3.2058235677083333,
+      "emotion_accuracy": 0.0,
+      "emotion_confidence_mean": 0.0,
+      "emotion_margin_mean": 0.0,
+      "emotion_gain_mean": 0.0,
+      "esim_mean": -1.0
+    },
+    "alpha_1.5": {
+      "n_samples": 300,
+      "wer_mean": 13.203908128908129,
+      "ssim_mean": 0.8362838087479273,
+      "nmos_mean": 3.1900455729166666,
+      "emotion_accuracy": 0.0,
+      "emotion_confidence_mean": 0.0,
+      "emotion_margin_mean": 0.0,
+      "emotion_gain_mean": 0.0,
+      "esim_mean": -1.0
+    },
+    "alpha_2.0": {
+      "n_samples": 300,
+      "wer_mean": 13.789742664742665,
+      "ssim_mean": 0.81857812166214,
+      "nmos_mean": 3.2084391276041666,
+      "emotion_accuracy": 0.0,
+      "emotion_confidence_mean": 0.0,
+      "emotion_margin_mean": 0.0,
+      "emotion_gain_mean": 0.0,
+      "esim_mean": -1.0
+    },
+    "alpha_trend": {
+      "alphas": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0
+      ],
+      "probs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "correlation": 0.0,
+      "monotonic": true,
+      "baseline_prob": 0.0
+    },
+    "saturation_curve": {
+      "alphas": [
+        0,
+        0.5,
+        1.0,
+        1.5,
+        2.0
+      ],
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "saturation_alpha": 0,
+      "max_probability": 0.0
+    }
+  },
+  "surprise": {
+    "alpha_0.5": {
+      "n_samples": 300,
+      "wer_mean": 13.461050986050985,
+      "ssim_mean": 0.8429183373848598,
+      "nmos_mean": 3.271513671875,
+      "emotion_accuracy": 0.0,
+      "emotion_confidence_mean": 0.0,
+      "emotion_margin_mean": 0.0,
+      "emotion_gain_mean": 0.0,
+      "esim_mean": -1.0
+    },
+    "alpha_1.0": {
+      "n_samples": 300,
+      "wer_mean": 13.998617123617125,
+      "ssim_mean": 0.8367746544877688,
+      "nmos_mean": 3.249638671875,
+      "emotion_accuracy": 0.0,
+      "emotion_confidence_mean": 0.0,
+      "emotion_margin_mean": 0.0,
+      "emotion_gain_mean": 0.0,
+      "esim_mean": -1.0
+    },
+    "alpha_1.5": {
+      "n_samples": 300,
+      "wer_mean": 13.730772005772005,
+      "ssim_mean": 0.8347861221432686,
+      "nmos_mean": 3.251318359375,
+      "emotion_accuracy": 0.0,
+      "emotion_confidence_mean": 0.0,
+      "emotion_margin_mean": 0.0,
+      "emotion_gain_mean": 0.0,
+      "esim_mean": -1.0
+    },
+    "alpha_2.0": {
+      "n_samples": 300,
+      "wer_mean": 13.521897546897547,
+      "ssim_mean": 0.8202996223171553,
+      "nmos_mean": 3.2369270833333332,
+      "emotion_accuracy": 0.0,
+      "emotion_confidence_mean": 0.0,
+      "emotion_margin_mean": 0.0,
+      "emotion_gain_mean": 0.0,
+      "esim_mean": -1.0
+    },
+    "alpha_trend": {
+      "alphas": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0
+      ],
+      "probs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "correlation": 0.0,
+      "monotonic": true,
+      "baseline_prob": 0.0
+    },
+    "saturation_curve": {
+      "alphas": [
+        0,
+        0.5,
+        1.0,
+        1.5,
+        2.0
+      ],
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "saturation_alpha": 0,
+      "max_probability": 0.0
+    }
+  }
+}

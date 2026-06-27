@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  /* ── Warm neutral dark theme — like a high-end audio/medical interface ── */
+  --bg-base:       #0d0f0f;
+  --bg-surface:    #141718;
+  --bg-raised:     #1c1f20;
+  --bg-hover:      #232729;
+  --border:        #272b2c;
+  --border-light:  #333a3b;
+
+  /* Warm amber accent — calm, professional, not neon */
+  --accent:        #c8965a;
+  --accent-glow:   rgba(200,150,90,0.12);
+  --accent-dim:    #2a1f12;
+  --accent-bright: #e0a96d;
+
+  --text-primary:  #e6e8e6;
+  --text-secondary:#8a9290;
+  --text-muted:    #4e5756;
+
+  /* Emotion colors — richer, less neon */
+  --em-happiness:  #d4a84b;
+  --em-sadness:    #5a8fc2;
+  --em-anger:      #c94f4f;
+  --em-fear:       #8a62c4;
+  --em-disgust:    #5aaa6a;
+  --em-surprise:   #d4784a;
+  --em-neutral:    #6e7a7a;
+
+  --sidebar-w:     220px;
+  --signals-w:     290px;
+  --radius:        10px;
+  --radius-sm:     6px;
+  --font:  'Inter', system-ui, sans-serif;
+  --mono:  'JetBrains Mono', monospace;
+  --shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body, #root {
+  height: 100%;
+  background: var(--bg-base);
+  color: var(--text-primary);
+  font-family: var(--font);
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Shell ── */
+.app-shell {
+  display: grid;
+  grid-template-columns: var(--sidebar-w) 1fr var(--signals-w);
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main-area {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  border-left:  1px solid var(--border);
+  border-right: 1px solid var(--border);
+  background: var(--bg-base);
+}
+
+/* ── Header ── */
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 54px;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-surface);
+  flex-shrink: 0;
+}
+.header-left  { display: flex; align-items: center; gap: 12px; }
+.header-right { display: flex; align-items: center; gap: 12px; }
+
+.header-logo-wrap {
+  width: 30px; height: 30px;
+  border-radius: 8px;
+  background: var(--accent-dim);
+  border: 1px solid rgba(200,150,90,0.3);
+  display: flex; align-items: center; justify-content: center;
+}
+.header-logo { font-size: 14px; }
+
+.header-titles { display: flex; flex-direction: column; gap: 1px; }
+.header-title  { font-size: 14px; font-weight: 600; letter-spacing: -0.01em; color: var(--text-primary); }
+.header-sub    { font-size: 11px; color: var(--text-muted); letter-spacing: 0.01em; }
+
+.gpu-badge {
+  font-family: var(--mono);
+  font-size: 10px;
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  padding: 3px 9px;
+  border-radius: 20px;
+  color: var(--text-muted);
+}
+
+.settings-btn {
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  font-size: 12px;
+  padding: 5px 12px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: var(--font);
+  letter-spacing: 0.01em;
+}
+.settings-btn:hover {
+  background: var(--bg-hover);
+  color: var(--text-primary);
+  border-color: var(--border-light);
+}
+
+/* ── Bottom bar ── */
+.bottom-bar {
+  padding: 12px 20px 16px;
+  border-top: 1px solid var(--border);
+  background: var(--bg-surface);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* ── Progress strip ── */
+.progress-strip {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.progress-bar-track {
+  flex: 1;
+  height: 2px;
+  background: var(--bg-raised);
+  border-radius: 1px;
+  overflow: hidden;
+}
+.progress-bar-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 1px;
+  transition: width 0.5s ease;
+}
+.progress-label {
+  font-size: 11px;
+  color: var(--text-muted);
+  white-space: nowrap;
+  min-width: 180px;
+  font-family: var(--mono);
+}
+
+/* ── Error screen ── */
+.error-screen {
+  display: flex; align-items: center; justify-content: center;
+  height: 100vh; background: var(--bg-base);
+}
+.error-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 36px; max-width: 480px; text-align: center;
+}
+.error-card h2 { margin-bottom: 12px; }
+.error-card p  { color: var(--text-secondary); margin-bottom: 16px; }
+.error-card code {
+  font-family: var(--mono); font-size: 12px;
+  background: var(--bg-raised); padding: 6px 12px;
+  border-radius: 6px; display: block;
+}
+
+/* ── Emotion tags (shared) ── */
+.emotion-tag {
+  display: inline-flex; align-items: center; gap: 4px;
+  font-size: 11px; font-weight: 500;
+  padding: 2px 8px; border-radius: 20px;
+  letter-spacing: 0.02em;
+}
+.emotion-happiness { background: rgba(212,168,75,0.14);  color: var(--em-happiness); }
+.emotion-sadness   { background: rgba(90,143,194,0.14);  color: var(--em-sadness);   }
+.emotion-anger     { background: rgba(201,79,79,0.14);   color: var(--em-anger);     }
+.emotion-fear      { background: rgba(138,98,196,0.14);  color: var(--em-fear);      }
+.emotion-disgust   { background: rgba(90,170,106,0.14);  color: var(--em-disgust);   }
+.emotion-surprise  { background: rgba(212,120,74,0.14);  color: var(--em-surprise);  }
+.emotion-neutral   { background: rgba(110,122,122,0.14); color: var(--em-neutral);   }
+
+::-webkit-scrollbar       { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border-light); border-radius: 2px; }

@@ -1,0 +1,67 @@
+{
+  "dataset": "sev",
+  "overall": {
+    "total_samples": 2880,
+    "accepted": 2804,
+    "rejected": 76,
+    "accuracy": 97.36
+  },
+  "by_emotion": {
+    "anger": {
+      "total": 480,
+      "accepted": 480,
+      "rejected": 0,
+      "accuracy": 100.0
+    },
+    "sadness": {
+      "total": 480,
+      "accepted": 472,
+      "rejected": 8,
+      "accuracy": 98.33
+    },
+    "happiness": {
+      "total": 480,
+      "accepted": 479,
+      "rejected": 1,
+      "accuracy": 99.79
+    },
+    "fear": {
+      "total": 480,
+      "accepted": 476,
+      "rejected": 4,
+      "accuracy": 99.17
+    },
+    "surprise": {
+      "total": 480,
+      "accepted": 417,
+      "rejected": 63,
+      "accuracy": 86.88
+    },
+    "disgust": {
+      "total": 480,
+      "accepted": 480,
+      "rejected": 0,
+      "accuracy": 100.0
+    }
+  },
+  "by_valence": {
+    "positive": {
+      "total": 960,
+      "accepted": 944,
+      "rejected": 16,
+      "accuracy": 98.33
+    },
+    "neutral": {
+      "total": 960,
+      "accepted": 944,
+      "rejected": 16,
+      "accuracy": 98.33
+    },
+    "negative": {
+      "total": 960,
+      "accepted": 916,
+      "rejected": 44,
+      "accuracy": 95.42
+    }
+  }
+}

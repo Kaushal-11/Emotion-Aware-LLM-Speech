@@ -1,0 +1,261 @@
+{
+  "total_files": 21111,
+  "total_duration_hms": "19h 14m 37s",
+  "total_duration_sec": 69277.78,
+  "per_emotion": {
+    "happiness": {
+      "count": 5867,
+      "duration_sec": 20071.216999999924,
+      "duration_hms": "5h 34m 31s"
+    },
+    "disgust": {
+      "count": 2286,
+      "duration_sec": 7103.180000000007,
+      "duration_hms": "1h 58m 23s"
+    },
+    "surprise": {
+      "count": 1995,
+      "duration_sec": 5666.874000000033,
+      "duration_hms": "1h 34m 26s"
+    },
+    "fear": {
+      "count": 2321,
+      "duration_sec": 6068.564999999989,
+      "duration_hms": "1h 41m 8s"
+    },
+    "anger": {
+      "count": 4633,
+      "duration_sec": 15359.269999999942,
+      "duration_hms": "4h 15m 59s"
+    },
+    "sadness": {
+      "count": 4009,
+      "duration_sec": 15008.675999999927,
+      "duration_hms": "4h 10m 8s"
+    }
+  },
+  "per_dataset": {
+    "cremad": {
+      "total_count": 6355,
+      "total_duration_sec": 16281.66699999983,
+      "per_emotion": {
+        "happiness": {
+          "count": 1271,
+          "duration_sec": 2976.6620000000003,
+          "duration_hms": "0h 49m 36s"
+        },
+        "disgust": {
+          "count": 1271,
+          "duration_sec": 3531.1729999999907,
+          "duration_hms": "0h 58m 51s"
+        },
+        "surprise": {
+          "count": 0,
+          "duration_sec": 0.0,
+          "duration_hms": "0h 0m 0s"
+        },
+        "fear": {
+          "count": 1271,
+          "duration_sec": 3193.0689999999922,
+          "duration_hms": "0h 53m 13s"
+        },
+        "anger": {
+          "count": 1271,
+          "duration_sec": 3284.7239999999933,
+          "duration_hms": "0h 54m 44s"
+        },
+        "sadness": {
+          "count": 1271,
+          "duration_sec": 3296.0389999999943,
+          "duration_hms": "0h 54m 56s"
+        }
+      },
+      "total_duration_hms": "4h 31m 21s"
+    },
+    "iemocap": {
+      "total_count": 3972,
+      "total_duration_sec": 18942.314,
+      "per_emotion": {
+        "happiness": {
+          "count": 1636,
+          "duration_sec": 7560.021000000003,
+          "duration_hms": "2h 6m 0s"
+        },
+        "disgust": {
+          "count": 2,
+          "duration_sec": 4.6899999999999995,
+          "duration_hms": "0h 0m 4s"
+        },
+        "surprise": {
+          "count": 107,
+          "duration_sec": 332.639,
+          "duration_hms": "0h 5m 32s"
+        },
+        "fear": {
+          "count": 40,
+          "duration_sec": 109.035,
+          "duration_hms": "0h 1m 49s"
+        },
+        "anger": {
+          "count": 1103,
+          "duration_sec": 4977.789,
+          "duration_hms": "1h 22m 57s"
+        },
+        "sadness": {
+          "count": 1084,
+          "duration_sec": 5958.1399999999985,
+          "duration_hms": "1h 39m 18s"
+        }
+      },
+      "total_duration_hms": "5h 15m 42s"
+    },
+    "ravdess": {
+      "total_count": 1152,
+      "total_duration_sec": 4263.830000000002,
+      "per_emotion": {
+        "happiness": {
+          "count": 192,
+          "duration_sec": 698.5189999999997,
+          "duration_hms": "0h 11m 38s"
+        },
+        "disgust": {
+          "count": 192,
+          "duration_sec": 756.8180000000007,
+          "duration_hms": "0h 12m 36s"
+        },
+        "surprise": {
+          "count": 192,
+          "duration_sec": 669.6010000000001,
+          "duration_hms": "0h 11m 9s"
+        },
+        "fear": {
+          "count": 192,
+          "duration_sec": 686.2430000000004,
+          "duration_hms": "0h 11m 26s"
+        },
+        "anger": {
+          "count": 192,
+          "duration_sec": 743.3129999999996,
+          "duration_hms": "0h 12m 23s"
+        },
+        "sadness": {
+          "count": 192,
+          "duration_sec": 709.3359999999994,
+          "duration_hms": "0h 11m 49s"
+        }
+      },
+      "total_duration_hms": "1h 11m 3s"
+    },
+    "savee": {
+      "total_count": 360,
+      "total_duration_sec": 1410.3169999999998,
+      "per_emotion": {
+        "happiness": {
+          "count": 60,
+          "duration_sec": 228.28400000000002,
+          "duration_hms": "0h 3m 48s"
+        },
+        "disgust": {
+          "count": 60,
+          "duration_sec": 237.2969999999999,
+          "duration_hms": "0h 3m 57s"
+        },
+        "surprise": {
+          "count": 60,
+          "duration_sec": 228.18799999999996,
+          "duration_hms": "0h 3m 48s"
+        },
+        "fear": {
+          "count": 60,
+          "duration_sec": 224.87100000000012,
+          "duration_hms": "0h 3m 44s"
+        },
+        "anger": {
+          "count": 60,
+          "duration_sec": 222.83599999999993,
+          "duration_hms": "0h 3m 42s"
+        },
+        "sadness": {
+          "count": 60,
+          "duration_sec": 268.84099999999995,
+          "duration_hms": "0h 4m 28s"
+        }
+      },
+      "total_duration_hms": "0h 23m 30s"
+    },
+    "tess": {
+      "total_count": 2000,
+      "total_duration_sec": 4129.451000000004,
+      "per_emotion": {
+        "happiness": {
+          "count": 400,
+          "duration_sec": 789.1779999999995,
+          "duration_hms": "0h 13m 9s"
+        },
+        "disgust": {
+          "count": 400,
+          "duration_sec": 979.4299999999998,
+          "duration_hms": "0h 16m 19s"
+        },
+        "surprise": {
+          "count": 0,
+          "duration_sec": 0.0,
+          "duration_hms": "0h 0m 0s"
+        },
+        "fear": {
+          "count": 400,
+          "duration_sec": 663.4520000000001,
+          "duration_hms": "0h 11m 3s"
+        },
+        "anger": {
+          "count": 400,
+          "duration_sec": 736.5480000000003,
+          "duration_hms": "0h 12m 16s"
+        },
+        "sadness": {
+          "count": 400,
+          "duration_sec": 960.8430000000001,
+          "duration_hms": "0h 16m 0s"
+        }
+      },
+      "total_duration_hms": "1h 8m 49s"
+    },
+    "meld": {
+      "total_count": 7272,
+      "total_duration_sec": 24250.20299999984,
+      "per_emotion": {
+        "happiness": {
+          "count": 2308,
+          "duration_sec": 7818.553000000037,
+          "duration_hms": "2h 10m 18s"
+        },
+        "disgust": {
+          "count": 361,
+          "duration_sec": 1593.7719999999995,
+          "duration_hms": "0h 26m 33s"
+        },
+        "surprise": {
+          "count": 1636,
+          "duration_sec": 4436.446000000015,
+          "duration_hms": "1h 13m 56s"
+        },
+        "fear": {
+          "count": 358,
+          "duration_sec": 1191.8949999999998,
+          "duration_hms": "0h 19m 51s"
+        },
+        "anger": {
+          "count": 1607,
+          "duration_sec": 5394.060000000019,
+          "duration_hms": "1h 29m 54s"
+        },
+        "sadness": {
+          "count": 1002,
+          "duration_sec": 3815.4770000000044,
+          "duration_hms": "1h 3m 35s"
+        }
+      },
+      "total_duration_hms": "6h 44m 10s"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "test_metrics": {
+    "loss": 0.3939668883879979,
+    "emotion_acc": 0.9494787489975942,
+    "emotion_f1": 0.949494799530573,
+    "target_acc": 0.9259556268377439,
+    "target_f1": 0.9263058594360211,
+    "intensity_mae": 0.15608405614601867,
+    "intensity_mse": 0.03975863250682237,
+    "intensity_rmse": 0.1993956682248197
+  },
+  "per_class_metrics": {
+    "emotion_f1": {
+      "anger": 0.9001584786053882,
+      "sadness": 0.9271417133706965,
+      "happiness": 0.9881046788263284,
+      "fear": 0.9784860557768924,
+      "disgust": 0.9234527687296417,
+      "surprise": 0.9796251018744906
+    },
+    "target_f1": {
+      "you": 0.9536423841059603,
+      "other": 0.9659211927582535,
+      "self": 0.9144356955380577,
+      "situation": 0.8712241653418124
+    }
+  },
+  "checkpoint_info": {
+    "epoch": 2,
+    "val_metrics_at_save": {
+      "loss": 0.38877618272562287,
+      "emotion_acc": 0.9467723669309174,
+      "emotion_f1": 0.9465912760303444,
+      "target_acc": 0.9306342015855039,
+      "target_f1": 0.930563524063696,
+      "intensity_mae": 0.1551268362204965,
+      "intensity_rmse": 0.19771725844648
+    }
+  },
+  "config": {
+    "splits_dir": "/content/drive/MyDrive/emo/emotion_data/splits",
+    "model_dir": "/content/drive/MyDrive/emo/finetune/checkpoints-2",
+    "batch_size": 32,
+    "max_length": 128,
+    "num_test_samples": 3741,
+    "targets": [
+      "you",
+      "other",
+      "self",
+      "situation"
+    ]
+  }
+}

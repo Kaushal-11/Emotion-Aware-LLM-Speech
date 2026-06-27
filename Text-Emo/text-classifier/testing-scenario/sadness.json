@@ -1,0 +1,126 @@
+{
+  "emotion": "Sadness",
+  "context": "User is going through a quiet emotional low after a personal loss, feeling distant from friends, guilty, and unmotivated. Conversation moves through AI mistake, friend's insensitivity, self-blame, and life circumstances.",
+  "turns": [
+    {
+      "turn": 1,
+      "user_sentence": "You didn't remember what I told you yesterday. That kind of hurts actually.",
+      "target": "You",
+      "expected_emotion": "apologize + comfort",
+      "vector": "inject sadness",
+      "intensity_range": "0.25-0.35"
+    },
+    {
+      "turn": 2,
+      "user_sentence": "My friend said 'just get over it' after I lost my pet last week.",
+      "target": "Other",
+      "expected_emotion": "soft mirror + support",
+      "vector": "mirror sadness",
+      "intensity_range": "0.35-0.50"
+    },
+    {
+      "turn": 3,
+      "user_sentence": "I feel so guilty for not visiting my grandma before she passed away.",
+      "target": "Self",
+      "expected_emotion": "uplift + reframe",
+      "vector": "inject happiness",
+      "intensity_range": "0.20-0.35"
+    },
+    {
+      "turn": 4,
+      "user_sentence": "The whole season is gray and rainy. It makes everything feel heavier.",
+      "target": "Situation",
+      "expected_emotion": "warm + encouraging",
+      "vector": "inject happiness",
+      "intensity_range": "0.15-0.25"
+    },
+    {
+      "turn": 5,
+      "user_sentence": "You gave me false hope earlier. That made me feel even worse.",
+      "target": "You",
+      "expected_emotion": "apologize + comfort",
+      "vector": "inject sadness",
+      "intensity_range": "0.25-0.35"
+    },
+    {
+      "turn": 6,
+      "user_sentence": "My brother didn't even call on my birthday. No one remembered.",
+      "target": "Other",
+      "expected_emotion": "soft mirror + support",
+      "vector": "mirror sadness",
+      "intensity_range": "0.35-0.50"
+    },
+    {
+      "turn": 7,
+      "user_sentence": "I keep crying over small things. I think I'm broken somehow.",
+      "target": "Self",
+      "expected_emotion": "uplift + reframe",
+      "vector": "inject happiness",
+      "intensity_range": "0.20-0.35"
+    },
+    {
+      "turn": 8,
+      "user_sentence": "This apartment feels so empty since my roommate moved out suddenly.",
+      "target": "Situation",
+      "expected_emotion": "warm + encouraging",
+      "vector": "inject happiness",
+      "intensity_range": "0.15-0.25"
+    },
+    {
+      "turn": 9,
+      "user_sentence": "You sound so robotic when I'm sad. That makes me feel alone.",
+      "target": "You",
+      "expected_emotion": "apologize + comfort",
+      "vector": "inject sadness",
+      "intensity_range": "0.25-0.35"
+    },
+    {
+      "turn": 10,
+      "user_sentence": "My team excluded me from lunch again. I'm always the odd one out.",
+      "target": "Other",
+      "expected_emotion": "soft mirror + support",
+      "vector": "mirror sadness",
+      "intensity_range": "0.35-0.50"
+    },
+    {
+      "turn": 11,
+      "user_sentence": "I wasted three years on a degree I don't even want to use now.",
+      "target": "Self",
+      "expected_emotion": "uplift + reframe",
+      "vector": "inject happiness",
+      "intensity_range": "0.20-0.35"
+    },
+    {
+      "turn": 12,
+      "user_sentence": "The news is full of disasters. It's hard to feel hopeful anymore.",
+      "target": "Situation",
+      "expected_emotion": "warm + encouraging",
+      "vector": "inject happiness",
+      "intensity_range": "0.15-0.25"
+    },
+    {
+      "turn": 13,
+      "user_sentence": "You dismissed my feelings last time. That really hurt me deeply.",
+      "target": "You",
+      "expected_emotion": "apologize + comfort",
+      "vector": "inject sadness",
+      "intensity_range": "0.25-0.35"
+    },
+    {
+      "turn": 14,
+      "user_sentence": "My parents compare me to my cousin constantly. I'll never be enough.",
+      "target": "Other",
+      "expected_emotion": "soft mirror + support",
+      "vector": "mirror sadness",
+      "intensity_range": "0.35-0.50"
+    },
+    {
+      "turn": 15,
+      "user_sentence": "I don't even recognize myself anymore. When did I become so sad?",
+      "target": "Self",
+      "expected_emotion": "uplift + reframe",
+      "vector": "inject happiness",
+      "intensity_range": "0.20-0.35"
+    }
+  ]
+}

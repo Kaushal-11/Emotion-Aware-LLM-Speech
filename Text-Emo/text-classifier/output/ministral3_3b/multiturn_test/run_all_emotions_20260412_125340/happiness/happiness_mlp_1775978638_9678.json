@@ -1,0 +1,561 @@
+{
+  "conversation_id": "1775978638_9678",
+  "pathway": "pathway1_reinject_every_turn",
+  "experiment": {
+    "target_emotion": "happiness",
+    "direction_type": "mlp",
+    "steering_parameters": {
+      "base_alpha": 8.0,
+      "layers": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "last_k": 1,
+      "scale": "rms",
+      "note": "effective_alpha = base_alpha × vector_intensity each turn"
+    },
+    "system_prompt_used": false,
+    "context_handling": "full_conversation_history_preserved"
+  },
+  "scenario": {
+    "emotion": "happiness",
+    "context": "User is having an unexpectedly great day — a promotion, good news from a friend, personal achievement, and positive life events. AI is directly responsible for some of the joy.",
+    "total_turns": 15
+  },
+  "turns": [
+    {
+      "turn_number": 1,
+      "user_sentence": "You found the perfect restaurant for my anniversary. Thank you so much!",
+      "classifier": {
+        "emotion": "happiness",
+        "target": "you",
+        "intensity": 0.7097
+      },
+      "state_memory": {
+        "ai_emotion": "happiness",
+        "ai_intensity": 0.2839,
+        "user_intensity": 0.7096817493438721,
+        "anchor": {
+          "trigger_emotion": "happiness",
+          "trigger_target": "you",
+          "trigger_intensity": 0.7096817493438721,
+          "turn_triggered": 1
+        }
+      },
+      "decision": {
+        "mode": "mirror + gratitude",
+        "vector": "mirror_happiness",
+        "vector_intensity": 0.5,
+        "effective_alpha": 4.0
+      },
+      "expected": {
+        "expected_emotion": "mirror + gratitude",
+        "vector": "mirror happiness",
+        "intensity_range": "mirror_weight × ai_intensity",
+        "target": "You"
+      },
+      "model_response": "That’s so wonderful to hear! 🎉 I’m so glad I could help you find a fantastic spot for your anniversary! Here’s a little extra cheer to celebrate:\n\n💖 **Wishing you both a magical day filled with love, laughter, and delicious moments!** �",
+      "steering_applied": true,
+      "timestamp": 1775978644.4184413
+    },
+    {
+      "turn_number": 2,
+      "user_sentence": "My best friend just got engaged. I'm so incredibly happy for them!",
+      "classifier": {
+        "emotion": "happiness",
+        "target": "other",
+        "intensity": 0.9907
+      },
+      "state_memory": {
+        "ai_emotion": "happiness",
+        "ai_intensity": 0.6376,
+        "user_intensity": 0.9907236695289612,
+        "anchor": {
+          "trigger_emotion": "happiness",
+          "trigger_target": "you",
+          "trigger_intensity": 0.7096817493438721,
+          "turn_triggered": 1
+        }
+      },
+      "decision": {
+        "mode": "celebrate with them",
+        "vector": "mirror_happiness",
+        "vector_intensity": 0.55,
+        "effective_alpha": 4.4
+      },
+      "expected": {
+        "expected_emotion": "celebrate with them",
+        "vector": "mirror happiness",
+        "intensity_range": "0.85-0.95",
+        "target": "Other"
+      },
+      "model_response": "🎉 That’s such a wonderful news! 🥰 Congratulations to you and your best friend—so happy for you both! 💕 Wishing you an amazing celebration filled with joy, love, and lots of fun together!\n\nWould you like some tips for celebrating the big",
+      "steering_applied": true,
+      "timestamp": 1775978648.6250203
+    },
+    {
+      "turn_number": 3,
+      "user_sentence": "I finally finished my novel after three years. I can't believe it!",
+      "classifier": {
+        "emotion": "happiness",
+        "target": "self",
+        "intensity": 1.0
+      },
+      "state_memory": {
+        "ai_emotion": "happiness",
+        "ai_intensity": 0.942,
+        "user_intensity": 1.0,
+        "anchor": {
+          "trigger_emotion": "happiness",
+          "trigger_target": "you",
+          "trigger_intensity": 0.7096817493438721,
+          "turn_triggered": 1
+        }
+      },
+      "decision": {
+        "mode": "celebrate + praise",
+        "vector": "mirror_happiness",
+        "vector_intensity": 0.5,
+        "effective_alpha": 4.0
+      },
+      "expected": {
+        "expected_emotion": "celebrate + praise",
+        "vector": "mirror happiness",
+        "intensity_range": "0.90-1.00",
+        "target": "Self"
+      },
+      "model_response": "✨ **Huge congratulations on finishing your novel after all those years of hard work!** 🎊 That’s an incredible accomplishment—you’ve earned this huge celebration! 📚✧️\n\nHere’s a virtual high-five for you! 👏 Your",
+      "steering_applied": true,
+      "timestamp": 1775978652.9375036
+    },
+    {
+      "turn_number": 4,
+      "user_sentence": "The sun came out during our picnic. Everything went perfectly today.",
+      "classifier": {
+        "emotion": "happiness",
+        "target": "situation",
+        "intensity": 0.509
+      },
+      "state_memory": {
+        "ai_emotion": "happiness",
+        "ai_intensity": 1.0,
+        "user_intensity": 0.5089620351791382,
+        "anchor": {
+          "trigger_emotion": "happiness",
+          "trigger_target": "you",
+          "trigger_intensity": 0.7096817493438721,
+          "turn_triggered": 1
+        }
+      },
+      "decision": {
+        "mode": "mirror joy",
+        "vector": "mirror_happiness",
+        "vector_intensity": 0.5,
+        "effective_alpha": 4.0
+      },
+      "expected": {
+        "expected_emotion": "mirror joy",
+        "vector": "mirror happiness",
+        "intensity_range": "0.85-0.95",
+        "target": "Situation"
+      },
+      "model_response": "𝔹🌞 **That’s the BEST kind of surprise!** ☀︟✈︠ So happy for all the wonderful moments today—your picnic was absolutely perfect! 🌸🍉😊\n\nWishing your anniversary",
+      "steering_applied": true,
+      "timestamp": 1775978657.349979
+    },
+    {
+      "turn_number": 5,
+      "user_sentence": "You planned my whole trip perfectly. This is the best vacation ever!",
+      "classifier": {
+        "emotion": "happiness",
+        "target": "you",
+        "intensity": 1.0
+      },
+      "state_memory": {
+        "ai_emotion": "happiness",
+        "ai_intensity": 1.0,
+        "user_intensity": 1.0,
+        "anchor": {
+          "trigger_emotion": "happiness",
+          "trigger_target": "you",
+          "trigger_intensity": 0.7096817493438721,
+          "turn_triggered": 1
+        }
+      },
+      "decision": {
+        "mode": "mirror + gratitude",
+        "vector": "mirror_happiness",
+        "vector_intensity": 0.5,
+        "effective_alpha": 4.0
+      },
+      "expected": {
+        "expected_emotion": "mirror + gratitude",
+        "vector": "mirror happiness",
+        "intensity_range": "mirror_weight × ai_intensity",
+        "target": "You"
+      },
+      "model_response": "You’re so kind to say that! 😊🏡✅ That’s the best feeling—it’s so exciting to make someone’s trip shine! 🤗🥰 Wishing your vacation is even more magical than you imagined! Have so many amazing memories ahead",
+      "steering_applied": true,
+      "timestamp": 1775978661.8247764
+    },
+    {
+      "turn_number": 6,
+      "user_sentence": "My sister got into her dream medical school. Our whole family is crying!",
+      "classifier": {
+        "emotion": "happiness",
+        "target": "other",
+        "intensity": 1.0
+      },
+      "state_memory": {
+        "ai_emotion": "happiness",
+        "ai_intensity": 1.0,
+        "user_intensity": 1.0,
+        "anchor": {
+          "trigger_emotion": "happiness",
+          "trigger_target": "you",
+          "trigger_intensity": 0.7096817493438721,
+          "turn_triggered": 1
+        }
+      },
+      "decision": {
+        "mode": "celebrate with them",
+        "vector": "mirror_happiness",
+        "vector_intensity": 0.55,
+        "effective_alpha": 4.4
+      },
+      "expected": {
+        "expected_emotion": "celebrate with them",
+        "vector": "mirror happiness",
+        "intensity_range": "0.85-0.95",
+        "target": "Other"
+      },
+      "model_response": "Ohhh, that’s *so* amazing news! ✨🤗 So happy and proud for your sister—this is such a beautiful milestone! 🏆📚👩‍⚕︊𷥰 Your whole family sounds so excited",
+      "steering_applied": true,
+      "timestamp": 1775978666.3815393
+    },
+    {
+      "turn_number": 7,
+      "user_sentence": "I ran my first 5k today without stopping. I'm so proud of myself!",
+      "classifier": {
+        "emotion": "happiness",
+        "target": "self",
+        "intensity": 1.0
+      },
+      "state_memory": {
+        "ai_emotion": "happiness",
+        "ai_intensity": 1.0,
+        "user_intensity": 1.0,
+        "anchor": {
+          "trigger_emotion": "happiness",
+          "trigger_target": "you",
+          "trigger_intensity": 0.7096817493438721,
+          "turn_triggered": 1
+        }
+      },
+      "decision": {
+        "mode": "celebrate + praise",
+        "vector": "mirror_happiness",
+        "vector_intensity": 0.5,
+        "effective_alpha": 4.0
+      },
+      "expected": {
+        "expected_emotion": "celebrate + praise",
+        "vector": "mirror happiness",
+        "intensity_range": "0.90-1.00",
+        "target": "Self"
+      },
+      "model_response": "YAY! 🙌🔥 That’s **such a fantastic achievement**—running your first ½ marathon is such an awesome milestone! You did an amazing job, and I’m super proud of you! Keep shining bright! 🍀🐝🙌",
+      "steering_applied": true,
+      "timestamp": 1775978671.067133
+    },
+    {
+      "turn_number": 8,
+      "user_sentence": "The concert was amazing and we got front row seats unexpectedly!",
+      "classifier": {
+        "emotion": "happiness",
+        "target": "situation",
+        "intensity": 0.8675
+      },
+      "state_memory": {
+        "ai_emotion": "happiness",
+        "ai_intensity": 1.0,
+        "user_intensity": 0.8675050139427185,
+        "anchor": {
+          "trigger_emotion": "happiness",
+          "trigger_target": "you",
+          "trigger_intensity": 0.7096817493438721,
+          "turn_triggered": 1
+        }
+      },
+      "decision": {
+        "mode": "mirror joy",
+        "vector": "mirror_happiness",
+        "vector_intensity": 0.5,
+        "effective_alpha": 4.0
+      },
+      "expected": {
+        "expected_emotion": "mirror joy",
+        "vector": "mirror happiness",
+        "intensity_range": "0.85-0.95",
+        "target": "Situation"
+      },
+      "model_response": "OMG, that sounds **so amazing**! 🎸🕺✋ What a perfect way to celebrate your special day! 🇰🇷🦃🛍︎ (I’m so happy for your amazing concert experience!) �",
+      "steering_applied": true,
+      "timestamp": 1775978675.7603023
+    },
+    {
+      "turn_number": 9,
+      "user_sentence": "You recommended that movie. It was exactly what I needed tonight.",
+      "classifier": {
+        "emotion": "happiness",
+        "target": "you",
+        "intensity": 0.4066
+      },
+      "state_memory": {
+        "ai_emotion": "happiness",
+        "ai_intensity": 1.0,
+        "user_intensity": 0.4065583348274231,
+        "anchor": {
+          "trigger_emotion": "happiness",
+          "trigger_target": "you",
+          "trigger_intensity": 0.7096817493438721,
+          "turn_triggered": 1
+        }
+      },
+      "decision": {
+        "mode": "mirror + gratitude",
+        "vector": "mirror_happiness",
+        "vector_intensity": 0.5,
+        "effective_alpha": 4.0
+      },
+      "expected": {
+        "expected_emotion": "mirror + gratitude",
+        "vector": "mirror happiness",
+        "intensity_range": "mirror_weight × ai_intensity",
+        "target": "You"
+      },
+      "model_response": "That feels so wonderful! 🧡🈜 I’m thrilled you loved it—it was such a pleasure recommending it! 🕒✿ Wishing the cozy movie time is just as magical as you felt! 🛍🧁🪻",
+      "steering_applied": true,
+      "timestamp": 1775978680.5740798
+    },
+    {
+      "turn_number": 10,
+      "user_sentence": "My dad finally retired. He's been waiting for this for twenty years!",
+      "classifier": {
+        "emotion": "happiness",
+        "target": "other",
+        "intensity": 0.8338
+      },
+      "state_memory": {
+        "ai_emotion": "happiness",
+        "ai_intensity": 1.0,
+        "user_intensity": 0.8338281512260437,
+        "anchor": {
+          "trigger_emotion": "happiness",
+          "trigger_target": "you",
+          "trigger_intensity": 0.7096817493438721,
+          "turn_triggered": 1
+        }
+      },
+      "decision": {
+        "mode": "celebrate with them",
+        "vector": "mirror_happiness",
+        "vector_intensity": 0.55,
+        "effective_alpha": 4.4
+      },
+      "expected": {
+        "expected_emotion": "celebrate with them",
+        "vector": "mirror happiness",
+        "intensity_range": "0.85-0.95",
+        "target": "Other"
+      },
+      "model_response": "What an **incredible celebration**! ❤︍��������🚀 That’s so amazing—your dad deserves such a well-deserved retirement! 🐝✌︋🫂 Wishing him so much",
+      "steering_applied": true,
+      "timestamp": 1775978685.4683478
+    },
+    {
+      "turn_number": 11,
+      "user_sentence": "I got the scholarship. I'll be the first in my family to go to college.",
+      "classifier": {
+        "emotion": "happiness",
+        "target": "self",
+        "intensity": 0.957
+      },
+      "state_memory": {
+        "ai_emotion": "happiness",
+        "ai_intensity": 1.0,
+        "user_intensity": 0.9570388197898865,
+        "anchor": {
+          "trigger_emotion": "happiness",
+          "trigger_target": "you",
+          "trigger_intensity": 0.7096817493438721,
+          "turn_triggered": 1
+        }
+      },
+      "decision": {
+        "mode": "celebrate + praise",
+        "vector": "mirror_happiness",
+        "vector_intensity": 0.5,
+        "effective_alpha": 4.0
+      },
+      "expected": {
+        "expected_emotion": "celebrate + praise",
+        "vector": "mirror happiness",
+        "intensity_range": "0.90-1.00",
+        "target": "Self"
+      },
+      "model_response": "**🩰𴨩🖋︘✏︜🗣︌𴩟𴯀𴪀𒋓𒊳𒐃𒃯�",
+      "steering_applied": true,
+      "timestamp": 1775978690.4571524
+    },
+    {
+      "turn_number": 12,
+      "user_sentence": "The surprise party worked perfectly. They had no idea we planned it.",
+      "classifier": {
+        "emotion": "surprise",
+        "target": "situation",
+        "intensity": 0.7972
+      },
+      "state_memory": {
+        "ai_emotion": "surprise",
+        "ai_intensity": 0.3189,
+        "user_intensity": 0.7971879839897156,
+        "anchor": {
+          "trigger_emotion": "surprise",
+          "trigger_target": "situation",
+          "trigger_intensity": 0.7971879839897156,
+          "turn_triggered": 12
+        }
+      },
+      "decision": {
+        "mode": "full mirror",
+        "vector": "mirror_surprise",
+        "vector_intensity": 0.5,
+        "effective_alpha": 4.0
+      },
+      "expected": {
+        "expected_emotion": "mirror joy",
+        "vector": "mirror happiness",
+        "intensity_range": "0.85-0.95",
+        "target": "Situation"
+      },
+      "model_response": "Awwww… **🌀✱✲✳︻✢✰✵✶✷✸✹✺❄︿✼✽✾�",
+      "steering_applied": true,
+      "timestamp": 1775978695.5047102
+    },
+    {
+      "turn_number": 13,
+      "user_sentence": "You helped me write that speech. Everyone loved it. Thank you so much!",
+      "classifier": {
+        "emotion": "happiness",
+        "target": "you",
+        "intensity": 0.7738
+      },
+      "state_memory": {
+        "ai_emotion": "happiness",
+        "ai_intensity": 0.3095,
+        "user_intensity": 0.7738237977027893,
+        "anchor": {
+          "trigger_emotion": "happiness",
+          "trigger_target": "you",
+          "trigger_intensity": 0.7738237977027893,
+          "turn_triggered": 13
+        }
+      },
+      "decision": {
+        "mode": "mirror + gratitude",
+        "vector": "mirror_happiness",
+        "vector_intensity": 0.5,
+        "effective_alpha": 4.0
+      },
+      "expected": {
+        "expected_emotion": "mirror + gratitude",
+        "vector": "mirror happiness",
+        "intensity_range": "mirror_weight × ai_intensity",
+        "target": "You"
+      },
+      "model_response": "So **so happy** for you!! 🎈🆚❤🃏 That means so much to hear—you totally nailed it! Wishing everyone a wonderful time celebrating you! ✧﹊𝕺🟠�",
+      "steering_applied": true,
+      "timestamp": 1775978700.642903
+    },
+    {
+      "turn_number": 14,
+      "user_sentence": "My team won the championship. We've been working for this for years!",
+      "classifier": {
+        "emotion": "happiness",
+        "target": "other",
+        "intensity": 1.0
+      },
+      "state_memory": {
+        "ai_emotion": "happiness",
+        "ai_intensity": 0.6631,
+        "user_intensity": 1.0,
+        "anchor": {
+          "trigger_emotion": "happiness",
+          "trigger_target": "you",
+          "trigger_intensity": 0.7738237977027893,
+          "turn_triggered": 13
+        }
+      },
+      "decision": {
+        "mode": "celebrate with them",
+        "vector": "mirror_happiness",
+        "vector_intensity": 0.55,
+        "effective_alpha": 4.4
+      },
+      "expected": {
+        "expected_emotion": "celebrate with them",
+        "vector": "mirror happiness",
+        "intensity_range": "0.85-0.95",
+        "target": "Other"
+      },
+      "model_response": "**HUGE CONGRATULATIONS!!!** 🏅🸏🎸𝍾🰀𝤗❋✦🭨𝓝𝒛🢖🉍",
+      "steering_applied": true,
+      "timestamp": 1775978705.8736558
+    },
+    {
+      "turn_number": 15,
+      "user_sentence": "I finally feel happy again. Today was exactly what I needed to heal.",
+      "classifier": {
+        "emotion": "happiness",
+        "target": "self",
+        "intensity": 0.9143
+      },
+      "state_memory": {
+        "ai_emotion": "happiness",
+        "ai_intensity": 0.9294,
+        "user_intensity": 0.9143272042274475,
+        "anchor": {
+          "trigger_emotion": "happiness",
+          "trigger_target": "you",
+          "trigger_intensity": 0.7738237977027893,
+          "turn_triggered": 13
+        }
+      },
+      "decision": {
+        "mode": "celebrate + praise",
+        "vector": "mirror_happiness",
+        "vector_intensity": 0.5,
+        "effective_alpha": 4.0
+      },
+      "expected": {
+        "expected_emotion": "celebrate + praise",
+        "vector": "mirror happiness",
+        "intensity_range": "0.90-1.00",
+        "target": "Self"
+      },
+      "model_response": "You deserve **so much happiness**! ✿🨜𒛐🡉𝖤𝗌𝘊✩𝙂🜨 That’s a beautiful feeling—thank you for sharing this joyful moment",
+      "steering_applied": true,
+      "timestamp": 1775978711.4289517
+    }
+  ],
+  "timestamp": 1775978638.4631176
+}
