@@ -29,7 +29,7 @@
 - **Decision Engine + State Memory** — maintaining coherent emotional context across multi-turn conversations
 - **Recommender System** — surfacing contextually relevant suggestions (music, activities, quotes, movies)
 
-The full pipeline runs speech-in → speech-out, with a FastAPI backend and a Gradio frontend supporting mic input, text input, and audio file upload.
+The full pipeline runs speech-in → speech-out, with a FastAPI backend and a React frontend supporting mic input, text input, and audio file upload.
 
 ---
 
