@@ -1,9 +1,9 @@
 # Model extensions and cache files
-*.pkl
-*.bin
-*.safetensors
-*.pt
-*.pth
+# *.pkl
+# *.bin
+# *.safetensors
+# *.pt
+# *.pth
 *.h5
 *.xlsx
 *.zip
@@ -15,13 +15,13 @@ __pycache__/
 node_modules/
 
 # Dataset folders (Trailing slashes ensure the whole folder is ignored)
-Audio-classifier/dataset/cremad/
-Audio-classifier/dataset/esd/
-Audio-classifier/dataset/iemocap/
-Audio-classifier/dataset/meld/
-Audio-classifier/dataset/ravdess/
-Audio-classifier/dataset/savee/
-Audio-classifier/dataset/tess/
+# Audio-classifier/dataset/cremad/
+# Audio-classifier/dataset/esd/
+# Audio-classifier/dataset/iemocap/
+# Audio-classifier/dataset/meld/
+# Audio-classifier/dataset/ravdess/
+# Audio-classifier/dataset/savee/
+# Audio-classifier/dataset/tess/
 
 # Model folder
 Restaurant-Bot/backend/model/
